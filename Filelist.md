@@ -10,6 +10,7 @@ hudlayout.res | Controls the positioning of the majority of elements
 hudanimations_tf.txt | Controls the majority of animations
 hudanimations_manifest.txt | Controls which animations files are used
 mod_textures.txt | Controls many miscellanious icons and textures (such as killfeed icons)
+chapterbackgrounds.txt | Controls the random backgrounds and characters that appear on the mainmenu
 
 ## Resource Folder
 
