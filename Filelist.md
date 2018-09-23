@@ -363,3 +363,21 @@ tele_exit_already_built.res |
 tele_exit_cant_afford.res | 
 tele_exit_unavailable.res | 
 tele_selectable.res | 
+
+## Resource/UI/Destroy_Menu
+
+Like the build_menu folder, the destroy menu also contains a pipboy subfolder that contains the same files.
+
+File | Description
+---- | -----------
+base_active.res | 
+1,784 base_inactive.res | 
+1,997 dispenser_active.res | 
+2,181 dispenser_inactive.res | 
+4,666 hudmenuengydestroy.res | 
+2,038 sentry_active.res | 
+2,222 sentry_inactive.res | 
+2,013 tele_entrance_active.res | 
+2,192 tele_entrance_inactive.res | 
+2,001 tele_exit_active.res | 
+2,184 tele_exit_inactive.res | 
