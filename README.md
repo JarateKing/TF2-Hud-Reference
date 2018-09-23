@@ -7,3 +7,4 @@
 
 0. Tools: [here](0-Tools.md)
 1. Getting Started: [here](1-Getting-Started.md)
+2. Editing Elements: [here](2-Editing-Elements.md)
