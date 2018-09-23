@@ -9,6 +9,7 @@ File | Description
 hudlayout.res | Controls the positioning of the majority of elements
 hudanimations_tf.txt | Controls the majority of animations
 hudanimations_manifest.txt | Controls which animations files are used
+mod_textures.txt | Controls many miscellanious icons and textures (such as killfeed icons)
 
 ## Resource Folder
 
@@ -18,6 +19,41 @@ clientscheme.res | Controls definitions for font declarations, font sizes, color
 chatscheme.res | Like clientscheme, but for the chat box
 sourcescheme.res | Like clientscheme, but for old-style windows like the console
 gamemenu.res | Controls tooltips, visibility ingame/inmenu, etc. of some main menu elements
+closecaption_english.dat | Controls captions
+closecaption_english.txt | Source file to compile into closecaption_english.dat. Does not do anything itself.
+
+Of note, you can create custom closecaption files that can be named whatever you want (as long as they start with closecaption_). That said, they must have both the .dat and .txt file, though the .txt can be completely blank.
+
+As well, custom localization can be added to chat_english.txt, or other languages. The full list of valid languages is:
+```
+brazilian
+bulgarian
+czech
+danish
+dutch
+english
+finnish
+french
+german
+greek
+hungarian
+italian
+japanese
+korean
+koreana
+norwegian
+polish
+portuguese
+romanian
+russian
+schinese
+spanish
+swedish
+tchinese
+thai
+turkish
+pirate
+```
 
 ## Resource/UI
 
