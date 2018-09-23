@@ -61,7 +61,7 @@ Then we have our first element. In this case, it's one uniquely identified by Hu
 		"fieldName"		"HudWeaponAmmoBG"
 ```
 
-Then we get positioning and size values. "xpos" determines where the top-right of the element is horizontally. "ypos" is the same, but vertically instead. Any value on an element can have _minmode added to the end of it, which is the version to use when the minmode option is enabled (if there is no _minmode version of a value, it is the same in both). "zpos" determines which elements get drawn on top of eachother--if two elements would overlap, whichever has the higher zpos will be above the other. And wide and tall are how big the element is, horizontally and vertically respectively.
+Then we get positioning and size values. "xpos" determines where the top-right of the element is horizontally. "ypos" is the same, but vertically instead. Any value on an element can have _minmode added to the end of it, which is the version to use when the minmode option is enabled (if there is no _minmode version of a value, it is the same in both). "zpos" determines which elements get drawn on top of eachother--if two elements would overlap, whichever has the higher zpos will be above the other. And wide and tall are how big the element is, horizontally and vertically respectively. You can readme more about positioning with xpos and ypos [here](A-Positioning.md).
 ```
 		"xpos"			"4"
 		"xpos_minmode"	"28"
