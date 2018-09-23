@@ -381,3 +381,32 @@ base_active.res |
 2,192 tele_entrance_inactive.res | 
 2,001 tele_exit_active.res | 
 2,184 tele_exit_inactive.res | 
+
+## Resource/UI/Disguise_Menu
+
+Also like the build_menu folders, the disguise_menu also has _360 and _sc versions of it.
+
+File | Description
+---- | -----------
+base.res | 
+demoman_blue.res | class image - demoman
+demoman_red.res | class image - demoman
+engineer_blue.res | class image - engineer
+engineer_red.res | class image - engineer
+heavy_blue.res | class image - heavy
+heavy_red.res | class image - heavy
+hudmenuspydisguise.res | defines layout and style
+medic_blue.res | class image - medic
+medic_red.res | class image - medic
+pyro_blue.res | class image - pyro
+pyro_red.res | class image - pyro
+scout_blue.res | class image - scout
+scout_red.res | class image - scout
+sniper_blue.res | class image - sniper
+sniper_red.res | class image - sniper
+soldier_blue.res | class image - soldier
+soldier_red.res | class image - soldier
+spy_blue.res | class image - spy
+spy_red.res | class image - spy
+
+* Credit to Doodle for these descriptions
