@@ -317,3 +317,49 @@ wavestatuspanel.res |
 winpanel.res | 
 xboxdialogs.res | 
 xpsourcepanel.res | 
+
+## Resource/UI/Build_Menu (_360/_SC/pipboy)
+
+There are several different folders that all contain the same folder structure. They may not contain all files, however. They are:
+```
+ui\build_menu\
+ui\build_menu\pipboy\
+ui\build_menu_360\
+ui\build_menu_sc\
+```
+The pipboy folder contains variants for the pipboy cosmetic. The _360 suffix is for the Xbox 360 controller hud. The _sc suffix is for the Steam Controller hud.
+
+File | Description
+---- | -----------
+base_active.res | 
+base_active_teleport_target.res | 
+base_already_built.res | 
+base_cant_afford.res | 
+base_selectable.res | 
+base_unavailable.res | 
+base_unavailable_teleport_target.res | 
+dispenser_active.res | 
+dispenser_already_built.res | 
+dispenser_cant_afford.res | 
+dispenser_selectable.res | 
+dispenser_unavailable.res | 
+eureka_target_home_avail.res | 
+eureka_target_home_unavail.res | 
+eureka_target_tele_exit_avail.res | 
+eureka_target_tele_exit_unavail.res | 
+hudmenuengybuild.res | 
+hudmenueurekaeffect.res | 
+sentry_active.res | 
+sentry_already_built.res | 
+sentry_cant_afford.res | 
+sentry_selectable.res | 
+sentry_unavailable.res | 
+tele_entrance_active.res | 
+tele_entrance_already_built.res | 
+tele_entrance_cant_afford.res | 
+tele_entrance_unavailable.res | 
+tele_exit_active.res | 
+tele_exit_already_built.res | 
+tele_exit_cant_afford.res | 
+tele_exit_unavailable.res | 
+tele_selectable.res | 
