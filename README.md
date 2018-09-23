@@ -11,3 +11,19 @@
 2. Editing Elements: [here](2-Editing-Elements.md)
 3. Editing Clientscheme: [here](3-Editing-Clientscheme.md)
 4. Editing Animations: [here](4-Editing-Animations.md)
+5. Materials: [here](5-Materials.md)
+
+## Meta
+
+* MIT LICENSE: [here](LICENSE.md)
+* TODO List: [here](TODO.md)
+
+Contributors:
+```
+JarateKing - Maintainer
+```
+
+Credits:
+```
+Doodle - DoodlesStuff hud editing tutorial
+```
