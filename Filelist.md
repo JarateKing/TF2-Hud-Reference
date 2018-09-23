@@ -458,3 +458,125 @@ notify_your_flag_returned_blue.res |
 notify_your_flag_returned_red.res | 
 notify_your_flag_taken_blue.res | 
 notify_your_flag_taken_red.res | 
+
+# Resource/UI/Econ
+
+File | Description
+---- | -----------
+backpackpanel.res | 
+collectioncraftingdialog.res | 
+collectioncraftingdialog_base.res | 
+comboboxbackpackoverlaydialog.res | 
+confirmapplycardupgradeapplicationdialog.res | 
+confirmapplydecodedialog.res | 
+confirmapplyducktokendialog.res | 
+confirmapplygiftwrapdialog.res | 
+confirmapplypaintcandialog.res | 
+confirmapplypaintkitdialog.res | 
+confirmapplystrangepartapplicationdialog.res | 
+confirmapplystrangerestrictionapplicationdialog.res | 
+confirmapplystrangifierdialog.res | 
+confirmapplyteamcolorpaintcandialog.res | 
+confirmcustomizetexturedialog.res | 
+confirmdialogabandonnopenalty.res | 
+confirmdialogabandonpenalty.res | 
+confirmdialogabandonsafe.res | 
+confirmdialogoptout.res | 
+confirmitempreviewdialog.res | 
+confirmspellbookpageapplicationdialog.res | 
+confirmtransmogrifyapplicationdialog.res | 
+cyclingadcontainer.res | 
+ducksleaderboardpanel.res | 
+ducksleaderboards.res | 
+genericnotificationtoast.res | 
+genericnotificationtoastmainmenu.res | 
+genericwaitingdialog.res | 
+halloweenofferingdialog.res | 
+inputstringforitembackpackoverlaydialog.res | 
+inspectionpanel.res | 
+inspectionpanel_cosmetic.res | 
+itemaddefault.res | 
+itemdiscardpanel.res | 
+itemmodelpanel.res | 
+itemmodelpanelcollectioncosmeticitem.res | 
+itemmodelpanelcollectionitem.res | 
+itempickuppanel.res | 
+leaderboardpanel.res | 
+lobbyleaderboard.res | 
+manncotrade_commonstatclock.res | 
+notificationqueuepanel.res | 
+notificationspresentpanel.res | 
+notificationtoastcontainer.res | 
+notificationtoastcontrol.res | 
+paintkitconsumedialog.res | 
+questdefinitionviewpanel.res | 
+questdetailspanel.res | 
+questeditor.res | 
+questlogpanel.res | 
+questlogpanel_halloween.res | 
+questmapnodepanel.res | 
+questmapnodetooltippanel.res | 
+questmappanel.res | 
+questmaprewarditempanel.res | 
+questnotificationpanel_base.res | 
+questnotificationpanel_pauling_standard.res | 
+questviewsubpanel.res | 
+scrollablequestdetails.res | 
+scrollablequestlist.res | 
+scrollablequestlist_halloween.res | 
+scrollablequestlist_toughbreak.res | 
+strangecounttransferdialog.res | 
+tradingpanel.res | 
+tradingstartdialog.res | 
+warjoinpanel.res | 
+warstandingpanel.res | 
+
+# Resource/UI/Econ/Store/V1
+
+File | Description
+---- | -----------
+storehome.res | 
+storehome_freetrial.res | 
+storehome_winter1.res | 
+storehome_winter2.res | 
+storehome_winter3.res | 
+storeitemcontrols.res | 
+storepage.res | 
+storepage_bundles.res | 
+storepage_cgtrading.res | 
+storepage_drgrordbort.res | 
+storepage_halloween.res | 
+storepage_maps.res | 
+storepage_new.res | 
+storepage_popular.res | 
+storepage_previewable.res | 
+storepage_summer.res | 
+storepanel.res | 
+storepreviewitempanel.res | 
+storepreviewitempanel_maps.res | 
+storeprice.res | 
+storeprice_bundles.res | 
+storeprice_jumbo.res | 
+storeprice_new.res | 
+storeprice_popular.res | 
+storestatusdialog.res | 
+storeviewcartpanel.res | 
+
+# Resource/UI/Econ/Store/V2
+
+File | Description
+---- | -----------
+storehome_base.res | 
+storehome_freetrial.res | 
+storehome_premium.res | 
+storeitemcontrols.res | 
+storemapstampsinfodialog.res | 
+storepage.res | 
+storepage_bundles.res | 
+storepage_items.res | 
+storepage_maps.res | 
+storepanel.res | 
+storepreviewitempanel.res | 
+storepreviewitempanel_fullscreen.res | 
+storepreviewitempanel_maps.res | 
+storeviewcartpanel.res | 
