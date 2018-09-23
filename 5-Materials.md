@@ -41,5 +41,4 @@ If we check out materials\hud\health_bg.vmt it looks like this:
 ```
 
 ## Vtf File
-
-The vtf file is how the file is actually drawn. Check out [the tools section](0-Tools.md) for some information about how to edit these.
+The vtf file is how the file is actually drawn. Check out [the tools section](0-Tools.md#user-content-image-editors) for some information about how to edit these.
