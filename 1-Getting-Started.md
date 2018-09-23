@@ -24,3 +24,17 @@ The info.vdf file is one used to specify what version of tf2 a hud is updated fo
 }
 ```
 As before, HudName can be whatever you want it to be, and its name doesn't matter. The "ui_version" value needs to be updated whenever a new update comes out. If the file does not exist, or "ui_version" is too low, the majority of hud files will not load.
+
+## Resource folder
+
+The resource folder contains most hud files. It's easier to list what hud files are not in the resource folder, in fact.
+
+There are two main parts to the resource folder: the scheme files, and the ui files. The scheme files control colors, fonts, borders, etc. and add definitions that are used between most hud files. The ui files control how each element in the hud looks.
+
+## Scripts folder
+
+The scripts folder doesn't have very many hud files, but it has a few very important ones.
+
+The first one is hud_layout.res, which is needed to position nearly every hud element.
+
+The other big ones are hudanimations_tf.txt and hudanimations_manifest.txt. The manifest file controls what animations files are loaded, which hudanimations_tf.txt is by default (you can change this though, as some huds do). Hudanimations_tf.txt is what controls the actual animations themselves, which will be discussed later.
