@@ -13,6 +13,11 @@
 4. Editing Animations: [here](4-Editing-Animations.md)
 5. Materials: [here](5-Materials.md)
 
+## Appendix
+
+* Positioning: [here](A-Positioning.md)
+* Cfg files: [here](A-Cfg.md)
+
 ## Meta
 
 * MIT LICENSE: [here](LICENSE.md)
