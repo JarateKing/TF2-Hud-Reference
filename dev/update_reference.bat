@@ -18,6 +18,7 @@ IF EXIST "HLExtract.exe" (
 	echo Extracting script files to: %script_folder%
 	HLExtract.exe -p "../../../tf2_misc_dir.vpk" -d "%script_folder%" -e "root\scripts\hudlayout.res" -m -v -s
 	HLExtract.exe -p "../../../tf2_misc_dir.vpk" -d "%script_folder%" -e "root\scripts\hudanimations_tf.txt" -m -v -s
+	HLExtract.exe -p "../../../tf2_misc_dir.vpk" -d "%script_folder%" -e "root\scripts\hudanimations_manifest.txt" -m -v -s
 	HLExtract.exe -p "../../../tf2_misc_dir.vpk" -d "%script_folder%" -e "root\scripts\mod_textures.txt" -m -v -s
 	echo Extracting resource files to %resource_folder%
 	HLExtract.exe -p "../../../tf2_misc_dir.vpk" -d "%resource_folder%\.." -e "root\resource\ui" -m -v -s
