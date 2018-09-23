@@ -24,3 +24,11 @@ The easier option is to use the vtf plugins for popular editors. Here they are:
 
 The longer, but more flexible approach is to use VTFEdit to convert into and out of the vtf format. It can be downloaded here:
 * VTFEdit: http://nemesis.thewavelength.net/index.php?c=238
+
+## Font editors
+
+Very few hud editors will edit their own fonts. But it can be a valuable skill and there are some creative techniques that require custom fonts.
+
+Because fonts will be either ttf or otf files, which are completely standard formats, you can use your choice of font editing software. Some good free options are:
+* fontforge: https://fontforge.github.io/en-US/
+* birdfont: https://birdfont.org/
