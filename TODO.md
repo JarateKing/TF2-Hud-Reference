@@ -1,6 +1,6 @@
 # TODO
 
-This is a list of current goals to work on.
+This is a list of current goals to work on. These would be a good starting point for people looking to contribute.
 
 ## Tutorial
 
