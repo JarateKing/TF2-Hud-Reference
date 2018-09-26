@@ -26,3 +26,23 @@ There are several good resources for mixing colors, such as:
 * https://www.mathsisfun.com/hexadecimal-decimal-colors.html
 * https://www.rapidtables.com/web/color/RGB_Color.html
 * http://colorizer.org/
+
+## Additive Colors
+
+Fonts and some panels can use additive colors, by using the additive tag:
+```
+	"additive" "1"
+```
+
+Additive colors add their rgb values to whatever is below them. For example, if you had a panel with the color:
+```
+	"bgcolor" "255, 100, 0, 255"
+```
+And added a panel with additive colors above it with the color:
+```
+	"bgcolor" "0, 100, 200, 255"
+```
+The resulting color drawn to the screen will be:
+```
+	255+0, 100+100, 0+200, 255 = 255, 200, 200, 255
+```
