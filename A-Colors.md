@@ -46,3 +46,5 @@ The resulting color drawn to the screen will be:
 ```
 	255+0, 100+100, 0+200, 255 = 255, 200, 200, 255
 ```
+
+As a consequence, if an additive color is white, the resulting color will always be white. To lighten a color, you can add an additive with some gray as its color.
