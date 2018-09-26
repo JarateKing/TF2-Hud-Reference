@@ -15,6 +15,7 @@ Name | Ex | Code
 ---- | -- | -----
 Black | ![#000000](https://placehold.it/15/000000/000000?text=+) | 0, 0, 0, 255
 White | ![#FFFFFF](https://placehold.it/15/ffffff/000000?text=+) | 255, 255, 255, 255
+Gray | ![#7F7F7F](https://placehold.it/15/7f7f7f/000000?text=+) | 127, 127, 127, 255
 Red | ![#FF0000](https://placehold.it/15/ff0000/000000?text=+) | 255, 0, 0, 255
 Green | ![#00FF00](https://placehold.it/15/00ff00/000000?text=+) | 0, 255, 0, 255
 Blue | ![#0000FF](https://placehold.it/15/0000ff/000000?text=+) | 0, 0, 255, 255
