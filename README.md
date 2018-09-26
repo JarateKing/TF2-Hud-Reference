@@ -16,6 +16,7 @@
 ## Appendix
 
 * Positioning: [here](A-Positioning.md)
+* Colors: [here](A-Colors.md)
 * Cfg files: [here](A-Cfg.md)
 
 ## Meta
