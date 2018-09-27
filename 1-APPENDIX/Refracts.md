@@ -51,3 +51,11 @@ Similar to hud masking, you can also make the refract material blur. This create
 ## Transparent Viewmodels
 
 With certain settings, viewmodels are excluded from refracts. This is beneficial, because now refracts can mask the viewmodel as well. With a transparent refract, covering up the viewmodel will make the viewmodel appear transparent.
+
+## Filters
+
+By changing the refracttint value in the vmt, you can create a filter that only allows certain colors to pass through. In other words, apply multiplicative blending to the world. For example:
+```
+	"$refracttint" "{255 127 0}"
+```
+Will allow red to appear like normal, blue to appear as black, green to appear as dark green, and white to appear as an orange color.
