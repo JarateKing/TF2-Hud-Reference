@@ -15,3 +15,7 @@ The most immediate use of refracts is to cover up hud elements. Because they dra
 ## Blurs
 
 Similar to hud masking, you can also make the refract material blur. This creates a "frosted glass" effect.
+
+## Transparent Viewmodels
+
+With certain settings, viewmodels are excluded from refracts. This is beneficial, because now refracts can mask the viewmodel as well. With a transparent refract, covering up the viewmodel will make the viewmodel appear transparent.
