@@ -18,6 +18,17 @@ They take the form of:
 }
 ```
 
+Certain commands should be used with refracts as well, namely:
+```
+mat_motion_blur_enabled 1
+mat_motion_blur_strength 0
+mat_disable_bloom 1
+mat_hdr_level 0
+mat_antialias 0
+mat_colcorrection_disableentities 1
+mat_colorcorrection 0
+```
+
 Some notes:
 * the <dx90 fallback part is because refracts are not supported in dx8.
 * refracttint is the color that the refract should take.
