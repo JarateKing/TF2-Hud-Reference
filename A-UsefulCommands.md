@@ -13,3 +13,15 @@ Similar to hud_reloadscheme, except it also reloads the majority of menu element
 ## vgui_drawtree
 
 vgui_drawtree is a command that allows you to see the name and some details on every hud element currently rendered.
+
+## showschemevisualizer
+
+Shows the colors, borders, and fonts that a scheme file defines. It can either take no argument (which will show the clientscheme) or an argument for the scheme name.
+
+As a list of valid schemes:
+```
+showschemevisualizer sourcescheme
+showschemevisualizer sourceschemebase
+showschemevisualizer chatscheme
+showschemevisualizer videopanelscheme
+```
