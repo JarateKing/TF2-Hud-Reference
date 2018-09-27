@@ -11,3 +11,7 @@ In huds, the strength will almost always be 0. This means that there is no warpi
 ## Hud Masking
 
 The most immediate use of refracts is to cover up hud elements. Because they draw the world view under it, covering up a hud element with a refract will effectively hide that element. The interesting use of this is to partially hide a hud element, either by making a refract that is smaller than the hud element, or by having the refract's uv map make a shape to 'cut out' (for example, if the refract's uv map is a circle, then putting it over a square will cut out that circle from the square).
+
+## Blurs
+
+Similar to hud masking, you can also make the refract material blur. This creates a "frosted glass" effect.
