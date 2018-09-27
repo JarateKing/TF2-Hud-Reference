@@ -21,7 +21,7 @@ As you've seen before, some hud elements make use of materials. For example, in 
 The "image" value says where the file is located. By default it assumes that all materials will be in the vgui folder, and if they aren't then they have the "../" to work from the root materials folder.
 
 If the vmt is missing, or the vtf that the vmt uses is missing, the source engine missing material will be displayed instead:
-![Missing Material](/../images/missing_material.png)
+![Missing Material](/images/missing_material.png)
 
 ## Vmt File
 
