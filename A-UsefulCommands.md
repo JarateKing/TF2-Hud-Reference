@@ -25,3 +25,7 @@ showschemevisualizer sourceschemebase
 showschemevisualizer chatscheme
 showschemevisualizer videopanelscheme
 ```
+
+## cc_emit
+
+Emits a caption, giving the caption name as an argument. Both useful for testing captions, and developing unique hud features (such as custom scripting menus) with captions.
