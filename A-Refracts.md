@@ -2,6 +2,26 @@
 
 Refracts are a type of material that can be used in a few ways for unique purposes.
 
+They take the form of:
+```
+"Refract"
+{
+	"$refractamount" "0.0"
+	"$refracttint" "{255 255 255}"
+	"$refractblur" "0.0"
+	"$normalmap" "vgui/replay/thumbnails/refract/basic"
+	
+	<dx90
+	{
+		 	"$fallbackmaterial" "vgui/replay/thumbnails/fallback"
+	}
+}
+```
+
+Some notes:
+* the <dx90 fallback part is because refracts are not supported in dx8.
+* refracttint is the color that the refract should take.
+
 ## Understanding Refracts
 
 To begin with, it's important to understand what a refract is and why it works the way it does. In a general sense, a refract is a material that can warp the view world geometry, depending on its strength and the uv material used. For example, this is used in tf2 for underwater effects or when jarate'd, to distort your view of the world.
