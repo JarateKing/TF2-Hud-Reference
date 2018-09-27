@@ -42,3 +42,11 @@ If we check out materials\hud\health_bg.vmt it looks like this:
 
 ## Vtf File
 The vtf file is how the file is actually drawn. Check out [the tools section](0-Tools.md#user-content-image-editors) for some information about how to edit these.
+
+## Custom Materials
+
+You can create your own materials as well, and reference them from any hud element. The two important things is that you will need both a vmt and vtf file, and that it should be in the directory (or in a subdirectory inside):
+```
+vgui/replay/thumbnails/
+```
+The advantage of putting materials in this folder is that they work in sv_pure 2. This is important, as otherwise you would get a missing material issue.
