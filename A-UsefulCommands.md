@@ -29,3 +29,7 @@ showschemevisualizer videopanelscheme
 ## cc_emit
 
 Emits a caption, giving the caption name as an argument. Both useful for testing captions, and developing unique hud features (such as custom scripting menus) with captions.
+
+## hurtme
+
+Damages or heals the player. Positive numbers damage the player by that much, negative numbers heal the player by that much. Useful for testing health values and animations.
