@@ -16,6 +16,7 @@
 ## Appendix
 
 * Positioning: [here](/1-APPENDIX/Positioning.md)
+* Sizing: [here](/1-APPENDIX/Sizing.md)
 * Colors: [here](/1-APPENDIX/Colors.md)
 * Cfg files: [here](/1-APPENDIX/Cfg.md)
 * Refract Materials: [here](/1-APPENDIX/Refracts.md)
