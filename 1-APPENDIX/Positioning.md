@@ -58,3 +58,15 @@ If they are set with a "cs" before the number, like so:
 	"ypos" "cs-0.5"
 ```
 They will be positioned like the "c" prefix, but similar to "rs" is based off the size of the element. In this example, it will be half its width and height off from the center, effectively making the element's center be identical to the screen center.
+
+## Pin to Corner
+
+It is possible to automatically pin an element to another, effectively bypassing its xpos and ypos. This makes use of three values together:
+```
+	"pin_to_sibling" "HudElementAnchorName"
+	"pin_corner_to_sibling" "PIN_TOPLEFT"
+	"pin_to_sibling_corner" "PIN_TOPRIGHT"
+```
+This makes an element get positioned so that its top left corner is the same position as HudElementAnchorName's top right corner.
+
+Of note, this is often used to move elements that can't otherwise be moved. Some elements still can't be forcibly moved with this, but pinning elements will make most elements with hardcoded positions move.
