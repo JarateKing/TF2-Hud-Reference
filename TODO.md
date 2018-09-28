@@ -13,7 +13,6 @@ This is a list of current goals to work on. These would be a good starting point
 
 ## Appendix
 
-* Add less common positioning types to positioning appendix
 * Add reference images to refracts appendix
 * Add section on label options
 * Add section on borders
