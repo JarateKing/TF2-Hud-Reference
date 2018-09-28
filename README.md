@@ -30,6 +30,7 @@
 Contributors:
 ```
 JarateKing - Maintainer
+Pigby
 ```
 
 Credits:
