@@ -69,4 +69,16 @@ It is possible to automatically pin an element to another, effectively bypassing
 ```
 This makes an element get positioned so that its top left corner is the same position as HudElementAnchorName's top right corner.
 
+The valid corners to use are:
+```
+PIN_TOPLEFT
+PIN_TOPRIGHT
+PIN_BOTTOMLEFT
+PIN_BOTTOMRIGHT
+PIN_CENTER_TOP
+PIN_CENTER_RIGHT
+PIN_CENTER_BOTTOM
+PIN_CENTER_LEFT
+```
+
 Of note, this is often used to move elements that can't otherwise be moved. Some elements still can't be forcibly moved with this, but pinning elements will make most elements with hardcoded positions move.
