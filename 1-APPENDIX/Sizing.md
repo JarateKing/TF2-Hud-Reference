@@ -1,6 +1,6 @@
 # Sizing
 
-Sizing is fundamentally very similar to positioning.
+Sizing is fundamentally very similar to positioning. It makes use of the same units, which can be found [here](/1-APPENDIX/Positioning.md).
 
 ## Regular Sizing
 
@@ -33,3 +33,11 @@ Using the "o" prefix is similar to the "p" prefix, except it uses the other dire
 	"wide" "o0.5"
 	"tall" "p0.5"
 ```
+
+## Proportional to Parent
+
+Anything that uses f / p / o sizing (anything other than regular) can include the line:
+```
+	"proportionaltoparent" "1"
+```
+This will make them reference the size of their parent panel, rather than the screen dimensions. If they have no parent panel, they will continue to use the screen dimensions.
