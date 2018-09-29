@@ -9,8 +9,8 @@ Animation | Description
 LevelInit | 
 OpenWeaponSelectionMenu | 
 CloseWeaponSelectionMenu | 
-MenuOpen | 
-MenuClose | 
+MenuOpen | Side map vote / voice menu open
+MenuClose | Side map vote / voice menu close
 MenuPulse | 
 TimerIncrement | 
 TimerDecrement | 
@@ -21,15 +21,15 @@ HintMessageShow |
 HintMessageHide | 
 KeyHintMessageShow | 
 KeyHintMessageHide | 
-HudHealthBonusPulse | 
-HudHealthBonusPulseLoop | 
-HudHealthBonusPulseStop | 
-HudHealthDyingPulse | 
-HudHealthDyingPulseLoop | 
-HudHealthDyingPulseStop | 
-HudLowAmmoPulse | 
-HudLowAmmoPulseLoop | 
-HudLowAmmoPulseStop | 
+HudHealthBonusPulse | Overheal
+HudHealthBonusPulseLoop | Loop event for HudHealthBonusPulse
+HudHealthBonusPulseStop | No longer overhealed
+HudHealthDyingPulse | Health below HealthDeathWarning (49% by default)
+HudHealthDyingPulseLoop | Loop event for HudHealthDyingPulse
+HudHealthDyingPulseStop | No longer below HealthDeathWarning
+HudLowAmmoPulse | Ammo below half
+HudLowAmmoPulseLoop | Loop event for HudLowAmmoPulse
+HudLowAmmoPulseStop | No longer below half ammo
 ControlPointIconShrink | 
 ControlPointIconGrow | 
 AccountMoneyRemoved | 
@@ -83,7 +83,7 @@ AddToCartBlink |
 NotificationsPresentBlink | 
 NotificationsPresentBlinkLoop | 
 NotificationsPresentBlinkStop | 
-DamagedPlayer | 
+DamagedPlayer | Did damage to someone
 SpyWarningFlash | 
 SpyWarningFlashLoop | 
 SpyWarningFlashEnd | 
