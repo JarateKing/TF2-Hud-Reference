@@ -617,3 +617,16 @@ storepreviewitempanel.res |
 storepreviewitempanel_fullscreen.res | 
 storepreviewitempanel_maps.res | 
 storeviewcartpanel.res | 
+
+# Resource/UI/Training
+
+File | Description
+---- | -----------
+main.res | 
+basictraining/classdetails.res | 
+basictraining/classpanel.res | 
+basictraining/classselection.res | 
+modeselection/modepanel.res | 
+modeselection/modeselection.res | 
+offlinepractice/mapselection.res | 
+offlinepractice/practicemodeselection.res | 
