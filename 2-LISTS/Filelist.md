@@ -618,6 +618,81 @@ notify_your_flag_returned_red.res |
 notify_your_flag_taken_blue.res | 
 notify_your_flag_taken_red.res | 
 
+# Resource/UI/Quests
+lineitem_credits.res | 
+lineitem_item.res | 
+lineitem_objective.res | 
+lineitem_points.res | 
+questitempanel_base.res | 
+questitemtrackerpanel_base.res | 
+questitemtrackerpanel_ingame_base.res | 
+questitemtrackerpanel_questlog_base.res | 
+questobjectivepanel_ingame_base.res | 
+questobjectivepanel_questlog_base.res | 
+questobjectivescorer.res | 
+cyoa/questitemtrackerpanel_cyoa.res | 
+cyoa/questmapregionlink.res | 
+cyoa/questobjectivepanel_cyoa.res | 
+cyoa/regions/region_base.res | 
+cyoa/regions/region_campaign_3_home.res | 
+cyoa/regions/region_defense.res | 
+cyoa/regions/region_halloween.res | 
+cyoa/regions/region_halloween_bosses.res | 
+cyoa/regions/region_halloween_community_maps.res | 
+cyoa/regions/region_halloween_official_maps.res | 
+cyoa/regions/region_maps.res | 
+cyoa/regions/region_offense.res | 
+cyoa/regions/region_overworld.res | 
+cyoa/regions/region_pyroland.res | 
+cyoa/regions/region_support.res | 
+merasmus/questitempanel_merasmus_base.res | 
+merasmus/questitempanel_merasmus_general.res | 
+merasmus/questitempanel_merasmus_hhh.res | 
+merasmus/questitempanel_merasmus_merasmus.res | 
+merasmus/questitempanel_merasmus_monoculus.res | 
+merasmus/questitemtrackerpanel_ingame.res | 
+merasmus/questitemtrackerpanel_questlog.res | 
+merasmus/questobjectivepanel_ingame.res | 
+merasmus/questobjectivepanel_questlog.res | 
+pauling/questitempanel_pauling_base.res | 
+pauling/questitempanel_pauling_borneo.res | 
+pauling/questitempanel_pauling_demo.res | 
+pauling/questitempanel_pauling_engineer.res | 
+pauling/questitempanel_pauling_headhunter.res | 
+pauling/questitempanel_pauling_heavy.res | 
+pauling/questitempanel_pauling_medic.res | 
+pauling/questitempanel_pauling_playanyclass.res | 
+pauling/questitempanel_pauling_powerhouse.res | 
+pauling/questitempanel_pauling_pyro.res | 
+pauling/questitempanel_pauling_scout.res | 
+pauling/questitempanel_pauling_sniper.res | 
+pauling/questitempanel_pauling_snowplow.res | 
+pauling/questitempanel_pauling_soldier.res | 
+pauling/questitempanel_pauling_spy.res | 
+pauling/questitempanel_pauling_suijin.res | 
+pauling/questitemtrackerpanel_ingame.res | 
+pauling/questitemtrackerpanel_questlog.res | 
+pauling/questobjectivepanel_ingame.res | 
+pauling/questobjectivepanel_questlog.res | 
+pauling/operation 2/questitempanel_pauling_base.res | 
+pauling/operation 2/questitempanel_pauling_community_map_1.res | 
+pauling/operation 2/questitempanel_pauling_community_map_2.res | 
+pauling/operation 2/questitempanel_pauling_community_map_3.res | 
+pauling/operation 2/questitempanel_pauling_community_map_4.res | 
+pauling/operation 2/questitempanel_pauling_cp.res | 
+pauling/operation 2/questitempanel_pauling_demo.res | 
+pauling/operation 2/questitempanel_pauling_engineer.res | 
+pauling/operation 2/questitempanel_pauling_headhunter.res | 
+pauling/operation 2/questitempanel_pauling_heavy.res | 
+pauling/operation 2/questitempanel_pauling_medic.res | 
+pauling/operation 2/questitempanel_pauling_payload.res | 
+pauling/operation 2/questitempanel_pauling_playanyclass.res | 
+pauling/operation 2/questitempanel_pauling_pyro.res | 
+pauling/operation 2/questitempanel_pauling_scout.res | 
+pauling/operation 2/questitempanel_pauling_sniper.res | 
+pauling/operation 2/questitempanel_pauling_soldier.res | 
+pauling/operation 2/questitempanel_pauling_spy.res | 
+
 # Resource/UI/Training
 
 File | Description
