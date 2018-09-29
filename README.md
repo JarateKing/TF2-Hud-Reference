@@ -21,6 +21,7 @@
 * Cfg files: [here](/1-APPENDIX/Cfg.md)
 * Refract Materials: [here](/1-APPENDIX/Refracts.md)
 * Useful Commands: [here](/1-APPENDIX/UsefulCommands.md)
+* Adding Linux Support: [here](/1-APPENDIX/LinuxSupport.md)
 
 ## Meta
 
