@@ -448,54 +448,6 @@ spy_red.res | class image - spy
 
 * Credit to Doodle for these descriptions
 
-# Resource/UI/Notifications
-
-File | Description
----- | -----------
-base_notification.res | 
-notification_manifest.txt | 
-notify_competitive_gc_down.res | 
-notify_enemy_flag_captured_blue.res | 
-notify_enemy_flag_captured_red.res | 
-notify_enemy_flag_dropped_blue.res | 
-notify_enemy_flag_dropped_red.res | 
-notify_enemy_flag_returned_blue.res | 
-notify_enemy_flag_returned_red.res | 
-notify_enemy_flag_taken_blue.res | 
-notify_enemy_flag_taken_red.res | 
-notify_golden_wrench.res | 
-notify_how_to_control_ghost.res | 
-notify_how_to_control_ghost_no_respawn.res | 
-notify_how_to_control_kart.res | 
-notify_no_invuln_with_flag_blue.res | 
-notify_no_invuln_with_flag_red.res | 
-notify_no_tele_with_flag_blue.res | 
-notify_no_tele_with_flag_red.res | 
-notify_passtime_howto.res | 
-notify_passtime_no_carry.res | 
-notify_passtime_no_cloak.res | 
-notify_passtime_no_disguise.res | 
-notify_passtime_no_holster.res | 
-notify_passtime_no_invuln.res | 
-notify_passtime_no_oob.res | 
-notify_passtime_no_taunt.res | 
-notify_passtime_no_tele.res | 
-notify_rd_robot_attacked_blue.res | 
-notify_rd_robot_attacked_red.res | 
-notify_special.res | 
-notify_touching_enemy_ctf_cap_blue.res | 
-notify_touching_enemy_ctf_cap_red.res | 
-notify_truce_end.res | 
-notify_truce_start.res | 
-notify_your_flag_captured_blue.res | 
-notify_your_flag_captured_red.res | 
-notify_your_flag_dropped_blue.res | 
-notify_your_flag_dropped_red.res | 
-notify_your_flag_returned_blue.res | 
-notify_your_flag_returned_red.res | 
-notify_your_flag_taken_blue.res | 
-notify_your_flag_taken_red.res | 
-
 # Resource/UI/Econ
 
 File | Description
@@ -617,6 +569,54 @@ storepreviewitempanel.res |
 storepreviewitempanel_fullscreen.res | 
 storepreviewitempanel_maps.res | 
 storeviewcartpanel.res | 
+
+# Resource/UI/Notifications
+
+File | Description
+---- | -----------
+base_notification.res | 
+notification_manifest.txt | 
+notify_competitive_gc_down.res | 
+notify_enemy_flag_captured_blue.res | 
+notify_enemy_flag_captured_red.res | 
+notify_enemy_flag_dropped_blue.res | 
+notify_enemy_flag_dropped_red.res | 
+notify_enemy_flag_returned_blue.res | 
+notify_enemy_flag_returned_red.res | 
+notify_enemy_flag_taken_blue.res | 
+notify_enemy_flag_taken_red.res | 
+notify_golden_wrench.res | 
+notify_how_to_control_ghost.res | 
+notify_how_to_control_ghost_no_respawn.res | 
+notify_how_to_control_kart.res | 
+notify_no_invuln_with_flag_blue.res | 
+notify_no_invuln_with_flag_red.res | 
+notify_no_tele_with_flag_blue.res | 
+notify_no_tele_with_flag_red.res | 
+notify_passtime_howto.res | 
+notify_passtime_no_carry.res | 
+notify_passtime_no_cloak.res | 
+notify_passtime_no_disguise.res | 
+notify_passtime_no_holster.res | 
+notify_passtime_no_invuln.res | 
+notify_passtime_no_oob.res | 
+notify_passtime_no_taunt.res | 
+notify_passtime_no_tele.res | 
+notify_rd_robot_attacked_blue.res | 
+notify_rd_robot_attacked_red.res | 
+notify_special.res | 
+notify_touching_enemy_ctf_cap_blue.res | 
+notify_touching_enemy_ctf_cap_red.res | 
+notify_truce_end.res | 
+notify_truce_start.res | 
+notify_your_flag_captured_blue.res | 
+notify_your_flag_captured_red.res | 
+notify_your_flag_dropped_blue.res | 
+notify_your_flag_dropped_red.res | 
+notify_your_flag_returned_blue.res | 
+notify_your_flag_returned_red.res | 
+notify_your_flag_taken_blue.res | 
+notify_your_flag_taken_red.res | 
 
 # Resource/UI/Training
 
