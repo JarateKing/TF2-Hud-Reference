@@ -1,8 +1,19 @@
 # Linux Support
 
-Most parts of huds work fine in both windows and linux. The exception is fonts, which are sized differently. This causes a lot of huds to break when used in linux, but can be solved.
+Most parts of huds work fine in both windows and linux. There are a few exceptions that need to be accounted for, however.
 
-## Jahud method
+## Filenames
+
+Whereas files in windows can use capitals, linux is case sensitive and needs every file to be lowercase. Whereas the following path name is valid in windows:
+```
+Resource/UI/MainMenuOverride.res
+```
+It needs to be like this in linux:
+```
+resource/ui/mainmenuoverride.res
+```
+
+## Fonts
 
 Fonts in linux need to be 0.8x the size of windows fonts. By consequence fonts in windows need to be 1.25x the size of linux fonts. You can check out software that can be used to resize fonts [here](/0-TUTORIAL/0-Tools.md).
 
