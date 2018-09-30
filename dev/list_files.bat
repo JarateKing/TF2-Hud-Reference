@@ -1,4 +1,11 @@
 @echo off
+setlocal enabledelayedexpansion
 cd ../reference/
-for /R %%a in (*) do echo %%a
+set parent=%CD%
+
+for /R %%a in (*) do (
+	set "current=%%a"
+	set current=!current:%parent%=!
+	echo !current!
+)
 pause
