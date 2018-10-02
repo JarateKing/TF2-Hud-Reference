@@ -4,7 +4,9 @@ import os
 existing = []
 f = open(os.path.abspath("../2-LISTS/Filelist.md"), "r")
 for line in f:
-	existing.append(line)
+	if "#" not in line:
+		if " | " in line and "File | Description" not in line and "---- | " not in line:
+			existing.append(line)
 f.close()
 
 # debug
