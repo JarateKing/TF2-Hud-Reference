@@ -27,15 +27,23 @@ for file in glob.glob(reference_folder + "**/*", recursive=True):
 
 # bring them together
 combined = []
+current_path = ""
 for file in tocheck:
 	toAdd = ""
+	path = "/".join(file.split("/")[0:-1])
+	if path != current_path:
+		current_path = path
+		combined.append("")
+		combined.append("## " + path + "/")
+		combined.append("")
+	
 	for line in existing:
 		if line.split(None, 1)[0] == file:
 			toAdd = line
 	if toAdd == "":
-		combined.append(file + " | ")
+		combined.append(file.replace(path + "/", "") + " | ")
 	else:
-		combined.append(toAdd)
+		combined.append(toAdd.replace(path + "/", ""))
 
 # debug
 for line in combined:
