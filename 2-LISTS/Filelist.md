@@ -2,7 +2,7 @@
 
 This is a master reference for all files used by tf2 huds.
 
-## Scripts Folder
+## scripts/
 
 File | Description
 ---- | -----------
@@ -12,7 +12,7 @@ hudanimations_manifest.txt | Controls which animations files are used
 mod_textures.txt | Controls many miscellanious icons and textures (such as killfeed icons)
 chapterbackgrounds.txt | Controls the random backgrounds and characters that appear on the mainmenu
 
-## Resource Folder
+## resource/
 
 File | Description
 ---- | -----------
@@ -56,7 +56,7 @@ turkish
 pirate
 ```
 
-## Resource/UI
+## resource/ui/
 
 File | Description
 ---- | -----------
@@ -355,7 +355,7 @@ winpanel.res |
 xboxdialogs.res | 
 xpsourcepanel.res | 
 
-## Resource/UI/Build_Menu (_360/_SC/pipboy)
+## resource/ui/build_menu/
 
 There are several different folders that all contain the same folder structure. They may not contain all files, however. They are:
 ```
@@ -401,7 +401,7 @@ tele_exit_cant_afford.res |
 tele_exit_unavailable.res | 
 tele_selectable.res | 
 
-## Resource/UI/Destroy_Menu
+## resource/ui/destroy_menu/
 
 Like the build_menu folder, the destroy menu also contains a pipboy subfolder that contains the same files.
 
@@ -419,7 +419,7 @@ base_active.res |
 2,001 tele_exit_active.res | 
 2,184 tele_exit_inactive.res | 
 
-## Resource/UI/Disguise_Menu
+## resource/ui/disguise_menu/
 
 Also like the build_menu folders, the disguise_menu also has _360 and _sc versions of it.
 
@@ -448,7 +448,7 @@ spy_red.res | class image - spy
 
 * Credit to Doodle for these descriptions
 
-# Resource/UI/Econ
+## resource/ui/econ/
 
 File | Description
 ---- | -----------
@@ -520,7 +520,7 @@ tradingstartdialog.res |
 warjoinpanel.res | 
 warstandingpanel.res | 
 
-# Resource/UI/Econ/Store/V1
+# resource/ui/econ/store/v1/
 
 File | Description
 ---- | -----------
@@ -551,7 +551,7 @@ storeprice_popular.res |
 storestatusdialog.res | 
 storeviewcartpanel.res | 
 
-# Resource/UI/Econ/Store/V2
+## resource/ui/econ/store/v2/
 
 File | Description
 ---- | -----------
@@ -570,7 +570,7 @@ storepreviewitempanel_fullscreen.res |
 storepreviewitempanel_maps.res | 
 storeviewcartpanel.res | 
 
-# Resource/UI/Notifications
+## resource/ui/notifications/
 
 File | Description
 ---- | -----------
@@ -618,7 +618,10 @@ notify_your_flag_returned_red.res |
 notify_your_flag_taken_blue.res | 
 notify_your_flag_taken_red.res | 
 
-# Resource/UI/Quests
+## resource/ui/quests/
+
+File | Description
+---- | -----------
 lineitem_credits.res | 
 lineitem_item.res | 
 lineitem_objective.res | 
@@ -693,7 +696,7 @@ pauling/operation 2/questitempanel_pauling_sniper.res |
 pauling/operation 2/questitempanel_pauling_soldier.res | 
 pauling/operation 2/questitempanel_pauling_spy.res | 
 
-# Resource/UI/Training
+## resource/ui/training/
 
 File | Description
 ---- | -----------
