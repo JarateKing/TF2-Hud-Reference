@@ -25,8 +25,20 @@ for file in glob.glob(reference_folder + "**/*", recursive=True):
 	if "." in current:
 		tocheck.append(current)
 
+# bring them together
+combined = []
+for file in tocheck:
+	toAdd = ""
+	for line in existing:
+		if line.split(None, 1)[0] == file:
+			toAdd = line
+	if toAdd == "":
+		combined.append(file + " | ")
+	else:
+		combined.append(toAdd)
+
 # debug
-for line in tocheck:
+for line in combined:
 	print(line)
 
 # end program
