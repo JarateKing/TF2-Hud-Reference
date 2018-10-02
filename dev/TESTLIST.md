@@ -14,6 +14,8 @@ chapterbackgrounds.txt | Controls the random backgrounds and characters that app
 
 ## resource/
 
+This should appear above the file list
+
 File | Description
 ---- | -----------
 clientscheme.res | Controls definitions for font declarations, font sizes, colors, borders
