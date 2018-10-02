@@ -36,6 +36,8 @@ for file in tocheck:
 		combined.append("")
 		combined.append("## " + path + "/")
 		combined.append("")
+		combined.append("File | Description")
+		combined.append("---- | -----------")
 	
 	for line in existing:
 		if line.split(None, 1)[0] == file:
