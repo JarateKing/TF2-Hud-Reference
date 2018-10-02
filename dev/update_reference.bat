@@ -7,6 +7,11 @@ SET "scheme_folder=..\reference\resource"
 SET "script_folder=..\reference\scripts"
 SET "resource_folder=..\reference\resource\ui"
 
+rmdir /s /q %scheme_folder%
+rmdir /s /q %script_folder%
+mkdir %script_folder%
+mkdir %resource_folder%
+
 :: Use HLExtract to get default HUD files ( https://developer.valvesoftware.com/wiki/HLLib#HLExtract )
 IF EXIST "HLExtract.exe" (
 	REM Extracting resource folder (schemes + main menu button actions)
