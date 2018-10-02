@@ -1,10 +1,14 @@
 import os
 import glob
 
+# directories
+existing_file = "TESTLIST.md" # os.path.abspath("../2-LISTS/Filelist.md")
+reference_folder = "../reference/"
+
 # get all filenames
 existing = []
 current_path = ""
-f = open(os.path.abspath("../2-LISTS/Filelist.md"), "r")
+f = open(existing_file, "r")
 for line in f:
 	if "#" not in line:
 		if " | " in line and "File | Description" not in line and "---- | " not in line:
@@ -16,8 +20,8 @@ f.close()
 
 # get all files
 tocheck = []
-for file in glob.glob("../reference/**/*", recursive=True):
-	current = file.replace("\\","/").replace("../reference/","")
+for file in glob.glob(reference_folder + "**/*", recursive=True):
+	current = file.replace("\\","/").replace(reference_folder,"")
 	if "." in current:
 		tocheck.append(current)
 
