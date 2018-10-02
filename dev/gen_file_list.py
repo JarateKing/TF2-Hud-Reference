@@ -12,10 +12,10 @@ f = open(existing_file, "r")
 for line in f:
 	if "#" not in line:
 		if " | " in line and "File | Description" not in line and "---- | " not in line:
-			existing.append(current_path + line)
+			existing.append(current_path + line.strip())
 	else:
 		if "/" in line:
-			current_path = line.replace("## ","").replace("\n","")
+			current_path = line.replace("## ","").strip()
 f.close()
 
 # get all files
