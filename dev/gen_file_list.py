@@ -17,7 +17,9 @@ f.close()
 # get all files
 tocheck = []
 for file in glob.glob("../reference/**/*", recursive=True):
-	tocheck.append(file)
+	current = file.replace("\\","/").replace("../reference/","")
+	if "." in current:
+		tocheck.append(current)
 
 # debug
 for line in tocheck:
