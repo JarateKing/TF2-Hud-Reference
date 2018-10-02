@@ -20,10 +20,12 @@ f.close()
 
 # get all files
 tocheck = []
-for file in glob.glob(reference_folder + "**/*", recursive=True):
-	current = file.replace("\\","/").replace(reference_folder,"")
-	if "." in current:
-		tocheck.append(current)
+folderlist = ["scripts/", "resource/"] # to specify order
+for subfolder in folderlist:
+	for file in glob.glob(reference_folder + subfolder + "**/*", recursive=True):
+		current = file.replace("\\","/").replace(reference_folder,"")
+		if "." in current:
+			tocheck.append(current)
 
 # bring them together
 combined = []
