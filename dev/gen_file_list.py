@@ -1,4 +1,5 @@
 import os
+import glob
 
 # get all filenames
 existing = []
@@ -13,8 +14,13 @@ for line in f:
 			current_path = line.replace("## ","").replace("\n","")
 f.close()
 
+# get all files
+tocheck = []
+for file in glob.glob("../reference/**/*", recursive=True):
+	tocheck.append(file)
+
 # debug
-for line in existing:
+for line in tocheck:
 	print(line)
 
 # end program
