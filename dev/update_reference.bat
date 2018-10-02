@@ -23,7 +23,7 @@ IF EXIST "HLExtract.exe" (
 	echo Extracting resource files to %resource_folder%
 	HLExtract.exe -p "../../../tf2_misc_dir.vpk" -d "%resource_folder%\.." -e "root\resource\ui" -m -v -s
 	echo Extracting files from hl2 vpk's
-	HLExtract.exe -p "../../../../hl2/hl2_misc_dir.vpk" -d "%resource_folder%\.." -e "root\resource\ui\basechat.res" -m -v -s
+	HLExtract.exe -p "../../../../hl2/hl2_misc_dir.vpk" -d "%resource_folder%" -e "root\resource\ui\basechat.res" -m -v -s
 	echo Copying files from hl2 folder
 	copy /y ..\..\..\..\hl2\resource\chat_english.txt %scheme_folder%\chat_english.txt
 ) ELSE (
