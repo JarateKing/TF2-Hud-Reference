@@ -2,7 +2,7 @@ import os
 import glob
 
 # directories
-existing_file = "TESTLIST.md" # os.path.abspath("../2-LISTS/Filelist.md")
+existing_file = os.path.abspath("../2-LISTS/Filelist.md")
 reference_folder = "../reference/"
 
 # iterate over description method
