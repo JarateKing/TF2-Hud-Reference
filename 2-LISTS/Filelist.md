@@ -65,7 +65,7 @@ abusereportsubmitdialog.res |
 achievementsdialog.res |
 annotationspanelcallout.res |
 badgepanel.res |
-basechat.res |
+basechat.res | Chatbox
 casualrankpanel.res |
 casualwelcomedialog.res |
 charinfoarmorysubpanel.res |
@@ -105,11 +105,11 @@ giveawayitempanel.res |
 globalchat.res |
 globalexplanations.res |
 healthiconpanel.res |
-hudaccountpanel.res |
+hudaccountpanel.res | Engineer metal count
 hudachievementfloatingnumber.res |
 hudachievementtrackeritem.res |
 hudalert.res |
-hudammoweapons.res |
+hudammoweapons.res | Ammo in clip and ammo in reserve
 hudarenacappointcountdown.res |
 hudarenaclasslayout.res |
 hudarenanotification.res |
@@ -118,20 +118,20 @@ hudarenateammenu.res |
 hudarenateammenu_sc.res |
 hudarenavspanel.res |
 hudarenawinpanel.res |
-hudbosshealth.res |
+hudbosshealth.res | Healthbar for Halloween bosses
 hudbowcharge.res |
-hudcurrencyaccount.res |
-huddamageaccount.res |
-huddemomancharge.res |
-huddemomanpipes.res |
-hudhealthaccount.res |
+hudcurrencyaccount.res | currency in MvM
+huddamageaccount.res | Damage numbers when hitting other players
+huddemomancharge.res | charge meter for Stickybomb Launcher, demoman shields, and Huntsman
+huddemomanpipes.res | count for stickies currently out
+hudhealthaccount.res | floating numbers when picking up healthpacks
 hudinspectpanel.res |
 huditemattributetracker.res |
 huditemeffectmeter.res | charge meter for Sandman, Wrap Assassin
 huditemeffectmeter_cleaver.res | charge meter for Flying Guillotine
 huditemeffectmeter_demoman.res | count for Eyelander heads
 huditemeffectmeter_engineer.res | count for Frontier Justice and Manmelter
-huditemeffectmeter_halloweensouls.res | count for Halloween Souls collected
+huditemeffectmeter_halloweensouls.res | count for Halloween souls collected
 huditemeffectmeter_heavy.res | charge meter for Heavy in MvM
 huditemeffectmeter_kartcharge.res | charge meter for Halloween Karts
 huditemeffectmeter_killstreak.res | count for killstreak weapons
@@ -171,8 +171,8 @@ hudpasstimeballstatus.res |
 hudpasstimeoffscreenarrow.res |
 hudpasstimepassnotify.res |
 hudpasstimeteamscore.res |
-hudplayerclass.res |
-hudplayerhealth.res |
+hudplayerclass.res | Class icon and 3d model depending on convars
+hudplayerhealth.res | Health number
 hudpowerupeffectmeter.res |
 hudpvewinpanel.res |
 hudrocketpack.res |
@@ -229,7 +229,7 @@ lobbypanel_casual.res |
 lobbypanel_comp.res |
 lobbypanel_mvm.res |
 mainmenueventplaylistentry.res |
-mainmenuoverride.res |
+mainmenuoverride.res | central file for the main menu
 mainmenuplaylistentry.res |
 mainmenu_saxxyawards.res |
 mapinfomenu.res |
@@ -266,8 +266,8 @@ mvmcreditsubpanel.res |
 mvmcriteria.res |
 mvmeconrequirementdialog.res |
 mvminworldcurrency.res |
-mvmscoreboard.res |
-mvmscoreboardenemyinfo.res |
+mvmscoreboard.res | MvM specific elements for the scoreboard
+mvmscoreboardenemyinfo.res | MvM enemy in wave icons
 mvmstatentry.res |
 mvmvictorycontainer.res |
 mvmvictorymannupentry.res |
@@ -293,7 +293,7 @@ revivedialog.res |
 robotdestructionstatus.res |
 roundinfo.res |
 saxxyawards_submitform.res |
-scoreboard.res |
+scoreboard.res | Scoreboard, including positioning for existing scoreboard elements in MvM
 selectmosthelpfulfrienddialog.res |
 selectplayerdialog.res |
 selectplayerdialog_coach.res |
