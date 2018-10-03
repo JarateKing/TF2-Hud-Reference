@@ -61,65 +61,65 @@ pirate
 
 File | Description
 ---- | -----------
-abusereportsubmitdialog.res |
+abusereportsubmitdialog.res | Abuse report compilation menu
 achievementsdialog.res |
 annotationspanelcallout.res |
 badgepanel.res |
 basechat.res | Chatbox
 casualrankpanel.res |
-casualwelcomedialog.res |
-charinfoarmorysubpanel.res |
-charinfoloadoutsubpanel.res |
-charinfopanel.res |
-chatpopup.res |
+casualwelcomedialog.res | Might be no longer in use
+charinfoarmorysubpanel.res | Mann co. Catalog
+charinfoloadoutsubpanel.res | Loadouts, Backpack, Crating, Catalog, Trades, Warpaints selection menu
+charinfopanel.res | Top sheet and bottom bar in the Loadout/Backpack/Crafting/Catalog menus
+chatpopup.res | Party popup messages 
 cheatdetectiondialog.res |
-classloadoutpanel.res |
+classloadoutpanel.res | Class loadout/taunts menu
 classmenu.res |
-classselection.res |
-classselection_sc.res |
+classselection.res | Class selection menu
+classselection_sc.res | Class selection menu
 classtipsitem.res |
 classtipslist.res |
 coachedbypanel.res |
-competitiveaccessinfo.res |
-competitivewelcomedialog.res |
+competitiveaccessinfo.res | Competitive mode acess requirements message 
+competitivewelcomedialog.res | Might be no longer in use
 comprankpanel.res |
 comprankstooltip.res |
-compstats.res |
+compstats.res | Competitive games played statistics menu
 confirmabandondialog.res |
-controlpointcountdown.res |
-controlpointicon.res |
-controlpointprogressbar.res |
-craftingpanel.res |
+controlpointcountdown.res | Point activation countdown
+controlpointicon.res | Control point Icons used for CP, Koth, A/D
+controlpointprogressbar.res | Point capture progress circle bar
+craftingpanel.res | Crafting Panel
 craftingstatusdialog.res |
-dashboardpartymember.res |
-disguisestatuspanel.res |
+dashboardpartymember.res | Party members displayed in the menu dashborad
+disguisestatuspanel.res | Spy disguise status
 dynamicrecipepanel.res |
-enemycountpanel.res |
+enemycountpanel.res | Robot wave icons used for MvM
 explanationpopup.res |
 flagcalloutpanel.res |
-flagstatus.res |
-freezepanelcallout.res |
-freezepanelkillerhealth.res |
-freezepanel_basic.res |
-giveawayitempanel.res |
-globalchat.res |
-globalexplanations.res |
-healthiconpanel.res |
+flagstatus.res | Flag icon and arrow (part of hudobjectiveflagpanel.res)
+freezepanelcallout.res | Indicates your body parts after death
+freezepanelkillerhealth.res | Enemy health on kill cam
+freezepanel_basic.res | Enemy kill cam
+giveawayitempanel.res | 
+globalchat.res | Party chat
+globalexplanations.res | Explanations for casual, competitive, tutorial, warpaints, loadout, store ...
+healthiconpanel.res | Teammates health displayed above their head (only visible with tf_hud_target_id_disable_floating_health "0")
 hudaccountpanel.res | Engineer metal count
 hudachievementfloatingnumber.res |
 hudachievementtrackeritem.res |
 hudalert.res |
 hudammoweapons.res | Ammo in clip and ammo in reserve
 hudarenacappointcountdown.res |
-hudarenaclasslayout.res |
+hudarenaclasslayout.res | Arena team composition panel
 hudarenanotification.res |
-hudarenaplayercount.res |
-hudarenateammenu.res |
+hudarenaplayercount.res | Alive players counter for arena mode
+hudarenateammenu.res | Spectate/Fight arena selection menu
 hudarenateammenu_sc.res |
 hudarenavspanel.res |
-hudarenawinpanel.res |
+hudarenawinpanel.res | End round arena scoreboard
 hudbosshealth.res | Healthbar for Halloween bosses
-hudbowcharge.res |
+hudbowcharge.res | old charge meter for Huntsman
 hudcurrencyaccount.res | currency in MvM
 huddamageaccount.res | Damage numbers when hitting other players
 huddemomancharge.res | charge meter for Stickybomb Launcher, demoman shields, and Huntsman
@@ -151,21 +151,21 @@ huditemeffectmeter_spyknife.res | charge for Spy-cicle
 hudkillstreaknotice.res |
 hudmannvsmachinestatus.res |
 hudmatchstatus.res |
-hudmatchsummary.res |
-hudmediccharge.res |
-hudmenutauntselection.res |
-hudmenutauntselection_sc.res |
-hudminigame_base.res |
-hudminigame_collection.res |
-hudminigame_platform.res |
-hudminigame_soccer.res |
-hudminigame_soccersuddendeath.res |
-hudobjectiveflagpanel.res |
-hudobjectivekothtimepanel.res |
-hudobjectiveplayerdestruction.res |
-hudobjectiverobotdestruction.res |
-hudobjectivestatus.res |
-hudobjectivetimepanel.res |
+hudmatchsummary.res | End game summary scoreboard used for Casuals and Competitive gamemodes
+hudmediccharge.res | Ubercharge numbers and Vaccinatore charges
+hudmenutauntselection.res | Taunt selection menu
+hudmenutauntselection_sc.res | Taunt selection menu
+hudminigame_base.res | Halloween minigame for sd_doomsday_event (Main file)
+hudminigame_collection.res | Halloween ducks collection race minigame
+hudminigame_platform.res | Halloween platform elimination minigame
+hudminigame_soccer.res | Halloween soccer minigame
+hudminigame_soccersuddendeath.res | Halloween soccer minigame
+hudobjectiveflagpanel.res | Capture the flag points counter
+hudobjectivekothtimepanel.res | King of the hill timers
+hudobjectiveplayerdestruction.res | Player destruction 
+hudobjectiverobotdestruction.res | Robot destruction counter for the robots destroyed.
+hudobjectivestatus.res | No longer in use
+hudobjectivetimepanel.res | Round timer background, clock icon and server timer
 hudpasstime.res |
 hudpasstimeballstatus.res |
 hudpasstimeoffscreenarrow.res |
@@ -175,42 +175,42 @@ hudplayerclass.res | Class icon and 3d model depending on convars
 hudplayerhealth.res | Health number
 hudpowerupeffectmeter.res |
 hudpvewinpanel.res |
-hudrocketpack.res |
+hudrocketpack.res | Charge meter for Thermal Thruster
 hudroundcounter.res |
-hudspellselection.res |
+hudspellselection.res | Owned spells selection for halloween modes
 hudstalemate.res |
-hudstopwatch.res |
-hudteamgoal.res |
-hudteamgoaltournament.res |
-hudteamswitch.res |
-hudtournament.res |
-hudtournamentsetup.res |
+hudstopwatch.res | Payload, A/D cap time
+hudteamgoal.res | Summary of the game mode goal at the start of the round
+hudteamgoaltournament.res | Summary of the game mode goal for tounament game modes
+hudteamswitch.res | Teams auto-balance message
+hudtournament.res | Tournament Blue-Red teams status/names and game win conditions
+hudtournamentsetup.res | Ready/Unready and team name change PopUp menu for tournament
 hudtraining.res |
 hudtrainingmsg.res |
 hudupgradepanel.res |
 hudwarcount.res |
 hudweaponselection.res |
-hud_obj_dispenser.res |
-hud_obj_sapper.res |
-hud_obj_sentrygun.res |
-hud_obj_sentrygun_disp.res |
-hud_obj_tele.res |
-hud_obj_tele_entrance.res |
-hud_obj_tele_exit.res |
+hud_obj_dispenser.res | Engineer dispenser build status and Health
+hud_obj_sapper.res | Building sapped icon
+hud_obj_sentrygun.res | Engineer sentrygun build status, health, ammo
+hud_obj_sentrygun_disp.res | Optional MvM Minisentry build status, health, ammo
+hud_obj_tele.res | Engineer Teleport build status, health
+hud_obj_tele_entrance.res | Engineer Teleport entrance health
+hud_obj_tele_exit.res | Engineer Teleport exit health
 importfiledialog.res |
 importfiletexteditdialog.res |
 importmaterialeditdialog.res |
 importpreviewitempanel.res |
-ingamequeuestatus.res |
+ingamequeuestatus.res | Queued for Casual/Competitive/MvM ingame message
 intromenu.res |
 intromenu_sc.res |
-invitenotification.res |
+invitenotification.res | Invite to party received message
 itemoptionspanel.res |
-itemquickswitch.res |
-itemrenameconfirmationdialog.res |
-itemrenamedialog.res |
-itemrenameinvaliddialog.res |
-itemselectionpanel.res |
+itemquickswitch.res | Loadout and weapons quickswitch menu
+itemrenameconfirmationdialog.res | Name Tag - Description Tag confirmation menu
+itemrenamedialog.res | Name Tag - Description Tag appliaction menus
+itemrenameinvaliddialog.res | Name Tag - Description Tag appliaction failed menu
+itemselectionpanel.res | Loadout item/weapon selection menu
 itemslotpanel.res |
 layeredmappanel.res |
 layeredmappanelitem.res |
@@ -220,52 +220,52 @@ leaderboardentryrank.res |
 leaderboardentryscore.res |
 leaderboardspreadentry.res |
 loadoutpresetpanel.res |
-lobbycontainerframe.res |
-lobbycontainerframe_casual.res |
-lobbycontainerframe_comp.res |
-lobbycontainerframe_mvm.res |
-lobbypanel.res |
-lobbypanel_casual.res |
-lobbypanel_comp.res |
-lobbypanel_mvm.res |
+lobbycontainerframe.res | No longer in use
+lobbycontainerframe_casual.res | No longer in use
+lobbycontainerframe_comp.res | No longer in use
+lobbycontainerframe_mvm.res | No longer in use
+lobbypanel.res | No longer in use
+lobbypanel_casual.res | No longer in use
+lobbypanel_comp.res | No longer in use
+lobbypanel_mvm.res | No longer in use
 mainmenueventplaylistentry.res |
 mainmenuoverride.res | central file for the main menu
-mainmenuplaylistentry.res |
+mainmenuplaylistentry.res | *Find a game* game modes buttons and description
 mainmenu_saxxyawards.res |
-mapinfomenu.res |
+mapinfomenu.res | Map informations menu
 mapinfomenu_sc.res |
-matchhistoryentrypanel.res |
-matchmakingcasualcriteria.res |
-matchmakingcategorymappanel.res |
-matchmakingcategorypanel.res |
-matchmakingdashboard.res |
-matchmakingdashboardcasualcriteria.res |
-matchmakingdashboardcomp.res |
-matchmakingdashboardcompaccess.res |
-matchmakingdashboardeventmatch.res |
-matchmakingdashboardleftsidepanel.res |
-matchmakingdashboardmvmcriteria.res |
-matchmakingdashboardmvmmodeselect.res |
-matchmakingdashboardplaylist.res |
-matchmakingdashboardpopup.res |
+matchhistoryentrypanel.res | Comptitive matches history menu
+matchmakingcasualcriteria.res | Main Casual mode file
+matchmakingcategorymappanel.res | Casual popup map list for each gamemode
+matchmakingcategorypanel.res | Casual game modes list panel
+matchmakingdashboard.res | Main Dashboard file that includes the party members, chat button, find a game, quit button and the queue status panels
+matchmakingdashboardcasualcriteria.res | Additional Casual file, controls the queue button and moves/resizes the gamemodes list
+matchmakingdashboardcomp.res | Main Competitive mode file
+matchmakingdashboardcompaccess.res | Competitive mode access requirements list
+matchmakingdashboardeventmatch.res | Special events menu such as halloween etc...
+matchmakingdashboardleftsidepanel.res | Contains the matchmaking panels backgrounds, shadows, close buttons used for the leftside panels (only ping panel currently)
+matchmakingdashboardmvmcriteria.res | MvM Mode main file
+matchmakingdashboardmvmmodeselect.res | MvM Practice/MannUp mode selection menu
+matchmakingdashboardplaylist.res | Similiar to matchmakingdashboardsidepanel.res but affects only *find a game* main panel
+matchmakingdashboardpopup.res | 
 matchmakingdashboardpopup_mapvotepanel.res |
-matchmakingdashboardpopup_newmatch.res |
+matchmakingdashboardpopup_newmatch.res | Popup panel displayed when a new matchmaking game is found
 matchmakingdashboardpopup_nextmapvoting.res |
 matchmakingdashboardpopup_nextmapwinner.res |
-matchmakingdashboardsidepanel.res |
+matchmakingdashboardsidepanel.res | Contains the matchmaking panels backgrounds, shadows, close buttons used for the Casual,Comp,MvM... panels
 matchmakingdatacenterpopulationpanel.res |
-matchmakinggrouppanel.res |
-matchmakingpanel.res |
-matchmakingpingpanel.res |
-matchmakingplaylist.res |
-matchmakingtooltip.res |
+matchmakinggrouppanel.res | Controls the Casual enable/disable gamemode checkbutton bar
+matchmakingpanel.res | 
+matchmakingpingpanel.res | Ping and Party settings panel
+matchmakingplaylist.res | Contains the main *find a game* buttons (Casual,Comp,MvM,Training,Server,Create)
+matchmakingtooltip.res | Matchmaking tips
 mediccallerpanel.res |
 mvmbombcarrierprogresspanel.res |
-mvmcreditspendpanel.res |
-mvmcreditsubpanel.res |
-mvmcriteria.res |
+mvmcreditspendpanel.res | Part of the MvM Scoreboard, shows the wave credits
+mvmcreditsubpanel.res | Part of the MvM Scoreboard, shows the full game credits
+mvmcriteria.res | MvM matchmaking menu main panel
 mvmeconrequirementdialog.res |
-mvminworldcurrency.res |
+mvminworldcurrency.res | MvM wave gained/lost money
 mvmscoreboard.res | MvM specific elements for the scoreboard
 mvmscoreboardenemyinfo.res | MvM enemy in wave icons
 mvmstatentry.res |
@@ -275,46 +275,46 @@ mvmvictorymannuploot.res |
 mvmvictorymannuppanel.res |
 mvmvictorymannuptab.res |
 mvmvictorypanel.res |
-mvmvictorysplash.res |
-mvmwavelosspanel.res |
+mvmvictorysplash.res | MvM course victory message
+mvmwavelosspanel.res | MvM wave lost panel
 navigationpaneltest.res |
 newrecipefounddialog.res |
-objectivestatusescort.res |
-objectivestatusmultipleescort.res |
+objectivestatusescort.res | Payload cart panel
+objectivestatusmultipleescort.res | Payload race carts
 playerticketstatus.res |
 publishedfilebrowserdialog.res |
 publishfiledialog.res |
 pvpcasualrankpanel.res |
 pvpcomprankpanel.res |
-pvprankpanel.res |
-quickplaybusydialog.res |
-quickplaydialog.res |
-revivedialog.res |
+pvprankpanel.res | Name, Level, Experience bar used for MainMenu and end game scoreboard
+quickplaybusydialog.res | No longer in use
+quickplaydialog.res | No longer in use
+revivedialog.res | MvM teammate revive panel
 robotdestructionstatus.res |
 roundinfo.res |
 saxxyawards_submitform.res |
 scoreboard.res | Scoreboard, including positioning for existing scoreboard elements in MvM
 selectmosthelpfulfrienddialog.res |
-selectplayerdialog.res |
-selectplayerdialog_coach.res |
-selectplayerdialog_duel.res |
+selectplayerdialog.res | Generic player selection Panel
+selectplayerdialog_coach.res | Select a player to be your coach Panel
+selectplayerdialog_duel.res | Select a player to duel Menu
 servernotconnectedtosteam.res |
-spectator.res |
+spectator.res | Spectator panel, includes the respawn time and the spectated player carried items panel
 spectatorcoach.res |
-spectatorguihealth.res |
-spectatortournament.res |
-spectatortournamentguihealth.res |
+spectatorguihealth.res | Teammate Health, part of TargetUI.res
+spectatortournament.res | Spectator panel for tournament modes, includes Health,Name,Uber,Respawntimes for each teammate as well as the personal respawntime
+spectatortournamentguihealth.res | Teammates Health, part of spectatortournament.res
 spectator_sc.res |
 stampdonationadd.res |
 staticbadgepanel.res |
-statpanel_base.res |
-statsummary.res |
-statsummary_embedded.res |
+statpanel_base.res | After death stats
+statsummary.res | Connecting to server screen, includes the Map name/Category as well as all your personal stats
+statsummary_embedded.res | Personal stats for each class displayed on the loadout menu tab
 steamfriendpanel.res |
 steamworkshopdialog.res |
 steamworkshopitem.res |
-streamlistpanel.res |
-streampanel.res |
+streamlistpanel.res | Main menu Twitch streams list, displays each streamer name/title/viewers
+streampanel.res | Main menu Twitch streams panel
 supportnotificationdialog.res |
 surveypanel_base.res |
 surveypanel_casualinquiry.res |
@@ -322,20 +322,20 @@ surveypanel_compinquiry.res |
 surveypanel_mapquality.res |
 surveypanel_matchquality.res |
 surveypanel_randomcrit.res |
-tankprogressbar.res |
-tankstatuspanel.res |
-targetid.res |
+tankprogressbar.res | MvM Tank Health bar
+tankstatuspanel.res | MvM Tank Health bar background
+targetid.res | Teammates Name/Health/Ammo/Ubercharge displayed when looking at them or beign healed
 tauntcallerpanel.res |
-teammenu.res |
-teammenu_sc.res |
+teammenu.res | Team selection Menu
+teammenu_sc.res | Team selection Menu
 testitembotcontrols.res |
 testitemdialog.res |
 testitemroot.res |
-textwindow.res |
-textwindowcustomserver.res |
-textwindowcustomserver_sc.res |
-textwindow_sc.res |
-tfadvancedoptionsdialog.res |
+textwindow.res | Server intro message
+textwindowcustomserver.res | Server intro message
+textwindowcustomserver_sc.res | Server intro message
+textwindow_sc.res | Server intro message
+tfadvancedoptionsdialog.res | Advance Options Menu
 tfhudrobotdestruction_activestate.res |
 tfhudrobotdestruction_deadstate.res |
 tfhudrobotdestruction_robotindicator.res |
@@ -345,15 +345,15 @@ trainingdialog.res |
 trainingdialog_old.res |
 trainingitempanel.res |
 upgradeboxdialog.res |
-upgradebuypanel.res |
+upgradebuypanel.res | MvM buy upgrades menu
 videopanel.res |
 viewrecipespanel.res |
-votehud.res |
+votehud.res | Controls both vote menu and ingame vote popup
 vrcalibration.res |
 waitingforplayerspanel.res |
-wavecompletesummarypanel.res |
-wavestatuspanel.res |
-winpanel.res |
+wavecompletesummarypanel.res | Wave complete message for MvM
+wavestatuspanel.res | Wave progress bar for MvM
+winpanel.res | End round scoreboard that shows the best winning team players and game score 
 xboxdialogs.res |
 xpsourcepanel.res |
 
@@ -605,52 +605,52 @@ spy_red.res |
 
 File | Description
 ---- | -----------
-backpackpanel.res |
+backpackpanel.res | Backpack Menu
 collectioncraftingdialog.res |
 collectioncraftingdialog_base.res |
-comboboxbackpackoverlaydialog.res |
+comboboxbackpackoverlaydialog.res | Style selection Menu
 confirmapplycardupgradeapplicationdialog.res |
 confirmapplydecodedialog.res |
-confirmapplyducktokendialog.res |
-confirmapplygiftwrapdialog.res |
-confirmapplypaintcandialog.res |
-confirmapplypaintkitdialog.res |
-confirmapplystrangepartapplicationdialog.res |
+confirmapplyducktokendialog.res | Duck token application menu
+confirmapplygiftwrapdialog.res | Gift wrap application menu
+confirmapplypaintcandialog.res | Paint application menu
+confirmapplypaintkitdialog.res | PaintKit application menu
+confirmapplystrangepartapplicationdialog.res | Strange Part application menu
 confirmapplystrangerestrictionapplicationdialog.res |
-confirmapplystrangifierdialog.res |
-confirmapplyteamcolorpaintcandialog.res |
-confirmcustomizetexturedialog.res |
+confirmapplystrangifierdialog.res | Strangifier application menu
+confirmapplyteamcolorpaintcandialog.res | Team colored paint application menu
+confirmcustomizetexturedialog.res | Texture application menu, used for The Conscientious Objector
 confirmdialogabandonnopenalty.res |
 confirmdialogabandonpenalty.res |
 confirmdialogabandonsafe.res |
 confirmdialogoptout.res |
 confirmitempreviewdialog.res |
-confirmspellbookpageapplicationdialog.res |
+confirmspellbookpageapplicationdialog.res | Spell Book Page application menu
 confirmtransmogrifyapplicationdialog.res |
 cyclingadcontainer.res |
 ducksleaderboardpanel.res |
 ducksleaderboards.res |
-genericnotificationtoast.res |
-genericnotificationtoastmainmenu.res |
+genericnotificationtoast.res | Main Menu generic notification message (example: someone gets a ring)
+genericnotificationtoastmainmenu.res | 
 genericwaitingdialog.res |
 halloweenofferingdialog.res |
 inputstringforitembackpackoverlaydialog.res |
-inspectionpanel.res |
-inspectionpanel_cosmetic.res |
+inspectionpanel.res | Inspect menu for weapons contains the war paints menu and war paints consume menus as well
+inspectionpanel_cosmetic.res | Inspect panel for cosmetics in general
 itemaddefault.res |
 itemdiscardpanel.res |
 itemmodelpanel.res |
 itemmodelpanelcollectioncosmeticitem.res |
 itemmodelpanelcollectionitem.res |
-itempickuppanel.res |
+itempickuppanel.res | New item found panel
 leaderboardpanel.res |
 lobbyleaderboard.res |
 manncotrade_commonstatclock.res |
 notificationqueuepanel.res |
-notificationspresentpanel.res |
-notificationtoastcontainer.res |
-notificationtoastcontrol.res |
-paintkitconsumedialog.res |
+notificationspresentpanel.res | Shows up when you are in the loadout menus such as backpack and there is a new notification unchecked
+notificationtoastcontainer.res | Main Menu New Item notification
+notificationtoastcontrol.res | Main Menu New Item notification container (background/label)
+paintkitconsumedialog.res | PaintKit consume menu
 questdefinitionviewpanel.res |
 questdetailspanel.res |
 questeditor.res |
@@ -668,8 +668,8 @@ scrollablequestlist.res |
 scrollablequestlist_halloween.res |
 scrollablequestlist_toughbreak.res |
 strangecounttransferdialog.res |
-tradingpanel.res |
-tradingstartdialog.res |
+tradingpanel.res | Trades menu
+tradingstartdialog.res | Trade exchange mode selection menu
 warjoinpanel.res |
 warstandingpanel.res |
 
