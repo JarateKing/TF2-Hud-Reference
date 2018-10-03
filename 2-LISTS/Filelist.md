@@ -10,15 +10,17 @@ chapterbackgrounds.txt | Controls the random backgrounds and characters that app
 hudanimations_manifest.txt | Controls which animations files are used
 hudanimations_tf.txt | Controls the majority of animations
 hudlayout.res | Controls the positioning of the majority of elements
-mod_textures.txt | Controls many miscellanious icons and textures (such as killfeed icons)
+mod_textures.txt | Controls many miscellaneous icons and textures (such as killfeed icons)
 
 ## resource/
 
 File | Description
 ---- | -----------
 chatscheme.res | Like clientscheme, but for the chat box
-chat_english.txt |
+chat_english.txt | Controls some chat-related localization. Can add new localization to custom huds.
 clientscheme.res | Controls definitions for font declarations, font sizes, colors, borders
+closecaption_english.dat | Controls captions
+closecaption_english.txt | Source file to compile into closecaption_english.dat. Does not do anything itself.
 gamemenu.res | Controls tooltips, visibility ingame/inmenu, etc. of some main menu elements
 sourcescheme.res | Like clientscheme, but for old-style windows like the console
 
