@@ -22,7 +22,7 @@ current_path = ""
 f = open(existing_file, "r")
 for line in f:
 	if "##" not in line:
-		if " | " in line and "File | Description" not in line and "---- | " not in line:
+		if " |" in line and "File | Description" not in line and "---- | " not in line:
 			existing.append(current_path + line.strip())
 		elif "File | Description" in line:
 			descriptions.append("###table")
