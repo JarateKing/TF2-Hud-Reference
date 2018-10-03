@@ -127,27 +127,27 @@ huddemomanpipes.res |
 hudhealthaccount.res |
 hudinspectpanel.res |
 huditemattributetracker.res |
-huditemeffectmeter.res |
-huditemeffectmeter_cleaver.res |
-huditemeffectmeter_demoman.res |
-huditemeffectmeter_engineer.res |
-huditemeffectmeter_halloweensouls.res |
-huditemeffectmeter_heavy.res |
-huditemeffectmeter_kartcharge.res |
-huditemeffectmeter_killstreak.res |
-huditemeffectmeter_organs.res |
-huditemeffectmeter_particlecannon.res |
-huditemeffectmeter_pomson.res |
-huditemeffectmeter_powerupbottle.res |
-huditemeffectmeter_pyro.res |
-huditemeffectmeter_raygun.res |
-huditemeffectmeter_sapper.res |
-huditemeffectmeter_scout.res |
-huditemeffectmeter_sniper.res |
-huditemeffectmeter_sniperfocus.res |
-huditemeffectmeter_sodapopper.res |
-huditemeffectmeter_spy.res |
-huditemeffectmeter_spyknife.res |
+huditemeffectmeter.res | charge meter for Sandman, Wrap Assassin
+huditemeffectmeter_cleaver.res | charge meter for Flying Guillotine
+huditemeffectmeter_demoman.res | count for Eyelander heads
+huditemeffectmeter_engineer.res | count for Frontier Justice and Manmelter
+huditemeffectmeter_halloweensouls.res | count for Halloween Souls collected
+huditemeffectmeter_heavy.res | charge meter for Heavy in MvM
+huditemeffectmeter_kartcharge.res | charge meter for Halloween Karts
+huditemeffectmeter_killstreak.res | count for killstreak weapons
+huditemeffectmeter_organs.res | count for Vita-Saw
+huditemeffectmeter_particlecannon.res | charge meter for Cow Mangler
+huditemeffectmeter_pomson.res | charge meter for Pomson
+huditemeffectmeter_powerupbottle.res | count for PowerUp Canteen in MvM
+huditemeffectmeter_pyro.res | charge meter for Phlogistinator
+huditemeffectmeter_raygun.res | charge meter for Righteous Bison
+huditemeffectmeter_sapper.res | charge meter for Sapper
+huditemeffectmeter_scout.res | charge meter for Bonk! Atomic Punch and Crit-a-Cola
+huditemeffectmeter_sniper.res | count for Bazaar Bargain
+huditemeffectmeter_sniperfocus.res | charge meter for Hitman's Heatmaker
+huditemeffectmeter_sodapopper.res | charge meter for Sodapopper
+huditemeffectmeter_spy.res | count for Diamondback
+huditemeffectmeter_spyknife.res | charge for Spy-cicle
 hudkillstreaknotice.res |
 hudmannvsmachinestatus.res |
 hudmatchstatus.res |
