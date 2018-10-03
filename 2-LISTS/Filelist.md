@@ -855,49 +855,49 @@ questobjectivepanel_questlog.res |
 
 File | Description
 ---- | -----------
-questitempanel_pauling_base.res |
-questitempanel_pauling_community_map_1.res |
-questitempanel_pauling_community_map_2.res |
-questitempanel_pauling_community_map_3.res |
-questitempanel_pauling_community_map_4.res |
-questitempanel_pauling_cp.res |
-questitempanel_pauling_demo.res |
-questitempanel_pauling_engineer.res |
-questitempanel_pauling_headhunter.res |
-questitempanel_pauling_heavy.res |
-questitempanel_pauling_medic.res |
-questitempanel_pauling_payload.res |
-questitempanel_pauling_playanyclass.res |
-questitempanel_pauling_pyro.res |
-questitempanel_pauling_scout.res |
-questitempanel_pauling_sniper.res |
-questitempanel_pauling_soldier.res |
-questitempanel_pauling_spy.res |
+questitempanel_pauling_base.res | 
+questitempanel_pauling_community_map_1.res | 
+questitempanel_pauling_community_map_2.res | 
+questitempanel_pauling_community_map_3.res | 
+questitempanel_pauling_community_map_4.res | 
+questitempanel_pauling_cp.res | 
+questitempanel_pauling_demo.res | 
+questitempanel_pauling_engineer.res | 
+questitempanel_pauling_headhunter.res | 
+questitempanel_pauling_heavy.res | 
+questitempanel_pauling_medic.res | 
+questitempanel_pauling_payload.res | 
+questitempanel_pauling_playanyclass.res | 
+questitempanel_pauling_pyro.res | 
+questitempanel_pauling_scout.res | 
+questitempanel_pauling_sniper.res | 
+questitempanel_pauling_soldier.res | 
+questitempanel_pauling_spy.res | 
 
 ## resource/ui/training/
 
 File | Description
 ---- | -----------
-main.res |
+main.res | 
 
 ## resource/ui/training/basictraining/
 
 File | Description
 ---- | -----------
-classdetails.res |
-classpanel.res |
-classselection.res |
+classdetails.res | 
+classpanel.res | 
+classselection.res | 
 
 ## resource/ui/training/modeselection/
 
 File | Description
 ---- | -----------
-modepanel.res |
-modeselection.res |
+modepanel.res | 
+modeselection.res | 
 
 ## resource/ui/training/offlinepractice/
 
 File | Description
 ---- | -----------
-mapselection.res |
-practicemodeselection.res |
+mapselection.res | 
+practicemodeselection.res | 

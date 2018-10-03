@@ -76,9 +76,16 @@ for file in tocheck:
 	else:
 		combined.append(toAdd.replace(path + "/", ""))
 
-# debug
+# print out what the file will be
 for line in combined:
 	print(line)
 
 # end program
-input("press Enter to continue")
+input("VERIFY THAT THIS IS PROPER, PRESS ENTER TO OVERWRITE FILE")
+
+f = open(existing_file, "w")
+for line in combined:
+	f.write(line + '\n')
+
+print("Success!")
+input("Press Enter to exit the program")
