@@ -32,6 +32,7 @@ Contributors:
 ```
 JarateKing - Maintainer
 Pigby
+Hypnotize
 ```
 
 Credits:
