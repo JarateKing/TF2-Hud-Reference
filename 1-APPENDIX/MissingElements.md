@@ -81,3 +81,33 @@ BaseChat.res is a file that can be found inside the hl2 files. It, along with ch
 ```
 
 ## HudDamageIndicator
+
+HudDamageIndicator is an element that appears inside hudlayout.res. By default, it looks like this:
+```
+	HudDamageIndicator
+	{
+
+	}
+```
+It can however be filled with its own values. For example:
+```
+	HudDamageIndicator
+	{
+		"fieldName" "HudDamageIndicator"
+		"visible" "1"
+		"enabled" "1"
+		"MinimumWidth" "10"
+		"MaximumWidth" "10"
+		"StartRadius" "80"
+		"EndRadius" "80"
+		"MinimumHeight" "50"
+		"MaximumHeight" "50"
+		"MinimumTime" "1"
+		
+		// MaximumDamage
+		// MaximumTime
+		// TravelTime
+		// FadeOutPercentage
+		// Noise
+	}
+```
