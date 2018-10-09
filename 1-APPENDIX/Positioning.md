@@ -36,8 +36,8 @@ This element will be positioned 50 units from the right, and 100 units up from t
 
 If they are set with an "c" before the number, like so:
 ```
-	"xpos" "r50"
-	"ypos" "r100"
+	"xpos" "c50"
+	"ypos" "c100"
 ```
 This element will be positioned 50 units from to the right of the center of the screen, and 100 units below the center of the screen. This value can be negative to go left / up from the center as well.
 
