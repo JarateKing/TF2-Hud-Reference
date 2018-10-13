@@ -76,7 +76,7 @@ cheatdetectiondialog.res |
 classloadoutpanel.res | Class loadout/taunts menu
 classmenu.res |
 classselection.res | Class selection menu
-classselection_sc.res | Class selection menu
+classselection_sc.res | Class selection menu, but for steam controller
 classtipsitem.res |
 classtipslist.res |
 coachedbypanel.res |
@@ -115,7 +115,7 @@ hudarenaclasslayout.res | Arena team composition panel
 hudarenanotification.res |
 hudarenaplayercount.res | Alive players counter for arena mode
 hudarenateammenu.res | Spectate/Fight arena selection menu
-hudarenateammenu_sc.res |
+hudarenateammenu_sc.res | Spectate/Fight arena selection menu, but for steam controller
 hudarenavspanel.res |
 hudarenawinpanel.res | End round arena scoreboard
 hudbosshealth.res | Healthbar for Halloween bosses
@@ -154,7 +154,7 @@ hudmatchstatus.res |
 hudmatchsummary.res | End game summary scoreboard used for Casuals and Competitive gamemodes
 hudmediccharge.res | Ubercharge numbers and Vaccinatore charges
 hudmenutauntselection.res | Taunt selection menu
-hudmenutauntselection_sc.res | Taunt selection menu
+hudmenutauntselection_sc.res | Taunt selection menu, but for steam controller
 hudminigame_base.res | Halloween minigame for sd_doomsday_event (Main file)
 hudminigame_collection.res | Halloween ducks collection race minigame
 hudminigame_platform.res | Halloween platform elimination minigame
@@ -233,7 +233,7 @@ mainmenuoverride.res | central file for the main menu
 mainmenuplaylistentry.res | *Find a game* game modes buttons and description
 mainmenu_saxxyawards.res |
 mapinfomenu.res | Map informations menu
-mapinfomenu_sc.res |
+mapinfomenu_sc.res | Map information menu, but for steam controller
 matchhistoryentrypanel.res | Comptitive matches history menu
 matchmakingcasualcriteria.res | Main Casual mode file
 matchmakingcategorymappanel.res | Casual popup map list for each gamemode
@@ -304,7 +304,7 @@ spectatorcoach.res |
 spectatorguihealth.res | Teammate Health, part of TargetUI.res
 spectatortournament.res | Spectator panel for tournament modes, includes Health,Name,Uber,Respawntimes for each teammate as well as the personal respawntime
 spectatortournamentguihealth.res | Teammates Health, part of spectatortournament.res
-spectator_sc.res |
+spectator_sc.res | Spectator panel, but for steam controller
 stampdonationadd.res |
 staticbadgepanel.res |
 statpanel_base.res | After death stats
@@ -327,14 +327,14 @@ tankstatuspanel.res | MvM Tank Health bar background
 targetid.res | Teammates Name/Health/Ammo/Ubercharge displayed when looking at them or beign healed
 tauntcallerpanel.res |
 teammenu.res | Team selection Menu
-teammenu_sc.res | Team selection Menu
+teammenu_sc.res | Team selection Menu, but for steam controller
 testitembotcontrols.res |
 testitemdialog.res |
 testitemroot.res |
 textwindow.res | Server intro message
 textwindowcustomserver.res | Server intro message
-textwindowcustomserver_sc.res | Server intro message
-textwindow_sc.res | Server intro message
+textwindowcustomserver_sc.res | Server intro message, but for steam controller
+textwindow_sc.res | Server intro message, but for steam controller
 tfadvancedoptionsdialog.res | Advance Options Menu
 tfhudrobotdestruction_activestate.res |
 tfhudrobotdestruction_deadstate.res |
