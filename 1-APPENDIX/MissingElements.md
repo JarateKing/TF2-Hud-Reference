@@ -82,7 +82,7 @@ BaseChat.res is a file that can be found inside the hl2 files. It, along with ch
 
 ## HudDamageIndicator
 
-HudDamageIndicator is an element that appears inside hudlayout.res. By default, it looks like this:
+HudDamageIndicator is an element that appears inside hudlayout.res. It controls the red marker that rotates around the crosshair for a short time whenever you take damage. By default, it looks like this:
 ```
 	HudDamageIndicator
 	{
