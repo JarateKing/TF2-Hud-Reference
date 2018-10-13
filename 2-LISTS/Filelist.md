@@ -556,50 +556,50 @@ spy_red.res | class image - spy
 File | Description
 ---- | -----------
 base.res |
-demoman_blue.res |
-demoman_red.res |
-engineer_blue.res |
-engineer_red.res |
-heavy_blue.res |
-heavy_red.res |
-hudmenuspydisguise.res |
-medic_blue.res |
-medic_red.res |
-pyro_blue.res |
-pyro_red.res |
-scout_blue.res |
-scout_red.res |
-sniper_blue.res |
-sniper_red.res |
-soldier_blue.res |
-soldier_red.res |
-spy_blue.res |
-spy_red.res |
+demoman_blue.res | class image - demoman
+demoman_red.res | class image - demoman
+engineer_blue.res | class image - engineer
+engineer_red.res | class image - engineer
+heavy_blue.res | class image - heavy
+heavy_red.res | class image - heavy
+hudmenuspydisguise.res | defines layout and style
+medic_blue.res | class image - medic
+medic_red.res | class image - medic
+pyro_blue.res | class image - pyro
+pyro_red.res | class image - pyro
+scout_blue.res | class image - scout
+scout_red.res | class image - scout
+sniper_blue.res | class image - sniper
+sniper_red.res | class image - sniper
+soldier_blue.res | class image - soldier
+soldier_red.res | class image - soldier
+spy_blue.res | class image - spy
+spy_red.res | class image - spy
 
 ## resource/ui/disguise_menu_sc/
 
 File | Description
 ---- | -----------
 base.res |
-demoman_blue.res |
-demoman_red.res |
-engineer_blue.res |
-engineer_red.res |
-heavy_blue.res |
-heavy_red.res |
-hudmenuspydisguise.res |
-medic_blue.res |
-medic_red.res |
-pyro_blue.res |
-pyro_red.res |
-scout_blue.res |
-scout_red.res |
-sniper_blue.res |
-sniper_red.res |
-soldier_blue.res |
-soldier_red.res |
-spy_blue.res |
-spy_red.res |
+demoman_blue.res | class image - demoman
+demoman_red.res | class image - demoman
+engineer_blue.res | class image - engineer
+engineer_red.res | class image - engineer
+heavy_blue.res | class image - heavy
+heavy_red.res | class image - heavy
+hudmenuspydisguise.res | defines layout and style
+medic_blue.res | class image - medic
+medic_red.res | class image - medic
+pyro_blue.res | class image - pyro
+pyro_red.res | class image - pyro
+scout_blue.res | class image - scout
+scout_red.res | class image - scout
+sniper_blue.res | class image - sniper
+sniper_red.res | class image - sniper
+soldier_blue.res | class image - soldier
+soldier_red.res | class image - soldier
+spy_blue.res | class image - spy
+spy_red.res | class image - spy
 
 ## resource/ui/econ/
 
