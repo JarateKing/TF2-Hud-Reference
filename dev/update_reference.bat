@@ -30,6 +30,7 @@ IF EXIST "HLExtract.exe" (
 	HLExtract.exe -p "../../../tf2_misc_dir.vpk" -d "%resource_folder%\.." -e "root\resource\ui" -m -v -s
 	echo Extracting files from hl2 vpk's
 	HLExtract.exe -p "../../../../hl2/hl2_misc_dir.vpk" -d "%resource_folder%" -e "root\resource\ui\basechat.res" -m -v -s
+	HLExtract.exe -p "../../../../hl2/hl2_misc_dir.vpk" -d "%script_folder%" -e "root\scripts\hudanimations.txt" -m -v -s
 	echo Copuing files from tf2 folder
 	copy /y ..\..\..\resource\closecaption_english.txt %scheme_folder%\closecaption_english.txt
 	copy /y ..\..\..\resource\closecaption_english.dat %scheme_folder%\closecaption_english.dat
