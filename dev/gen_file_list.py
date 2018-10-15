@@ -19,21 +19,24 @@ def getDescription():
 # get all filenames
 existing = []
 current_path = ""
-f = open(existing_file, "r")
-for line in f:
-	if "##" not in line:
-		if " |" in line and "File | Description" not in line and "---- | " not in line:
-			existing.append(current_path + line.strip())
-		elif "File | Description" in line:
-			descriptions.append("###table")
-		elif "---- | -----------" not in line:
+try:
+	f = open(existing_file, "r")
+	for line in f:
+		if "##" not in line:
+			if " |" in line and "File | Description" not in line and "---- | " not in line:
+				existing.append(current_path + line.strip())
+			elif "File | Description" in line:
+				descriptions.append("###table")
+			elif "---- | -----------" not in line:
+				descriptions.append(line.strip())
+		elif "/" in line:
+				current_path = line.replace("## ","").strip()
+				descriptions.append("###" + current_path)
+		else:
 			descriptions.append(line.strip())
-	elif "/" in line:
-			current_path = line.replace("## ","").strip()
-			descriptions.append("###" + current_path)
-	else:
-		descriptions.append(line.strip())
-f.close()
+	f.close()
+except:
+	pass
 
 # get all files
 tocheck = []
