@@ -16,7 +16,7 @@ def getDescription():
 	count += 1
 	return toRet
 
-# get all filenames
+# get the previous descriptions from the existing file list
 existing = []
 current_path = ""
 try:
@@ -83,12 +83,14 @@ for file in tocheck:
 for line in combined:
 	print(line)
 
-# end program
+# verify that all is good
 input("VERIFY THAT THIS IS PROPER, PRESS ENTER TO OVERWRITE FILE")
 
+# write to file
 f = open(existing_file, "w")
 for line in combined:
 	f.write(line + '\n')
 
+# end the program
 print("Success!")
 input("Press Enter to exit the program")
