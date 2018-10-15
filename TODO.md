@@ -4,12 +4,11 @@ This is a list of current goals to work on. These would be a good starting point
 
 ## Tutorial
 
-* hudlayout (example with crosshair)
-* Ammo
-* Health
-* Mainmenu & gamemenu.res
-* Killfeed
-* Damage Account
+* add to hudlayout (positioning ammo, editing killfeed, and adding crosshair)
+* add to Ammo
+* add to Health
+* create Mainmenu & gamemenu.res
+* create Damage Account
 
 ## Appendix
 
