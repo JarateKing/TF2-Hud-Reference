@@ -7,6 +7,7 @@ This is a master reference for all files used by tf2 huds.
 File | Description
 ---- | -----------
 chapterbackgrounds.txt | Controls the random backgrounds and characters that appear on the mainmenu
+hudanimations.txt | Controls hl2 animations
 hudanimations_manifest.txt | Controls which animations files are used
 hudanimations_tf.txt | Controls the majority of animations
 hudlayout.res | Controls the positioning of the majority of elements
@@ -71,7 +72,7 @@ casualwelcomedialog.res | Might be no longer in use
 charinfoarmorysubpanel.res | Mann co. Catalog
 charinfoloadoutsubpanel.res | Loadouts, Backpack, Crating, Catalog, Trades, Warpaints selection menu
 charinfopanel.res | Top sheet and bottom bar in the Loadout/Backpack/Crafting/Catalog menus
-chatpopup.res | Party popup messages 
+chatpopup.res | Party popup messages
 cheatdetectiondialog.res |
 classloadoutpanel.res | Class loadout/taunts menu
 classmenu.res |
@@ -80,7 +81,7 @@ classselection_sc.res | Class selection menu, but for steam controller
 classtipsitem.res |
 classtipslist.res |
 coachedbypanel.res |
-competitiveaccessinfo.res | Competitive mode acess requirements message 
+competitiveaccessinfo.res | Competitive mode acess requirements message
 competitivewelcomedialog.res | Might be no longer in use
 comprankpanel.res |
 comprankstooltip.res |
@@ -101,7 +102,7 @@ flagstatus.res | Flag icon and arrow (part of hudobjectiveflagpanel.res)
 freezepanelcallout.res | Indicates your body parts after death
 freezepanelkillerhealth.res | Enemy health on kill cam
 freezepanel_basic.res | Enemy kill cam
-giveawayitempanel.res | 
+giveawayitempanel.res |
 globalchat.res | Party chat
 globalexplanations.res | Explanations for casual, competitive, tutorial, warpaints, loadout, store ...
 healthiconpanel.res | Teammates health displayed above their head (only visible with tf_hud_target_id_disable_floating_health "0")
@@ -162,7 +163,7 @@ hudminigame_soccer.res | Halloween soccer minigame
 hudminigame_soccersuddendeath.res | Halloween soccer minigame
 hudobjectiveflagpanel.res | Capture the flag points counter
 hudobjectivekothtimepanel.res | King of the hill timers
-hudobjectiveplayerdestruction.res | Player destruction 
+hudobjectiveplayerdestruction.res | Player destruction
 hudobjectiverobotdestruction.res | Robot destruction counter for the robots destroyed.
 hudobjectivestatus.res | No longer in use
 hudobjectivetimepanel.res | Round timer background, clock icon and server timer
@@ -247,7 +248,7 @@ matchmakingdashboardleftsidepanel.res | Contains the matchmaking panels backgrou
 matchmakingdashboardmvmcriteria.res | MvM Mode main file
 matchmakingdashboardmvmmodeselect.res | MvM Practice/MannUp mode selection menu
 matchmakingdashboardplaylist.res | Similiar to matchmakingdashboardsidepanel.res but affects only *find a game* main panel
-matchmakingdashboardpopup.res | 
+matchmakingdashboardpopup.res |
 matchmakingdashboardpopup_mapvotepanel.res |
 matchmakingdashboardpopup_newmatch.res | Popup panel displayed when a new matchmaking game is found
 matchmakingdashboardpopup_nextmapvoting.res |
@@ -255,7 +256,7 @@ matchmakingdashboardpopup_nextmapwinner.res |
 matchmakingdashboardsidepanel.res | Contains the matchmaking panels backgrounds, shadows, close buttons used for the Casual,Comp,MvM... panels
 matchmakingdatacenterpopulationpanel.res |
 matchmakinggrouppanel.res | Controls the Casual enable/disable gamemode checkbutton bar
-matchmakingpanel.res | 
+matchmakingpanel.res |
 matchmakingpingpanel.res | Ping and Party settings panel
 matchmakingplaylist.res | Contains the main *find a game* buttons (Casual,Comp,MvM,Training,Server,Create)
 matchmakingtooltip.res | Matchmaking tips
@@ -353,7 +354,7 @@ vrcalibration.res |
 waitingforplayerspanel.res |
 wavecompletesummarypanel.res | Wave complete message for MvM
 wavestatuspanel.res | Wave progress bar for MvM
-winpanel.res | End round scoreboard that shows the best winning team players and game score 
+winpanel.res | End round scoreboard that shows the best winning team players and game score
 xboxdialogs.res |
 xpsourcepanel.res |
 
@@ -631,7 +632,7 @@ cyclingadcontainer.res |
 ducksleaderboardpanel.res |
 ducksleaderboards.res |
 genericnotificationtoast.res | Main Menu generic notification message (example: someone gets a ring)
-genericnotificationtoastmainmenu.res | 
+genericnotificationtoastmainmenu.res |
 genericwaitingdialog.res |
 halloweenofferingdialog.res |
 inputstringforitembackpackoverlaydialog.res |
@@ -878,26 +879,26 @@ questitempanel_pauling_spy.res |
 
 File | Description
 ---- | -----------
-main.res | 
+main.res |
 
 ## resource/ui/training/basictraining/
 
 File | Description
 ---- | -----------
-classdetails.res | 
-classpanel.res | 
-classselection.res | 
+classdetails.res |
+classpanel.res |
+classselection.res |
 
 ## resource/ui/training/modeselection/
 
 File | Description
 ---- | -----------
-modepanel.res | 
-modeselection.res | 
+modepanel.res |
+modeselection.res |
 
 ## resource/ui/training/offlinepractice/
 
 File | Description
 ---- | -----------
-mapselection.res | 
-practicemodeselection.res | 
+mapselection.res |
+practicemodeselection.res |
