@@ -2,7 +2,7 @@
 
 * Master list of all files: [here](/2-LISTS/Filelist.md)
 * Master list of all animations: [here](/2-LISTS/Animlist.md)
-* Base default hud: [here](reference) [Last updated 2018/09/22]
+* Base default hud: [here](reference) [Last updated 2018/10/22]
 
 ## Tutorial Section
 
