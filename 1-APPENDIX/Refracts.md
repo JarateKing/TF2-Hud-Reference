@@ -20,7 +20,11 @@ They take the form of:
 
 Certain commands should be used with refracts as well, namely:
 ```
+// force refracts to work on the hud immediately
+// otherwise you will need to be jarate'd / bleed / go underwater
 mat_motion_blur_enabled 1
+
+// improve visual quality with refracts
 mat_motion_blur_strength 0
 mat_disable_bloom 1
 mat_hdr_level 0
