@@ -46,7 +46,7 @@ In huds, the strength will almost always be 0. By consequence, the color values 
 
 ## Hud Masking
 
-The most immediate use of refracts is to cover up hud elements. Because they draw the world view under it, covering up a hud element with a refract will effectively hide that element. The interesting use of this is to partially hide a hud element, either by making a refract that is smaller than the hud element, or by having the refract's normal map make a shape to 'cut out' (for example, if the refract's uv map is a circle, then putting it over a square will cut out that circle from the square).
+The most immediate use of refracts is to cover up hud elements. Because they draw the world view under it, covering up a hud element with a refract will effectively hide that element. The interesting use of this is to partially hide a hud element, either by making a refract that is smaller than the hud element, or by having the refract's normal map make a shape to 'cut out' (for example, if the refract's normal map is a circle, then putting it over a square will cut out that circle from the square).
 
 ## Blurs
 
@@ -58,7 +58,7 @@ With certain settings, viewmodels are excluded from refracts. This is beneficial
 
 ## Filters
 
-By changing the refracttint value in the vmt, you can create a filter that only allows certain colors to pass through. In other words, apply multiplicative blending to the world. For example:
+By changing the refracttint value in the vmt, you can create a filter that only allows certain colors to pass through. In other words, apply multiplicative blending (with 255 being 1.0) to the world. For example:
 ```
 	"$refracttint" "{255 127 0}"
 ```
