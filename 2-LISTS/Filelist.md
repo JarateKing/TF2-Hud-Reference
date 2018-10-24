@@ -25,7 +25,10 @@ closecaption_english.txt | Source file to compile into closecaption_english.dat.
 gamemenu.res | Controls tooltips, visibility ingame/inmenu, etc. of some main menu elements
 sourcescheme.res | Like clientscheme, but for old-style windows like the console
 
-Of note, you can create custom closecaption files that can be named whatever you want (as long as they start with closecaption_). That said, they must have both the .dat and .txt file, though the .txt can be completely blank.
+Of note, you can create custom closecaption files that can be named whatever you want (as long as they start with closecaption_). That said, they must have both the .dat and .txt file, though the .txt doesn't matter and can be completely blank (closecaption_english.txt is unnecessary, since it exists in the vpk's). These files can be loaded with the console command:
+```
+cc_lang custom // will load "resource/closecaption_custom.dat", the rest is implied
+```
 
 As well, custom localization can be added to chat_english.txt, or other languages. The full list of valid languages is:
 ```
