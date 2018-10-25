@@ -23,6 +23,7 @@
 * Useful Commands: [here](/1-APPENDIX/UsefulCommands.md)
 * Adding Linux Support: [here](/1-APPENDIX/LinuxSupport.md)
 * Missing Elements: [here](/1-APPENDIX/MissingElements.md)
+* Stubborn Elements: [here](/1-APPENDIX/StubbornElements.md)
 
 ## Meta
 
