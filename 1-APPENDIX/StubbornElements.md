@@ -4,7 +4,7 @@ Some elements are very difficult to edit, and require some uncommon methods or w
 
 ## Dashboard Dimmer
 
-The dashboard dimmer is an element on the mainmenu that appears when you press the play button and open the play list. It's difficult to edit because it doesn't appear in any files, at first it doesn't seem to be overrideable in mainmenuoverride.res, and gets only gets loaded (from code) when either the play menu or the console is opened.
+The dashboard dimmer is an element on the mainmenu that appears when you press the play button and open the play list. It dims out most of the screen (but leaves a bit at the bottom, which looks bad in most huds). It's difficult to edit because it doesn't appear in any files, at first it doesn't seem to be overrideable in mainmenuoverride.res, and only gets loaded (from code) when either the play menu or the console is opened.
 
 The solution is to add this to the mainmenuoverride.res:
 ```
