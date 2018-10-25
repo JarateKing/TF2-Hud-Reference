@@ -19,3 +19,10 @@ And add this to valve.rc / your autoexec.cfg:
 // remove dimmer
 wait 5; showconsole; wait; incrementvar mat_antialias -100 100 1; hideconsole; wait 5; incrementvar mat_antialias -100 100 -1
 ```
+
+The idea behind this is to:
+1. open the console, which loads the dimmer element
+2. change the mat_antialias value, which reloads the mainmenu
+3. the reload checks mainmenuoverride.res and applies the wide and tall for dashboarddimmer to the now existing element, effectively hiding it
+4. hide the console since it was only needed for loading the dimmer element
+5. change the mat_antialias value back to what it was before
