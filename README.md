@@ -6,6 +6,8 @@
 
 ## Tutorial Section
 
+This is the core tutorial to getting started with hud editing.
+
 0. Tools: [here](/0-TUTORIAL/0-Tools.md)
 1. Getting Started: [here](/0-TUTORIAL/1-Getting-Started.md)
 2. Editing Elements: [here](/0-TUTORIAL/2-Editing-Elements.md)
@@ -14,6 +16,8 @@
 5. Materials: [here](/0-TUTORIAL/5-Materials.md)
 
 ## Appendix
+
+This contains lots of in-depth descriptions or useful tidbits and techniques, that even experienced hud developers may not know.
 
 * Positioning: [here](/1-APPENDIX/Positioning.md)
 * Sizing: [here](/1-APPENDIX/Sizing.md)
