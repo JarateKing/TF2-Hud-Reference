@@ -13,6 +13,8 @@ This is a list of current goals to work on. These would be a good starting point
 ## Appendix
 
 * Add reference images to refracts appendix
+* Add reference images to stubborn elements
+* Add chat bg to stubborn elements
 * Add section on label options
 * Add section on borders
 * Add section on fonts (in-depth)
