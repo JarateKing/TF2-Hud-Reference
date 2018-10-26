@@ -47,9 +47,9 @@ HudReplayTipIn |
 HudReplayTipOut | 
 HudTournamentSetupPanelOpen | 
 HudTournamentSetupPanelClose | 
-HudMedicCharged | 
-HudMedicChargedLoop | 
-HudMedicChargedStop | 
+HudMedicCharged | Reaching 100% ubercharge
+HudMedicChargedLoop | Loop event for HudMedicCharge
+HudMedicChargedStop | When ubercharge reaches 0%
 VideoCaptionFadeIn | 
 VideoCaptionFadeOut | 
 ArenaVsPanelOnShow | 
@@ -58,9 +58,9 @@ ArenaVsPanelSlideOut |
 HudCartAlarmPulse | 
 HudCartAlarmPulseLoop | 
 HudCartAlarmPulseStop | 
-ActiveTimerBGPulse | 
-ActiveTimerHighlight | 
-ActiveTimerDim | 
+ActiveTimerBGPulse | koth, tf_use_match_hud 0 
+ActiveTimerHighlight | koth, when a team captures the point, tf_use_match_hud 1
+ActiveTimerDim | koth, when a team loses the point, the final visual result is what an inactive timer will use by default, tf_use_match_hud 1 
 OvertimeLabelPulseRed | 
 SuddenDeathLabelPulseRed | 
 TeamsFullArrowAnimate | 
@@ -167,8 +167,8 @@ HudTournament_ShowTimerDefault |
 HudTournament_HideTimer | 
 HudTournament_ShowRoundSign | 
 HudTournament_PlaySignAnim | 
-TeamStatus_PlayerDead | 
-TeamStatus_PlayerAlive | 
+TeamStatus_PlayerDead | Match hud, when a player dies, tf_use_match_hud 1
+TeamStatus_PlayerAlive | Match hud, when a player respawns, tf_use_match_hud 1
 HudMatchStatus_ShowMatchWinDoors | 
 HudMatchStatus_ShowMatchWinDoors_NoOpen | 
 HudMatchSummary_SlideInPanels | 
@@ -187,10 +187,10 @@ PyroVsHeavyWar_ShowChooseScene |
 PyroVsHeavyWar_PyroWinnerScene | 
 CasualCategory_Checkbox_Hide | 
 CasualCategory_Checkbox_Show | 
-CasualCategory_Selected | 
-CasualCategory_NotSelected | 
-HealthProgressBar_Selected | 
-HealthProgressBar_NotSelected | 
+CasualCategory_Selected | Removes dimming effect when a category is selected
+CasualCategory_NotSelected | Dimming effect in the casual matchmaking hud for category selection
+HealthProgressBar_Selected | Removes dimming effect when a map is selected
+HealthProgressBar_NotSelected | Dimming effect in the casual matchmaking hud for single map selections
 MMenu_UpdateButton_StartGlow | 
 MMenu_UpdateButton_SubtleGlow | 
 XPSourceShow_Positive | 
