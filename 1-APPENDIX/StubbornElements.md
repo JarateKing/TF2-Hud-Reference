@@ -49,7 +49,7 @@ event AnimLockLoop
 }
 ```
 
-The main way to trigger an animation lock is to run the animation on MenuOpen because it can be triggered through scripts:
+The main way to trigger an animation lock is to run the animation on MenuOpen or MenuClose because it can be triggered through scripts:
 ```
 event MenuClose
 {	
@@ -58,3 +58,9 @@ event MenuClose
 	StopEvent AnimLock 0.0
 	RunEvent AnimLock 0.0
 }
+```
+And include this in all class cfg files:
+```
+// trigger the MenuOpen and MenuClose animations immediately
+voice_menu_1; slot10
+```
