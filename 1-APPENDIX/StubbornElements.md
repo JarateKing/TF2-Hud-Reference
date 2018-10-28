@@ -29,5 +29,32 @@ The idea behind this is to:
 
 ## Chat Background Alpha
 
-The chat background is normally difficult to control its alpha. Because its alpha channel is overriden in order to make it appear and disappear, very few ways to change it will stick. The solution is a technique called "animation locking" that involves constantly animating it to have the alpha value you want.
+The chat background is normally difficult to control its alpha. Because its alpha channel is overridden in order to make it appear and disappear, very few ways to change it will stick. The solution is a technique called "animation locking" that involves constantly animating it to have the alpha value you want.
 
+An example animation to remove the chat bg is:
+```
+event AnimLock
+{
+	Animate HudChat bgcolor "0 0 0 0" linear 0.0 0.0
+	Animate HudChat bgcolor "0 0 0 0" linear 0.0 100.0
+	Animate HudChatHistory bgcolor "0 0 0 0" linear 0.0 0.0
+	Animate HudChatHistory bgcolor "0 0 0 0" linear 0.0 100.0
+
+	RunEvent AnimLockLoop 1.0
+}
+
+event AnimLockLoop
+{
+	RunEvent AnimLock 0.0
+}
+```
+
+The main way to trigger an animation lock is to run the animation on MenuOpen because it can be triggered through scripts:
+```
+event MenuClose
+{	
+	...
+	
+	StopEvent AnimLock 0.0
+	RunEvent AnimLock 0.0
+}
