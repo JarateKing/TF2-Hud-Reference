@@ -59,8 +59,16 @@ event MenuClose
 	RunEvent AnimLock 0.0
 }
 ```
-And include this in all class cfg files:
+And include this in all class cfg files, so that it gets executed on start:
 ```
 // trigger the MenuOpen and MenuClose animations immediately
 voice_menu_1; slot10
+```
+Alternatively, a less reliable method that doesn't require editing cfg's would be to make it trigger whenever you do damage:
+```
+event DamagedPlayer
+{
+	StopEvent AnimLock 0.0
+	RunEvent AnimLock 0.0
+}
 ```
