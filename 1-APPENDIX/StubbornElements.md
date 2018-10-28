@@ -26,3 +26,8 @@ The idea behind this is to:
 3. the reload checks mainmenuoverride.res and applies the wide and tall for dashboarddimmer to the now existing element, effectively hiding it
 4. hide the console since it was only needed for loading the dimmer element
 5. change the mat_antialias value back to what it was before
+
+## Chat Background Alpha
+
+The chat background is normally difficult to control its alpha. Because its alpha channel is overriden in order to make it appear and disappear, very few ways to change it will stick. The solution is a technique called "animation locking" that involves constantly animating it to have the alpha value you want.
+
