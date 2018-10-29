@@ -83,3 +83,27 @@ PlayerStatusMaxHealthValue is a bit different in that it only appears when you'v
 		"fgcolor"		"TanDark"
 	}
 ```
+
+## Status images
+
+The rest of the file is many different status effect images. They all follow the same general format:
+```
+	"PlayerStatusBleedImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusBleedImage"
+		"xpos"			"85"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"32"
+		"tall"			"32"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../vgui/bleed_drop"
+		"fgcolor"		"TanDark"
+	}
+```
+These don't appear by default, and only become visible when affected by the status effect.
+
+Notably, these are hard to reposition, just changing xpos and ypos will not work.
