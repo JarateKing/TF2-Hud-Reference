@@ -41,3 +41,25 @@ Everything is fairly standard and functions like anything you'd see in hudlayout
 	}
 ```
 This element automatically gets resized based on your overheal / damage taken. HealthBonusPosAdj determines how much larger it gets, with the value being the maximum resize. HeathDeathWarning is the percent where you're considered low health, and runs the HudHealthDyingPulse animation. HealthDeathWarningColor is the color that HealthBonusPosAdj automatically gets recolored to, when at low health (overhealed does not have any recoloring).
+
+## Health labels
+
+The health value is a standard label. In fact there's nothing special about it, and you can put multiple different labels using %Health% as their labeltext as you want (which is common for giving the health label a shadow).
+```
+	"PlayerStatusHealthValue"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValue"
+		"xpos"			"76"
+		"ypos"			"52"
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"18"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"font"			"HudClassHealth"
+		"fgcolor"		"TanDark"
+	}
+```
