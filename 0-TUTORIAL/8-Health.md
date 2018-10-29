@@ -63,3 +63,23 @@ The health value is a standard label. In fact there's nothing special about it, 
 		"fgcolor"		"TanDark"
 	}
 ```
+
+PlayerStatusMaxHealthValue is a bit different in that it only appears when you've taken damage. It's not out of the ordinary otherwise.
+```
+	"PlayerStatusMaxHealthValue"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusMaxHealthValue"
+		"xpos"			"76"
+		"ypos"			"20"
+		"zpos"			"6"
+		"wide"			"50"
+		"tall"			"18"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%MaxHealth%"
+		"textAlignment"	"center"	
+		"font"			"DefaultSmall"
+		"fgcolor"		"TanDark"
+	}
+```
