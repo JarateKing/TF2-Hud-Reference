@@ -14,6 +14,9 @@ This is the core tutorial to getting started with hud editing.
 3. Editing Clientscheme: [here](/0-TUTORIAL/3-Editing-Clientscheme.md)
 4. Editing Animations: [here](/0-TUTORIAL/4-Editing-Animations.md)
 5. Materials: [here](/0-TUTORIAL/5-Materials.md)
+6. Hudlayout: [here](/0-TUTORIAL/6-Hudlayout.md)
+7. Ammo: [here](/0-TUTORIAL/7-Ammo.md)
+8. Health: [here](/0-TUTORIAL/8-Health.md)
 
 ## Appendix
 
