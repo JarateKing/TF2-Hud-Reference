@@ -1,6 +1,6 @@
 # Ammo
 
-Hudammoweapons.res controls the ammo used by weapons. It can be found in:
+Hudammoweapons.res controls the ammo used by weapons. It is only visible when using a weapon with ammo (not melee or mediguns, or example). It can be found in:
 ```
 resource/ui/hudammoweapons.res
 ```
@@ -44,3 +44,5 @@ The six ammo labels are very similar. They all roughly follow the format:
 	}
 ```
 The major difference being that AmmoInReserve and AmmoInReserveShadow use "%AmmoInReserve%" for their labeltext.
+
+It's worth noting that there isn't anything special about these labels, other than how they get automatically hidden. Fundamentally, the only thing different between AmmoInClip and AmmoInReserve (and also their shadow versions) are their default parameters. Because of this, it's possible (and done in some huds) to create new labels with "%Ammo%" that are visible regardless of which type of weapon you're using, and then make AmmoInClip and AmmoInClipShadow use "%AmmoInReserve%" or something else entirely, so that you can have more elaborate reserve ammo styles.
