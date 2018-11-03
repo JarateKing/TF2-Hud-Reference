@@ -19,6 +19,45 @@ Hudammoweapons.res contains the following elements:
 "AmmoNoClipShadow"
 ```
 
+## Ammo BG Images
+
+HudWeaponAmmoBG and HudWeaponLowAmmoImage are the backgrounds that appear behind the ammo, with HudWeaponAmmoBG being what normally appears and HudWeaponLowAmmoImage flashing when ammo is low.
+
+```
+	"HudWeaponAmmoBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"HudWeaponAmmoBG"
+		"xpos"			"4"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"90"
+		"tall"			"45"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/ammo_blue_bg"
+		"scaleImage"	"1"	
+		"teambg_2"		"../hud/ammo_red_bg"
+		"teambg_3"		"../hud/ammo_blue_bg"	
+	}
+	"HudWeaponLowAmmoImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HudWeaponLowAmmoImage"
+		"xpos"			"4"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"90"
+		"tall"			"45"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/ammo_red_bg"
+		"scaleImage"	"1"	
+		"teambg_2"		"../hud/ammo_red_bg"
+		"teambg_3"		"../hud/ammo_blue_bg"	
+	}
+```
+
 ## Ammo Labels
 
 AmmoInClip and AmmoInClipShadow are the ammo you currently have loaded when you have weapons that have clips (such as the scattergun), and are hardcoded to automatically get hidden when using weapons with no clip (such as the sniper rifle). Similarly, AmmoInReserve and AmmoInReserveShadow are the reserve (not in clip) ammo, and are also automatically hidden when using weapons with no clips. In contrast, AmmoNoClip and AmmoNoClipShadow are the ammo for weapons with no clip, and gets automatically hidden when using weapons with clips.
