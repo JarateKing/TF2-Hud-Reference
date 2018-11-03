@@ -2,11 +2,11 @@
 
 * Master list of all files: [here](/2-LISTS/Filelist.md)
 * Master list of all animations: [here](/2-LISTS/Animlist.md)
-* Base default hud: [here](reference) [Last updated 2018/10/22]
+* Default hud files: [here](reference) [Last updated 2018/10/22]
 
 ## Tutorial Section
 
-This is the core tutorial to getting started with hud editing.
+This is the core tutorial to getting started with hud editing. Note that this will not teach you everything you need to know to make a full hud -- it should give you everything you need to create a simple hud and teach you all you need to figure out your way from there, but creating a complete original hud will require practice and getting more used to the resource files than a tutorial can cover.
 
 0. Tools: [here](/0-TUTORIAL/0-Tools.md)
 1. Getting Started: [here](/0-TUTORIAL/1-Getting-Started.md)
@@ -20,7 +20,7 @@ This is the core tutorial to getting started with hud editing.
 
 ## Appendix
 
-This contains lots of in-depth descriptions or useful tidbits and techniques, that even experienced hud developers may not know.
+This contains lots of in-depth descriptions or useful tidbits and techniques, that even experienced hud developers may not know. Some are immediately useful for all huds, and some are solutions to very specific problems that very few face.
 
 * Positioning: [here](/1-APPENDIX/Positioning.md)
 * Sizing: [here](/1-APPENDIX/Sizing.md)
@@ -43,6 +43,8 @@ JarateKing - Maintainer
 Pigby
 Hypnotize
 ```
+
+If you want to contribute, make a pull request!
 
 Credits:
 ```
