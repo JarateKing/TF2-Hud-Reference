@@ -93,7 +93,7 @@ As you notice, there is a lot here that doesn't exist on any other panel. The xp
 
 ## Adding Elements
 
-Hudlayout is also a good spot to add new elements that will always appear while ingame. One of the most popular uses for this is custom crosshairs:
+Hudlayout is also a good spot to add new elements that will always appear while ingame. One of the most popular uses for this is custom crosshairs, which usually takes the form of labels or imagepanels. Assuming all else is set up (the font):
 
 ```
 	CustomCrosshair
