@@ -58,6 +58,8 @@ HudWeaponAmmoBG and HudWeaponLowAmmoImage are the backgrounds that appear behind
 	}
 ```
 
+Notably they are of type CTFImagePanel, which is essentially an imagepanel that can change the image used depending on what team. The material specified with teambg_2 will be the red team, and teambg_3 will be the blu team, with "image" being the fallback in circumstances where the player isn't on either team.
+
 ## Ammo Labels
 
 AmmoInClip and AmmoInClipShadow are the ammo you currently have loaded when you have weapons that have clips (such as the scattergun), and are hardcoded to automatically get hidden when using weapons with no clip (such as the sniper rifle). Similarly, AmmoInReserve and AmmoInReserveShadow are the reserve (not in clip) ammo, and are also automatically hidden when using weapons with no clips. In contrast, AmmoNoClip and AmmoNoClipShadow are the ammo for weapons with no clip, and gets automatically hidden when using weapons with clips.
