@@ -90,3 +90,26 @@ Some panels in hudlayout don't have their own file, and are controlled entirely 
 	}
 ```
 As you notice, there is a lot here that doesn't exist on any other panel. The xpos, ypos, wide, tall all control the panel positioning and bounds, like it did with ammo.
+
+## Adding Elements
+
+Hudlayout is also a good spot to add new elements that will always appear while ingame. One of the most popular uses for this is custom crosshairs:
+
+```
+	CustomCrosshair
+	{
+		"controlName"	"CExLabel"
+		"fieldName"		"CustomCrosshair"
+		"xpos"			"c-100"
+		"ypos"			"c-100"
+		"zpos"			"100"
+		"wide"			"202" // changing wide/tall allows for finer control than xpos/ypos
+		"tall"			"198" // since it is centered anyway, so every 2 width is 1 xpos
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"o"
+		"font"			"CustomCrosshairs14"
+		"textAlignment"	"center"
+		"fgcolor"		"0 255 0 255"
+	}
+```
