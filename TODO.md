@@ -4,9 +4,8 @@ This is a list of current goals to work on. These would be a good starting point
 
 ## Tutorial
 
-* add to hudlayout (positioning ammo, editing killfeed, and adding crosshair)
-* add to Ammo
-* add to Health
+* create Ubercharge
+* create hudplayerclass.res
 * create Mainmenu & gamemenu.res
 * create Damage Account
 
