@@ -23,6 +23,15 @@ The default file only includes one element, the damage account panel, which cont
 	}
 ```
 
+To explain what each does:
+* text_y & text_y: offsets for damage numbers
+* delta_item_end_y: how much the damage number will float up by
+* delta_lifetime: how long the damage numbers will exist for
+* delta_item_font: the regular font used
+* delta_item_font_big: the font used when doing a crit
+* PositiveColor: the color for healing someone
+* NegativeColor: obsolete and useless, replaced with cvars
+
 There are also some other settings that can be used, that are not included in the default hud:
 ```
 		"EventColor"			"255 255 255 255" // med drops
