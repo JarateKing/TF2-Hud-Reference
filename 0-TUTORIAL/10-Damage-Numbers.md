@@ -44,3 +44,5 @@ It is possible for a hud to add damage numbers to the hud, that do not float or 
 		"font"			"HudFontMedium"
 	}
 ```
+
+Of note, the only setting that affects these damage numbers is whether or not damage numbers are enabled. They do not batch when using damage number batching, and the color settings do not change these labels' colors.
