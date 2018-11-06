@@ -22,3 +22,25 @@ The default file only includes one element, the damage account panel, which cont
 		"delta_item_font_big"	"HudFontMedium"
 	}
 ```
+
+## Hud Damage Numbers
+
+It is possible for a hud to add damage numbers to the hud, that do not float or move. These involve labels that have the labeltext "%metal%", for example:
+```
+	"DamageAccountLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"DamageAccountLabel"
+		"xpos"			"c-50"
+		"ypos"			"c0"
+		"zpos"			"100"
+		"wide"			"100"
+		"tall"			"50"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%metal%"
+		"textAlignment"		"center"
+		"fgcolor"		"255 255 0 255"
+		"font"			"HudFontMedium"
+	}
+```
