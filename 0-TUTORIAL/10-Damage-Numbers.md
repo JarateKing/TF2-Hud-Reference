@@ -23,6 +23,13 @@ The default file only includes one element, the damage account panel, which cont
 	}
 ```
 
+There are also some other settings that can be used, that are not included in the default hud:
+```
+		"EventColor"			"255 255 255 255" // med drops
+		"RedRobotScoreColor"	"255 255 255 255" // robot destruction
+		"BlueRobotScoreColor"	"255 255 255 255" // robot destruction
+```
+
 ## Hud Damage Numbers
 
 It is possible for a hud to add damage numbers to the hud, that do not float or move. These involve labels that have the labeltext "%metal%", for example:
