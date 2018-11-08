@@ -2,12 +2,15 @@
 
 This is a list of current goals to work on. These would be a good starting point for people looking to contribute.
 
+## General
+
+* make code snippets use spaces instead of tabs, for consistent columns
+
 ## Tutorial
 
-* create Ubercharge
+* finish Ubercharge
 * create hudplayerclass.res
 * create Mainmenu & gamemenu.res
-* create Damage Account
 
 ## Appendix
 
