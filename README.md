@@ -17,6 +17,8 @@ This is the core tutorial to getting started with hud editing. Note that this wi
 6. Hudlayout: [here](/0-TUTORIAL/6-Hudlayout.md)
 7. Ammo: [here](/0-TUTORIAL/7-Ammo.md)
 8. Health: [here](/0-TUTORIAL/8-Health.md)
+9. Ubercharge: [here](/0-TUTORIAL/9-Ubercharge.md)
+10. Damage Numbers: [here](/0-TUTORIAL/10-Damage-Numbers.md)
 
 ## Appendix
 
