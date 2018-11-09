@@ -32,6 +32,8 @@ This is the background for the charge meter. It is very similar to the ammo back
 
 The label itself is the percent number on the hud. This is a fairly standard label, but it utilizes localization for its labeltext. If the labeltext is set to "#TF_Ubercharge" it becomes "UBERCHARGE: 100%" and whereas "#TF_UberchargeMinHUD" it just becomes "100%".
 
+IndividualChargesLabel is very similar, but is the charge count for the vaccinator. ChargeLabel will automatically get hidden when using the vaccinator, and IndividualChargesLabel will be shown.
+
 ```
 	"ChargeLabel"
 	{
@@ -49,6 +51,28 @@ The label itself is the percent number on the hud. This is a fairly standard lab
 		"tabPosition"	"0"
 		"labelText"		"#TF_Ubercharge"
 		"labelText_minmode"		"#TF_UberchargeMinHUD"
+		"textAlignment"	"west"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"HudFontSmallest"
+	}
+	
+	"IndividualChargesLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"IndividualChargesLabel"
+		"xpos"			"30"
+		"ypos"			"24"
+		"zpos"			"2"
+		"wide"			"90"
+		"tall"			"15"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#TF_IndividualUbercharges"
+		"labelText_minmode"		"#TF_IndividualUberchargesMinHUD"
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
