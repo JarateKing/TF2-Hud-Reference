@@ -79,3 +79,28 @@ IndividualChargesLabel is very similar, but is the charge count for the vaccinat
 		"font"			"HudFontSmallest"
 	}
 ```
+
+## Charge Bar
+
+The charge bar is a element that fills itself gradually based off of your uber percent.
+
+```
+	"ChargeMeter"
+	{	
+		"ControlName"	"ContinuousProgressBar"
+		"fieldName"		"ChargeMeter"
+		"font"			"Default"
+		"xpos"			"30"
+		"ypos"			"38"
+		"zpos"			"2"
+		"wide"			"86"
+		"tall"			"8"				
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"Left"
+		"dulltext"		"0"
+		"brighttext"	"0"
+	}	
+```
