@@ -104,3 +104,9 @@ The charge bar is a element that fills itself gradually based off of your uber p
 		"brighttext"	"0"
 	}	
 ```
+
+In addition, you can change colors by adding:
+```
+		"bgcolor_override" "0 0 0 0"
+		"fgcolor_override" "255 255 255 255"
+```
