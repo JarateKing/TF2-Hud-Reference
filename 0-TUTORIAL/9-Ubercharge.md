@@ -110,3 +110,28 @@ In addition, you can change colors by adding:
 		"bgcolor_override" "0 0 0 0"
 		"fgcolor_override" "255 255 255 255"
 ```
+
+## Vaccinator Charge Bars
+
+There are four different charge meters named ChargeMeter1, ChargeMeter2, ChargeMeter3, and ChargeMeter4 that are the charge bars for the vaccinator.
+
+```
+	"ChargeMeter1"
+	{	
+		"ControlName"	"ContinuousProgressBar"
+		"fieldName"		"ChargeMeter1"
+		"font"			"Default"
+		"xpos"			"30"
+		"ypos"			"38"
+		"zpos"			"2"
+		"wide"			"19"
+		"tall"			"8"				
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"Left"
+		"dulltext"		"0"
+		"brighttext"	"0"
+	}
+```
