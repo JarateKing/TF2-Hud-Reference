@@ -155,3 +155,23 @@ There are is also an image that goes with the bg panel.
 		"scaleImage"	"1"	
 	}
 ```
+
+## Vaccinator Resist Icon
+
+There is also an icon that shows what vaccinator setting you have. It automatically switches image based on which resistance you have.
+
+```	
+	"ResistIcon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ResistIcon"
+		"xpos"			"0"
+		"ypos"			"-25"
+		"wide"			"36"
+		"tall"			"36"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../HUD/defense_buff_bullet_blue"
+		"scaleImage"	"1"	
+	}
+```
