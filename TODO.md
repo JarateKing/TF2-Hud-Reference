@@ -8,7 +8,6 @@ This is a list of current goals to work on. These would be a good starting point
 
 ## Tutorial
 
-* finish Ubercharge
 * create hudplayerclass.res
 * create Mainmenu & gamemenu.res
 
