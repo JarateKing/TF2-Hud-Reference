@@ -135,3 +135,23 @@ There are four different charge meters named ChargeMeter1, ChargeMeter2, ChargeM
 		"brighttext"	"0"
 	}
 ```
+
+## Health Cluster Icon
+
+There are is also an image that goes with the bg panel.
+
+```
+	"HealthClusterIcon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HealthClusterIcon"
+		"xpos"			"2"
+		"ypos"			"17"
+		"wide"			"36"
+		"tall"			"36"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/ico_health_cluster"
+		"scaleImage"	"1"	
+	}
+```
