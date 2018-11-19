@@ -106,4 +106,4 @@ The rest of the file is many different status effect images. They all follow the
 ```
 These don't appear by default, and only become visible when affected by the status effect.
 
-Notably, these are hard to reposition, just changing xpos and ypos will not work.
+Notably, these are hard to reposition, just changing xpos and ypos will not work. You can pin to corner for these to force their position however, as described in [here](/1-APPENDIX/Positioning.md#pin-to-corner).
