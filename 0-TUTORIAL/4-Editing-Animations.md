@@ -84,6 +84,8 @@ event OpenWeaponSelectionMenu
 	Animate HudWeaponSelection TextScan		"1" 		Linear 0.0 0.1
 }
 ```
+To describe this animation, it stops other animations that might interfere with it, and gradually (over a tenth of a second) makes the HudWeaponSelection element visible.
+
 
 An important technique is to create loops, by using two animations that RunEvent eachother.
 ```
@@ -108,3 +110,4 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulseLoop 0.0
 }
 ```
+This animation will make the PlayerStatusHealthBonusImage element appear and then disappear, and then run an event that immediately runs the original event again. The result is that the PlayerStatusHealthBonusImage will flash repeatedly, until the HudHealthBonusPulseStop event happens and it stops being animated.
