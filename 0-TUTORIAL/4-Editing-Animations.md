@@ -17,6 +17,8 @@ Where each "file" points to an animation file.
 
 It's worth mentioning this because some huds will add their own animations files.
 
+If an animations appears in multiple files in the manifest, the one that appears first will be loaded. For example, since "LevelInit" appears in both hudanimations.txt and hudanimations_tf.txt, tf2 will use the one found in hudanimations.txt because it is loaded first.
+
 ## hudanimations_tf.txt
 
 Hudanimations_tf.txt is where nearly all animations used in tf2 are stored. It comes with a helpful comment at the top that describes most of what you can do in an animation file:
