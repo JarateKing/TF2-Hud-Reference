@@ -15,7 +15,7 @@ hudanimations_manifest
 ```
 Where each "file" points to an animation file.
 
-It's worth mentioning this because some huds will add their own animations files.
+It's worth mentioning this because some huds will add their own animations files. One of the main reasons being, if all edited animations are in their own file, then hudanimations_tf.txt can not exist in the hud files and be loaded from the vpk, which will automatically update it whenever tf2 updates.
 
 If an animations appears in multiple files in the manifest, the one that appears first will be loaded. For example, since "LevelInit" appears in both hudanimations.txt and hudanimations_tf.txt, tf2 will use the one found in hudanimations.txt because it is loaded first.
 
