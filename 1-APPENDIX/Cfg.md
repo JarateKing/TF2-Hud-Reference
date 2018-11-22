@@ -27,7 +27,22 @@ startupmenu
 sv_unlockedchapters 99
 ```
 
-Because this file is usually not used by anything other than some huds, it's a good way to add in some custom cfg to exec.
+Because this file is usually not used by anything other than some huds, it's a good way to add in some custom cfg to exec. It is possible for other mods to use this, but very few do.
+
+## other cfgs
+
+For some huds it can be useful to add a new cfg, to split things out from the valve.rc file. For example, some huds will include the commands needed for transparent viewmodels in their own cfg:
+```
+mat_motion_blur_enabled 1
+mat_motion_blur_strength 0
+mat_hdr_level 0
+mat_antialias 1
+mat_aaquality 0
+mat_colcorrection_disableentities 1
+mat_colorcorrection 0
+```
+
+And make the valve.rc file exec that cfg.
 
 ## run-once cfgs
 

@@ -8,6 +8,7 @@ This is a list of current goals to work on. These would be a good starting point
 
 ## Tutorial
 
+* improve descriptions for ubercharge
 * create hudplayerclass.res
 * create Mainmenu & gamemenu.res
 

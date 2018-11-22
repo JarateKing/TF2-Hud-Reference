@@ -15,7 +15,9 @@ hudanimations_manifest
 ```
 Where each "file" points to an animation file.
 
-It's worth mentioning this because some huds will add their own animations files.
+It's worth mentioning this because some huds will add their own animations files. One of the main reasons being, if all edited animations are in their own file, then hudanimations_tf.txt can not exist in the hud files and be loaded from the vpk, which will automatically update it whenever tf2 updates.
+
+If an animations appears in multiple files in the manifest, the one that appears first will be loaded. For example, since "LevelInit" appears in both hudanimations.txt and hudanimations_tf.txt, tf2 will use the one found in hudanimations.txt because it is loaded first.
 
 ## hudanimations_tf.txt
 
@@ -82,6 +84,8 @@ event OpenWeaponSelectionMenu
 	Animate HudWeaponSelection TextScan		"1" 		Linear 0.0 0.1
 }
 ```
+To describe this animation, it stops other animations that might interfere with it, and gradually (over a tenth of a second) makes the HudWeaponSelection element visible.
+
 
 An important technique is to create loops, by using two animations that RunEvent eachother.
 ```
@@ -106,3 +110,4 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulseLoop 0.0
 }
 ```
+This animation will make the PlayerStatusHealthBonusImage element appear and then disappear, and then run an event that immediately runs the original event again. The result is that the PlayerStatusHealthBonusImage will flash repeatedly, until the HudHealthBonusPulseStop event happens and it stops being animated.

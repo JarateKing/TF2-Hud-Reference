@@ -79,4 +79,11 @@ These two are very simple: can you see the element and is the element allowed to
 ```
 
 These parts are specific to CTFImagePanel. "image" and the "teambg" values point to vmt files, to use as an image. "scaleimage" being set to 1 says that the image should be resized to match the "wide" and "tall" values exactly--if this was set to 0 or not set at all, the material would get drawn at its native size but get cut off / leave blank space depending on wide/tall values.
-
+```
+		"image"			"../hud/ammo_blue_bg"
+		"scaleImage"	"1"	
+		"teambg_2"		"../hud/ammo_red_bg"
+		"teambg_2_lodef"	"../hud/ammo_red_bg_lodef"
+		"teambg_3"		"../hud/ammo_blue_bg"
+		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"		
+```
