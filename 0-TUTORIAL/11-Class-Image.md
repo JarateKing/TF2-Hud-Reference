@@ -25,3 +25,23 @@ Similar to health, the positioning of the panel is not controlled by hudlayout. 
 
 Generally, you don't have to edit this, since it covers the entire bounds of the screen. Most huds will instead just edit the positions of the elements themselves.
 
+## Class Image
+
+The class image itself is a fairly standard image panel (other than the ControlName). All else works as normal, except the image is set by code and cannot be manually changed.
+
+```
+	"PlayerStatusClassImage"
+	{
+		"ControlName"	"CTFClassImage"
+		"fieldName"		"PlayerStatusClassImage"
+		"xpos"			"25"
+		"ypos"			"r88"
+		"zpos"			"2"
+		"wide"			"75"
+		"tall"			"75"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/class_scoutred"
+		"scaleImage"	"1"	
+	}
+```
