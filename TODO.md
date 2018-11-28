@@ -26,7 +26,12 @@ This is a list of current goals to work on. These would be a good starting point
 * Add section on vmt proxies
 * Add MacOSX support / add OSX to Linux support
 
+## Lists
+
+* Add descriptions to file list
+* Add descriptions to animation list
+* Add more to the other tutorials list
+
 ## Misc
 
 * Create a FAQ hud editing section
-* Create a list of other valuable resources
