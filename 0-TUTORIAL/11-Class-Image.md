@@ -45,3 +45,44 @@ The class image itself is a fairly standard image panel (other than the ControlN
 		"scaleImage"	"1"	
 	}
 ```
+
+## Spy Images
+
+When disguised as a spy, other images are used in addition to the normal class image.
+
+```
+	"PlayerStatusSpyImage"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"PlayerStatusSpyImage"
+		"xpos"			"3"
+		"ypos"			"r67"
+		"zpos"			"2"
+		"wide"			"55"
+		"wide_minmode"	"27"
+		"tall"			"55"
+		"tall_minmode"	"27"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/class_spyred"
+		"scaleImage"	"1"	
+		"teambg_2"		"../hud/class_spyred"
+		"teambg_3"		"../hud/class_spyblue"			
+	}	
+	"PlayerStatusSpyOutlineImage"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"PlayerStatusSpyOutlineImage"
+		"xpos"			"3"
+		"ypos"			"r67"
+		"zpos"			"7"
+		"wide"			"55"
+		"wide_minmode"	"27"
+		"tall"			"55"
+		"tall_minmode"	"27"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/class_spy_outline"
+		"scaleImage"	"1"	
+	}
+```
