@@ -52,3 +52,5 @@ Credits:
 ```
 Doodle - DoodlesStuff hud editing tutorial
 ```
+
+* Other tutorials: [here](/2-LISTS/OtherTutorials.md)
