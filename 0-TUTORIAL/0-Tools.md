@@ -1,10 +1,10 @@
 # Tools
 
-There are many tools and programs that are useful for working with hud files.
+There are many tools and programs that are useful for working with hud files. While none are strictly necessary, they will either make your life significantly easier or enable you to do things you otherwise couldn't.
 
 ## Text editors
 
-For the most part, you can use any text editor you want, as long as it's not notepad.
+For the most part, you can use any text editor you want, as long as it's not notepad (notepad does not handle line endings very well, and lacks many features useful in hud development).
 
 Here are some commonly recommended alternatives that are good for working with hud files:
 * Notepad++: https://notepad-plus-plus.org/
