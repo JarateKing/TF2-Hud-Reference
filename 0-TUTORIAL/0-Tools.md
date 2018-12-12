@@ -8,6 +8,9 @@ For the most part, you can use any text editor you want, as long as it's not not
 
 Here are some commonly recommended alternatives that are good for working with hud files:
 * Notepad++: https://notepad-plus-plus.org/
+* VS Code: https://code.visualstudio.com/
+* Atom: https://atom.io/
+* Sublime: https://www.sublimetext.com/
 
 ## Vpk files
 
