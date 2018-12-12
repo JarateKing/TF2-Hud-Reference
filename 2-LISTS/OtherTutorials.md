@@ -13,3 +13,9 @@ This section includes other hud editing tutorials and references to use. This is
 * Clovervidia's captions guide & wiki: https://github.com/clovervidia/clovervidias-captions
 * Changing netgraph font: http://www.dodbits.com/dods/index.php/source-graphics/source-gui-hud-tutorials/34-change-the-netgraph-font-size
 * Changing console font: http://www.dodbits.com/dods/index.php/source-graphics/source-gui-hud-tutorials/33-console-font-color-and-size
+
+## Hud Resources
+
+Main Hud repository: https://huds.tf/
+Alternate Hud repository: https://gamebanana.com/guis/games/297
+Popular forum: http://www.teamfortress.tv/forum/8/customization
