@@ -14,3 +14,13 @@ Scheme
 ```
 
 Note that this loads a file named "SourceSchemeBase.res" inside the current directory. The #base file's path is always relative to the regular file, and can be loaded by changing the path.
+
+## Load Order
+
+There can be multiple #base files loaded just fine. Like so:
+```
+#base "file_one.res"
+#base "file_two.res"
+#base "file_three.res"
+```
+Because multiple files can all have different values for the same parameters, the order of these is important. If there are any conflicts like this, the first file loaded will be used.
