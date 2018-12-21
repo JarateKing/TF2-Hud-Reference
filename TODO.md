@@ -20,7 +20,6 @@ This is a list of current goals to work on. These would be a good starting point
 * Add section on borders
 * Add section on fonts (in-depth)
 * Add section on closecaptions
-* Add section on #base
 * Add section on chapterbackgrounds.txt
 * Add section on vmt proxies
 * Add MacOSX support / add OSX to Linux support
