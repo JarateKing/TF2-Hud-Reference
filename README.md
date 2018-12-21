@@ -28,6 +28,7 @@ This contains lots of in-depth descriptions or useful tidbits and techniques, th
 * Sizing: [here](/1-APPENDIX/Sizing.md)
 * Colors: [here](/1-APPENDIX/Colors.md)
 * Cfg files: [here](/1-APPENDIX/Cfg.md)
+* #base files: [here](/1-APPENDIX/#Base.md)
 * Refract Materials: [here](/1-APPENDIX/Refracts.md)
 * Useful Commands: [here](/1-APPENDIX/UsefulCommands.md)
 * Adding Linux Support: [here](/1-APPENDIX/LinuxSupport.md)
