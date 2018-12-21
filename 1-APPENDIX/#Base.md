@@ -12,3 +12,5 @@ Scheme
 {
 ...
 ```
+
+Note that this loads a file named "SourceSchemeBase.res" inside the current directory. The #base file's path is always relative to the regular file, and can be loaded by changing the path.
