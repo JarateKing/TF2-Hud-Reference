@@ -45,6 +45,7 @@ Contributors:
 JarateKing - Maintainer
 Pigby
 Hypnotize
+Wiethoofd
 ```
 
 If you want to contribute, make a pull request!
