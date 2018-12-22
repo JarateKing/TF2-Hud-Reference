@@ -63,6 +63,7 @@ The health value is a standard label. In fact there's nothing special about it, 
 		"fgcolor"		"TanDark"
 	}
 ```
+Many custom huds will use hud animations to make the health value change if you're overhealed / at low health. If you're making your hud do this or modifying another hud that does, you will have to change the HudHealthBonusPulse and HudHealthDyingPulse animations set the fgcolor to what you want, and have HudHealthBonusPulseStop and HudHealthDyingPulseStop set it back to the original color.
 
 PlayerStatusMaxHealthValue is a bit different in that it only appears when you've taken damage. It's not out of the ordinary otherwise.
 ```
