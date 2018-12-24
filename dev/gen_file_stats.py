@@ -14,7 +14,17 @@ for subfolder in folderlist:
 		if "." in current:
 			files.append(current)
 
-for line in files:
+combined = []
+current_path = ""
+for file in files:
+	path = "/".join(file.split("/")[0:-1])
+	if path != current_path:
+		combined.append("## " + path + "/")
+		current_path = path
+	
+	combined.append(file.replace(path + "/", ""))
+	
+for line in combined:
 	print(line)
 	
 print("Success!")
