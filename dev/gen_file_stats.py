@@ -22,22 +22,23 @@ for file in files:
 	if path != current_path:
 		current_path = path
 		combined.append("## " + path + "/")
-		combined.append("Filename | minmode")
-		combined.append("-------- | -------")
+		combined.append("Filename | linecount | minmode")
+		combined.append("-------- | --------- | -------")
 		
+	count_lines = 0
 	count_minmode = 0
 	
 	searchfile = open(reference_folder + file, "r")
 	try:
 		for line in searchfile:
-			#print(line)
+			count_lines += 1
 			count_minmode += len(re.findall(r"_minmode", line.lower()))
 	except:
 		pass
 	searchfile.close()
 	
 	filename = file.replace(path + "/", "")
-	combined.append(filename + " | " + str(count_minmode))
+	combined.append(filename + " | " + str(count_lines) + " | " + str(count_minmode))
 	
 for line in combined:
 	print(line)
