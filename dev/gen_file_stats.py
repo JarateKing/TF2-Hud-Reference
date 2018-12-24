@@ -19,10 +19,13 @@ current_path = ""
 for file in files:
 	path = "/".join(file.split("/")[0:-1])
 	if path != current_path:
-		combined.append("## " + path + "/")
 		current_path = path
+		combined.append("## " + path + "/")
+		combined.append("Filename | minmode")
+		combined.append("-------- | -------")
 	
-	combined.append(file.replace(path + "/", ""))
+	filename = file.replace(path + "/", "")
+	combined.append(filename + " | ")
 	
 for line in combined:
 	print(line)
