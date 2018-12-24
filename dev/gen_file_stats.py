@@ -32,13 +32,15 @@ for file in files:
 	if path != current_path:
 		current_path = path
 		combined.append("## " + path + "/")
-		combined.append("Filename | linecount | minmode | #base | if_mvm")
-		combined.append("-------- | --------- | ------- | ----- | ------")
+		combined.append("Filename | linecount | minmode | #base | if_mvm | if_readymode | if_competitive")
+		combined.append("-------- | --------- | ------- | ----- | ------ | ------------ | --------------")
 		
 	count_lines = 0
 	count_minmode = 0
 	count_base = 0
 	count_mvm = 0
+	count_ready = 0
+	count_comp = 0
 	
 	searchfile = open(reference_folder + file, "r")
 	try:
@@ -47,12 +49,14 @@ for file in files:
 			count_minmode += len(re.findall(r"_minmode", line.lower()))
 			count_base += len(re.findall(r"#base ", line.lower()))
 			count_mvm += len(re.findall(r"if_mvm", line.lower()))
+			count_ready += len(re.findall(r"if_readymode", line.lower()))
+			count_comp += len(re.findall(r"if_competitive", line.lower()))
 	except:
 		pass
 	searchfile.close()
 	
 	filename = file.replace(path + "/", "")
-	combined.append(filename + " | " + str(count_lines) + " | " + str(count_minmode) + " | " + str(count_base) + " | " + str(count_mvm))
+	combined.append(filename + " | " + str(count_lines) + " | " + str(count_minmode) + " | " + str(count_base) + " | " + str(count_mvm) + " | " + str(count_ready) + " | " + str(count_comp))
 	combined[-1] = combined[-1].replace(" 0", "")
 
 # print out what the file will be
