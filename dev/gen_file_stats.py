@@ -16,13 +16,16 @@ for subfolder in folderlist:
 		if "." in current:
 			files.append(current)
 
+# the eventual output to the file
 combined = []
 
+# include the header from a file
 headerfile = open(header_file, "r")
 for line in headerfile:
 	combined.append(line.replace("\n", ""))
 headerfile.close()
 
+# generate the stats for each file
 current_path = ""
 for file in files:
 	path = "/".join(file.split("/")[0:-1])
@@ -51,7 +54,8 @@ for file in files:
 	filename = file.replace(path + "/", "")
 	combined.append(filename + " | " + str(count_lines) + " | " + str(count_minmode) + " | " + str(count_base) + " | " + str(count_mvm))
 	combined[-1] = combined[-1].replace(" 0", "")
-	
+
+# print out what the file will be
 for line in combined:
 	print(line)
 	
@@ -63,5 +67,6 @@ f = open(existing_file, "w")
 for line in combined:
 	f.write(line + '\n')
 	
+# end the program
 print("Success!")
 input("Press Enter to exit the program")
