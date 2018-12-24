@@ -1,5 +1,6 @@
 import os
 import glob
+import re
 
 # directories
 existing_file = os.path.abspath("../2-LISTS/Statlist.md")
@@ -23,6 +24,14 @@ for file in files:
 		combined.append("## " + path + "/")
 		combined.append("Filename | minmode")
 		combined.append("-------- | -------")
+		
+	searchfile = open(reference_folder + file, "r")
+	try:
+		for line in searchfile:
+			print(line)
+	except:
+		pass
+	searchfile.close()
 	
 	filename = file.replace(path + "/", "")
 	combined.append(filename + " | ")
