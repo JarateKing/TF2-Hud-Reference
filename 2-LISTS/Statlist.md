@@ -1,91 +1,91 @@
 ## scripts/
 Filename | linecount | minmode
 -------- | --------- | -------
-chapterbackgrounds.txt | 14 | 0
-hudanimations.txt | 850 | 0
-hudanimations_manifest.txt | 6 | 0
-hudanimations_tf.txt | 2322 | 0
+chapterbackgrounds.txt | 14 |
+hudanimations.txt | 850 |
+hudanimations_manifest.txt | 6 |
+hudanimations_tf.txt | 2322 |
 hudlayout.res | 1508 | 26
-mod_textures.txt | 3497 | 0
+mod_textures.txt | 3497 |
 ## resource/
 Filename | linecount | minmode
 -------- | --------- | -------
-chatscheme.res | 816 | 0
-chat_english.txt | 33 | 0
-clientscheme.res | 5831 | 0
-closecaption_english.dat | 0 | 0
-closecaption_english.txt | 122 | 0
-gamemenu.res | 45 | 0
-sourcescheme.res | 331 | 0
+chatscheme.res | 816 |
+chat_english.txt | 33 |
+clientscheme.res | 5831 |
+closecaption_english.dat | |
+closecaption_english.txt | 122 |
+gamemenu.res | 45 |
+sourcescheme.res | 331 |
 ## resource/ui/
 Filename | linecount | minmode
 -------- | --------- | -------
-abusereportsubmitdialog.res | 377 | 0
-achievementsdialog.res | 218 | 0
-annotationspanelcallout.res | 88 | 0
-badgepanel.res | 50 | 0
-basechat.res | 72 | 0
-casualrankpanel.res | 1 | 0
-casualwelcomedialog.res | 227 | 0
-charinfoarmorysubpanel.res | 447 | 0
-charinfoloadoutsubpanel.res | 2141 | 0
-charinfopanel.res | 153 | 0
-chatpopup.res | 67 | 0
-cheatdetectiondialog.res | 77 | 0
-classloadoutpanel.res | 623 | 0
-classmenu.res | 17 | 0
-classselection.res | 1773 | 0
-classselection_sc.res | 2044 | 0
-classtipsitem.res | 48 | 0
-classtipslist.res | 18 | 0
+abusereportsubmitdialog.res | 377 |
+achievementsdialog.res | 218 |
+annotationspanelcallout.res | 88 |
+badgepanel.res | 50 |
+basechat.res | 72 |
+casualrankpanel.res | 1 |
+casualwelcomedialog.res | 227 |
+charinfoarmorysubpanel.res | 447 |
+charinfoloadoutsubpanel.res | 2141 |
+charinfopanel.res | 153 |
+chatpopup.res | 67 |
+cheatdetectiondialog.res | 77 |
+classloadoutpanel.res | 623 |
+classmenu.res | 17 |
+classselection.res | 1773 |
+classselection_sc.res | 2044 |
+classtipsitem.res | 48 |
+classtipslist.res | 18 |
 coachedbypanel.res | 138 | 1
-competitiveaccessinfo.res | 442 | 0
-competitivewelcomedialog.res | 350 | 0
-comprankpanel.res | 1 | 0
-comprankstooltip.res | 284 | 0
-compstats.res | 383 | 0
-confirmabandondialog.res | 159 | 0
+competitiveaccessinfo.res | 442 |
+competitivewelcomedialog.res | 350 |
+comprankpanel.res | 1 |
+comprankstooltip.res | 284 |
+compstats.res | 383 |
+confirmabandondialog.res | 159 |
 controlpointcountdown.res | 24 | 1
 controlpointicon.res | 133 | 21
 controlpointprogressbar.res | 123 | 23
-craftingpanel.res | 481 | 0
-craftingstatusdialog.res | 120 | 0
-dashboardpartymember.res | 170 | 0
+craftingpanel.res | 481 |
+craftingstatusdialog.res | 120 |
+dashboardpartymember.res | 170 |
 disguisestatuspanel.res | 128 | 12
-dynamicrecipepanel.res | 506 | 0
-enemycountpanel.res | 82 | 0
-explanationpopup.res | 208 | 0
-flagcalloutpanel.res | 49 | 0
-flagstatus.res | 57 | 0
-freezepanelcallout.res | 58 | 0
-freezepanelkillerhealth.res | 74 | 0
-freezepanel_basic.res | 468 | 0
-giveawayitempanel.res | 169 | 0
-globalchat.res | 125 | 0
-globalexplanations.res | 1134 | 0
+dynamicrecipepanel.res | 506 |
+enemycountpanel.res | 82 |
+explanationpopup.res | 208 |
+flagcalloutpanel.res | 49 |
+flagstatus.res | 57 |
+freezepanelcallout.res | 58 |
+freezepanelkillerhealth.res | 74 |
+freezepanel_basic.res | 468 |
+giveawayitempanel.res | 169 |
+globalchat.res | 125 |
+globalexplanations.res | 1134 |
 healthiconpanel.res | 35 | 4
-hudaccountpanel.res | 75 | 0
-hudachievementfloatingnumber.res | 31 | 0
-hudachievementtrackeritem.res | 92 | 0
-hudalert.res | 58 | 0
+hudaccountpanel.res | 75 |
+hudachievementfloatingnumber.res | 31 |
+hudachievementtrackeritem.res | 92 |
+hudalert.res | 58 |
 hudammoweapons.res | 174 | 16
-hudarenacappointcountdown.res | 23 | 0
-hudarenaclasslayout.res | 295 | 0
-hudarenanotification.res | 102 | 0
-hudarenaplayercount.res | 174 | 0
-hudarenateammenu.res | 393 | 0
-hudarenateammenu_sc.res | 433 | 0
-hudarenavspanel.res | 160 | 0
-hudarenawinpanel.res | 1187 | 0
-hudbosshealth.res | 72 | 0
+hudarenacappointcountdown.res | 23 |
+hudarenaclasslayout.res | 295 |
+hudarenanotification.res | 102 |
+hudarenaplayercount.res | 174 |
+hudarenateammenu.res | 393 |
+hudarenateammenu_sc.res | 433 |
+hudarenavspanel.res | 160 |
+hudarenawinpanel.res | 1187 |
+hudbosshealth.res | 72 |
 hudbowcharge.res | 22 | 1
-hudcurrencyaccount.res | 66 | 0
-huddamageaccount.res | 15 | 0
+hudcurrencyaccount.res | 66 |
+huddamageaccount.res | 15 |
 huddemomancharge.res | 22 | 1
 huddemomanpipes.res | 233 | 24
-hudhealthaccount.res | 14 | 0
-hudinspectpanel.res | 58 | 0
-huditemattributetracker.res | 82 | 0
+hudhealthaccount.res | 14 |
+hudinspectpanel.res | 58 |
+huditemattributetracker.res | 82 |
 huditemeffectmeter.res | 86 | 10
 huditemeffectmeter_cleaver.res | 86 | 11
 huditemeffectmeter_demoman.res | 102 | 6
@@ -107,695 +107,695 @@ huditemeffectmeter_sniperfocus.res | 86 | 10
 huditemeffectmeter_sodapopper.res | 87 | 10
 huditemeffectmeter_spy.res | 102 | 6
 huditemeffectmeter_spyknife.res | 88 | 11
-hudkillstreaknotice.res | 34 | 0
+hudkillstreaknotice.res | 34 |
 hudmannvsmachinestatus.res | 264 | 5
 hudmatchstatus.res | 895 | 8
-hudmatchsummary.res | 999 | 0
+hudmatchsummary.res | 999 |
 hudmediccharge.res | 203 | 18
-hudmenutauntselection.res | 703 | 0
-hudmenutauntselection_sc.res | 513 | 0
-hudminigame_base.res | 164 | 0
-hudminigame_collection.res | 9 | 0
-hudminigame_platform.res | 14 | 0
-hudminigame_soccer.res | 9 | 0
-hudminigame_soccersuddendeath.res | 61 | 0
-hudobjectiveflagpanel.res | 531 | 0
+hudmenutauntselection.res | 703 |
+hudmenutauntselection_sc.res | 513 |
+hudminigame_base.res | 164 |
+hudminigame_collection.res | 9 |
+hudminigame_platform.res | 14 |
+hudminigame_soccer.res | 9 |
+hudminigame_soccersuddendeath.res | 61 |
+hudobjectiveflagpanel.res | 531 |
 hudobjectivekothtimepanel.res | 192 | 27
-hudobjectiveplayerdestruction.res | 1072 | 0
-hudobjectiverobotdestruction.res | 857 | 0
-hudobjectivestatus.res | 2 | 0
+hudobjectiveplayerdestruction.res | 1072 |
+hudobjectiverobotdestruction.res | 857 |
+hudobjectivestatus.res | 2 |
 hudobjectivetimepanel.res | 381 | 21
-hudpasstime.res | 29 | 0
-hudpasstimeballstatus.res | 673 | 0
-hudpasstimeoffscreenarrow.res | 16 | 0
-hudpasstimepassnotify.res | 151 | 0
-hudpasstimeteamscore.res | 176 | 0
+hudpasstime.res | 29 |
+hudpasstimeballstatus.res | 673 |
+hudpasstimeoffscreenarrow.res | 16 |
+hudpasstimepassnotify.res | 151 |
+hudpasstimeteamscore.res | 176 |
 hudplayerclass.res | 417 | 67
 hudplayerhealth.res | 613 | 42
 hudpowerupeffectmeter.res | 84 | 10
-hudpvewinpanel.res | 182 | 0
+hudpvewinpanel.res | 182 |
 hudrocketpack.res | 124 | 14
-hudroundcounter.res | 67 | 0
+hudroundcounter.res | 67 |
 hudspellselection.res | 129 | 10
-hudstalemate.res | 55 | 0
+hudstalemate.res | 55 |
 hudstopwatch.res | 217 | 4
-hudteamgoal.res | 77 | 0
-hudteamgoaltournament.res | 159 | 0
-hudteamswitch.res | 78 | 0
-hudtournament.res | 1059 | 0
-hudtournamentsetup.res | 151 | 0
-hudtraining.res | 119 | 0
-hudtrainingmsg.res | 55 | 0
-hudupgradepanel.res | 749 | 0
-hudwarcount.res | 115 | 0
-hudweaponselection.res | 105 | 0
-hud_obj_dispenser.res | 327 | 0
-hud_obj_sapper.res | 199 | 0
-hud_obj_sentrygun.res | 429 | 0
-hud_obj_sentrygun_disp.res | 298 | 0
-hud_obj_tele.res | 375 | 0
-hud_obj_tele_entrance.res | 369 | 0
-hud_obj_tele_exit.res | 293 | 0
-importfiledialog.res | 2316 | 0
-importfiletexteditdialog.res | 91 | 0
-importmaterialeditdialog.res | 1360 | 0
-importpreviewitempanel.res | 1760 | 0
-ingamequeuestatus.res | 55 | 0
-intromenu.res | 280 | 0
-intromenu_sc.res | 320 | 0
-invitenotification.res | 176 | 0
-itemoptionspanel.res | 90 | 0
-itemquickswitch.res | 196 | 0
-itemrenameconfirmationdialog.res | 309 | 0
-itemrenamedialog.res | 397 | 0
-itemrenameinvaliddialog.res | 244 | 0
-itemselectionpanel.res | 436 | 0
-itemslotpanel.res | 154 | 0
-layeredmappanel.res | 179 | 0
-layeredmappanelitem.res | 54 | 0
-layeredmappaneltooltip.res | 4 | 0
-leaderboardentry.res | 61 | 0
-leaderboardentryrank.res | 131 | 0
-leaderboardentryscore.res | 79 | 0
-leaderboardspreadentry.res | 148 | 0
-loadoutpresetpanel.res | 29 | 0
-lobbycontainerframe.res | 292 | 0
-lobbycontainerframe_casual.res | 1062 | 0
-lobbycontainerframe_comp.res | 1027 | 0
-lobbycontainerframe_mvm.res | 177 | 0
-lobbypanel.res | 741 | 0
-lobbypanel_casual.res | 281 | 0
-lobbypanel_comp.res | 606 | 0
-lobbypanel_mvm.res | 37 | 0
-mainmenueventplaylistentry.res | 161 | 0
-mainmenuoverride.res | 2847 | 0
-mainmenuplaylistentry.res | 247 | 0
-mainmenu_saxxyawards.res | 335 | 0
-mapinfomenu.res | 272 | 0
-mapinfomenu_sc.res | 333 | 0
-matchhistoryentrypanel.res | 510 | 0
-matchmakingcasualcriteria.res | 286 | 0
-matchmakingcategorymappanel.res | 67 | 0
-matchmakingcategorypanel.res | 281 | 0
-matchmakingdashboard.res | 818 | 0
-matchmakingdashboardcasualcriteria.res | 96 | 0
-matchmakingdashboardcomp.res | 139 | 0
-matchmakingdashboardcompaccess.res | 29 | 0
-matchmakingdashboardeventmatch.res | 246 | 0
-matchmakingdashboardleftsidepanel.res | 136 | 0
-matchmakingdashboardmvmcriteria.res | 215 | 0
-matchmakingdashboardmvmmodeselect.res | 273 | 0
-matchmakingdashboardplaylist.res | 63 | 0
-matchmakingdashboardpopup.res | 712 | 0
-matchmakingdashboardpopup_mapvotepanel.res | 98 | 0
-matchmakingdashboardpopup_newmatch.res | 244 | 0
-matchmakingdashboardpopup_nextmapvoting.res | 231 | 0
-matchmakingdashboardpopup_nextmapwinner.res | 121 | 0
-matchmakingdashboardsidepanel.res | 170 | 0
-matchmakingdatacenterpopulationpanel.res | 47 | 0
-matchmakinggrouppanel.res | 44 | 0
-matchmakingpanel.res | 582 | 0
-matchmakingpingpanel.res | 352 | 0
-matchmakingplaylist.res | 176 | 0
-matchmakingtooltip.res | 55 | 0
-mediccallerpanel.res | 115 | 0
-mvmbombcarrierprogresspanel.res | 54 | 0
-mvmcreditspendpanel.res | 113 | 0
-mvmcreditsubpanel.res | 141 | 0
-mvmcriteria.res | 666 | 0
-mvmeconrequirementdialog.res | 100 | 0
-mvminworldcurrency.res | 81 | 0
-mvmscoreboard.res | 218 | 0
-mvmscoreboardenemyinfo.res | 46 | 0
-mvmstatentry.res | 28 | 0
-mvmvictorycontainer.res | 101 | 0
-mvmvictorymannupentry.res | 660 | 0
-mvmvictorymannuploot.res | 46 | 0
-mvmvictorymannuppanel.res | 317 | 0
-mvmvictorymannuptab.res | 130 | 0
-mvmvictorypanel.res | 199 | 0
-mvmvictorysplash.res | 56 | 0
-mvmwavelosspanel.res | 553 | 0
-navigationpaneltest.res | 186 | 0
-newrecipefounddialog.res | 103 | 0
+hudteamgoal.res | 77 |
+hudteamgoaltournament.res | 159 |
+hudteamswitch.res | 78 |
+hudtournament.res | 1059 |
+hudtournamentsetup.res | 151 |
+hudtraining.res | 119 |
+hudtrainingmsg.res | 55 |
+hudupgradepanel.res | 749 |
+hudwarcount.res | 115 |
+hudweaponselection.res | 105 |
+hud_obj_dispenser.res | 327 |
+hud_obj_sapper.res | 199 |
+hud_obj_sentrygun.res | 429 |
+hud_obj_sentrygun_disp.res | 298 |
+hud_obj_tele.res | 375 |
+hud_obj_tele_entrance.res | 369 |
+hud_obj_tele_exit.res | 293 |
+importfiledialog.res | 2316 |
+importfiletexteditdialog.res | 91 |
+importmaterialeditdialog.res | 1360 |
+importpreviewitempanel.res | 1760 |
+ingamequeuestatus.res | 55 |
+intromenu.res | 280 |
+intromenu_sc.res | 320 |
+invitenotification.res | 176 |
+itemoptionspanel.res | 90 |
+itemquickswitch.res | 196 |
+itemrenameconfirmationdialog.res | 309 |
+itemrenamedialog.res | 397 |
+itemrenameinvaliddialog.res | 244 |
+itemselectionpanel.res | 436 |
+itemslotpanel.res | 154 |
+layeredmappanel.res | 179 |
+layeredmappanelitem.res | 54 |
+layeredmappaneltooltip.res | 4 |
+leaderboardentry.res | 61 |
+leaderboardentryrank.res | 131 |
+leaderboardentryscore.res | 79 |
+leaderboardspreadentry.res | 148 |
+loadoutpresetpanel.res | 29 |
+lobbycontainerframe.res | 292 |
+lobbycontainerframe_casual.res | 1062 |
+lobbycontainerframe_comp.res | 1027 |
+lobbycontainerframe_mvm.res | 177 |
+lobbypanel.res | 741 |
+lobbypanel_casual.res | 281 |
+lobbypanel_comp.res | 606 |
+lobbypanel_mvm.res | 37 |
+mainmenueventplaylistentry.res | 161 |
+mainmenuoverride.res | 2847 |
+mainmenuplaylistentry.res | 247 |
+mainmenu_saxxyawards.res | 335 |
+mapinfomenu.res | 272 |
+mapinfomenu_sc.res | 333 |
+matchhistoryentrypanel.res | 510 |
+matchmakingcasualcriteria.res | 286 |
+matchmakingcategorymappanel.res | 67 |
+matchmakingcategorypanel.res | 281 |
+matchmakingdashboard.res | 818 |
+matchmakingdashboardcasualcriteria.res | 96 |
+matchmakingdashboardcomp.res | 139 |
+matchmakingdashboardcompaccess.res | 29 |
+matchmakingdashboardeventmatch.res | 246 |
+matchmakingdashboardleftsidepanel.res | 136 |
+matchmakingdashboardmvmcriteria.res | 215 |
+matchmakingdashboardmvmmodeselect.res | 273 |
+matchmakingdashboardplaylist.res | 63 |
+matchmakingdashboardpopup.res | 712 |
+matchmakingdashboardpopup_mapvotepanel.res | 98 |
+matchmakingdashboardpopup_newmatch.res | 244 |
+matchmakingdashboardpopup_nextmapvoting.res | 231 |
+matchmakingdashboardpopup_nextmapwinner.res | 121 |
+matchmakingdashboardsidepanel.res | 170 |
+matchmakingdatacenterpopulationpanel.res | 47 |
+matchmakinggrouppanel.res | 44 |
+matchmakingpanel.res | 582 |
+matchmakingpingpanel.res | 352 |
+matchmakingplaylist.res | 176 |
+matchmakingtooltip.res | 55 |
+mediccallerpanel.res | 115 |
+mvmbombcarrierprogresspanel.res | 54 |
+mvmcreditspendpanel.res | 113 |
+mvmcreditsubpanel.res | 141 |
+mvmcriteria.res | 666 |
+mvmeconrequirementdialog.res | 100 |
+mvminworldcurrency.res | 81 |
+mvmscoreboard.res | 218 |
+mvmscoreboardenemyinfo.res | 46 |
+mvmstatentry.res | 28 |
+mvmvictorycontainer.res | 101 |
+mvmvictorymannupentry.res | 660 |
+mvmvictorymannuploot.res | 46 |
+mvmvictorymannuppanel.res | 317 |
+mvmvictorymannuptab.res | 130 |
+mvmvictorypanel.res | 199 |
+mvmvictorysplash.res | 56 |
+mvmwavelosspanel.res | 553 |
+navigationpaneltest.res | 186 |
+newrecipefounddialog.res | 103 |
 objectivestatusescort.res | 648 | 56
-objectivestatusmultipleescort.res | 54 | 0
-playerticketstatus.res | 81 | 0
-publishedfilebrowserdialog.res | 270 | 0
-publishfiledialog.res | 1252 | 0
-pvpcasualrankpanel.res | 21 | 0
-pvpcomprankpanel.res | 95 | 0
-pvprankpanel.res | 579 | 0
-quickplaybusydialog.res | 245 | 0
-quickplaydialog.res | 1027 | 0
-revivedialog.res | 109 | 0
-robotdestructionstatus.res | 57 | 0
-roundinfo.res | 193 | 0
-saxxyawards_submitform.res | 163 | 0
-scoreboard.res | 1885 | 0
-selectmosthelpfulfrienddialog.res | 338 | 0
-selectplayerdialog.res | 316 | 0
-selectplayerdialog_coach.res | 264 | 0
-selectplayerdialog_duel.res | 403 | 0
-servernotconnectedtosteam.res | 78 | 0
+objectivestatusmultipleescort.res | 54 |
+playerticketstatus.res | 81 |
+publishedfilebrowserdialog.res | 270 |
+publishfiledialog.res | 1252 |
+pvpcasualrankpanel.res | 21 |
+pvpcomprankpanel.res | 95 |
+pvprankpanel.res | 579 |
+quickplaybusydialog.res | 245 |
+quickplaydialog.res | 1027 |
+revivedialog.res | 109 |
+robotdestructionstatus.res | 57 |
+roundinfo.res | 193 |
+saxxyawards_submitform.res | 163 |
+scoreboard.res | 1885 |
+selectmosthelpfulfrienddialog.res | 338 |
+selectplayerdialog.res | 316 |
+selectplayerdialog_coach.res | 264 |
+selectplayerdialog_duel.res | 403 |
+servernotconnectedtosteam.res | 78 |
 spectator.res | 392 | 22
 spectatorcoach.res | 408 | 12
 spectatorguihealth.res | 110 | 21
-spectatortournament.res | 459 | 0
+spectatortournament.res | 459 |
 spectatortournamentguihealth.res | 76 | 2
 spectator_sc.res | 328 | 17
-stampdonationadd.res | 178 | 0
-staticbadgepanel.res | 113 | 0
-statpanel_base.res | 151 | 0
-statsummary.res | 2748 | 0
-statsummary_embedded.res | 2589 | 0
-steamfriendpanel.res | 77 | 0
-steamworkshopdialog.res | 632 | 0
-steamworkshopitem.res | 67 | 0
-streamlistpanel.res | 212 | 0
-streampanel.res | 166 | 0
-supportnotificationdialog.res | 126 | 0
-surveypanel_base.res | 174 | 0
-surveypanel_casualinquiry.res | 302 | 0
-surveypanel_compinquiry.res | 302 | 0
-surveypanel_mapquality.res | 285 | 0
-surveypanel_matchquality.res | 264 | 0
-surveypanel_randomcrit.res | 264 | 0
-tankprogressbar.res | 70 | 0
-tankstatuspanel.res | 24 | 0
+stampdonationadd.res | 178 |
+staticbadgepanel.res | 113 |
+statpanel_base.res | 151 |
+statsummary.res | 2748 |
+statsummary_embedded.res | 2589 |
+steamfriendpanel.res | 77 |
+steamworkshopdialog.res | 632 |
+steamworkshopitem.res | 67 |
+streamlistpanel.res | 212 |
+streampanel.res | 166 |
+supportnotificationdialog.res | 126 |
+surveypanel_base.res | 174 |
+surveypanel_casualinquiry.res | 302 |
+surveypanel_compinquiry.res | 302 |
+surveypanel_mapquality.res | 285 |
+surveypanel_matchquality.res | 264 |
+surveypanel_randomcrit.res | 264 |
+tankprogressbar.res | 70 |
+tankstatuspanel.res | 24 |
 targetid.res | 271 | 14
-tauntcallerpanel.res | 17 | 0
-teammenu.res | 772 | 0
-teammenu_sc.res | 846 | 0
-testitembotcontrols.res | 250 | 0
-testitemdialog.res | 625 | 0
-testitemroot.res | 1007 | 0
-textwindow.res | 162 | 0
-textwindowcustomserver.res | 162 | 0
-textwindowcustomserver_sc.res | 182 | 0
-textwindow_sc.res | 182 | 0
-tfadvancedoptionsdialog.res | 145 | 0
-tfhudrobotdestruction_activestate.res | 62 | 0
+tauntcallerpanel.res | 17 |
+teammenu.res | 772 |
+teammenu_sc.res | 846 |
+testitembotcontrols.res | 250 |
+testitemdialog.res | 625 |
+testitemroot.res | 1007 |
+textwindow.res | 162 |
+textwindowcustomserver.res | 162 |
+textwindowcustomserver_sc.res | 182 |
+textwindow_sc.res | 182 |
+tfadvancedoptionsdialog.res | 145 |
+tfhudrobotdestruction_activestate.res | 62 |
 tfhudrobotdestruction_deadstate.res | 69 | 1
-tfhudrobotdestruction_robotindicator.res | 56 | 0
-tfhudrobotdestruction_shieldedstate.res | 46 | 0
-trainingcomplete.res | 223 | 0
-trainingdialog.res | 49 | 0
-trainingdialog_old.res | 49 | 0
-trainingitempanel.res | 127 | 0
-upgradeboxdialog.res | 111 | 0
-upgradebuypanel.res | 223 | 0
-videopanel.res | 8 | 0
-viewrecipespanel.res | 233 | 0
-votehud.res | 702 | 0
-vrcalibration.res | 436 | 0
-waitingforplayerspanel.res | 59 | 0
-wavecompletesummarypanel.res | 283 | 0
+tfhudrobotdestruction_robotindicator.res | 56 |
+tfhudrobotdestruction_shieldedstate.res | 46 |
+trainingcomplete.res | 223 |
+trainingdialog.res | 49 |
+trainingdialog_old.res | 49 |
+trainingitempanel.res | 127 |
+upgradeboxdialog.res | 111 |
+upgradebuypanel.res | 223 |
+videopanel.res | 8 |
+viewrecipespanel.res | 233 |
+votehud.res | 702 |
+vrcalibration.res | 436 |
+waitingforplayerspanel.res | 59 |
+wavecompletesummarypanel.res | 283 |
 wavestatuspanel.res | 133 | 9
-winpanel.res | 812 | 0
-xboxdialogs.res | 4223 | 0
-xpsourcepanel.res | 52 | 0
+winpanel.res | 812 |
+xboxdialogs.res | 4223 |
+xpsourcepanel.res | 52 |
 ## resource/ui/build_menu/
 Filename | linecount | minmode
 -------- | --------- | -------
-base_active.res | 146 | 0
-base_active_teleport_target.res | 111 | 0
-base_already_built.res | 150 | 0
-base_cant_afford.res | 149 | 0
-base_selectable.res | 107 | 0
-base_unavailable.res | 150 | 0
-base_unavailable_teleport_target.res | 115 | 0
-dispenser_active.res | 19 | 0
-dispenser_already_built.res | 14 | 0
-dispenser_cant_afford.res | 14 | 0
-dispenser_selectable.res | 14 | 0
-dispenser_unavailable.res | 14 | 0
-eureka_target_home_avail.res | 19 | 0
-eureka_target_home_unavail.res | 14 | 0
-eureka_target_tele_exit_avail.res | 19 | 0
-eureka_target_tele_exit_unavail.res | 14 | 0
-hudmenuengybuild.res | 315 | 0
-hudmenueurekaeffect.res | 159 | 0
-sentry_active.res | 20 | 0
-sentry_already_built.res | 15 | 0
-sentry_cant_afford.res | 15 | 0
-sentry_selectable.res | 15 | 0
-sentry_unavailable.res | 15 | 0
-tele_entrance_active.res | 19 | 0
-tele_entrance_already_built.res | 14 | 0
-tele_entrance_cant_afford.res | 14 | 0
-tele_entrance_unavailable.res | 14 | 0
-tele_exit_active.res | 19 | 0
-tele_exit_already_built.res | 14 | 0
-tele_exit_cant_afford.res | 14 | 0
-tele_exit_unavailable.res | 14 | 0
-tele_selectable.res | 14 | 0
+base_active.res | 146 |
+base_active_teleport_target.res | 111 |
+base_already_built.res | 150 |
+base_cant_afford.res | 149 |
+base_selectable.res | 107 |
+base_unavailable.res | 150 |
+base_unavailable_teleport_target.res | 115 |
+dispenser_active.res | 19 |
+dispenser_already_built.res | 14 |
+dispenser_cant_afford.res | 14 |
+dispenser_selectable.res | 14 |
+dispenser_unavailable.res | 14 |
+eureka_target_home_avail.res | 19 |
+eureka_target_home_unavail.res | 14 |
+eureka_target_tele_exit_avail.res | 19 |
+eureka_target_tele_exit_unavail.res | 14 |
+hudmenuengybuild.res | 315 |
+hudmenueurekaeffect.res | 159 |
+sentry_active.res | 20 |
+sentry_already_built.res | 15 |
+sentry_cant_afford.res | 15 |
+sentry_selectable.res | 15 |
+sentry_unavailable.res | 15 |
+tele_entrance_active.res | 19 |
+tele_entrance_already_built.res | 14 |
+tele_entrance_cant_afford.res | 14 |
+tele_entrance_unavailable.res | 14 |
+tele_exit_active.res | 19 |
+tele_exit_already_built.res | 14 |
+tele_exit_cant_afford.res | 14 |
+tele_exit_unavailable.res | 14 |
+tele_selectable.res | 14 |
 ## resource/ui/build_menu/pipboy/
 Filename | linecount | minmode
 -------- | --------- | -------
-base_active.res | 148 | 0
-base_active_teleport_target.res | 112 | 0
-base_already_built.res | 154 | 0
-base_cant_afford.res | 150 | 0
-base_selectable.res | 107 | 0
-base_unavailable.res | 152 | 0
-base_unavailable_teleport_target.res | 117 | 0
-dispenser_active.res | 19 | 0
-dispenser_already_built.res | 14 | 0
-dispenser_cant_afford.res | 14 | 0
-dispenser_selectable.res | 14 | 0
-dispenser_unavailable.res | 14 | 0
-eureka_target_home_avail.res | 19 | 0
-eureka_target_home_unavail.res | 14 | 0
-eureka_target_tele_exit_avail.res | 19 | 0
-eureka_target_tele_exit_unavail.res | 14 | 0
-hudmenuengybuild.res | 299 | 0
-hudmenueurekaeffect.res | 156 | 0
-sentry_active.res | 20 | 0
-sentry_already_built.res | 15 | 0
-sentry_cant_afford.res | 15 | 0
-sentry_selectable.res | 15 | 0
-sentry_unavailable.res | 15 | 0
-tele_entrance_active.res | 19 | 0
-tele_entrance_already_built.res | 14 | 0
-tele_entrance_cant_afford.res | 14 | 0
-tele_entrance_unavailable.res | 14 | 0
-tele_exit_active.res | 19 | 0
-tele_exit_already_built.res | 14 | 0
-tele_exit_cant_afford.res | 14 | 0
-tele_exit_unavailable.res | 14 | 0
-tele_selectable.res | 14 | 0
+base_active.res | 148 |
+base_active_teleport_target.res | 112 |
+base_already_built.res | 154 |
+base_cant_afford.res | 150 |
+base_selectable.res | 107 |
+base_unavailable.res | 152 |
+base_unavailable_teleport_target.res | 117 |
+dispenser_active.res | 19 |
+dispenser_already_built.res | 14 |
+dispenser_cant_afford.res | 14 |
+dispenser_selectable.res | 14 |
+dispenser_unavailable.res | 14 |
+eureka_target_home_avail.res | 19 |
+eureka_target_home_unavail.res | 14 |
+eureka_target_tele_exit_avail.res | 19 |
+eureka_target_tele_exit_unavail.res | 14 |
+hudmenuengybuild.res | 299 |
+hudmenueurekaeffect.res | 156 |
+sentry_active.res | 20 |
+sentry_already_built.res | 15 |
+sentry_cant_afford.res | 15 |
+sentry_selectable.res | 15 |
+sentry_unavailable.res | 15 |
+tele_entrance_active.res | 19 |
+tele_entrance_already_built.res | 14 |
+tele_entrance_cant_afford.res | 14 |
+tele_entrance_unavailable.res | 14 |
+tele_exit_active.res | 19 |
+tele_exit_already_built.res | 14 |
+tele_exit_cant_afford.res | 14 |
+tele_exit_unavailable.res | 14 |
+tele_selectable.res | 14 |
 ## resource/ui/build_menu_360/
 Filename | linecount | minmode
 -------- | --------- | -------
-base_active.res | 89 | 0
-base_already_built.res | 105 | 0
-base_cant_afford.res | 92 | 0
-dispenser_active.res | 14 | 0
-dispenser_already_built.res | 19 | 0
-dispenser_cant_afford.res | 9 | 0
-hudmenuengybuild.res | 430 | 0
-sentry_active.res | 15 | 0
-sentry_already_built.res | 18 | 0
-sentry_cant_afford.res | 9 | 0
-tele_entrance_active.res | 14 | 0
-tele_entrance_already_built.res | 14 | 0
-tele_entrance_cant_afford.res | 9 | 0
-tele_exit_active.res | 14 | 0
-tele_exit_already_built.res | 14 | 0
-tele_exit_cant_afford.res | 9 | 0
+base_active.res | 89 |
+base_already_built.res | 105 |
+base_cant_afford.res | 92 |
+dispenser_active.res | 14 |
+dispenser_already_built.res | 19 |
+dispenser_cant_afford.res | 9 |
+hudmenuengybuild.res | 430 |
+sentry_active.res | 15 |
+sentry_already_built.res | 18 |
+sentry_cant_afford.res | 9 |
+tele_entrance_active.res | 14 |
+tele_entrance_already_built.res | 14 |
+tele_entrance_cant_afford.res | 9 |
+tele_exit_active.res | 14 |
+tele_exit_already_built.res | 14 |
+tele_exit_cant_afford.res | 9 |
 ## resource/ui/build_menu_sc/
 Filename | linecount | minmode
 -------- | --------- | -------
-base_active.res | 109 | 0
-base_active_teleport_target.res | 90 | 0
-base_already_built.res | 105 | 0
-base_cant_afford.res | 92 | 0
-base_unavailable_teleport_target.res | 94 | 0
-dispenser_active.res | 14 | 0
-dispenser_already_built.res | 19 | 0
-dispenser_cant_afford.res | 9 | 0
-eureka_target_home_avail.res | 19 | 0
-eureka_target_home_unavail.res | 14 | 0
-eureka_target_tele_exit_avail.res | 19 | 0
-eureka_target_tele_exit_unavail.res | 14 | 0
-hudmenuengybuild.res | 468 | 0
-hudmenueurekaeffect.res | 139 | 0
-sentry_active.res | 15 | 0
-sentry_already_built.res | 18 | 0
-sentry_cant_afford.res | 9 | 0
-tele_entrance_active.res | 14 | 0
-tele_entrance_already_built.res | 14 | 0
-tele_entrance_cant_afford.res | 9 | 0
-tele_exit_active.res | 14 | 0
-tele_exit_already_built.res | 14 | 0
-tele_exit_cant_afford.res | 9 | 0
+base_active.res | 109 |
+base_active_teleport_target.res | 90 |
+base_already_built.res | 105 |
+base_cant_afford.res | 92 |
+base_unavailable_teleport_target.res | 94 |
+dispenser_active.res | 14 |
+dispenser_already_built.res | 19 |
+dispenser_cant_afford.res | 9 |
+eureka_target_home_avail.res | 19 |
+eureka_target_home_unavail.res | 14 |
+eureka_target_tele_exit_avail.res | 19 |
+eureka_target_tele_exit_unavail.res | 14 |
+hudmenuengybuild.res | 468 |
+hudmenueurekaeffect.res | 139 |
+sentry_active.res | 15 |
+sentry_already_built.res | 18 |
+sentry_cant_afford.res | 9 |
+tele_entrance_active.res | 14 |
+tele_entrance_already_built.res | 14 |
+tele_entrance_cant_afford.res | 9 |
+tele_exit_active.res | 14 |
+tele_exit_already_built.res | 14 |
+tele_exit_cant_afford.res | 9 |
 ## resource/ui/destroy_menu/
 Filename | linecount | minmode
 -------- | --------- | -------
-base_active.res | 107 | 0
-base_inactive.res | 95 | 0
-dispenser_active.res | 107 | 0
-dispenser_inactive.res | 115 | 0
-hudmenuengydestroy.res | 251 | 0
-sentry_active.res | 108 | 0
-sentry_inactive.res | 116 | 0
-tele_entrance_active.res | 107 | 0
-tele_entrance_inactive.res | 115 | 0
-tele_exit_active.res | 107 | 0
-tele_exit_inactive.res | 115 | 0
+base_active.res | 107 |
+base_inactive.res | 95 |
+dispenser_active.res | 107 |
+dispenser_inactive.res | 115 |
+hudmenuengydestroy.res | 251 |
+sentry_active.res | 108 |
+sentry_inactive.res | 116 |
+tele_entrance_active.res | 107 |
+tele_entrance_inactive.res | 115 |
+tele_exit_active.res | 107 |
+tele_exit_inactive.res | 115 |
 ## resource/ui/destroy_menu/pipboy/
 Filename | linecount | minmode
 -------- | --------- | -------
-base_active.res | 107 | 0
-base_inactive.res | 95 | 0
-dispenser_active.res | 109 | 0
-dispenser_inactive.res | 118 | 0
-hudmenuengydestroy.res | 251 | 0
-sentry_active.res | 110 | 0
-sentry_inactive.res | 119 | 0
-tele_entrance_active.res | 109 | 0
-tele_entrance_inactive.res | 118 | 0
-tele_exit_active.res | 109 | 0
-tele_exit_inactive.res | 119 | 0
+base_active.res | 107 |
+base_inactive.res | 95 |
+dispenser_active.res | 109 |
+dispenser_inactive.res | 118 |
+hudmenuengydestroy.res | 251 |
+sentry_active.res | 110 |
+sentry_inactive.res | 119 |
+tele_entrance_active.res | 109 |
+tele_entrance_inactive.res | 118 |
+tele_exit_active.res | 109 |
+tele_exit_inactive.res | 119 |
 ## resource/ui/disguise_menu/
 Filename | linecount | minmode
 -------- | --------- | -------
-demoman_blue.res | 95 | 0
-demoman_red.res | 95 | 0
-engineer_blue.res | 95 | 0
-engineer_red.res | 95 | 0
-heavy_blue.res | 95 | 0
-heavy_red.res | 95 | 0
-hudmenuspydisguise.res | 454 | 0
-medic_blue.res | 95 | 0
-medic_red.res | 95 | 0
-pyro_blue.res | 95 | 0
-pyro_red.res | 95 | 0
-scout_blue.res | 95 | 0
-scout_red.res | 95 | 0
-sniper_blue.res | 95 | 0
-sniper_red.res | 95 | 0
-soldier_blue.res | 95 | 0
-soldier_red.res | 95 | 0
-spy_blue.res | 95 | 0
-spy_red.res | 95 | 0
+demoman_blue.res | 95 |
+demoman_red.res | 95 |
+engineer_blue.res | 95 |
+engineer_red.res | 95 |
+heavy_blue.res | 95 |
+heavy_red.res | 95 |
+hudmenuspydisguise.res | 454 |
+medic_blue.res | 95 |
+medic_red.res | 95 |
+pyro_blue.res | 95 |
+pyro_red.res | 95 |
+scout_blue.res | 95 |
+scout_red.res | 95 |
+sniper_blue.res | 95 |
+sniper_red.res | 95 |
+soldier_blue.res | 95 |
+soldier_red.res | 95 |
+spy_blue.res | 95 |
+spy_red.res | 95 |
 ## resource/ui/disguise_menu_360/
 Filename | linecount | minmode
 -------- | --------- | -------
-base.res | 17 | 0
-demoman_blue.res | 14 | 0
-demoman_red.res | 14 | 0
-engineer_blue.res | 14 | 0
-engineer_red.res | 14 | 0
-heavy_blue.res | 14 | 0
-heavy_red.res | 14 | 0
-hudmenuspydisguise.res | 459 | 0
-medic_blue.res | 14 | 0
-medic_red.res | 14 | 0
-pyro_blue.res | 14 | 0
-pyro_red.res | 14 | 0
-scout_blue.res | 14 | 0
-scout_red.res | 14 | 0
-sniper_blue.res | 14 | 0
-sniper_red.res | 14 | 0
-soldier_blue.res | 14 | 0
-soldier_red.res | 14 | 0
-spy_blue.res | 14 | 0
-spy_red.res | 14 | 0
+base.res | 17 |
+demoman_blue.res | 14 |
+demoman_red.res | 14 |
+engineer_blue.res | 14 |
+engineer_red.res | 14 |
+heavy_blue.res | 14 |
+heavy_red.res | 14 |
+hudmenuspydisguise.res | 459 |
+medic_blue.res | 14 |
+medic_red.res | 14 |
+pyro_blue.res | 14 |
+pyro_red.res | 14 |
+scout_blue.res | 14 |
+scout_red.res | 14 |
+sniper_blue.res | 14 |
+sniper_red.res | 14 |
+soldier_blue.res | 14 |
+soldier_red.res | 14 |
+spy_blue.res | 14 |
+spy_red.res | 14 |
 ## resource/ui/disguise_menu_sc/
 Filename | linecount | minmode
 -------- | --------- | -------
-base.res | 17 | 0
-demoman_blue.res | 14 | 0
-demoman_red.res | 14 | 0
-engineer_blue.res | 14 | 0
-engineer_red.res | 14 | 0
-heavy_blue.res | 14 | 0
-heavy_red.res | 14 | 0
-hudmenuspydisguise.res | 485 | 0
-medic_blue.res | 14 | 0
-medic_red.res | 14 | 0
-pyro_blue.res | 14 | 0
-pyro_red.res | 14 | 0
-scout_blue.res | 14 | 0
-scout_red.res | 14 | 0
-sniper_blue.res | 14 | 0
-sniper_red.res | 14 | 0
-soldier_blue.res | 14 | 0
-soldier_red.res | 14 | 0
-spy_blue.res | 14 | 0
-spy_red.res | 14 | 0
+base.res | 17 |
+demoman_blue.res | 14 |
+demoman_red.res | 14 |
+engineer_blue.res | 14 |
+engineer_red.res | 14 |
+heavy_blue.res | 14 |
+heavy_red.res | 14 |
+hudmenuspydisguise.res | 485 |
+medic_blue.res | 14 |
+medic_red.res | 14 |
+pyro_blue.res | 14 |
+pyro_red.res | 14 |
+scout_blue.res | 14 |
+scout_red.res | 14 |
+sniper_blue.res | 14 |
+sniper_red.res | 14 |
+soldier_blue.res | 14 |
+soldier_red.res | 14 |
+spy_blue.res | 14 |
+spy_red.res | 14 |
 ## resource/ui/econ/
 Filename | linecount | minmode
 -------- | --------- | -------
-backpackpanel.res | 1580 | 0
-collectioncraftingdialog.res | 239 | 0
-collectioncraftingdialog_base.res | 1821 | 0
-comboboxbackpackoverlaydialog.res | 147 | 0
-confirmapplycardupgradeapplicationdialog.res | 271 | 0
-confirmapplydecodedialog.res | 290 | 0
-confirmapplyducktokendialog.res | 271 | 0
-confirmapplygiftwrapdialog.res | 290 | 0
-confirmapplypaintcandialog.res | 320 | 0
-confirmapplypaintkitdialog.res | 138 | 0
-confirmapplystrangepartapplicationdialog.res | 271 | 0
-confirmapplystrangerestrictionapplicationdialog.res | 271 | 0
-confirmapplystrangifierdialog.res | 272 | 0
-confirmapplyteamcolorpaintcandialog.res | 350 | 0
-confirmcustomizetexturedialog.res | 955 | 0
-confirmdialogabandonnopenalty.res | 165 | 0
-confirmdialogabandonpenalty.res | 165 | 0
-confirmdialogabandonsafe.res | 151 | 0
-confirmdialogoptout.res | 131 | 0
-confirmitempreviewdialog.res | 209 | 0
-confirmspellbookpageapplicationdialog.res | 271 | 0
-confirmtransmogrifyapplicationdialog.res | 271 | 0
-cyclingadcontainer.res | 121 | 0
-ducksleaderboardpanel.res | 186 | 0
-ducksleaderboards.res | 446 | 0
-genericnotificationtoast.res | 84 | 0
-genericnotificationtoastmainmenu.res | 94 | 0
-genericwaitingdialog.res | 104 | 0
-halloweenofferingdialog.res | 263 | 0
-inputstringforitembackpackoverlaydialog.res | 351 | 0
-inspectionpanel.res | 618 | 0
-inspectionpanel_cosmetic.res | 1109 | 0
-itemaddefault.res | 216 | 0
-itemdiscardpanel.res | 851 | 0
-itemmodelpanel.res | 319 | 0
-itemmodelpanelcollectioncosmeticitem.res | 357 | 0
-itemmodelpanelcollectionitem.res | 386 | 0
-itempickuppanel.res | 373 | 0
-leaderboardpanel.res | 32 | 0
-lobbyleaderboard.res | 48 | 0
-manncotrade_commonstatclock.res | 272 | 0
-notificationqueuepanel.res | 19 | 0
-notificationspresentpanel.res | 37 | 0
-notificationtoastcontainer.res | 40 | 0
-notificationtoastcontrol.res | 236 | 0
-paintkitconsumedialog.res | 295 | 0
-questdefinitionviewpanel.res | 433 | 0
-questdetailspanel.res | 390 | 0
-questeditor.res | 281 | 0
-questlogpanel.res | 430 | 0
-questlogpanel_halloween.res | 51 | 0
-questmapnodepanel.res | 186 | 0
-questmapnodetooltippanel.res | 67 | 0
-questmappanel.res | 1591 | 0
-questmaprewarditempanel.res | 101 | 0
-questnotificationpanel_base.res | 66 | 0
-questnotificationpanel_pauling_standard.res | 12 | 0
-questviewsubpanel.res | 376 | 0
-scrollablequestdetails.res | 110 | 0
-scrollablequestlist.res | 101 | 0
-scrollablequestlist_halloween.res | 49 | 0
-scrollablequestlist_toughbreak.res | 9 | 0
-strangecounttransferdialog.res | 220 | 0
-tradingpanel.res | 853 | 0
-tradingstartdialog.res | 485 | 0
-warjoinpanel.res | 1129 | 0
-warstandingpanel.res | 175 | 0
+backpackpanel.res | 1580 |
+collectioncraftingdialog.res | 239 |
+collectioncraftingdialog_base.res | 1821 |
+comboboxbackpackoverlaydialog.res | 147 |
+confirmapplycardupgradeapplicationdialog.res | 271 |
+confirmapplydecodedialog.res | 290 |
+confirmapplyducktokendialog.res | 271 |
+confirmapplygiftwrapdialog.res | 290 |
+confirmapplypaintcandialog.res | 320 |
+confirmapplypaintkitdialog.res | 138 |
+confirmapplystrangepartapplicationdialog.res | 271 |
+confirmapplystrangerestrictionapplicationdialog.res | 271 |
+confirmapplystrangifierdialog.res | 272 |
+confirmapplyteamcolorpaintcandialog.res | 350 |
+confirmcustomizetexturedialog.res | 955 |
+confirmdialogabandonnopenalty.res | 165 |
+confirmdialogabandonpenalty.res | 165 |
+confirmdialogabandonsafe.res | 151 |
+confirmdialogoptout.res | 131 |
+confirmitempreviewdialog.res | 209 |
+confirmspellbookpageapplicationdialog.res | 271 |
+confirmtransmogrifyapplicationdialog.res | 271 |
+cyclingadcontainer.res | 121 |
+ducksleaderboardpanel.res | 186 |
+ducksleaderboards.res | 446 |
+genericnotificationtoast.res | 84 |
+genericnotificationtoastmainmenu.res | 94 |
+genericwaitingdialog.res | 104 |
+halloweenofferingdialog.res | 263 |
+inputstringforitembackpackoverlaydialog.res | 351 |
+inspectionpanel.res | 618 |
+inspectionpanel_cosmetic.res | 1109 |
+itemaddefault.res | 216 |
+itemdiscardpanel.res | 851 |
+itemmodelpanel.res | 319 |
+itemmodelpanelcollectioncosmeticitem.res | 357 |
+itemmodelpanelcollectionitem.res | 386 |
+itempickuppanel.res | 373 |
+leaderboardpanel.res | 32 |
+lobbyleaderboard.res | 48 |
+manncotrade_commonstatclock.res | 272 |
+notificationqueuepanel.res | 19 |
+notificationspresentpanel.res | 37 |
+notificationtoastcontainer.res | 40 |
+notificationtoastcontrol.res | 236 |
+paintkitconsumedialog.res | 295 |
+questdefinitionviewpanel.res | 433 |
+questdetailspanel.res | 390 |
+questeditor.res | 281 |
+questlogpanel.res | 430 |
+questlogpanel_halloween.res | 51 |
+questmapnodepanel.res | 186 |
+questmapnodetooltippanel.res | 67 |
+questmappanel.res | 1591 |
+questmaprewarditempanel.res | 101 |
+questnotificationpanel_base.res | 66 |
+questnotificationpanel_pauling_standard.res | 12 |
+questviewsubpanel.res | 376 |
+scrollablequestdetails.res | 110 |
+scrollablequestlist.res | 101 |
+scrollablequestlist_halloween.res | 49 |
+scrollablequestlist_toughbreak.res | 9 |
+strangecounttransferdialog.res | 220 |
+tradingpanel.res | 853 |
+tradingstartdialog.res | 485 |
+warjoinpanel.res | 1129 |
+warstandingpanel.res | 175 |
 ## resource/ui/econ/store/v1/
 Filename | linecount | minmode
 -------- | --------- | -------
-storehome.res | 565 | 0
-storehome_freetrial.res | 577 | 0
-storehome_winter1.res | 564 | 0
-storehome_winter2.res | 564 | 0
-storehome_winter3.res | 564 | 0
-storeitemcontrols.res | 69 | 0
-storepage.res | 2767 | 0
-storepage_bundles.res | 2747 | 0
-storepage_cgtrading.res | 2781 | 0
-storepage_drgrordbort.res | 2781 | 0
-storepage_halloween.res | 2777 | 0
-storepage_maps.res | 2744 | 0
-storepage_new.res | 2772 | 0
-storepage_popular.res | 2790 | 0
-storepage_previewable.res | 2786 | 0
-storepage_summer.res | 2777 | 0
-storepanel.res | 165 | 0
-storepreviewitempanel.res | 752 | 0
-storepreviewitempanel_maps.res | 667 | 0
-storeprice.res | 169 | 0
-storeprice_bundles.res | 35 | 0
-storeprice_jumbo.res | 105 | 0
-storeprice_new.res | 127 | 0
-storeprice_popular.res | 166 | 0
-storestatusdialog.res | 65 | 0
-storeviewcartpanel.res | 448 | 0
+storehome.res | 565 |
+storehome_freetrial.res | 577 |
+storehome_winter1.res | 564 |
+storehome_winter2.res | 564 |
+storehome_winter3.res | 564 |
+storeitemcontrols.res | 69 |
+storepage.res | 2767 |
+storepage_bundles.res | 2747 |
+storepage_cgtrading.res | 2781 |
+storepage_drgrordbort.res | 2781 |
+storepage_halloween.res | 2777 |
+storepage_maps.res | 2744 |
+storepage_new.res | 2772 |
+storepage_popular.res | 2790 |
+storepage_previewable.res | 2786 |
+storepage_summer.res | 2777 |
+storepanel.res | 165 |
+storepreviewitempanel.res | 752 |
+storepreviewitempanel_maps.res | 667 |
+storeprice.res | 169 |
+storeprice_bundles.res | 35 |
+storeprice_jumbo.res | 105 |
+storeprice_new.res | 127 |
+storeprice_popular.res | 166 |
+storestatusdialog.res | 65 |
+storeviewcartpanel.res | 448 |
 ## resource/ui/econ/store/v2/
 Filename | linecount | minmode
 -------- | --------- | -------
-storehome_base.res | 598 | 0
-storehome_freetrial.res | 282 | 0
-storehome_premium.res | 43 | 0
-storeitemcontrols.res | 65 | 0
-storemapstampsinfodialog.res | 209 | 0
-storepage.res | 2716 | 0
-storepage_bundles.res | 5 | 0
-storepage_items.res | 5 | 0
-storepage_maps.res | 116 | 0
-storepanel.res | 222 | 0
-storepreviewitempanel.res | 1572 | 0
-storepreviewitempanel_fullscreen.res | 360 | 0
-storepreviewitempanel_maps.res | 620 | 0
-storeviewcartpanel.res | 501 | 0
+storehome_base.res | 598 |
+storehome_freetrial.res | 282 |
+storehome_premium.res | 43 |
+storeitemcontrols.res | 65 |
+storemapstampsinfodialog.res | 209 |
+storepage.res | 2716 |
+storepage_bundles.res | 5 |
+storepage_items.res | 5 |
+storepage_maps.res | 116 |
+storepanel.res | 222 |
+storepreviewitempanel.res | 1572 |
+storepreviewitempanel_fullscreen.res | 360 |
+storepreviewitempanel_maps.res | 620 |
+storeviewcartpanel.res | 501 |
 ## resource/ui/notifications/
 Filename | linecount | minmode
 -------- | --------- | -------
-base_notification.res | 52 | 0
-notification_manifest.txt | 35 | 0
-notify_competitive_gc_down.res | 19 | 0
-notify_enemy_flag_captured_blue.res | 19 | 0
-notify_enemy_flag_captured_red.res | 19 | 0
-notify_enemy_flag_dropped_blue.res | 19 | 0
-notify_enemy_flag_dropped_red.res | 19 | 0
-notify_enemy_flag_returned_blue.res | 19 | 0
-notify_enemy_flag_returned_red.res | 19 | 0
-notify_enemy_flag_taken_blue.res | 19 | 0
-notify_enemy_flag_taken_red.res | 19 | 0
-notify_golden_wrench.res | 52 | 0
-notify_how_to_control_ghost.res | 52 | 0
-notify_how_to_control_ghost_no_respawn.res | 9 | 0
-notify_how_to_control_kart.res | 52 | 0
-notify_no_invuln_with_flag_blue.res | 19 | 0
-notify_no_invuln_with_flag_red.res | 19 | 0
-notify_no_tele_with_flag_blue.res | 19 | 0
-notify_no_tele_with_flag_red.res | 19 | 0
-notify_passtime_howto.res | 52 | 0
-notify_passtime_no_carry.res | 19 | 0
-notify_passtime_no_cloak.res | 19 | 0
-notify_passtime_no_disguise.res | 19 | 0
-notify_passtime_no_holster.res | 19 | 0
-notify_passtime_no_invuln.res | 19 | 0
-notify_passtime_no_oob.res | 19 | 0
-notify_passtime_no_taunt.res | 19 | 0
-notify_passtime_no_tele.res | 19 | 0
-notify_rd_robot_attacked_blue.res | 19 | 0
-notify_rd_robot_attacked_red.res | 19 | 0
-notify_special.res | 14 | 0
-notify_touching_enemy_ctf_cap_blue.res | 19 | 0
-notify_touching_enemy_ctf_cap_red.res | 19 | 0
-notify_truce_end.res | 19 | 0
-notify_truce_start.res | 19 | 0
-notify_your_flag_captured_blue.res | 19 | 0
-notify_your_flag_captured_red.res | 19 | 0
-notify_your_flag_dropped_blue.res | 19 | 0
-notify_your_flag_dropped_red.res | 19 | 0
-notify_your_flag_returned_blue.res | 19 | 0
-notify_your_flag_returned_red.res | 19 | 0
-notify_your_flag_taken_blue.res | 19 | 0
-notify_your_flag_taken_red.res | 19 | 0
+base_notification.res | 52 |
+notification_manifest.txt | 35 |
+notify_competitive_gc_down.res | 19 |
+notify_enemy_flag_captured_blue.res | 19 |
+notify_enemy_flag_captured_red.res | 19 |
+notify_enemy_flag_dropped_blue.res | 19 |
+notify_enemy_flag_dropped_red.res | 19 |
+notify_enemy_flag_returned_blue.res | 19 |
+notify_enemy_flag_returned_red.res | 19 |
+notify_enemy_flag_taken_blue.res | 19 |
+notify_enemy_flag_taken_red.res | 19 |
+notify_golden_wrench.res | 52 |
+notify_how_to_control_ghost.res | 52 |
+notify_how_to_control_ghost_no_respawn.res | 9 |
+notify_how_to_control_kart.res | 52 |
+notify_no_invuln_with_flag_blue.res | 19 |
+notify_no_invuln_with_flag_red.res | 19 |
+notify_no_tele_with_flag_blue.res | 19 |
+notify_no_tele_with_flag_red.res | 19 |
+notify_passtime_howto.res | 52 |
+notify_passtime_no_carry.res | 19 |
+notify_passtime_no_cloak.res | 19 |
+notify_passtime_no_disguise.res | 19 |
+notify_passtime_no_holster.res | 19 |
+notify_passtime_no_invuln.res | 19 |
+notify_passtime_no_oob.res | 19 |
+notify_passtime_no_taunt.res | 19 |
+notify_passtime_no_tele.res | 19 |
+notify_rd_robot_attacked_blue.res | 19 |
+notify_rd_robot_attacked_red.res | 19 |
+notify_special.res | 14 |
+notify_touching_enemy_ctf_cap_blue.res | 19 |
+notify_touching_enemy_ctf_cap_red.res | 19 |
+notify_truce_end.res | 19 |
+notify_truce_start.res | 19 |
+notify_your_flag_captured_blue.res | 19 |
+notify_your_flag_captured_red.res | 19 |
+notify_your_flag_dropped_blue.res | 19 |
+notify_your_flag_dropped_red.res | 19 |
+notify_your_flag_returned_blue.res | 19 |
+notify_your_flag_returned_red.res | 19 |
+notify_your_flag_taken_blue.res | 19 |
+notify_your_flag_taken_red.res | 19 |
 ## resource/ui/quests/
 Filename | linecount | minmode
 -------- | --------- | -------
-lineitem_credits.res | 29 | 0
-lineitem_item.res | 52 | 0
-lineitem_objective.res | 29 | 0
-lineitem_points.res | 29 | 0
-questitempanel_base.res | 1188 | 0
-questitemtrackerpanel_base.res | 54 | 0
-questitemtrackerpanel_ingame_base.res | 411 | 0
-questitemtrackerpanel_questlog_base.res | 69 | 0
-questobjectivepanel_ingame_base.res | 76 | 0
-questobjectivepanel_questlog_base.res | 61 | 0
-questobjectivescorer.res | 44 | 0
+lineitem_credits.res | 29 |
+lineitem_item.res | 52 |
+lineitem_objective.res | 29 |
+lineitem_points.res | 29 |
+questitempanel_base.res | 1188 |
+questitemtrackerpanel_base.res | 54 |
+questitemtrackerpanel_ingame_base.res | 411 |
+questitemtrackerpanel_questlog_base.res | 69 |
+questobjectivepanel_ingame_base.res | 76 |
+questobjectivepanel_questlog_base.res | 61 |
+questobjectivescorer.res | 44 |
 ## resource/ui/quests/cyoa/
 Filename | linecount | minmode
 -------- | --------- | -------
-questitemtrackerpanel_cyoa.res | 339 | 0
-questmapregionlink.res | 117 | 0
-questobjectivepanel_cyoa.res | 84 | 0
+questitemtrackerpanel_cyoa.res | 339 |
+questmapregionlink.res | 117 |
+questobjectivepanel_cyoa.res | 84 |
 ## resource/ui/quests/cyoa/regions/
 Filename | linecount | minmode
 -------- | --------- | -------
-region_base.res | 120 | 0
-region_campaign_3_home.res | 38 | 0
-region_defense.res | 86 | 0
-region_halloween.res | 38 | 0
-region_halloween_bosses.res | 38 | 0
-region_halloween_community_maps.res | 38 | 0
-region_halloween_official_maps.res | 38 | 0
-region_maps.res | 38 | 0
-region_offense.res | 86 | 0
-region_overworld.res | 38 | 0
-region_pyroland.res | 38 | 0
-region_support.res | 86 | 0
+region_base.res | 120 |
+region_campaign_3_home.res | 38 |
+region_defense.res | 86 |
+region_halloween.res | 38 |
+region_halloween_bosses.res | 38 |
+region_halloween_community_maps.res | 38 |
+region_halloween_official_maps.res | 38 |
+region_maps.res | 38 |
+region_offense.res | 86 |
+region_overworld.res | 38 |
+region_pyroland.res | 38 |
+region_support.res | 86 |
 ## resource/ui/quests/merasmus/
 Filename | linecount | minmode
 -------- | --------- | -------
-questitempanel_merasmus_base.res | 533 | 0
-questitempanel_merasmus_general.res | 23 | 0
-questitempanel_merasmus_hhh.res | 23 | 0
-questitempanel_merasmus_merasmus.res | 23 | 0
-questitempanel_merasmus_monoculus.res | 23 | 0
-questitemtrackerpanel_ingame.res | 22 | 0
-questitemtrackerpanel_questlog.res | 45 | 0
-questobjectivepanel_ingame.res | 10 | 0
-questobjectivepanel_questlog.res | 23 | 0
+questitempanel_merasmus_base.res | 533 |
+questitempanel_merasmus_general.res | 23 |
+questitempanel_merasmus_hhh.res | 23 |
+questitempanel_merasmus_merasmus.res | 23 |
+questitempanel_merasmus_monoculus.res | 23 |
+questitemtrackerpanel_ingame.res | 22 |
+questitemtrackerpanel_questlog.res | 45 |
+questobjectivepanel_ingame.res | 10 |
+questobjectivepanel_questlog.res | 23 |
 ## resource/ui/quests/pauling/
 Filename | linecount | minmode
 -------- | --------- | -------
-questitempanel_pauling_base.res | 34 | 0
-questitempanel_pauling_borneo.res | 18 | 0
-questitempanel_pauling_demo.res | 18 | 0
-questitempanel_pauling_engineer.res | 18 | 0
-questitempanel_pauling_headhunter.res | 18 | 0
-questitempanel_pauling_heavy.res | 18 | 0
-questitempanel_pauling_medic.res | 18 | 0
-questitempanel_pauling_playanyclass.res | 18 | 0
-questitempanel_pauling_powerhouse.res | 18 | 0
-questitempanel_pauling_pyro.res | 18 | 0
-questitempanel_pauling_scout.res | 18 | 0
-questitempanel_pauling_sniper.res | 18 | 0
-questitempanel_pauling_snowplow.res | 18 | 0
-questitempanel_pauling_soldier.res | 18 | 0
-questitempanel_pauling_spy.res | 18 | 0
-questitempanel_pauling_suijin.res | 18 | 0
-questitemtrackerpanel_ingame.res | 12 | 0
-questitemtrackerpanel_questlog.res | 43 | 0
-questobjectivepanel_ingame.res | 10 | 0
-questobjectivepanel_questlog.res | 5 | 0
+questitempanel_pauling_base.res | 34 |
+questitempanel_pauling_borneo.res | 18 |
+questitempanel_pauling_demo.res | 18 |
+questitempanel_pauling_engineer.res | 18 |
+questitempanel_pauling_headhunter.res | 18 |
+questitempanel_pauling_heavy.res | 18 |
+questitempanel_pauling_medic.res | 18 |
+questitempanel_pauling_playanyclass.res | 18 |
+questitempanel_pauling_powerhouse.res | 18 |
+questitempanel_pauling_pyro.res | 18 |
+questitempanel_pauling_scout.res | 18 |
+questitempanel_pauling_sniper.res | 18 |
+questitempanel_pauling_snowplow.res | 18 |
+questitempanel_pauling_soldier.res | 18 |
+questitempanel_pauling_spy.res | 18 |
+questitempanel_pauling_suijin.res | 18 |
+questitemtrackerpanel_ingame.res | 12 |
+questitemtrackerpanel_questlog.res | 43 |
+questobjectivepanel_ingame.res | 10 |
+questobjectivepanel_questlog.res | 5 |
 ## resource/ui/quests/pauling/operation 2/
 Filename | linecount | minmode
 -------- | --------- | -------
-questitempanel_pauling_base.res | 345 | 0
-questitempanel_pauling_community_map_1.res | 18 | 0
-questitempanel_pauling_community_map_2.res | 18 | 0
-questitempanel_pauling_community_map_3.res | 18 | 0
-questitempanel_pauling_community_map_4.res | 18 | 0
-questitempanel_pauling_cp.res | 18 | 0
-questitempanel_pauling_demo.res | 18 | 0
-questitempanel_pauling_engineer.res | 18 | 0
-questitempanel_pauling_headhunter.res | 18 | 0
-questitempanel_pauling_heavy.res | 18 | 0
-questitempanel_pauling_medic.res | 18 | 0
-questitempanel_pauling_payload.res | 18 | 0
-questitempanel_pauling_playanyclass.res | 18 | 0
-questitempanel_pauling_pyro.res | 18 | 0
-questitempanel_pauling_scout.res | 18 | 0
-questitempanel_pauling_sniper.res | 18 | 0
-questitempanel_pauling_soldier.res | 18 | 0
-questitempanel_pauling_spy.res | 18 | 0
+questitempanel_pauling_base.res | 345 |
+questitempanel_pauling_community_map_1.res | 18 |
+questitempanel_pauling_community_map_2.res | 18 |
+questitempanel_pauling_community_map_3.res | 18 |
+questitempanel_pauling_community_map_4.res | 18 |
+questitempanel_pauling_cp.res | 18 |
+questitempanel_pauling_demo.res | 18 |
+questitempanel_pauling_engineer.res | 18 |
+questitempanel_pauling_headhunter.res | 18 |
+questitempanel_pauling_heavy.res | 18 |
+questitempanel_pauling_medic.res | 18 |
+questitempanel_pauling_payload.res | 18 |
+questitempanel_pauling_playanyclass.res | 18 |
+questitempanel_pauling_pyro.res | 18 |
+questitempanel_pauling_scout.res | 18 |
+questitempanel_pauling_sniper.res | 18 |
+questitempanel_pauling_soldier.res | 18 |
+questitempanel_pauling_spy.res | 18 |
 ## resource/ui/training/
 Filename | linecount | minmode
 -------- | --------- | -------
-main.res | 279 | 0
+main.res | 279 |
 ## resource/ui/training/basictraining/
 Filename | linecount | minmode
 -------- | --------- | -------
-classdetails.res | 223 | 0
-classpanel.res | 61 | 0
-classselection.res | 20 | 0
+classdetails.res | 223 |
+classpanel.res | 61 |
+classselection.res | 20 |
 ## resource/ui/training/modeselection/
 Filename | linecount | minmode
 -------- | --------- | -------
-modepanel.res | 118 | 0
-modeselection.res | 44 | 0
+modepanel.res | 118 |
+modeselection.res | 44 |
 ## resource/ui/training/offlinepractice/
 Filename | linecount | minmode
 -------- | --------- | -------
-mapselection.res | 291 | 0
-practicemodeselection.res | 174 | 0
+mapselection.res | 291 |
+practicemodeselection.res | 174 |

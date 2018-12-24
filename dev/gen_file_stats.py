@@ -39,6 +39,7 @@ for file in files:
 	
 	filename = file.replace(path + "/", "")
 	combined.append(filename + " | " + str(count_lines) + " | " + str(count_minmode))
+	combined[-1] = combined[-1].replace(" 0", "")
 	
 for line in combined:
 	print(line)
