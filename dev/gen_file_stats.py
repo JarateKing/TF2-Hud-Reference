@@ -25,16 +25,19 @@ for file in files:
 		combined.append("Filename | minmode")
 		combined.append("-------- | -------")
 		
+	count_minmode = 0
+	
 	searchfile = open(reference_folder + file, "r")
 	try:
 		for line in searchfile:
-			print(line)
+			#print(line)
+			count_minmode += len(re.findall(r"_minmode", line.lower()))
 	except:
 		pass
 	searchfile.close()
 	
 	filename = file.replace(path + "/", "")
-	combined.append(filename + " | ")
+	combined.append(filename + " | " + str(count_minmode))
 	
 for line in combined:
 	print(line)
