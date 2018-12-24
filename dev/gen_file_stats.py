@@ -5,6 +5,7 @@ import re
 # directories
 existing_file = os.path.abspath("../2-LISTS/Statlist.md")
 reference_folder = "../reference/"
+header_file = "stat_list_header.md"
 
 # get all files
 files = []
@@ -16,6 +17,12 @@ for subfolder in folderlist:
 			files.append(current)
 
 combined = []
+
+headerfile = open(header_file, "r")
+for line in headerfile:
+	combined.append(line.replace("\n", ""))
+headerfile.close()
+
 current_path = ""
 for file in files:
 	path = "/".join(file.split("/")[0:-1])
