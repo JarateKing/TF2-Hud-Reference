@@ -43,5 +43,13 @@ for file in files:
 for line in combined:
 	print(line)
 	
+# verify that all is good
+input("VERIFY THAT THIS IS PROPER, PRESS ENTER TO OVERWRITE FILE")
+
+# write to file
+f = open(existing_file, "w")
+for line in combined:
+	f.write(line + '\n')
+	
 print("Success!")
 input("Press Enter to exit the program")
