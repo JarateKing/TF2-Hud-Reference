@@ -32,7 +32,7 @@ for file in files:
 	if path != current_path:
 		current_path = path
 		combined.append("## " + path + "/")
-		combined.append("Filename | linecount | minmode | #base | if_mvm | if_readymode | if_competitive")
+		combined.append("Filename | <sub>linecount</sub> | <sub>minmode</sub> | <sub>#base</sub> | <sub>if_mvm</sub> | <sub>if_readymode</sub> | <sub>if_competitive</sub>")
 		combined.append("-------- | --------- | ------- | ----- | ------ | ------------ | --------------")
 		
 	count_lines = 0
@@ -56,7 +56,7 @@ for file in files:
 	searchfile.close()
 	
 	filename = file.replace(path + "/", "")
-	combined.append(filename + " | " + str(count_lines) + " | " + str(count_minmode) + " | " + str(count_base) + " | " + str(count_mvm) + " | " + str(count_ready) + " | " + str(count_comp))
+	combined.append("<sub>" + filename + "</sub>" + " | " + str(count_lines) + " | " + str(count_minmode) + " | " + str(count_base) + " | " + str(count_mvm) + " | " + str(count_ready) + " | " + str(count_comp))
 	combined[-1] = combined[-1].replace(" 0", "")
 
 # print out what the file will be
