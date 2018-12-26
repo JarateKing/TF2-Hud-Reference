@@ -29,6 +29,7 @@ This is a list of current goals to work on. These would be a good starting point
 * Add descriptions to file list
 * Add descriptions to animation list
 * Add more to the other tutorials list
+* Add more stats for the stats list
 
 ## Misc
 
