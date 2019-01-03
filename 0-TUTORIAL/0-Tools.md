@@ -39,4 +39,4 @@ Because fonts will be either ttf or otf files, which are completely standard for
 * birdfont: https://birdfont.org/
 
 ##
-Prev - [Next](/0-TUTORIAL/1-Getting-Started.md)
+Prev - [Home](/README.md#readme) - [Next](/0-TUTORIAL/1-Getting-Started.md)
