@@ -62,3 +62,14 @@ It is possible for a hud to add damage numbers to the hud, that do not float or 
 ```
 
 Of note, the only setting that affects these damage numbers is whether or not damage numbers are enabled. They do not batch when using damage number batching, and the color settings do not change these labels' colors.
+
+##
+<table>
+<tbody>
+<tr>
+<td width="49%"><a href="/0-TUTORIAL/9-Ubercharge.md">Prev</a></td>
+<td width="50%"><a href="/README.md#readme">Home</a></td>
+<td width="100%"><a href="/0-TUTORIAL/11-Class-Image.md">Next</a></td>
+</tr>
+</tbody>
+</table>

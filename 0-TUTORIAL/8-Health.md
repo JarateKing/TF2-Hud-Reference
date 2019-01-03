@@ -108,3 +108,14 @@ The rest of the file is many different status effect images. They all follow the
 These don't appear by default, and only become visible when affected by the status effect.
 
 Notably, these are hard to reposition, just changing xpos and ypos will not work. You can pin to corner for these to force their position however, as described in [here](/1-APPENDIX/Positioning.md#pin-to-corner).
+
+##
+<table>
+<tbody>
+<tr>
+<td width="49%"><a href="/0-TUTORIAL/7-Ammo.md">Prev</a></td>
+<td width="50%"><a href="/README.md#readme">Home</a></td>
+<td width="100%"><a href="/0-TUTORIAL/9-Ubercharge.md">Next</a></td>
+</tr>
+</tbody>
+</table>

@@ -87,3 +87,14 @@ These parts are specific to CTFImagePanel. "image" and the "teambg" values point
 		"teambg_3"		"../hud/ammo_blue_bg"
 		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"		
 ```
+
+##
+<table>
+<tbody>
+<tr>
+<td width="49%"><a href="/0-TUTORIAL/1-Getting-Started.md">Prev</a></td>
+<td width="50%"><a href="/README.md#readme">Home</a></td>
+<td width="100%"><a href="/0-TUTORIAL/3-Editing-Clientscheme.md">Next</a></td>
+</tr>
+</tbody>
+</table>

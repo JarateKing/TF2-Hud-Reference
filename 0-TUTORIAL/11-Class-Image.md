@@ -86,3 +86,14 @@ When disguised as a spy, other images are used in addition to the normal class i
 		"scaleImage"	"1"	
 	}
 ```
+
+##
+<table>
+<tbody>
+<tr>
+<td width="49%"><a href="/0-TUTORIAL/10-Damage-Numbers.md">Prev</a></td>
+<td width="50%"><a href="/README.md#readme">Home</a></td>
+<td width="100%">Next</td>
+</tr>
+</tbody>
+</table>

@@ -175,3 +175,14 @@ There is also an icon that shows what vaccinator setting you have. It automatica
 		"scaleImage"	"1"	
 	}
 ```
+
+##
+<table>
+<tbody>
+<tr>
+<td width="49%"><a href="/0-TUTORIAL/8-Health.md">Prev</a></td>
+<td width="50%"><a href="/README.md#readme">Home</a></td>
+<td width="100%"><a href="/0-TUTORIAL/10-Damage-Numbers.md">Next</a></td>
+</tr>
+</tbody>
+</table>

@@ -87,3 +87,14 @@ The six ammo labels are very similar. They all roughly follow the format:
 The major difference being that AmmoInReserve and AmmoInReserveShadow use "%AmmoInReserve%" for their labeltext.
 
 It's worth noting that there isn't anything special about these labels, other than how they get automatically hidden. Fundamentally, the only thing different between AmmoInClip and AmmoInReserve (and also their shadow versions) are their default parameters. Because of this, it's possible (and done in some huds) to create new labels with "%Ammo%" that are visible regardless of which type of weapon you're using, and then make AmmoInClip and AmmoInClipShadow use "%AmmoInReserve%" or something else entirely, so that you can have more elaborate reserve ammo styles.
+
+##
+<table>
+<tbody>
+<tr>
+<td width="49%"><a href="/0-TUTORIAL/6-Hudlayout.md">Prev</a></td>
+<td width="50%"><a href="/README.md#readme">Home</a></td>
+<td width="100%"><a href="/0-TUTORIAL/8-Health.md">Next</a></td>
+</tr>
+</tbody>
+</table>

@@ -50,3 +50,14 @@ You can create your own materials as well, and reference them from any hud eleme
 vgui/replay/thumbnails/
 ```
 The advantage of putting materials in this folder is that they work in sv_pure 2. This is important, as otherwise you would get a missing material issue. If possible, it is also recommended to make new materials than edit existing ones and put them here as well, to keep the edited material in sv_pure 2 as well.
+
+##
+<table>
+<tbody>
+<tr>
+<td width="49%"><a href="/0-TUTORIAL/4-Editing-Animations.md">Prev</a></td>
+<td width="50%"><a href="/README.md#readme">Home</a></td>
+<td width="100%"><a href="/0-TUTORIAL/6-Hudlayout.md">Next</a></td>
+</tr>
+</tbody>
+</table>

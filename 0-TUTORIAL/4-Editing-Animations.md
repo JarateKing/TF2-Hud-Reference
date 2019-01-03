@@ -111,3 +111,14 @@ event HudHealthBonusPulseStop
 }
 ```
 This animation will make the PlayerStatusHealthBonusImage element appear and then disappear, and then run an event that immediately runs the original event again. The result is that the PlayerStatusHealthBonusImage will flash repeatedly, until the HudHealthBonusPulseStop event happens and it stops being animated.
+
+##
+<table>
+<tbody>
+<tr>
+<td width="49%"><a href="/0-TUTORIAL/3-Editing-Clientscheme.md">Prev</a></td>
+<td width="50%"><a href="/README.md#readme">Home</a></td>
+<td width="100%"><a href="/0-TUTORIAL/5-Materials.md">Next</a></td>
+</tr>
+</tbody>
+</table>
