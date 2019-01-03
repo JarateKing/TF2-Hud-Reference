@@ -43,7 +43,7 @@ Because fonts will be either ttf or otf files, which are completely standard for
 <tbody>
 <tr>
 <td width="49%">Prev</td>
-<td width="50%"><a href="/README.md#readme">Next</a></td>
+<td width="50%"><a href="/README.md#readme">Home</a></td>
 <td width="100%"><a href="/0-TUTORIAL/1-Getting-Started.md">Next</a></td>
 </tr>
 </tbody>
