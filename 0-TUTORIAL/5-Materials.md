@@ -55,9 +55,11 @@ The advantage of putting materials in this folder is that they work in sv_pure 2
 <table>
 <tbody>
 <tr>
-<td width="49%"><a href="/0-TUTORIAL/4-Editing-Animations.md">Prev</a></td>
-<td width="50%"><a href="/README.md#readme">Home</a></td>
-<td width="100%"><a href="/0-TUTORIAL/6-Hudlayout.md">Next</a></td>
+<td><a href="/0-TUTORIAL/4-Editing-Animations.md">Prev</a></td>
+<td  width="50%"></td>
+<td><a href="/README.md#readme">Home</a></td>
+<td  width="50%"></td>
+<td><a href="/0-TUTORIAL/6-Hudlayout.md">Next</a></td>
 </tr>
 </tbody>
 </table>

@@ -92,9 +92,11 @@ It's worth noting that there isn't anything special about these labels, other th
 <table>
 <tbody>
 <tr>
-<td width="49%"><a href="/0-TUTORIAL/6-Hudlayout.md">Prev</a></td>
-<td width="50%"><a href="/README.md#readme">Home</a></td>
-<td width="100%"><a href="/0-TUTORIAL/8-Health.md">Next</a></td>
+<td><a href="/0-TUTORIAL/6-Hudlayout.md">Prev</a></td>
+<td  width="50%"></td>
+<td><a href="/README.md#readme">Home</a></td>
+<td  width="50%"></td>
+<td><a href="/0-TUTORIAL/8-Health.md">Next</a></td>
 </tr>
 </tbody>
 </table>

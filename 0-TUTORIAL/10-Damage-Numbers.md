@@ -67,9 +67,11 @@ Of note, the only setting that affects these damage numbers is whether or not da
 <table>
 <tbody>
 <tr>
-<td width="49%"><a href="/0-TUTORIAL/9-Ubercharge.md">Prev</a></td>
-<td width="50%"><a href="/README.md#readme">Home</a></td>
-<td width="100%"><a href="/0-TUTORIAL/11-Class-Image.md">Next</a></td>
+<td><a href="/0-TUTORIAL/9-Ubercharge.md">Prev</a></td>
+<td  width="50%"></td>
+<td><a href="/README.md#readme">Home</a></td>
+<td  width="50%"></td>
+<td><a href="/0-TUTORIAL/11-Class-Image.md">Next</a></td>
 </tr>
 </tbody>
 </table>

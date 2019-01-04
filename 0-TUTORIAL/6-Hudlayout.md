@@ -118,9 +118,11 @@ Hudlayout is also a good spot to add new elements that will always appear while 
 <table>
 <tbody>
 <tr>
-<td width="49%"><a href="/0-TUTORIAL/5-Materials.md">Prev</a></td>
-<td width="50%"><a href="/README.md#readme">Home</a></td>
-<td width="100%"><a href="/0-TUTORIAL/7-Ammo.md">Next</a></td>
+<td><a href="/0-TUTORIAL/5-Materials.md">Prev</a></td>
+<td  width="50%"></td>
+<td><a href="/README.md#readme">Home</a></td>
+<td  width="50%"></td>
+<td><a href="/0-TUTORIAL/7-Ammo.md">Next</a></td>
 </tr>
 </tbody>
 </table>
