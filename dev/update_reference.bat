@@ -2,11 +2,14 @@
 setlocal ENABLEDELAYEDEXPANSION
 TITLE Extracting Default TF2 HUD Files
 
+:: directories to use
 SET "current_folder=%cd%"
 SET "scheme_folder=..\reference\resource"
 SET "script_folder=..\reference\scripts"
 SET "resource_folder=..\reference\resource\ui"
 
+:: recreate reference folder
+echo clearing reference folder
 rmdir /s /q %scheme_folder%
 rmdir /s /q %script_folder%
 mkdir %script_folder%
@@ -14,7 +17,6 @@ mkdir %resource_folder%
 
 :: Use HLExtract to get default HUD files ( https://developer.valvesoftware.com/wiki/HLLib#HLExtract )
 IF EXIST "HLExtract.exe" (
-	REM Extracting resource folder (schemes + main menu button actions)
 	echo Extracting scheme files to: %scheme_folder%
 	HLExtract.exe -p "../../../tf2_misc_dir.vpk" -d "%scheme_folder%" -e "root\resource\chatscheme.res" -m -v -s
 	HLExtract.exe -p "../../../tf2_misc_dir.vpk" -d "%scheme_folder%" -e "root\resource\clientscheme.res" -m -v -s
