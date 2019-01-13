@@ -20,6 +20,7 @@ This is the core tutorial to getting started with hud editing. Note that this wi
 8. Health: [here](/0-TUTORIAL/8-Health.md)
 9. Ubercharge: [here](/0-TUTORIAL/9-Ubercharge.md)
 10. Damage Numbers: [here](/0-TUTORIAL/10-Damage-Numbers.md)
+11. Class Image: [here](/0-TUTORIAL/11-Class-Image.md)
 
 ## Appendix
 
