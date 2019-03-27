@@ -50,7 +50,7 @@
 		"pinCorner"				"2"
 		"visible"				"1"
 		"visible_minmode"		"1"
-		"ypos_minmode"			"0"
+		"ypos_minmode"			"1"
 		"xpos_minmode"			"0"
 		"textAlignment_minmode"			"west"
 		"enabled"				"1"
