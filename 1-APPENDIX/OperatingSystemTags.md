@@ -18,3 +18,7 @@ Tag | Function
 `[$OSX]` | For Mac specifically.
 `[$LINUX]` | For Linux specifically.
 `[$POSIX]` | For either Mac or Linux.
+
+It's important to note that `[$WIN32]` is not opposite of `[$OSX]` or `[$LINUX]`, which is a common misconception. A linux machine will attempt to use any attribute with the tags `[$LINUX]`, `[$POSIX]`, or `[$WIN32]`.
+
+These can be useful because not every operating system renders things the same. Refer to the [linux support appendix](./LinuxSupport.md) for an example.
