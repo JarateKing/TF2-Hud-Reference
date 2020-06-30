@@ -10,6 +10,8 @@ An extremely common command used in hud development, this allows you to reload t
 
 Changing the value of `mat_antialias` achieves a result similar to `hud_reloadscheme`, except it also reloads the majority of menu elements (but still doesn't reload the clientscheme). It also reloads all materials, and predictably takes longer, as well as changes overall visual quality of TF2. This is mostly useful when editing elements such as the main menu, which don't reload when you use `hud_reloadscheme`.
 
+Note that when using mastercomfig, the `mat_antialias` command may be blocked from changes. This would mean that you can't use this method to reload the main menu or other menus.
+
 ## `vgui_drawtree 1`
 
 `vgui_drawtree` is a command that allows you to see the name and some details on every hud element currently rendered. Recommended to change `vgui_drawtree_draw_selected` to 1 (or tick the box for *Highlight Selected* in the VGUI Hierarchy window), to highlight your selected on screen hud item when traversing through the tree with hud elements.
