@@ -35,3 +35,7 @@ Emits a caption, giving the caption name as an argument. Both useful for testing
 ## `hurtme <value>`
 
 Damages or heals the player. Positive numbers damage the player by that much, negative numbers heal the player by that much. Useful for testing health values and [animations](https://github.com/JarateKing/TF2-Hud-Reference/blob/master/0-TUTORIAL/4-Editing-Animations.md).
+
+## `cl_hud_minmode <0/1>`
+
+Determines whether to use variables that end in `_minmode` if present, or the default otherwise.
