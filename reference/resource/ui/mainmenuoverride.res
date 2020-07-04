@@ -1725,12 +1725,22 @@
 				{
 					"0"
 					{
-						"item"		"Winter 2018 Cosmetic Key"
+						"item"		"Winter 2019 Cosmetic Key"
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Winter 2018 Cosmetic Case"
+						"item"		"Winter 2019 Cosmetic Case"
+						"show_market"	"1"
+					}
+					"2"
+					{
+						"item"		"Winter 2019 War Paint Key"
+						"show_market"	"0"
+					}
+					"3"
+					{
+						"item"		"Winter 2019 War Paint Case"
 						"show_market"	"1"
 					}
 				}
