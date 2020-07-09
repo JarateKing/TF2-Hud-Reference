@@ -10,7 +10,7 @@ An extremely common command used in hud development, this allows you to reload t
 
 Changing the value of `mat_antialias` achieves a result similar to `hud_reloadscheme`, except it also reloads the majority of menu elements (but still doesn't reload the clientscheme). It also reloads all materials, and predictably takes longer, as well as changes overall visual quality of TF2. This is mostly useful when editing elements such as the main menu, which don't reload when you use `hud_reloadscheme`.
 
-Note that by dafault mastercomfig blocks the `mat_antialias` command. You can prevent that, by adding `alias block_antialias` to your `user/autoexec.cfg` file.
+Note that by default mastercomfig blocks the `mat_antialias` command. You can prevent that, by adding `alias block_antialias` to your `user/autoexec.cfg` file.
 
 ## `vgui_drawtree 1`
 
