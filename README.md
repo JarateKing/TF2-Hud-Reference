@@ -31,11 +31,13 @@ This contains lots of in-depth descriptions or useful tidbits and techniques, th
 * Colors: [here](/1-APPENDIX/Colors.md)
 * Cfg files: [here](/1-APPENDIX/Cfg.md)
 * #base files: [here](/1-APPENDIX/#Base.md)
-* Refract Materials: [here](/1-APPENDIX/Refracts.md)
-* Useful Commands: [here](/1-APPENDIX/UsefulCommands.md)
-* Adding Linux Support: [here](/1-APPENDIX/LinuxSupport.md)
-* Missing Elements: [here](/1-APPENDIX/MissingElements.md)
-* Stubborn Elements: [here](/1-APPENDIX/StubbornElements.md)
+* Localization files: [here](/1-APPENDIX/Localization.md)
+* Refract materials: [here](/1-APPENDIX/Refracts.md)
+* Useful commands: [here](/1-APPENDIX/UsefulCommands.md)
+* Adding Linux support: [here](/1-APPENDIX/LinuxSupport.md)
+* Operating system tags: [here](/1-APPENDIX/OperatingSystemTags.md)
+* Missing elements: [here](/1-APPENDIX/MissingElements.md)
+* Stubborn elements: [here](/1-APPENDIX/StubbornElements.md)
 
 ## Meta
 
