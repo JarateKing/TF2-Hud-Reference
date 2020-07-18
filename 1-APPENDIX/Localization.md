@@ -11,8 +11,13 @@ Localization is loaded through various files. The load order of these files is:
 7. vgui_english
 8. tf_english
 9. chat_english
-10. tf_proto_obj_defs_english
-11. serverbrowser_english
+10. closecaption_english
+11. tf_proto_obj_defs_english
+12. serverbrowser_english
+
+When entering a map, `mapname_english` will also get loaded.
+
+As well as loading `closecaption_english`, the game will also load whatever you have your `cc_lang` set to. For example, with `cc_lang test`, it will load both `closecaption_english` and `closecaption_test`. When you change `cc_lang`, it will also load that localization file mid-game. This can be used to, during gameplay, change any existing localization (or add new ones) by loading arbitrary localization files.
 
 ## Format
 
@@ -39,7 +44,7 @@ An example file (`chat_english.txt`) looks like:
 ```
 
 Some points with the format:
-* `lang` is needed
+* this file must be encoded in UCS-2 LE BOM. The easiest method is to copy over an existing localization file. You can set this in notepad++'s "Encoding" dropdown menu.
 * `Language` can be set to anything, the `"English"` is never actually used in tf2
 * the list of tokens is the actual localization strings, as a pair of keys and values
 
