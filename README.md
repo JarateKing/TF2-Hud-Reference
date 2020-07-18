@@ -50,6 +50,7 @@ JarateKing - Maintainer
 Pigby
 Hypnotize
 Wiethoofd
+micwoj92
 ```
 
 If you want to contribute, make a pull request!
