@@ -2,6 +2,8 @@
 
 This is a master reference for all files used by tf2 huds.
 
+For images of some of these files to make it clear what they might be, see [here](https://github.com/cooolbros/tf2-res-file-list).
+
 ## scripts/
 
 File | Description
