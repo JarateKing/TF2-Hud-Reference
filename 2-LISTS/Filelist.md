@@ -23,7 +23,7 @@ chatscheme.res | Like clientscheme, but for the chat box
 chat_english.txt | Controls some chat-related localization. Can add new localization to custom huds.
 clientscheme.res | Controls definitions for font declarations, font sizes, colors, borders
 closecaption_english.dat | Controls captions
-closecaption_english.txt | Source file to compile into closecaption_english.dat. Does not do anything itself.
+closecaption_english.txt | Source file to compile into closecaption_english.dat. Also acts as localization like `chat_english.txt`
 gamemenu.res | Controls tooltips, visibility ingame/inmenu, etc. of some main menu elements
 sourcescheme.res | Like clientscheme, but for old-style windows like the console
 
