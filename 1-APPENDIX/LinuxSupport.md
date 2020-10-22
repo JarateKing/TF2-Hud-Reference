@@ -16,7 +16,7 @@ If the file is capitalized and tries to be run with linux, it will fail to find 
 
 ## Fonts
 
-Fonts in linux need to be 0.8x the size of windows fonts to appear the same. By consequence fonts in windows need to be 1.25x the size of linux fonts, if you do most hud work on linux. In some huds this won't make much of a difference and can look fine with both, but in some huds it can break without properly sized fonts. You can check out software that can be used to resize fonts [here](/0-TUTORIAL/0-Tools.md). But, through testing, one HUD developer who primarily uses linux has found that some skinny fonts render in too heavy, appearing bolder than they should.
+Fonts in linux need to be 0.8x the size of windows fonts to appear the same, which can be roughly anywhere from .5pt to 1pt smaller, or more at larger sizes. By consequence fonts in windows need to be 1.25x the size of linux fonts, if you do most hud work on linux. In some huds this won't make much of a difference and can look fine with both, but in some huds it can break without properly sized fonts. You can check out software that can be used to resize fonts [here](/0-TUTORIAL/0-Tools.md). But, through testing, one HUD developer who primarily uses linux has found that some skinny fonts render in too heavy, appearing bolder than they should.
 
 The easiest method to account for this difference is to create two variants, one for windows and one for linux, with a different filename but the same font name, as shown below.
 
