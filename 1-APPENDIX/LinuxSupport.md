@@ -16,13 +16,10 @@ If the file is capitalized and tries to be run with linux, it will fail to find 
 
 ## Fonts
 
-Fonts in linux need to be 0.8x the size of windows fonts to appear the same, which can be roughly anywhere from .5pt to 1pt smaller, or more at larger sizes. By consequence fonts in windows need to be 1.25x the size of linux fonts, if you do most hud work on linux. In some huds this won't make much of a difference and can look fine with both, but in some huds it can break without properly sized fonts. You can check out software that can be used to resize fonts [here](/0-TUTORIAL/0-Tools.md). But, through testing, one HUD developer who primarily uses linux has found that some skinny fonts render in too heavy, appearing bolder than they should.
+Fonts in linux need to be 0.8x the size of windows fonts to appear the same. By consequence fonts in windows need to be 1.25x the size of linux fonts, if you do most hud work on linux. In some huds this won't make much of a difference and can look fine with both, but in some huds it can break without properly sized fonts. You can check out software that can be used to resize fonts [here](/0-TUTORIAL/0-Tools.md).
 
-The easiest method to account for this difference is to create two variants, one for windows and one for linux, with a different filename but the same font name, as shown below.
+Two methods exist -- changing the sizes in clientscheme for each font definition, or creating a copy of the font file (in either `.ttf` or `.otf`) and resizing the glyphs themselves, saving with a different filename but same internal font name. As an example with the latter approach, we can have two font files:
 
-Additionally, it has been found that many symbol fonts, such as the ones used for HUD crosshairs and Main Menu icons, will have character margins appear broken, and this must be fixed with creating alternate font files for linux.
-
-Capping all of this off, the same developer who discovered the font weight issue also discovered that much of the font issues are not based on the linux distro you are using (i.e. Ubuntu or Arch), but the desktop environment that was initially installed when you installed linux as a whole. As of now, two desktop environments (DEs) have been found to not require fixed symbol fonts, and when a font is set at 0.8x size, and had the weight cut in half within the font instances inside `clientscheme.res`, will render most fonts near identically to windows. The two DEs in question are XFCE, a lightweight but more advanced DE, and KDE Plasma. Given that the most common linux distro, Ubuntu, ships with Unity DE, based on Gnome, your HUD should be built to work in a DE that does not render fonts correctly.
 ```
 jahud.otf
 jahud_linux.otf
@@ -37,3 +34,5 @@ With this, the font file declaration in [clientscheme.res](/0-TUTORIAL/3-Editing
 		"name" "jahud"
 	}
 ```
+
+There are some other quirks with font rendering on linux, which can cause cropping or different weights. Namely, that depending on the desktop environment (DE) used, you may find fonts rendering slightly differently. XFCE and KDE Plasma render nearly identically to windows, as long as the font size is 0.8x and the weight is halved on skinny fonts. GNOME or Unity DE may have the cropping issues mentioned, and require additional fiddling with the font to fix.
