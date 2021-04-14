@@ -73,36 +73,36 @@ annotationspanelcallout.res |
 badgepanel.res |
 basechat.res | Chatbox
 casualrankpanel.res |
-casualwelcomedialog.res | Might be no longer in use
+casualwelcomedialog.res | No longer in use
 charinfoarmorysubpanel.res | Mann co. Catalog
-charinfoloadoutsubpanel.res | Loadouts, Backpack, Crating, Catalog, Trades, Warpaints selection menu
-charinfopanel.res | Top sheet and bottom bar in the Loadout/Backpack/Crafting/Catalog menus
+charinfoloadoutsubpanel.res | Main loadout menu - contains buttons for each TF2 class and backpack/craft/catalog/trade/skins
+charinfopanel.res | Loadout pages header and footer 
 chatpopup.res | Party popup messages
 cheatdetectiondialog.res |
 classloadoutpanel.res | Class loadout/taunts menu
-classmenu.res |
+classmenu.res | Parent element of classselection.res
 classselection.res | Class selection menu
 classselection_sc.res | Class selection menu, but for steam controller
 classtipsitem.res |
 classtipslist.res |
 coachedbypanel.res |
 competitiveaccessinfo.res | Competitive mode acess requirements message
-competitivewelcomedialog.res | Might be no longer in use
+competitivewelcomedialog.res | No longer in use
 comprankpanel.res |
 comprankstooltip.res |
 compstats.res | Competitive games played statistics menu
-confirmabandondialog.res |
+confirmabandondialog.res | Abandon menu
 controlpointcountdown.res | Point activation countdown
 controlpointicon.res | Control point Icons used for CP, Koth, A/D
 controlpointprogressbar.res | Point capture progress circle bar
 craftingpanel.res | Crafting Panel
-craftingstatusdialog.res |
-dashboardpartymember.res | Party members displayed in the menu dashborad
+craftingstatusdialog.res | Crafting result box
+dashboardpartymember.res | Dashborad's party members
 disguisestatuspanel.res | Spy disguise status
-dynamicrecipepanel.res |
+dynamicrecipepanel.res | Killsteak Kits recipe menu
 enemycountpanel.res | Robot wave icons used for MvM
-explanationpopup.res |
-flagcalloutpanel.res |
+explanationpopup.res | Explanations box properties
+flagcalloutpanel.res | 
 flagstatus.res | Flag icon and arrow (part of hudobjectiveflagpanel.res)
 freezepanelcallout.res | Indicates your body parts after death
 freezepanelkillerhealth.res | Enemy health on kill cam
@@ -113,55 +113,55 @@ globalexplanations.res | Explanations for casual, competitive, tutorial, warpain
 healthiconpanel.res | Teammates health displayed above their head (only visible with tf_hud_target_id_disable_floating_health "0")
 hudaccountpanel.res | Engineer metal count
 hudachievementfloatingnumber.res |
-hudachievementtrackeritem.res |
-hudalert.res |
+hudachievementtrackeritem.res | Achievement progress tracking panel
+hudalert.res | Team balance warning
 hudammoweapons.res | Ammo in clip and ammo in reserve
-hudarenacappointcountdown.res |
+hudarenacappointcountdown.res | Arena point activation countdown
 hudarenaclasslayout.res | Arena team composition panel
-hudarenanotification.res |
-hudarenaplayercount.res | Alive players counter for arena mode
+hudarenanotification.res | Arena notifications and tips
+hudarenaplayercount.res | Arena alive palyers count
 hudarenateammenu.res | Spectate/Fight arena selection menu
 hudarenateammenu_sc.res | Spectate/Fight arena selection menu, but for steam controller
 hudarenavspanel.res |
 hudarenawinpanel.res | End round arena scoreboard
 hudbosshealth.res | Healthbar for Halloween bosses
-hudbowcharge.res | old charge meter for Huntsman
-hudcurrencyaccount.res | currency in MvM
+hudbowcharge.res | Old charge meter for Huntsman
+hudcurrencyaccount.res | Currency in MvM
 huddamageaccount.res | Damage numbers when hitting other players
-huddemomancharge.res | charge meter for Stickybomb Launcher, demoman shields, and Huntsman
-huddemomanpipes.res | count for stickies currently out
-hudhealthaccount.res | floating numbers when picking up healthpacks
-hudinspectpanel.res |
-huditemattributetracker.res |
-huditemeffectmeter.res | charge meter for Sandman, Wrap Assassin
-huditemeffectmeter_cleaver.res | charge meter for Flying Guillotine
-huditemeffectmeter_demoman.res | count for Eyelander heads
-huditemeffectmeter_engineer.res | count for Frontier Justice and Manmelter
-huditemeffectmeter_halloweensouls.res | count for Halloween souls collected
-huditemeffectmeter_heavy.res | charge meter for Heavy in MvM
-huditemeffectmeter_kartcharge.res | charge meter for Halloween Karts
-huditemeffectmeter_killstreak.res | count for killstreak weapons
-huditemeffectmeter_organs.res | count for Vita-Saw
-huditemeffectmeter_particlecannon.res | charge meter for Cow Mangler
-huditemeffectmeter_pomson.res | charge meter for Pomson
-huditemeffectmeter_powerupbottle.res | count for PowerUp Canteen in MvM
-huditemeffectmeter_pyro.res | charge meter for Phlogistinator
-huditemeffectmeter_raygun.res | charge meter for Righteous Bison
-huditemeffectmeter_sapper.res | charge meter for Sapper
-huditemeffectmeter_scout.res | charge meter for Bonk! Atomic Punch and Crit-a-Cola
-huditemeffectmeter_sniper.res | count for Bazaar Bargain
-huditemeffectmeter_sniperfocus.res | charge meter for Hitman's Heatmaker
-huditemeffectmeter_sodapopper.res | charge meter for Sodapopper
-huditemeffectmeter_spy.res | count for Diamondback
-huditemeffectmeter_spyknife.res | charge for Spy-cicle
-hudkillstreaknotice.res |
-hudmannvsmachinestatus.res |
-hudmatchstatus.res |
+huddemomancharge.res | Charge meter for Stickybomb Launcher and Huntsman
+huddemomanpipes.res | Stickies count and Demoman shields
+hudhealthaccount.res | Floating numbers when picking up healthpacks
+hudinspectpanel.res | Carried items inspection panel
+huditemattributetracker.res | Contract progress tracker
+huditemeffectmeter.res | Charge meter for Sandman / Wrap Assassin / Sandvich / Spy Watches / Jarate / Soldier Banners / Gas Passer
+huditemeffectmeter_cleaver.res | Charge meter for Flying Guillotine
+huditemeffectmeter_demoman.res | Counter for Eyelander heads and AirStrike
+huditemeffectmeter_engineer.res | Counter for Frontier Justice and Manmelter
+huditemeffectmeter_halloweensouls.res | Counter for Halloween souls collected
+huditemeffectmeter_heavy.res | Charge meter for Heavy rage in MvM
+huditemeffectmeter_kartcharge.res | Charge meter for Halloween Karts
+huditemeffectmeter_killstreak.res | Counter for killstreak weapons
+huditemeffectmeter_organs.res | Counter for Vita-Saw
+huditemeffectmeter_particlecannon.res | Charge meter for Cow Mangler
+huditemeffectmeter_pomson.res | Charge meter for Pomson
+huditemeffectmeter_powerupbottle.res | Counter for PowerUp Canteen in MvM
+huditemeffectmeter_pyro.res | Charge meter for Phlogistinator
+huditemeffectmeter_raygun.res | Charge meter for Righteous Bison
+huditemeffectmeter_sapper.res | Charge meter for Sapper
+huditemeffectmeter_scout.res | Charge meter for Bonk! Atomic Punch/Crit-a-Cola and MvM medic shield
+huditemeffectmeter_sniper.res | Counter for Bazaar Bargain
+huditemeffectmeter_sniperfocus.res | Charge meter for Hitman's Heatmaker
+huditemeffectmeter_sodapopper.res | Charge meter for Sodapopper
+huditemeffectmeter_spy.res | Counter for Diamondback
+huditemeffectmeter_spyknife.res | Charge for Spy-cicle
+hudkillstreaknotice.res | Server's killstreaks notification
+hudmannvsmachinestatus.res | Main MvM parent, holds the positioning of most MvM elements such as money and wave status
+hudmatchstatus.res | Round Timer and Red & Blue team players status also contains the casual and competitive prematch doors animation
 hudmatchsummary.res | End game summary scoreboard used for Casuals and Competitive gamemodes
-hudmediccharge.res | Ubercharge numbers and Vaccinatore charges
+hudmediccharge.res | Ubercharge numbers and Vaccinator charges
 hudmenutauntselection.res | Taunt selection menu
 hudmenutauntselection_sc.res | Taunt selection menu, but for steam controller
-hudminigame_base.res | Halloween minigame for sd_doomsday_event (Main file)
+hudminigame_base.res | Main Halloween minigame for sd_doomsday_event file
 hudminigame_collection.res | Halloween ducks collection race minigame
 hudminigame_platform.res | Halloween platform elimination minigame
 hudminigame_soccer.res | Halloween soccer minigame
@@ -172,17 +172,17 @@ hudobjectiveplayerdestruction.res | Player destruction
 hudobjectiverobotdestruction.res | Robot destruction counter for the robots destroyed.
 hudobjectivestatus.res | No longer in use
 hudobjectivetimepanel.res | Round timer background, clock icon and server timer
-hudpasstime.res |
-hudpasstimeballstatus.res |
-hudpasstimeoffscreenarrow.res |
-hudpasstimepassnotify.res |
-hudpasstimeteamscore.res |
+hudpasstime.res | Parent element of the passtime HUD
+hudpasstimeballstatus.res | Passtime Ball status
+hudpasstimeoffscreenarrow.res | Passtime arrow
+hudpasstimepassnotify.res | Passtime in pass range and incominc pass notifications 
+hudpasstimeteamscore.res | Passtime teams score panel
 hudplayerclass.res | Class icon and 3d model depending on convars
-hudplayerhealth.res | Health number
+hudplayerhealth.res | Health number and status icons
 hudpowerupeffectmeter.res |
-hudpvewinpanel.res |
+hudpvewinpanel.res | MvM end of game win panel
 hudrocketpack.res | Charge meter for Thermal Thruster
-hudroundcounter.res |
+hudroundcounter.res | Round counter dots and background
 hudspellselection.res | Owned spells selection for halloween modes
 hudstalemate.res |
 hudstopwatch.res | Payload, A/D cap time
@@ -193,25 +193,25 @@ hudtournament.res | Tournament Blue-Red teams status/names and game win conditio
 hudtournamentsetup.res | Ready/Unready and team name change PopUp menu for tournament
 hudtraining.res |
 hudtrainingmsg.res |
-hudupgradepanel.res |
+hudupgradepanel.res | MvM upgrades menu
 hudwarcount.res |
-hudweaponselection.res |
+hudweaponselection.res | Weapon selection menu (used when weapon quick switch is off)
 hud_obj_dispenser.res | Engineer dispenser build status and Health
-hud_obj_sapper.res | Building sapped icon
+hud_obj_sapper.res | Building sapped status
 hud_obj_sentrygun.res | Engineer sentrygun build status, health, ammo
 hud_obj_sentrygun_disp.res | Optional MvM Minisentry build status, health, ammo
 hud_obj_tele.res | Engineer Teleport build status, health
 hud_obj_tele_entrance.res | Engineer Teleport entrance health
 hud_obj_tele_exit.res | Engineer Teleport exit health
-importfiledialog.res |
-importfiletexteditdialog.res |
-importmaterialeditdialog.res |
-importpreviewitempanel.res |
+importfiledialog.res | Workshop Import menu
+importfiletexteditdialog.res | Workshop text edit menu
+importmaterialeditdialog.res | Workshop material edit menu
+importpreviewitempanel.res | Workshop preview menu
 ingamequeuestatus.res | Queued for Casual/Competitive/MvM ingame message
-intromenu.res |
-intromenu_sc.res |
+intromenu.res | Server intro video
+intromenu_sc.res | Server intro video, but for steam controller
 invitenotification.res | Invite to party received message
-itemoptionspanel.res |
+itemoptionspanel.res | Item style selection menu
 itemquickswitch.res | Loadout and weapons quickswitch menu
 itemrenameconfirmationdialog.res | Name Tag - Description Tag confirmation menu
 itemrenamedialog.res | Name Tag - Description Tag appliaction menus
@@ -225,7 +225,7 @@ leaderboardentry.res |
 leaderboardentryrank.res |
 leaderboardentryscore.res |
 leaderboardspreadentry.res |
-loadoutpresetpanel.res |
+loadoutpresetpanel.res | Loadout's A - B - C - D buttons
 lobbycontainerframe.res | No longer in use
 lobbycontainerframe_casual.res | No longer in use
 lobbycontainerframe_comp.res | No longer in use
@@ -253,34 +253,34 @@ matchmakingdashboardleftsidepanel.res | Contains the matchmaking panels backgrou
 matchmakingdashboardmvmcriteria.res | MvM Mode main file
 matchmakingdashboardmvmmodeselect.res | MvM Practice/MannUp mode selection menu
 matchmakingdashboardplaylist.res | Similiar to matchmakingdashboardsidepanel.res but affects only *find a game* main panel
-matchmakingdashboardpopup.res |
-matchmakingdashboardpopup_mapvotepanel.res |
+matchmakingdashboardpopup.res | 
+matchmakingdashboardpopup_mapvotepanel.res | End of game next map vote buttons
 matchmakingdashboardpopup_newmatch.res | Popup panel displayed when a new matchmaking game is found
-matchmakingdashboardpopup_nextmapvoting.res |
-matchmakingdashboardpopup_nextmapwinner.res |
+matchmakingdashboardpopup_nextmapvoting.res | End of game next map vote panel
+matchmakingdashboardpopup_nextmapwinner.res | Next map vote winner
 matchmakingdashboardsidepanel.res | Contains the matchmaking panels backgrounds, shadows, close buttons used for the Casual,Comp,MvM... panels
-matchmakingdatacenterpopulationpanel.res |
+matchmakingdatacenterpopulationpanel.res | Server population panel used for matchmakingpingpanel
 matchmakinggrouppanel.res | Controls the Casual enable/disable gamemode checkbutton bar
-matchmakingpanel.res |
+matchmakingpanel.res | No longer in use
 matchmakingpingpanel.res | Ping and Party settings panel
 matchmakingplaylist.res | Contains the main *find a game* buttons (Casual,Comp,MvM,Training,Server,Create)
 matchmakingtooltip.res | Matchmaking tips
-mediccallerpanel.res |
-mvmbombcarrierprogresspanel.res |
+mediccallerpanel.res | Medic call bubbles
+mvmbombcarrierprogresspanel.res | MvM bomb progress bar
 mvmcreditspendpanel.res | Part of the MvM Scoreboard, shows the wave credits
 mvmcreditsubpanel.res | Part of the MvM Scoreboard, shows the full game credits
-mvmcriteria.res | MvM matchmaking menu main panel
-mvmeconrequirementdialog.res |
+mvmcriteria.res | MvM tour selection menus
+mvmeconrequirementdialog.res | Mann up requirements panel
 mvminworldcurrency.res | MvM wave gained/lost money
 mvmscoreboard.res | MvM specific elements for the scoreboard
 mvmscoreboardenemyinfo.res | MvM enemy in wave icons
 mvmstatentry.res |
-mvmvictorycontainer.res |
-mvmvictorymannupentry.res |
-mvmvictorymannuploot.res |
-mvmvictorymannuppanel.res |
-mvmvictorymannuptab.res |
-mvmvictorypanel.res |
+mvmvictorycontainer.res | Main container for MvM victory MannUp and Normal
+mvmvictorymannupentry.res | MannUp victory main panel
+mvmvictorymannuploot.res | MannUp victory loot panel
+mvmvictorymannuppanel.res | MannUp victory panel
+mvmvictorymannuptab.res | MannUp victory player tabs
+mvmvictorypanel.res | MvM map victory panel
 mvmvictorysplash.res | MvM course victory message
 mvmwavelosspanel.res | MvM wave lost panel
 navigationpaneltest.res |
@@ -290,13 +290,13 @@ objectivestatusmultipleescort.res | Payload race carts
 playerticketstatus.res |
 publishedfilebrowserdialog.res |
 publishfiledialog.res |
-pvpcasualrankpanel.res |
-pvpcomprankpanel.res |
+pvpcasualrankpanel.res | Rank panel specifics for casual
+pvpcomprankpanel.res | Rank panel specifics for competitive
 pvprankpanel.res | Name, Level, Experience bar used for MainMenu and end game scoreboard
 quickplaybusydialog.res | No longer in use
 quickplaydialog.res | No longer in use
 revivedialog.res | MvM teammate revive panel
-robotdestructionstatus.res |
+robotdestructionstatus.res | Robot destruction status
 roundinfo.res |
 saxxyawards_submitform.res |
 scoreboard.res | Scoreboard, including positioning for existing scoreboard elements in MvM
@@ -306,51 +306,51 @@ selectplayerdialog_coach.res | Select a player to be your coach Panel
 selectplayerdialog_duel.res | Select a player to duel Menu
 servernotconnectedtosteam.res |
 spectator.res | Spectator panel, includes the respawn time and the spectated player carried items panel
-spectatorcoach.res |
+spectatorcoach.res | Spectator panel coach variant
 spectatorguihealth.res | Teammate Health, part of TargetUI.res
 spectatortournament.res | Spectator panel for tournament modes, includes Health,Name,Uber,Respawntimes for each teammate as well as the personal respawntime
 spectatortournamentguihealth.res | Teammates Health, part of spectatortournament.res
 spectator_sc.res | Spectator panel, but for steam controller
-stampdonationadd.res |
+stampdonationadd.res | Mann.co store stamp donation menu
 staticbadgepanel.res |
 statpanel_base.res | After death stats
 statsummary.res | Connecting to server screen, includes the Map name/Category as well as all your personal stats
 statsummary_embedded.res | Personal stats for each class displayed on the loadout menu tab
-steamfriendpanel.res |
-steamworkshopdialog.res |
-steamworkshopitem.res |
-streamlistpanel.res | Main menu Twitch streams list, displays each streamer name/title/viewers
-streampanel.res | Main menu Twitch streams panel
+steamfriendpanel.res | Steam friend avatar, name and status
+steamworkshopdialog.res | Workshop menu
+steamworkshopitem.res | Workshop item import/preview
+streamlistpanel.res | No longer in use
+streampanel.res | No longer in use
 supportnotificationdialog.res |
-surveypanel_base.res |
-surveypanel_casualinquiry.res |
-surveypanel_compinquiry.res |
-surveypanel_mapquality.res |
-surveypanel_matchquality.res |
-surveypanel_randomcrit.res |
+surveypanel_base.res | Main end of game surevey panel
+surveypanel_casualinquiry.res | End of game surevey for casual quality
+surveypanel_compinquiry.res | End of game surevey for competitive quality
+surveypanel_mapquality.res | End of game surevey for map quality
+surveypanel_matchquality.res |  End of game surevey for match quality
+surveypanel_randomcrit.res |  End of game surevey for random crits
 tankprogressbar.res | MvM Tank Health bar
 tankstatuspanel.res | MvM Tank Health bar background
 targetid.res | Teammates Name/Health/Ammo/Ubercharge displayed when looking at them or beign healed
 tauntcallerpanel.res |
 teammenu.res | Team selection Menu
 teammenu_sc.res | Team selection Menu, but for steam controller
-testitembotcontrols.res |
-testitemdialog.res |
-testitemroot.res |
+testitembotcontrols.res | ItemTest bot controls
+testitemdialog.res | ItemTest items panel
+testitemroot.res | ItemTest Main panel
 textwindow.res | Server intro message
 textwindowcustomserver.res | Server intro message
 textwindowcustomserver_sc.res | Server intro message, but for steam controller
 textwindow_sc.res | Server intro message, but for steam controller
 tfadvancedoptionsdialog.res | Advance Options Menu
-tfhudrobotdestruction_activestate.res |
-tfhudrobotdestruction_deadstate.res |
-tfhudrobotdestruction_robotindicator.res |
-tfhudrobotdestruction_shieldedstate.res |
+tfhudrobotdestruction_activestate.res | Robot destruction indicators, active state
+tfhudrobotdestruction_deadstate.res | Robot destruction indicators, dead state
+tfhudrobotdestruction_robotindicator.res | Robot destruction indicators
+tfhudrobotdestruction_shieldedstate.res | Robot destruction shiel state
 trainingcomplete.res |
 trainingdialog.res |
 trainingdialog_old.res |
 trainingitempanel.res |
-upgradeboxdialog.res |
+upgradeboxdialog.res | F2P upgrade message
 upgradebuypanel.res | MvM buy upgrades menu
 videopanel.res |
 viewrecipespanel.res |
@@ -361,7 +361,7 @@ wavecompletesummarypanel.res | Wave complete message for MvM
 wavestatuspanel.res | Wave progress bar for MvM
 winpanel.res | End round scoreboard that shows the best winning team players and game score
 xboxdialogs.res |
-xpsourcepanel.res |
+xpsourcepanel.res | Experience gained label
 
 ## resource/ui/build_menu/
 
@@ -376,124 +376,124 @@ The pipboy folder contains variants for the pipboy cosmetic. The _360 suffix is 
 
 File | Description
 ---- | -----------
-base_active.res |
-base_active_teleport_target.res |
-base_already_built.res |
-base_cant_afford.res |
-base_selectable.res |
-base_unavailable.res |
-base_unavailable_teleport_target.res |
-dispenser_active.res |
-dispenser_already_built.res |
-dispenser_cant_afford.res |
+base_active.res | Base file used when a building can be actively built
+base_active_teleport_target.res | Eureka effect teleport target
+base_already_built.res | Base file used when a building is already built
+base_cant_afford.res | Base file used when a building can't be afforded
+base_selectable.res | 
+base_unavailable.res | Base file used for unavailable buildings *(can only happen during the tutorial)*
+base_unavailable_teleport_target.res | Eureka effect teleport target unavailable
+dispenser_active.res | Dispenser active panel
+dispenser_already_built.res | Dispenser already built panel
+dispenser_cant_afford.res | Dispenser can't be afforded panel
 dispenser_selectable.res |
-dispenser_unavailable.res |
-eureka_target_home_avail.res |
-eureka_target_home_unavail.res |
-eureka_target_tele_exit_avail.res |
-eureka_target_tele_exit_unavail.res |
-hudmenuengybuild.res |
-hudmenueurekaeffect.res |
-sentry_active.res |
-sentry_already_built.res |
-sentry_cant_afford.res |
+dispenser_unavailable.res | Dispenser unavailable *(can only happen during the tutorial)*
+eureka_target_home_avail.res | Eureka effect home target selectable
+eureka_target_home_unavail.res | Eureka effect home target unavailable
+eureka_target_tele_exit_avail.res | Eureka effect teleport target selectable
+eureka_target_tele_exit_unavail.res | Eureka effect teleport target unavailable
+hudmenuengybuild.res | Defines layout and style of the build menu
+hudmenueurekaeffect.res | Defines layout and style of the eureka effect menu
+sentry_active.res | Sentry active panel
+sentry_already_built.res | Sentry already built panel
+sentry_cant_afford.res | Sentry can't be afforded panel
 sentry_selectable.res |
-sentry_unavailable.res |
-tele_entrance_active.res |
-tele_entrance_already_built.res |
-tele_entrance_cant_afford.res |
-tele_entrance_unavailable.res |
-tele_exit_active.res |
-tele_exit_already_built.res |
-tele_exit_cant_afford.res |
-tele_exit_unavailable.res |
+sentry_unavailable.res | Sentry unavailable *(can only happen during the tutorial)*
+tele_entrance_active.res | Teleport entrance active panel
+tele_entrance_already_built.res | Teleport entrance already built panel
+tele_entrance_cant_afford.res | Teleport entrance can't be afforded panel
+tele_entrance_unavailable.res | Teleport entrance unavailable *(can only happen during the tutorial)*
+tele_exit_active.res | Teleport exit active panel
+tele_exit_already_built.res | Teleport exit already built panel
+tele_exit_cant_afford.res | Teleport exit can't be afforded panel
+tele_exit_unavailable.res | Teleport exit unavailable *(can only happen during the tutorial)*
 tele_selectable.res |
 
 ## resource/ui/build_menu/pipboy/
 
 File | Description
 ---- | -----------
-base_active.res |
-base_active_teleport_target.res |
-base_already_built.res |
-base_cant_afford.res |
-base_selectable.res |
-base_unavailable.res |
-base_unavailable_teleport_target.res |
-dispenser_active.res |
-dispenser_already_built.res |
-dispenser_cant_afford.res |
+base_active.res | PipBoy Base file used when a building can be actively built
+base_active_teleport_target.res | PipBoy Eureka effect teleport target
+base_already_built.res | PipBoy Base file used when a building is already built
+base_cant_afford.res | PipBoy Base file used when a building can't be afforded
+base_selectable.res | 
+base_unavailable.res | PipBoy Base file used for unavailable buildings *(can only happen during the tutorial)*
+base_unavailable_teleport_target.res | PipBoy Eureka effect teleport target unavailable
+dispenser_active.res | PipBoy Dispenser active panel
+dispenser_already_built.res | PipBoy Dispenser already built panel
+dispenser_cant_afford.res | PipBoy Dispenser can't be afforded panel
 dispenser_selectable.res |
-dispenser_unavailable.res |
-eureka_target_home_avail.res |
-eureka_target_home_unavail.res |
-eureka_target_tele_exit_avail.res |
-eureka_target_tele_exit_unavail.res |
-hudmenuengybuild.res |
-hudmenueurekaeffect.res |
-sentry_active.res |
-sentry_already_built.res |
-sentry_cant_afford.res |
+dispenser_unavailable.res | PipBoy Dispenser unavailable *(can only happen during the tutorial)*
+eureka_target_home_avail.res | PipBoy Eureka effect home target selectable
+eureka_target_home_unavail.res | PipBoy Eureka effect home target unavailable
+eureka_target_tele_exit_avail.res | PipBoy Eureka effect teleport target selectable
+eureka_target_tele_exit_unavail.res | PipBoy Eureka effect teleport target unavailable
+hudmenuengybuild.res | Defines layout and style of the PipBoy build menu
+hudmenueurekaeffect.res | Defines layout and style of the PipBoy eureka effect menu
+sentry_active.res | PipBoy Sentry active panel
+sentry_already_built.res | PipBoy Sentry already built panel
+sentry_cant_afford.res | PipBoy Sentry can't be afforded panel
 sentry_selectable.res |
-sentry_unavailable.res |
-tele_entrance_active.res |
-tele_entrance_already_built.res |
-tele_entrance_cant_afford.res |
-tele_entrance_unavailable.res |
-tele_exit_active.res |
-tele_exit_already_built.res |
-tele_exit_cant_afford.res |
-tele_exit_unavailable.res |
+sentry_unavailable.res | PipBoy Sentry unavailable *(can only happen during the tutorial)*
+tele_entrance_active.res | PipBoy Teleport entrance active panel
+tele_entrance_already_built.res | PipBoy Teleport entrance already built panel
+tele_entrance_cant_afford.res | PipBoy Teleport entrance can't be afforded panel
+tele_entrance_unavailable.res | PipBoy Teleport entrance unavailable *(can only happen during the tutorial)*
+tele_exit_active.res | PipBoy Teleport exit active panel
+tele_exit_already_built.res | PipBoy Teleport exit already built panel
+tele_exit_cant_afford.res | PipBoy Teleport exit can't be afforded panel
+tele_exit_unavailable.res | PipBoy Teleport exit unavailable *(can only happen during the tutorial)*
 tele_selectable.res |
 
 ## resource/ui/build_menu_360/
 
 File | Description
 ---- | -----------
-base_active.res |
-base_already_built.res |
-base_cant_afford.res |
-dispenser_active.res |
-dispenser_already_built.res |
-dispenser_cant_afford.res |
-hudmenuengybuild.res |
-sentry_active.res |
-sentry_already_built.res |
-sentry_cant_afford.res |
-tele_entrance_active.res |
-tele_entrance_already_built.res |
-tele_entrance_cant_afford.res |
-tele_exit_active.res |
-tele_exit_already_built.res |
-tele_exit_cant_afford.res |
+base_active.res | XBOX Base file used when a building can be actively built
+base_already_built.res | XBOX Base file used when a building is already built
+base_cant_afford.res | XBOX Base file used when a building can't be afforded
+dispenser_active.res | XBOX Dispenser active panel
+dispenser_already_built.res | XBOX Dispenser already built panel
+dispenser_cant_afford.res | XBOX Dispenser can't be afforded panel
+hudmenuengybuild.res | Defines layout and style of the XBOX build menu
+sentry_active.res | XBOX Sentry active panel
+sentry_already_built.res | XBOX Sentry already built panel
+sentry_cant_afford.res | XBOX Sentry can't be afforded panel
+tele_entrance_active.res | XBOX Teleport entrance active panel
+tele_entrance_already_built.res | XBOX Teleport entrance already built panel
+tele_entrance_cant_afford.res | XBOX Teleport entrance can't be afforded panel
+tele_exit_active.res | XBOX Teleport exit active panel
+tele_exit_already_built.res | XBOX Teleport exit already built panel
+tele_exit_cant_afford.res | XBOX Teleport exit can't be afforded panel
 
 ## resource/ui/build_menu_sc/
 
 File | Description
 ---- | -----------
-base_active.res |
-base_active_teleport_target.res |
-base_already_built.res |
-base_cant_afford.res |
-base_unavailable_teleport_target.res |
-dispenser_active.res |
-dispenser_already_built.res |
-dispenser_cant_afford.res |
-eureka_target_home_avail.res |
-eureka_target_home_unavail.res |
-eureka_target_tele_exit_avail.res |
-eureka_target_tele_exit_unavail.res |
-hudmenuengybuild.res |
-hudmenueurekaeffect.res |
-sentry_active.res |
-sentry_already_built.res |
-sentry_cant_afford.res |
-tele_entrance_active.res |
-tele_entrance_already_built.res |
-tele_entrance_cant_afford.res |
-tele_exit_active.res |
-tele_exit_already_built.res |
-tele_exit_cant_afford.res |
+base_active.res | Base file used when a building can be actively built *(for steam controller)*
+base_active_teleport_target.res | Eureka effect teleport target *(for steam controller)*
+base_already_built.res | Base file used when a building is already built *(for steam controller)*
+base_cant_afford.res | Base file used when a building can't be afforded *(for steam controller)*
+base_unavailable_teleport_target.res |Eureka effect teleport target unavailable *(for steam controller)*
+dispenser_active.res | Dispenser active panel *(for steam controller)*
+dispenser_already_built.res | Dispenser already built panel *(for steam controller)*
+dispenser_cant_afford.res | Dispenser can't be afforded panel *(for steam controller)*
+eureka_target_home_avail.res | Eureka effect home target selectable *(for steam controller)*
+eureka_target_home_unavail.res | Eureka effect home target unavailable *(for steam controller)*
+eureka_target_tele_exit_avail.res | Eureka effect teleport target selectable *(for steam controller)*
+eureka_target_tele_exit_unavail.res | Eureka effect teleport target unavailable *(for steam controller)*
+hudmenuengybuild.res | Defines layout and style of the build menu *(for steam controller)*
+hudmenueurekaeffect.res | Defines layout and style of the eureka effect menu *(for steam controller)*
+sentry_active.res | Sentry active panel *(for steam controller)*
+sentry_already_built.res | Sentry already built panel *(for steam controller)*
+sentry_cant_afford.res | Sentry can't be afforded panel *(for steam controller)*
+tele_entrance_active.res | Teleport entrance active panel *(for steam controller)*
+tele_entrance_already_built.res | Teleport entrance already built panel *(for steam controller)*
+tele_entrance_cant_afford.res | Teleport entrance can't be afforded panel *(for steam controller)*
+tele_exit_active.res | Teleport exit active panel *(for steam controller)*
+tele_exit_already_built.res | Teleport exit already built panel *(for steam controller)*
+tele_exit_cant_afford.res | Teleport exit can't be afforded panel *(for steam controller)*
 
 ## resource/ui/destroy_menu/
 
@@ -501,33 +501,33 @@ Like the build_menu folder, the destroy menu also contains a pipboy subfolder th
 
 File | Description
 ---- | -----------
-base_active.res |
-base_inactive.res |
-dispenser_active.res |
-dispenser_inactive.res |
-hudmenuengydestroy.res |
-sentry_active.res |
-sentry_inactive.res |
-tele_entrance_active.res |
-tele_entrance_inactive.res |
-tele_exit_active.res |
-tele_exit_inactive.res |
+base_active.res | Base file used when a building can be actively destoyed
+base_inactive.res | Base file used when a building isn't yet built
+dispenser_active.res | Dispenser destroy panel
+dispenser_inactive.res | Dispenser not built panel
+hudmenuengydestroy.res | Defines layout and style of the destroy menu
+sentry_active.res | Sentry destroy panel
+sentry_inactive.res | Sentry not built panel
+tele_entrance_active.res | Tele Entrance destroy panel
+tele_entrance_inactive.res | Tele Entrance not built panel
+tele_exit_active.res | Tele Exit destroy panel
+tele_exit_inactive.res | Tele Exit not built panel
 
 ## resource/ui/destroy_menu/pipboy/
 
 File | Description
 ---- | -----------
-base_active.res |
-base_inactive.res |
-dispenser_active.res |
-dispenser_inactive.res |
-hudmenuengydestroy.res |
-sentry_active.res |
-sentry_inactive.res |
-tele_entrance_active.res |
-tele_entrance_inactive.res |
-tele_exit_active.res |
-tele_exit_inactive.res |
+base_active.res | PipBoy Base file used when a building can be actively destoyed
+base_inactive.res | PipBoy Base file used when a building isn't yet built
+dispenser_active.res | PipBoy Dispenser destroy panel
+dispenser_inactive.res | PipBoy Dispenser not built panel
+hudmenuengydestroy.res | Defines layout and style of the PipBoy destroy menu
+sentry_active.res | PipBoy Sentry destroy panel
+sentry_inactive.res | PipBoy Sentry not built panel
+tele_entrance_active.res | PipBoy Tele Entrance destroy panel
+tele_entrance_inactive.res | PipBoy Tele Entrance not built panel
+tele_exit_active.res | PipBoy Tele Exit destroy panel
+tele_exit_inactive.res | PipBoy Tele Exit not built panel
 
 ## resource/ui/disguise_menu/
 
@@ -562,50 +562,50 @@ spy_red.res | class image - spy
 File | Description
 ---- | -----------
 base.res |
-demoman_blue.res | class image - demoman
-demoman_red.res | class image - demoman
-engineer_blue.res | class image - engineer
-engineer_red.res | class image - engineer
-heavy_blue.res | class image - heavy
-heavy_red.res | class image - heavy
-hudmenuspydisguise.res | defines layout and style
-medic_blue.res | class image - medic
-medic_red.res | class image - medic
-pyro_blue.res | class image - pyro
-pyro_red.res | class image - pyro
-scout_blue.res | class image - scout
-scout_red.res | class image - scout
-sniper_blue.res | class image - sniper
-sniper_red.res | class image - sniper
-soldier_blue.res | class image - soldier
-soldier_red.res | class image - soldier
-spy_blue.res | class image - spy
-spy_red.res | class image - spy
+demoman_blue.res | class image - demoman *(for XBOX)*
+demoman_red.res | class image - demoman *(for XBOX)*
+engineer_blue.res | class image - engineer *(for XBOX)*
+engineer_red.res | class image - engineer *(for XBOX)*
+heavy_blue.res | class image - heavy *(for XBOX)*
+heavy_red.res | class image - heavy *(for XBOX)*
+hudmenuspydisguise.res | defines layout and style *(for XBOX)*
+medic_blue.res | class image - medic *(for XBOX)*
+medic_red.res | class image - medic *(for XBOX)*
+pyro_blue.res | class image - pyro *(for XBOX)*
+pyro_red.res | class image - pyro *(for XBOX)*
+scout_blue.res | class image - scout *(for XBOX)*
+scout_red.res | class image - scout *(for XBOX)*
+sniper_blue.res | class image - sniper *(for XBOX)*
+sniper_red.res | class image - sniper *(for XBOX)*
+soldier_blue.res | class image - soldier *(for XBOX)*
+soldier_red.res | class image - soldier *(for XBOX)*
+spy_blue.res | class image - spy *(for XBOX)*
+spy_red.res | class image - spy *(for XBOX)*
 
 ## resource/ui/disguise_menu_sc/
 
 File | Description
 ---- | -----------
 base.res |
-demoman_blue.res | class image - demoman
-demoman_red.res | class image - demoman
-engineer_blue.res | class image - engineer
-engineer_red.res | class image - engineer
-heavy_blue.res | class image - heavy
-heavy_red.res | class image - heavy
-hudmenuspydisguise.res | defines layout and style
-medic_blue.res | class image - medic
-medic_red.res | class image - medic
-pyro_blue.res | class image - pyro
-pyro_red.res | class image - pyro
-scout_blue.res | class image - scout
-scout_red.res | class image - scout
-sniper_blue.res | class image - sniper
-sniper_red.res | class image - sniper
-soldier_blue.res | class image - soldier
-soldier_red.res | class image - soldier
-spy_blue.res | class image - spy
-spy_red.res | class image - spy
+demoman_blue.res | class image - demoman *(for steam controller)*
+demoman_red.res | class image - demoman *(for steam controller)*
+engineer_blue.res | class image - engineer *(for steam controller)*
+engineer_red.res | class image - engineer *(for steam controller)*
+heavy_blue.res | class image - heavy *(for steam controller)*
+heavy_red.res | class image - heavy *(for steam controller)*
+hudmenuspydisguise.res | defines layout and style *(for steam controller)*
+medic_blue.res | class image - medic *(for steam controller)*
+medic_red.res | class image - medic *(for steam controller)*
+pyro_blue.res | class image - pyro *(for steam controller)*
+pyro_red.res | class image - pyro *(for steam controller)*
+scout_blue.res | class image - scout *(for steam controller)*
+scout_red.res | class image - scout *(for steam controller)*
+sniper_blue.res | class image - sniper *(for steam controller)*
+sniper_red.res | class image - sniper *(for steam controller)*
+soldier_blue.res | class image - soldier *(for steam controller)*
+soldier_red.res | class image - soldier *(for steam controller)*
+spy_blue.res | class image - spy *(for steam controller)*
+spy_red.res | class image - spy *(for steam controller)*
 
 ## resource/ui/econ/
 
@@ -616,7 +616,7 @@ collectioncraftingdialog.res |
 collectioncraftingdialog_base.res |
 comboboxbackpackoverlaydialog.res | Style selection Menu
 confirmapplycardupgradeapplicationdialog.res |
-confirmapplydecodedialog.res |
+confirmapplydecodedialog.res | Crate unbox confirmation menu
 confirmapplyducktokendialog.res | Duck token application menu
 confirmapplygiftwrapdialog.res | Gift wrap application menu
 confirmapplypaintcandialog.res | Paint application menu
@@ -626,36 +626,36 @@ confirmapplystrangerestrictionapplicationdialog.res |
 confirmapplystrangifierdialog.res | Strangifier application menu
 confirmapplyteamcolorpaintcandialog.res | Team colored paint application menu
 confirmcustomizetexturedialog.res | Texture application menu, used for The Conscientious Objector
-confirmdialogabandonnopenalty.res |
-confirmdialogabandonpenalty.res |
-confirmdialogabandonsafe.res |
+confirmdialogabandonnopenalty.res | Disconnect confirmation with no penalty
+confirmdialogabandonpenalty.res | Disconnect confirmation with penalty
+confirmdialogabandonsafe.res | Disconnect confirmation
 confirmdialogoptout.res |
 confirmitempreviewdialog.res |
 confirmspellbookpageapplicationdialog.res | Spell Book Page application menu
 confirmtransmogrifyapplicationdialog.res |
-cyclingadcontainer.res |
-ducksleaderboardpanel.res |
-ducksleaderboards.res |
+cyclingadcontainer.res | advertisement box
+ducksleaderboardpanel.res | Duck collection leaderboard
+ducksleaderboards.res | Duck collection leaderboard
 genericnotificationtoast.res | Main Menu generic notification message (example: someone gets a ring)
-genericnotificationtoastmainmenu.res |
+genericnotificationtoastmainmenu.res | Main Menu generic notification message
 genericwaitingdialog.res |
-halloweenofferingdialog.res |
+halloweenofferingdialog.res | Gargoyle trade up contract
 inputstringforitembackpackoverlaydialog.res |
 inspectionpanel.res | Inspect menu for weapons contains the war paints menu and war paints consume menus as well
 inspectionpanel_cosmetic.res | Inspect panel for cosmetics in general
 itemaddefault.res |
-itemdiscardpanel.res |
-itemmodelpanel.res |
-itemmodelpanelcollectioncosmeticitem.res |
-itemmodelpanelcollectionitem.res |
+itemdiscardpanel.res | Item discard panel used when the backpack is full
+itemmodelpanel.res | Item properties (unusual, halloween, paint, strange, equipped icons)
+itemmodelpanelcollectioncosmeticitem.res | Item properties for collection items
+itemmodelpanelcollectionitem.res | Item properties collection items
 itempickuppanel.res | New item found panel
 leaderboardpanel.res |
 lobbyleaderboard.res |
 manncotrade_commonstatclock.res |
 notificationqueuepanel.res |
 notificationspresentpanel.res | Shows up when you are in the loadout menus such as backpack and there is a new notification unchecked
-notificationtoastcontainer.res | Main Menu New Item notification
-notificationtoastcontrol.res | Main Menu New Item notification container (background/label)
+notificationtoastcontainer.res | Main menu new item notification (background/label)
+notificationtoastcontrol.res | Main menu new item notification container (Accept/decline buttons)
 paintkitconsumedialog.res | PaintKit consume menu
 questdefinitionviewpanel.res |
 questdetailspanel.res |
@@ -714,45 +714,45 @@ storeviewcartpanel.res |
 
 File | Description
 ---- | -----------
-storehome_base.res |
-storehome_freetrial.res |
-storehome_premium.res |
-storeitemcontrols.res |
-storemapstampsinfodialog.res |
-storepage.res |
-storepage_bundles.res |
-storepage_items.res |
-storepage_maps.res |
-storepanel.res |
-storepreviewitempanel.res |
-storepreviewitempanel_fullscreen.res |
-storepreviewitempanel_maps.res |
-storeviewcartpanel.res |
+storehome_base.res | Store home
+storehome_freetrial.res | Store free trial panel
+storehome_premium.res | 
+storeitemcontrols.res | Add to cart button
+storemapstampsinfodialog.res | Store map stamp preview
+storepage.res | Main file
+storepage_bundles.res | Store bundles, part of *storepage.res*
+storepage_items.res | Store items, part of *storepage.res*
+storepage_maps.res | Store maps, part of *storepage.res*
+storepanel.res | Store pages header and footer
+storepreviewitempanel.res | Store item preview
+storepreviewitempanel_fullscreen.res | Store item fullscreen preview
+storepreviewitempanel_maps.res | Store map preview
+storeviewcartpanel.res | Store cart
 
 ## resource/ui/notifications/
 
 File | Description
 ---- | -----------
-base_notification.res |
+base_notification.res | Main notification file
 notification_manifest.txt |
-notify_competitive_gc_down.res |
-notify_enemy_flag_captured_blue.res |
-notify_enemy_flag_captured_red.res |
-notify_enemy_flag_dropped_blue.res |
-notify_enemy_flag_dropped_red.res |
-notify_enemy_flag_returned_blue.res |
-notify_enemy_flag_returned_red.res |
-notify_enemy_flag_taken_blue.res |
-notify_enemy_flag_taken_red.res |
+notify_competitive_gc_down.res | Competitive game coordinatior down notification
+notify_enemy_flag_captured_blue.res | Enemy blue flag captured notification
+notify_enemy_flag_captured_red.res | Enemy red flag captured notification
+notify_enemy_flag_dropped_blue.res | Enemy blue flag dropped notification
+notify_enemy_flag_dropped_red.res | Enemy red flag dropped notification
+notify_enemy_flag_returned_blue.res | Enemy blue flag returned notification
+notify_enemy_flag_returned_red.res | Enemy red flag returned notification
+notify_enemy_flag_taken_blue.res | Enemy blue flag taken notification
+notify_enemy_flag_taken_red.res | Enemy red flag taken notification
 notify_golden_wrench.res |
-notify_how_to_control_ghost.res |
-notify_how_to_control_ghost_no_respawn.res |
-notify_how_to_control_kart.res |
-notify_no_invuln_with_flag_blue.res |
-notify_no_invuln_with_flag_red.res |
-notify_no_tele_with_flag_blue.res |
-notify_no_tele_with_flag_red.res |
-notify_passtime_howto.res |
+notify_how_to_control_ghost.res | Ghost controls explanation
+notify_how_to_control_ghost_no_respawn.res | Ghost controls explanation
+notify_how_to_control_kart.res | Kart controls explanation
+notify_no_invuln_with_flag_blue.res | Can't take the blue flag while ubered notification
+notify_no_invuln_with_flag_red.res | Can't take the red flag while ubered notification
+notify_no_tele_with_flag_blue.res | Can't teleport with blue flag notification
+notify_no_tele_with_flag_red.res | Can't teleport with red flag notification
+notify_passtime_howto.res | Passtime controls explanation
 notify_passtime_no_carry.res |
 notify_passtime_no_cloak.res |
 notify_passtime_no_disguise.res |
@@ -768,14 +768,14 @@ notify_touching_enemy_ctf_cap_blue.res |
 notify_touching_enemy_ctf_cap_red.res |
 notify_truce_end.res |
 notify_truce_start.res |
-notify_your_flag_captured_blue.res |
-notify_your_flag_captured_red.res |
-notify_your_flag_dropped_blue.res |
-notify_your_flag_dropped_red.res |
-notify_your_flag_returned_blue.res |
-notify_your_flag_returned_red.res |
-notify_your_flag_taken_blue.res |
-notify_your_flag_taken_red.res |
+notify_your_flag_captured_blue.res | Own blue flag captured notification
+notify_your_flag_captured_red.res | Own red flag captured notification
+notify_your_flag_dropped_blue.res | Own blue flag dropped notification
+notify_your_flag_dropped_red.res | Own red flag dropped notification
+notify_your_flag_returned_blue.res | Own blue flag returned notification
+notify_your_flag_returned_red.res | Own red flag returned notification
+notify_your_flag_taken_blue.res | Own blue flag taken notification
+notify_your_flag_taken_red.res | Own red flag taken notification
 
 ## resource/ui/quests/
 
@@ -884,26 +884,26 @@ questitempanel_pauling_spy.res |
 
 File | Description
 ---- | -----------
-main.res |
+main.res | Main training window file
 
 ## resource/ui/training/basictraining/
 
 File | Description
 ---- | -----------
-classdetails.res |
-classpanel.res |
-classselection.res |
+classdetails.res | Training selected class details
+classpanel.res | Training class image and progress label
+classselection.res | Training class selection panel
 
 ## resource/ui/training/modeselection/
 
 File | Description
 ---- | -----------
-modepanel.res |
-modeselection.res |
+modepanel.res | Contains the parents for Basic Training and Offline Practice
+modeselection.res | Training style selection
 
 ## resource/ui/training/offlinepractice/
 
 File | Description
 ---- | -----------
-mapselection.res |
-practicemodeselection.res |
+mapselection.res | Offline practice map selection
+practicemodeselection.res | Offline practice gamemode selection
