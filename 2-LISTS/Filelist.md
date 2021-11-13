@@ -639,9 +639,9 @@ ducksleaderboardpanel.res | **Duck collection leaderboard**
 ducksleaderboards.res | **Duck collection leaderboard**
 genericnotificationtoast.res | **Ingame notification for trade, duel challenge, ringe received, new game found, you should equip the spellbook or powerupbottle message and more...**
 genericnotificationtoastmainmenu.res | **Main Menu generic notification message** *[example: You have a new item! label or when someone gets a ring etc...]*
-genericwaitingdialog.res | 
+genericwaitingdialog.res | **Waiting for player to respond message**
 halloweenofferingdialog.res | **Contains some collectioncraftingdialog_base.res overrides for Gargoyle Halloween Transmuting trade up contract**
-inputstringforitembackpackoverlaydialog.res | 
+inputstringforitembackpackoverlaydialog.res | **Taunt selection entry for Mann Co. Director's Cut Reel**
 inspectionpanel.res | **Inspect menu for weapons contains the war paints menu and war paints consume menus as well**
 inspectionpanel_cosmetic.res | **Inspect panel for cosmetics in general**
 itemaddefault.res |
