@@ -87,7 +87,7 @@ These are equivalent to using the following numbers instead:
 |         |
 7         5
 |         |
-3 -- 6 -- 2
+2 -- 6 -- 3
 ```
 
 Of note, this is often used to move elements that can't otherwise be moved. Some elements still can't be forcibly moved with this, but pinning elements will make most elements with hardcoded positions move.
