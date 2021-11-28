@@ -253,7 +253,7 @@ matchmakingdashboardleftsidepanel.res | **Contains the matchmaking panels backgr
 matchmakingdashboardmvmcriteria.res | **MvM Menu - Main MvM Mode menu file**
 matchmakingdashboardmvmmodeselect.res | **MvM Menu - Practice/MannUp mode selection menu**
 matchmakingdashboardplaylist.res | **Similiar to matchmakingdashboardsidepanel.res but affects only *find a game* main panel**
-matchmakingdashboardpopup.res | 
+matchmakingdashboardpopup.res | *No longer in use*
 matchmakingdashboardpopup_mapvotepanel.res | **End of game next map vote buttons**
 matchmakingdashboardpopup_newmatch.res | **Popup panel displayed when a new matchmaking game is found**
 matchmakingdashboardpopup_nextmapvoting.res | **End of game next map vote panel**
@@ -297,7 +297,7 @@ quickplaybusydialog.res | *No longer in use*
 quickplaydialog.res | *No longer in use*
 revivedialog.res | **MvM - teammate revive panel**
 robotdestructionstatus.res | **Robot destruction status icon and arrow**
-roundinfo.res |
+roundinfo.res | **Territorial control map information**
 saxxyawards_submitform.res | **Form application submit panel for the saxxy awards**
 scoreboard.res | **Scoreboard, Includes a list of the all the players currently in the server, all the personal stats and the server's timer and map name**
 selectmosthelpfulfrienddialog.res | **Helpful friend selection dialog, shows when F2P account upgrades to premium and the selected friend will receive the professors speks**
