@@ -256,10 +256,10 @@ Some of these may not function ingame or are inaccessible through normal means!
 
 Animation | Description
 --------- | -----------
-HintMessageLower |
-HintMessageRaise |
-HudReplayReminderIn |
-HudReplayReminderIn2 |
-eventHudCartAlarmPulseStop |
-HudTournament_DoorsCloseEndRound | runs if "competitive_victory" is the current Tournament mode state
-TimerFlash |
+HintMessageLower | Potential remnants of HL2? used for the history of picked up weapons
+HintMessageRaise | Same as above
+HudReplayReminderIn | Potential remnant from when replays were enabled on valve servers?
+HudReplayReminderIn2 | Same as above
+eventHudCartAlarmPulseStop | Misspelling of `HudCartAlarmPulseStop`, which is never run due to this.
+HudTournament_DoorsCloseEndRound | Runs if the current Tournament mode state is "competitive_victory"
+TimerFlash | Runs whenever the timer is restarted or paused?
