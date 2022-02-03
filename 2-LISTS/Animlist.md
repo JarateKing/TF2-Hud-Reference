@@ -241,73 +241,6 @@ DelayQuestMapClose |
 
 Animation | Description
 --------- | -----------
-LevelInit | 
-WeaponHighlight | 
-OpenWeaponSelectionMenu | 
-CloseWeaponSelectionMenu | 
-FadeOutWeaponSelectionMenu | 
-SuitAuxPowerMax | 
-SuitAuxPowerNotMax | 
-SuitAuxPowerDecreasedBelow25 | 
-SuitAuxPowerIncreasedAbove25 | 
-SuitAuxPowerNoItemsActive | 
-SuitAuxPowerOneItemActive | 
-SuitAuxPowerTwoItemsActive | 
-SuitAuxPowerThreeItemsActive | 
-SuitFlashlightOn | 
-SuitFlashlightOff | 
-HudTakeDamageFront | 
-HudTakeDamageLeft | 
-HudTakeDamageRight | 
-HudTakeDamageBehind | 
-HudTakeDamageHighLeft | 
-HudTakeDamageHighRight | 
-HudTakeDamageHigh | 
-HudTakeDamageDrown | 
-HudTakeDamagePoison | 
-HudTakeDamageBurn | 
-HudTakeDamageRadiation | 
-HudPlayerDeath | 
-HealthIncreasedAbove20 | 
-HealthIncreasedBelow20 | 
-SuitPowerIncreasedAbove20 | 
-SuitPowerIncreasedBelow20 | 
-SuitPowerZero | 
-TestMovement | 
-HealthDamageTaken | 
-SuitDamageTaken | 
-HealthLow | 
-HealthPulse | 
-HealthLoop | 
-SuitArmorLow | 
-SuitPulse | 
-SuitLoop | 
-AmmoIncreased | 
-AmmoDecreased | 
-AmmoEmpty | 
-Ammo2Increased | 
-Ammo2Decreased | 
-Ammo2Empty | 
-AmmoSecondaryIncreased | 
-AmmoSecondaryDecreased | 
-AmmoSecondaryEmpty | 
-WeaponChanged | 
-WeaponUsesSecondaryAmmo | 
-WeaponDoesNotUseSecondaryAmmo | 
-CraneMagnetFlash | 
-HintMessageShow | 
-HintMessageHide | 
-KeyHintMessageShow | 
-KeyHintMessageHide | 
-SquadMemberAdded | 
-SquadMemberLeft | 
-SquadMemberDied | 
-SquadMembersFollowing | 
-SquadMembersStationed | 
-PoisonDamageTaken | 
-PoisonDamageCured | 
-PoisonPulse | 
-PoisonLoop | 
 ShowCommentary | 
 HideCommentary | 
 PulseOption1 | 
@@ -316,3 +249,17 @@ PulseOption3 |
 PulseOption4 | 
 PulseOption5 | 
 HideVoteBackgrounds | 
+
+## Unused Animations
+
+Some of these may not function ingame or are inaccessible through normal means!
+
+Animation | Description
+--------- | -----------
+HintMessageLower |
+HintMessageRaise |
+HudReplayReminderIn |
+HudReplayReminderIn2 |
+eventHudCartAlarmPulseStop |
+HudTournament_DoorsCloseEndRound | runs if "competitive_victory" is the current Tournament mode state
+TimerFlash |
