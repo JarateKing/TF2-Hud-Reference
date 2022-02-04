@@ -239,6 +239,8 @@ DelayQuestMapClose |
 
 ## hudanimations.txt
 
+Animations which are not present in TF2 or are used in `hudanimations_tf` have been removed from this list
+
 Animation | Description
 --------- | -----------
 ShowCommentary | 
@@ -250,13 +252,14 @@ PulseOption4 |
 PulseOption5 | 
 HideVoteBackgrounds | 
 
-## Unused Animations
+## File-less animations
 
-Some of these may not function ingame or are inaccessible through normal means!
+These animations are not defined anywhere, and are only referenced in the code.
+It is possible that some of them cannot be triggered in game!
 
 Animation | Description
 --------- | -----------
-HintMessageLower | Potential remnants of HL2? used for the history of picked up weapons
+HintMessageLower | Potential remnants from HL2? used for the history of picked up weapons
 HintMessageRaise | Same as above
 HudReplayReminderIn | Potential remnant from when replays were enabled on valve servers?
 HudReplayReminderIn2 | Same as above
