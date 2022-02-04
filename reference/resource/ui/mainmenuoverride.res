@@ -218,7 +218,7 @@
 		}
 		if_christmas
 		{
-			"image"		"../console/background_xmas2011_widescreen"
+			"image"		"../console/background_xmas2020_widescreen"
 		}		
 	}
 					
@@ -643,24 +643,6 @@
 				"keyboardinputenabled" "0"
 			}		
 		}
-	}
-
-	"StreamListPanel"
-	{
-		"ControlName"	"CTFStreamListPanel"
-		"fieldName"		"StreamListPanel"
-		"xpos"			"c5"
-		"ypos"			"65"
-		"zpos"			"1"
-		"wide"			"300"
-		"tall"			"350"
-		"visible"		"0"
-		"PaintBackgroundType"	"2"
-		"paintbackground"	"0"
-		"border"		"MainMenuHighlightBorder"
-
-		"navDown"		"SettingsButton"		// when a sub element can't nav down it will pass through this
-		"navLeft"		"WatchStreamButton"	// when a sub element can't nav left it will pass through this
 	}
 
 	"QuestLogButton"
@@ -1725,23 +1707,88 @@
 				{
 					"0"
 					{
-						"item"		"Winter 2019 Cosmetic Key"
+						"item"		"Winter 2021 Cosmetic Key"
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Winter 2019 Cosmetic Case"
+						"item"		"Winter 2021 Cosmetic Case"
 						"show_market"	"1"
 					}
 					"2"
 					{
-						"item"		"Winter 2019 War Paint Key"
+						"item"		"Taunt: Doctor's Defibrillators"
 						"show_market"	"0"
 					}
 					"3"
 					{
-						"item"		"Winter 2019 War Paint Case"
-						"show_market"	"1"
+						"item"		"Taunt: Shooter's Stakeout"
+						"show_market"	"0"
+					}
+					"4"
+					{
+						"item"		"Taunt: The Hot Wheeler"
+						"show_market"	"0"
+					}
+					"5"
+					{
+						"item"		"Map Token Polar"
+						"show_market"	"0"
+					}
+					"6"
+					{
+						"item"		"Map Token Bread Space"
+						"show_market"	"0"
+					}
+					"7"
+					{
+						"item"		"Map Token Chilly"
+						"show_market"	"0"
+					}
+					"8"
+					{
+						"item"		"Map Token Cascade"
+						"show_market"	"0"
+					}
+					"9"
+					{
+						"item"		"Map Token Altitude"
+						"show_market"	"0"
+					}
+					"10"
+					{
+						"item"		"Map Token Doublefrost"
+						"show_market"	"0"
+					}
+					"11"
+					{
+						"item"		"Strange Filter: Polar (Community)"
+						"show_market"	"0"
+					}
+					"12"
+					{
+						"item"		"Strange Filter: Bread Space (Community)"
+						"show_market"	"0"
+					}
+					"13"
+					{
+						"item"		"Strange Filter: Chilly (Community)"
+						"show_market"	"0"
+					}
+					"14"
+					{
+						"item"		"Strange Filter: Cascade (Community)"
+						"show_market"	"0"
+					}
+					"15"
+					{
+						"item"		"Strange Filter: Altitude (Community)"
+						"show_market"	"0"
+					}
+					"16"
+					{
+						"item"		"Strange Filter: Doublefrost (Community)"
+						"show_market"	"0"
 					}
 				}
 			}
