@@ -137,7 +137,7 @@ huditemeffectmeter.res | **Charge meter for:  Sandman / Wrap Assassin / Sandvich
 huditemeffectmeter_cleaver.res | **Charge meter for: Flying Guillotine**
 huditemeffectmeter_demoman.res | **Counter for: Eyelander heads and AirStrike**
 huditemeffectmeter_engineer.res | **Counter for: Frontier Justice and Manmelter**
-huditemeffectmeter_halloweensouls.res | **Counter for: Halloween souls collected**
+huditemeffectmeter_halloweensouls.res | *No longer in use*
 huditemeffectmeter_heavy.res | **Charge meter for: Heavy rage in MvM**
 huditemeffectmeter_kartcharge.res | **Charge meter for: Halloween Karts**
 huditemeffectmeter_killstreak.res | **Counter for: killstreak weapons**
