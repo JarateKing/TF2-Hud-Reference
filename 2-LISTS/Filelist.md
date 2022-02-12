@@ -148,7 +148,7 @@ huditemeffectmeter_powerupbottle.res | **Counter for: PowerUp Canteen in MvM**
 huditemeffectmeter_pyro.res | **Charge meter for: Phlogistinator**
 huditemeffectmeter_raygun.res | **Charge meter for: Righteous Bison**
 huditemeffectmeter_sapper.res | **Charge meter for: Sapper**
-huditemeffectmeter_scout.res | **Charge meter for: Bonk! Atomic Punch/Crit-a-Cola and MvM medic shield**
+huditemeffectmeter_scout.res | **Charge meter for: Bonk! Atomic Punch/Crit-a-Cola/Mad Milk and MvM medic shield**
 huditemeffectmeter_sniper.res | **Counter for: Bazaar Bargain**
 huditemeffectmeter_sniperfocus.res | **Charge meter for: Hitman's Heatmaker**
 huditemeffectmeter_sodapopper.res | **Charge meter for: Sodapopper**
