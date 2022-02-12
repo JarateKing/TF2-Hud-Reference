@@ -133,7 +133,7 @@ huddemomanpipes.res | **Demoman Stickies count and shields charge** *[also in Hu
 hudhealthaccount.res | **Plus health value displayed on health gain, ex: health kit pick up** *[also in HudLayout.res > CHealthAccountPanel]*
 hudinspectpanel.res | **Teammate carried items inspection panel** *[also in HudLayout.res > HudInspectPanel]*
 huditemattributetracker.res | **Contract progress tracker** *[also in HudLayout.res > ItemAttributeTracker]*
-huditemeffectmeter.res | **Charge meter for:  Sandman / Wrap Assassin / Sandvich / Spy Watches / Jarate / Soldier Banners / Gas Passer**
+huditemeffectmeter.res | **Charge meter for:  Sandman / Wrap Assassin / Sandvich / Spy Watches / Jarate / Razorback / Cleaner's Carbine / Soldier Banners / Gas Passer**
 huditemeffectmeter_cleaver.res | **Charge meter for: Flying Guillotine**
 huditemeffectmeter_demoman.res | **Counter for: Eyelander heads and AirStrike**
 huditemeffectmeter_engineer.res | **Counter for: Frontier Justice and Manmelter**
