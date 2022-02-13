@@ -133,11 +133,11 @@ huddemomanpipes.res | **Demoman Stickies count and shields charge** *[also in Hu
 hudhealthaccount.res | **Plus health value displayed on health gain, ex: health kit pick up** *[also in HudLayout.res > CHealthAccountPanel]*
 hudinspectpanel.res | **Teammate carried items inspection panel** *[also in HudLayout.res > HudInspectPanel]*
 huditemattributetracker.res | **Contract progress tracker** *[also in HudLayout.res > ItemAttributeTracker]*
-huditemeffectmeter.res | **Charge meter for:  Sandman / Wrap Assassin / Sandvich / Spy Watches / Jarate / Soldier Banners / Gas Passer**
+huditemeffectmeter.res | **Charge meter for:  Sandman / Wrap Assassin / Sandvich / Spy Watches / Jarate / Razorback / Cleaner's Carbine / Soldier Banners / Gas Passer**
 huditemeffectmeter_cleaver.res | **Charge meter for: Flying Guillotine**
 huditemeffectmeter_demoman.res | **Counter for: Eyelander heads and AirStrike**
 huditemeffectmeter_engineer.res | **Counter for: Frontier Justice and Manmelter**
-huditemeffectmeter_halloweensouls.res | **Counter for: Halloween souls collected**
+huditemeffectmeter_halloweensouls.res | *No longer in use*
 huditemeffectmeter_heavy.res | **Charge meter for: Heavy rage in MvM**
 huditemeffectmeter_kartcharge.res | **Charge meter for: Halloween Karts**
 huditemeffectmeter_killstreak.res | **Counter for: killstreak weapons**
@@ -148,7 +148,7 @@ huditemeffectmeter_powerupbottle.res | **Counter for: PowerUp Canteen in MvM**
 huditemeffectmeter_pyro.res | **Charge meter for: Phlogistinator**
 huditemeffectmeter_raygun.res | **Charge meter for: Righteous Bison**
 huditemeffectmeter_sapper.res | **Charge meter for: Sapper**
-huditemeffectmeter_scout.res | **Charge meter for: Bonk! Atomic Punch/Crit-a-Cola and MvM medic shield**
+huditemeffectmeter_scout.res | **Charge meter for: Bonk! Atomic Punch/Crit-a-Cola/Mad Milk and MvM medic shield**
 huditemeffectmeter_sniper.res | **Counter for: Bazaar Bargain**
 huditemeffectmeter_sniperfocus.res | **Charge meter for: Hitman's Heatmaker**
 huditemeffectmeter_sodapopper.res | **Charge meter for: Sodapopper**
