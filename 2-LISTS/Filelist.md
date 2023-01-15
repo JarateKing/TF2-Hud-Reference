@@ -907,7 +907,7 @@ modeselection.res | **Training style selection**
 
 File | Description
 ---- | -----------
-mapselection.res | **ffline practice map selection**
+mapselection.res | **Offline practice map selection**
 practicemodeselection.res | **Offline practice gamemode selection**
 
 ## resource/ui/replaybrowser/
