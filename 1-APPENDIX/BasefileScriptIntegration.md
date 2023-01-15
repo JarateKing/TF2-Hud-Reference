@@ -41,3 +41,5 @@ echo "#base ../resource/ui/hudplayerhealth_alt.res"
 ```
 
 With this in place, when we run `hudplayerhealth_alt` in console, our hud will switch to using `hudplayerhealth_alt.res` as our `hudplayerhealth.res` file. We can also run `hudplayerhealth_def` to use `hudplayerhealth_def.res` again. This change will persist even after closing TF2.
+
+The same concept can be expanded arbitrarily: we could have a setup with multiple options, where we'd just use the same setup as above but have multiple different variations of the `hudplayerhealth_alt` alias and different `hud/hudplayerhealth_alt.cfg` files it uses to echo. Nor is there anything limiting it to `hudplayerhealth.res`, the same concept could function with any `.res` file (files like `mainmenuoverride.res` may require using a different method of reloading the hud, however).
