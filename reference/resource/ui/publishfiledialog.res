@@ -392,18 +392,18 @@
 		"Default"		"1"
 		"font"		"HudFontSmallBold"
 
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"115"
-			"ypos"			"0"
-			"zpos"			"1"
-			"wide"			"25"
-			"tall"			"25"
-			"scaleImage"	"1"
-			"image"			"beta"
-		}
+		//"SubImage"
+		//{
+		//	"ControlName"	"ImagePanel"
+		//	"fieldName"		"SubImage"
+		//	"xpos"			"115"
+		//	"ypos"			"0"
+		//	"zpos"			"1"
+		//	"wide"			"25"
+		//	"tall"			"25"
+		//	"scaleImage"	"1"
+		//	"image"			"beta"
+		//}
 	}
 
 	"BrowseDescription"
@@ -1290,6 +1290,27 @@
 			"textAlignment"	"west"
 			"xpos"			"85"
 			"ypos"			"145"
+			"zpos"			"1"
+			"wide"			"80"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"smallcheckimage" "1"
+			"disabledfgcolor2_override"	"117 107 94 255"
+		}
+		"MapsCheckBox_Summer"
+		{
+			"ControlName"	"CheckButton"
+			"fieldName"		"MapsCheckBox_Summer"
+			"labelText"		"#TF_SteamWorkshop_Tag_Summer"
+			"Font"			"ItemFontAttribSmall"
+			"textAlignment"	"west"
+			"xpos"			"85"
+			"ypos"			"160"
 			"zpos"			"1"
 			"wide"			"80"
 			"tall"			"20"
