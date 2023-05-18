@@ -17,18 +17,20 @@ For the majority of hud editors, Notepad++ is fine.
 ## Vpk files
 
 Vpk files are the file format that all tf2 files are stored with. They can be opened with GCFScape, and are treated like an archive file (similar to .zip or .rar files). It can be downloaded here:
-* GCFScape: http://nemesis.thewavelength.net/index.php?p=26
+* GCFScape: https://nemstools.github.io/pages/GCFScape-Download.html
 
 ## Image editors
 
 There are two options for working with vtf files, the image format used for textures in tf2.
 
 The easier option is to use the vtf plugins for popular editors. Here they are:
-* Paint.net: http://nemesis.thewavelength.net/index.php?p=50
-* Photoshop: http://nemesis.thewavelength.net/index.php?c=154
+* Paint.net: https://nemstools.github.io/pages/Miscellaneous-PDN_VTF_Plug-In.html
+* Photoshop: https://nemstools.github.io/pages/Miscellaneous-PS_VTF_Plug-In.html
 
-The longer, but more flexible approach is to use VTFEdit to convert into and out of the vtf format. You can use any image editor with this, but you will need to save the files then convert them separately. It can be downloaded here:
-* VTFEdit: http://nemesis.thewavelength.net/index.php?c=238
+The longer, but more flexible approach is to use VTFEdit to convert into and out of the vtf format. You can use any image editor with this, but you will need to save the files then convert them separately. VTFEdit Reloaded is recommended as it has many advantages over the original VTFEdit. 
+They can be downloaded here:
+* VTFEdit Reloaded: https://github.com/Sky-rym/VTFEdit-Reloaded/releases/latest
+* VTFEdit : https://nemstools.github.io/pages/VTFLib-Download.html
 
 ## Font editors
 
