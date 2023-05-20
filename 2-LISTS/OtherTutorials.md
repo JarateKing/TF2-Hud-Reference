@@ -4,7 +4,6 @@ This section includes other hud editing tutorials and references to use. This is
 
 ## General Hud Editing
 
-* Doodlestuff: http://doodlesstuff.com/?p=tf2hud
 * Rays' video tutorials: https://www.youtube.com/playlist?list=PL5eNrB8RrXXuV3P1nv6NnwF-tCL_KnJIs
 * Hypnotize's hud updating tutorial: https://github.com/Hypnootize/Huds-Update-Guide
 
