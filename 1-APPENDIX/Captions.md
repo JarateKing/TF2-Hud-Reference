@@ -70,3 +70,27 @@ There's various forms of formatting that can be included in caption text:
 - `<len:#>`: shows the caption for some amount of time, to a maximum of `cc_linger_time`.
 - `<norepeat:#>`: the delay until this caption can appear again.
 
+## Advanced Usage
+
+### New Captions
+
+The console variable `cc_lang` can be used to set the caption file used. Normally, this is used for `cc_lang french` to use `closecaption_french.dat` instead of `closecaption_english.dat`, for example.
+
+However, we may create new caption files and refer to them. If we had `closecaption_competitive.dat` and `closecaption_competitive.txt`, we may use `cc_lang competitive` to use these captions.
+
+It's important to note that both a `.dat` and `.txt` file are needed to load captions. Despite this requirement, all caption data is loaded from `.dat` and by extensions `.txt` can be empty, like so:
+
+```
+"lang"
+{ 
+	"Language" "blank" 
+	"Tokens" 
+	{
+		//blank
+		//the .txt used to compile was not provided but is needed to load non-base .dat files into the game
+	}
+}
+```
+
+It can be used to refer to caption files in a subfolder as well: if we have a caption file like `resource/closecaption_/competitive.dat`, we can use `cc_lang /competitive` to use this. This can be used to better organize collections of caption files.
+
