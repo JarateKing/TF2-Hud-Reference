@@ -42,3 +42,19 @@ They can be stylized by adding to `hudlayout.res`:
 ```
 
 As well, in `clientscheme.res` there are various fonts that are used by captions: `CloseCaption_Normal`, `CloseCaption_Italic`, `CloseCaption_Bold`, `CloseCaption_BoldItalic`, and `CloseCaption_Small` that form the different types of fonts that a caption may use.
+
+Captions themselves are defined in `closecaption_english.dat`. This is a compiled data file that can't be easily read or edited, and instead `closecaption_english.txt` contains the source human-readable and editable captions. This must then be compiled with the `captioncompiler.exe` utility found in a tf2 install's `bin` folder.
+
+The format for `closecaption_english.txt` looks like:
+
+```
+"lang"
+{ 
+	"Language" "english" 
+	"Tokens" 
+	{
+		"soundname" "text"
+		"soundname2" "other text"
+	}
+}
+```
