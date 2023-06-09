@@ -116,3 +116,13 @@ bind 2 "slot2; cc_emit #slot2"
 bind 3 "slot3; cc_emit #slot3"
 ```
 
+### Decompiling
+
+Decompiling captions can be done with the [Source Caption Decompiler](https://github.com/JarateKing/sourcecaptiondecompiler) program.
+
+## Further Reading:
+
+Clovervidia's guides:
+
+- https://steamcommunity.com/sharedfiles/filedetails/?id=167785751
+- https://www.reddit.com/r/tf2scripthelp/wiki/captions/
