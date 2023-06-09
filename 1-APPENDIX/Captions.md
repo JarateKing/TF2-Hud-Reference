@@ -18,3 +18,27 @@ cc_predisplay_time 0.25 // how long to wait before showing a caption
 cc_sentencecaptionnorepeat 4 // how long for a caption to not repeat
 ```
 
+They can be stylized by adding to `hudlayout.res`:
+
+```
+	HudCloseCaption
+	{
+		"fieldName" "HudCloseCaption"
+		"visible"	"1"
+		"enabled"	"1"
+		"xpos"		"c-250"
+		"ypos"		"276"
+		"wide"		"500"
+		"tall"		"136"
+
+		"BgAlpha"	"128"
+
+		"GrowTime"		"0.25"
+		"ItemHiddenTime"	"0.2"  // Nearly same as grow time so that the item doesn't start to show until growth is finished
+		"ItemFadeInTime"	"0.15"	// Once ItemHiddenTime is finished, takes this much longer to fade in
+		"ItemFadeOutTime"	"0.3"
+		"topoffset"		"0"
+	}
+```
+
+As well, in `clientscheme.res` there are various fonts that are used by captions: `CloseCaption_Normal`, `CloseCaption_Italic`, `CloseCaption_Bold`, `CloseCaption_BoldItalic`, and `CloseCaption_Small` that form the different types of fonts that a caption may use.
