@@ -94,3 +94,25 @@ It's important to note that both a `.dat` and `.txt` file are needed to load cap
 
 It can be used to refer to caption files in a subfolder as well: if we have a caption file like `resource/closecaption_/competitive.dat`, we can use `cc_lang /competitive` to use this. This can be used to better organize collections of caption files.
 
+### Reloading Captions
+
+If captions have been edited and recompiled while TF2 is running, we can reload captions by changing `cc_lang` to some other caption file and then changing `cc_lang` back to our desired caption file.
+
+### Script Integration
+
+The console command `cc_emit` can run arbitrary captions. With this, we can use captions as a way to show information from scripts. For example, if we had the captions:
+
+```
+"#slot1" "Switched to slot 1"
+"#slot2" "Switched to slot 2"
+"#slot3" "Switched to slot 3"
+```
+
+Then we can integrate this into a script:
+
+```
+bind 1 "slot1; cc_emit #slot1"
+bind 2 "slot2; cc_emit #slot2"
+bind 3 "slot3; cc_emit #slot3"
+```
+
