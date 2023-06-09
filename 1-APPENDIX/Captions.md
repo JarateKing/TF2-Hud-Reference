@@ -58,3 +58,15 @@ The format for `closecaption_english.txt` looks like:
 	}
 }
 ```
+
+There's various forms of formatting that can be included in caption text:
+
+- `<B>`: bold text. If text is already bold, unboldens.
+- `<I>`: italic text. If text is already italic, unitalizes.
+- `<clr:255,255,255>`: text color in RGB format.
+- `<cr>`: newline.
+- `<sfx>`: marks caption as something to skip with `cc_subtitles 1`.
+- `<delay:#>`: delays the caption for some number of seconds.
+- `<len:#>`: shows the caption for some amount of time, to a maximum of `cc_linger_time`.
+- `<norepeat:#>`: the delay until this caption can appear again.
+
