@@ -239,75 +239,10 @@ DelayQuestMapClose |
 
 ## hudanimations.txt
 
+Animations which are not present in TF2 or are used in `hudanimations_tf` have been removed from this list
+
 Animation | Description
 --------- | -----------
-LevelInit | 
-WeaponHighlight | 
-OpenWeaponSelectionMenu | 
-CloseWeaponSelectionMenu | 
-FadeOutWeaponSelectionMenu | 
-SuitAuxPowerMax | 
-SuitAuxPowerNotMax | 
-SuitAuxPowerDecreasedBelow25 | 
-SuitAuxPowerIncreasedAbove25 | 
-SuitAuxPowerNoItemsActive | 
-SuitAuxPowerOneItemActive | 
-SuitAuxPowerTwoItemsActive | 
-SuitAuxPowerThreeItemsActive | 
-SuitFlashlightOn | 
-SuitFlashlightOff | 
-HudTakeDamageFront | 
-HudTakeDamageLeft | 
-HudTakeDamageRight | 
-HudTakeDamageBehind | 
-HudTakeDamageHighLeft | 
-HudTakeDamageHighRight | 
-HudTakeDamageHigh | 
-HudTakeDamageDrown | 
-HudTakeDamagePoison | 
-HudTakeDamageBurn | 
-HudTakeDamageRadiation | 
-HudPlayerDeath | 
-HealthIncreasedAbove20 | 
-HealthIncreasedBelow20 | 
-SuitPowerIncreasedAbove20 | 
-SuitPowerIncreasedBelow20 | 
-SuitPowerZero | 
-TestMovement | 
-HealthDamageTaken | 
-SuitDamageTaken | 
-HealthLow | 
-HealthPulse | 
-HealthLoop | 
-SuitArmorLow | 
-SuitPulse | 
-SuitLoop | 
-AmmoIncreased | 
-AmmoDecreased | 
-AmmoEmpty | 
-Ammo2Increased | 
-Ammo2Decreased | 
-Ammo2Empty | 
-AmmoSecondaryIncreased | 
-AmmoSecondaryDecreased | 
-AmmoSecondaryEmpty | 
-WeaponChanged | 
-WeaponUsesSecondaryAmmo | 
-WeaponDoesNotUseSecondaryAmmo | 
-CraneMagnetFlash | 
-HintMessageShow | 
-HintMessageHide | 
-KeyHintMessageShow | 
-KeyHintMessageHide | 
-SquadMemberAdded | 
-SquadMemberLeft | 
-SquadMemberDied | 
-SquadMembersFollowing | 
-SquadMembersStationed | 
-PoisonDamageTaken | 
-PoisonDamageCured | 
-PoisonPulse | 
-PoisonLoop | 
 ShowCommentary | 
 HideCommentary | 
 PulseOption1 | 
@@ -316,3 +251,18 @@ PulseOption3 |
 PulseOption4 | 
 PulseOption5 | 
 HideVoteBackgrounds | 
+
+## File-less animations
+
+These animations are not defined anywhere, and are only referenced in the code.
+It is possible that some of them cannot be triggered in game!
+
+Animation | Description
+--------- | -----------
+HintMessageLower | Potential remnants from HL2? used for the history of picked up weapons
+HintMessageRaise | Same as above
+HudReplayReminderIn | Potential remnant from when replays were enabled on valve servers?
+HudReplayReminderIn2 | Same as above
+eventHudCartAlarmPulseStop | Misspelling of `HudCartAlarmPulseStop`, which is never run due to this.
+HudTournament_DoorsCloseEndRound | Runs if the current Tournament mode state is "competitive_victory"
+TimerFlash | Runs whenever the timer is restarted or paused?
