@@ -61,6 +61,20 @@ Parameter | Info
 skip_autoresize | 
 
 
+## CExScrollingEditablePanel
+A panel that can have other panels inside of it and can be scrolled. Derives from EditablePanel.
+Parameter | Info
+--------- | ----
+allow_mouse_wheel_to_scroll | Only allow scrolling by dragging the slider
+scroll_step | How much the scroll wheel scrolls
+bottom_buffer | How much space to leave at the bottom
+restrict_width | Make the contents fit inside the panel
+
+
+## CScrollableList
+Derives from CExScrollingEditablePanel
+
+
 ## Label
 A panel with text. Derives from Panel.
 Parameter | Info
@@ -119,8 +133,14 @@ smallcheckimage | Use a smaller check image
 
 
 ## ExpandButton
-A Button that looks like an arrow. Derives from ToggleButton.
+A button that looks like an arrow. Derives from ToggleButton.
 
+
+## URLLabel
+A button that opens a web page. Derives from Label.
+Parameter | Info
+--------- | ----
+URLText | URL to the web page
 
 ## RichText
 A panel with text that can scroll and can use a text file for its contents. Derives from Panel.
@@ -130,6 +150,14 @@ text | Text to display
 textfile | A text file to display eg. "resource/text.txt"
 scrollbar | Should the scrollbar be enabled
 maxchars
+
+
+## ScrollBar
+Derives from Panel.
+Parameter | Info
+--------- | ----
+nobuttons | Removes up & down buttons
+autohide_buttons | Automatically removes up & down buttons when not needed
 
 
 ## ImagePanel
