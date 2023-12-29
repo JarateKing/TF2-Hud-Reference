@@ -14,7 +14,7 @@ zpos | Render priority of the panel
 wide | Size of the panel in the X axis
 tall | Size of the panel in the Y axis
 visible | Visibility of the panel
-enabled | Changes the colour of labels and disables buttons
+enabled | Changes the colour of labels and disables interaction with buttons, sliders, text boxes etc.
 proportionalToParent | Position & size values relative to the parent size, instead of screen size
 fgcolor_override | Foreground colour
 bgcolor_override | Background colour
