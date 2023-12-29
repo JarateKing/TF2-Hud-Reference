@@ -111,14 +111,14 @@ default
 A button that can be toggled on and off. Derives from Button.
 
 
-## CheckButton.
+## CheckButton
 A button that looks like a checkbox. Derives from ToggleButton.
 Parameter | Info
 --------- | ----
 smallcheckimage | Use a smaller check image
 
 
-## ExpandButton.
+## ExpandButton
 A Button that looks like an arrow. Derives from ToggleButton.
 
 
@@ -130,6 +130,45 @@ text | Text to display
 textfile | A text file to display eg. "resource/text.txt"
 scrollbar | Should the scrollbar be enabled
 maxchars
+
+
+## ImagePanel
+A panel that displays an image. Derives from Panel.
+Parameter | Info
+--------- | ----
+image | The image to display
+fillcolor | Background colour
+drawcolor | What colour to draw the image with
+scaleImage | Whether to scale the image
+scaleAmount | How much to scale the image, set to 0 for full size
+tileImage | Repeat the image endlessly
+tileHorizontally | Repeat the image endlessly in the X axis
+tileVertically | Repeat the image endlessly in the Y axis
+rotation | Rotate image 90 degrees
+positionImage
+
+
+## ScalableImagePanel
+A panel that displays an image. Derives from Panel.
+Parameter | Info
+--------- | ----
+image | The image to display
+drawcolor | What colour to draw the image with
+src_corner_width | How big the texture's corners are in the X axis
+src_corner_height | How big the texture's corners are in the Y axis
+draw_corner_width | How big to draw the corners in the X axis
+draw_corner_height | How big to draw the corners in the Y axis
+
+
+## CBitmapImagePanel
+An image that can maintain its aspect ratio when resized. Derives from Panel.
+Parameter | Info
+--------- | ----
+image | The image to display
+imagecolor | What colour to draw the image with
+imageAlignment | Where the image should align
+preserveAspectRatio | Should the aspect ratio be maintained
+filtered
 
 
 ## TextEntry
@@ -144,11 +183,24 @@ NumericInputOnly | Only allow numbers
 selectallonfirstfocus
 unicode
 
+
 ## ComboBox
 A panel with a drop down list. Derives from TextEntry.
 Parameter | Info
 --------- | ----
 border_override | Changes the border
+
+
+## Slider
+A panel with a movable slider. Derives from Panel.
+Parameter | Info
+--------- | ----
+leftText | Text on the left
+rightText | Text on the right
+thumbwidth | Width of the slider
+numTicks | Number of lines along the slider
+rangeMin | What value the slider starts at
+rangeMax | What value the slider ends at
 
 
 ## ProgressBar
@@ -187,15 +239,8 @@ rot_origin_x_percent | X position of what point the image rotates around, float 
 rot_origin_Y_percent | Y position of what point the image rotates around, float value 0.0 - 1.0
 approach_speed | The speed of rotation
 
-## CBitmapImagePanel
-An image that can maintain its aspect ratio when resized. Derives from Panel.
-Parameter | Info
---------- | ----
-image | The image to display
-imagecolor | What colour to draw the image with
-imageAlignment | Where the image should align
-preserveAspectRatio | Should the aspect ratio be maintained
-filtered
+
+
 
 
 
