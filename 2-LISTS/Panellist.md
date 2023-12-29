@@ -1,9 +1,9 @@
 # Panel list
 
-This is a list of most panels used in TF2.
+This is a list of most panel types and their parameters.
 
 ## Panel
-
+The most basic panel, all other panels derive from this.
 Parameter | Info
 --------- | ----
 fieldName | Renames the panel
@@ -17,6 +17,7 @@ enabled | Changes colours of labels and disables buttons
 proportionalToParent | Position & size values relative to the parent size, instead of screen size
 fgcolor_override | Foreground colour
 bgcolor_override | Background colour
+alpha | Opacity of the panel 0-255
 paintbackground | Should the background be painted
 PaintBackgroundType | How the background should be painted. Textures can be changed with Texture*</br>0 = Square corners</br>1 = Textured (Uses Texture1)</br>2 = Rounded corners</br>3 = Rounded Corners with horizontal fade
 Texture1 | Top left
@@ -52,55 +53,32 @@ navActivate
 navBack
 
 
-## resource/
+## EditablePanel - Derives from Panel
+A panel that can have other panels inside of it.
+Parameter | Info
+--------- | ----
+skip_autoresize | 
 
-File | Description
----- | -----------
-chatscheme.res | **Like clientscheme, but for the chat box**
-chat_english.txt | **Controls some chat-related localization. Can add new localization to custom HUDs.**
-clientscheme.res | **Controls definitions for font declarations, font sizes, colors, borders**
-closecaption_english.dat | **Controls captions**
-closecaption_english.txt | **Source file to compile into closecaption_english.dat. Also acts as localization like `chat_english.txt`**
-gamemenu.res | **Controls tooltips, visibility ingame/inmenu, etc. of some main menu elements**
-sourcescheme.res | **Like clientscheme, but for old-style windows like the console**
+## Label - Derives from Panel
+A panel with text
+Parameter | Info
+--------- | ----
+labelText | Text to display
+font | What font to use
+textAlignment | Where the text should align
+textinsetx | Move text in X axis
+textinsety | Move text in Y axis
+use_proportional_insets | Insets are proportional to screen size
+wrap | Should the text wrap when going out of bounds
+centerwrap | Same as above but centered
+auto_wide_tocontents | The panel's wide value is automatically changed to fit the text
+auto_tall_tocontents | The panel's tall value is automatically changed to fit the text
+allcaps | Use only uppercase letters
+disabledfgcolor2_override | Foreground colour when enabled == 0
+dulltext | Should the text use dull colours
+brighttext | Should the text use bright colours
+associate
 
-Of note, you can create custom closecaption files that can be named whatever you want (as long as they start with closecaption_). That said, they must have both the .dat and .txt file, though the .txt doesn't matter and can be completely blank (closecaption_english.txt is unnecessary, since it exists in the vpk's). These files can be loaded with the console command:
-```
-cc_lang custom // will load "resource/closecaption_custom.dat", the rest is implied
-```
-
-As well, custom localization can be added to chat_english.txt, or other languages. The full list of valid languages is:
-```
-brazilian
-bulgarian
-czech
-danish
-dutch
-english
-finnish
-french
-german
-greek
-hungarian
-italian
-japanese
-korean
-koreana
-norwegian
-polish
-portuguese
-romanian
-russian
-schinese
-spanish
-swedish
-tchinese
-thai
-turkish
-pirate
-```
-
-## resource/ui/
 
 File | Description
 ---- | -----------
