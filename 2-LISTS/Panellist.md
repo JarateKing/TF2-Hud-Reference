@@ -1,6 +1,6 @@
 # Panel list
 
-This is a list of most panel types and their parameters.
+This is a list of panel types and their parameters.
 
 
 ## Panel
@@ -75,6 +75,16 @@ restrict_width | Make the contents fit inside the panel
 Derives from CExScrollingEditablePanel
 
 
+## CExpandablePanel
+Derives from EditablePanel.
+Parameter | Info
+--------- | ----
+resize_time | How quickly to resize panel
+collapsed_height | How tall when collapsed
+expanded_height | How tall when expanded
+
+
+
 ## Label
 A panel with text. Derives from Panel.
 Parameter | Info
@@ -121,6 +131,19 @@ blinkFgColor_override
 default
 
 
+## CExButton
+Expanded button. Derives from Button.
+Parameter | Info
+--------- | ----
+fgcolor | Foreground colour
+border_default | Default border
+border_armed | Border when hovered
+border_disabled | Border when enabled == 0
+border_selected | Border when selected == 0
+
+
+## CImageButton
+
 ## ToggleButton
 A button that can be toggled on and off. Derives from Button.
 
@@ -132,6 +155,10 @@ Parameter | Info
 smallcheckimage | Use a smaller check image
 
 
+## CExCheckButton 
+Derives from CheckButton.
+
+
 ## ExpandButton
 A button that looks like an arrow. Derives from ToggleButton.
 
@@ -141,6 +168,7 @@ A button that opens a web page. Derives from Label.
 Parameter | Info
 --------- | ----
 URLText | URL to the web page
+
 
 ## RichText
 A panel with text that can scroll and can use a text file for its contents. Derives from Panel.
@@ -177,7 +205,7 @@ positionImage
 
 
 ## ScalableImagePanel
-A panel that displays an image. Derives from Panel.
+A panel that displays an image. Can have scalable corners & sides. Derives from Panel.
 Parameter | Info
 --------- | ----
 image | The image to display
