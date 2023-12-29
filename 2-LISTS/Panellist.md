@@ -144,7 +144,7 @@ scaleAmount | How much to scale the image, set to 0 for full size
 tileImage | Repeat the image endlessly
 tileHorizontally | Repeat the image endlessly in the X axis
 tileVertically | Repeat the image endlessly in the Y axis
-rotation | Rotate image 90 degrees
+rotation | Rotate image in 90 degree increments
 positionImage
 
 
