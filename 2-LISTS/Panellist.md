@@ -14,7 +14,7 @@ zpos | Render priority of the panel
 wide | Size of the panel in the X axis
 tall | Size of the panel in the Y axis
 visible | Visibility of the panel
-enabled | Changes colours of labels and disables buttons
+enabled | Changes the colour of labels and disables buttons
 proportionalToParent | Position & size values relative to the parent size, instead of screen size
 fgcolor_override | Foreground colour
 bgcolor_override | Background colour
@@ -82,6 +82,46 @@ brighttext | Should the text use bright colours
 associate
 
 
+## Button - Derives from Label
+A panel that can fire a command when activated
+Parameter | Info
+--------- | ----
+command | Command of the button
+selected | Draws selected by default
+stayselectedonclick | When clicked on, sets selected to 1
+stay_armed_on_click | Don't revert back to default state when clicked
+button_activation_type | How the button behaves</br>0 = When pressed sets depressed colours and activates command when released</br>1 = Activates command when pressed</br>2 = Activates command when released, doesn't set selected colours
+sound_armed | Sound when hovered over
+sound_depressed | Sound when pressing button
+sound_released | Sound when releasing button
+defaultFgColor_override | Foreground colour
+defaultBgColor_override | Background colour
+armedFgColor_override | Foreground colour when hovered
+armedBgColor_override | Background colour when hovered
+depressedFgColor_override | Foreground colour when clicked on
+depressedBgColor_override | Background colour when clicked on
+selectedFgColor_override | Foreground colour when selected
+selectedBgColor_override | Background colour when selected
+keyboardFocusColor_override
+blinkFgColor_override
+default
+
+
+## ToggleButton - Derives from Button
+A button that can be toggled on and off
+
+
+## CheckButton - Derives from ToggleButton
+A ToggleButton that looks like a checkbox
+Parameter | Info
+--------- | ----
+smallcheckimage | Use a smaller check image
+
+
+## ExpandButton - Derives from ToggleButton
+A ToggleButton that looks like an arrow
+
+
 ## RichText - Derives from Panel
 A panel with text that can scroll and can use a file for its contents
 Parameter | Info
@@ -105,11 +145,57 @@ selectallonfirstfocus
 unicode
 
 ## ComboBox - Derives from TextEntry
-A panel 
+A panel with a drop down list
 Parameter | Info
 --------- | ----
+border_override | Changes the border
 
 
+## ProgressBar - Derives from Panel
+A segmented progress bar
+Parameter | Info
+--------- | ----
+variable | What to measure
+progress
+
+
+## ContinuousProgressBar - Derives from ProgressBar
+An unsegmented progress bar
+
+
+## CircularProgressBar - Derives from ProgressBar
+A circular progress bar
+Parameter | Info
+--------- | ----
+fg_image | Image to use as the progress bar
+bg_image | Image to use as the background
+
+
+
+## RotatingProgressBar - Derives from ProgressBar
+A rotating progress bar
+Parameter | Info
+--------- | ----
+image | Image that rotates
+rotating_x | X position of the image
+rotating_y | Y position of the image
+rotating_wide | Wide of the image
+rotating_tall | Tall of the image
+start_degrees | Rotation of the image when variable == 0
+end_degrees | Rotation of the image when variable == 100
+rot_origin_x_percent | X position of what point the image rotates around, float value 0.0 - 1.0
+rot_origin_Y_percent | Y position of what point the image rotates around, float value 0.0 - 1.0
+approach_speed | The speed of rotation
+
+## CBitmapImagePanel - Derives from Panel
+An image that can maintain its aspect ratio when resized
+Parameter | Info
+--------- | ----
+image | The image to display
+imagecolor | What colour to draw the image with
+imageAlignment | Where the image should align
+preserveAspectRatio | Should the aspect ratio be maintained
+filtered
 
 
 
