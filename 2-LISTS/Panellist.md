@@ -71,7 +71,7 @@ textAlignment | Where the text should align
 textinsetx | Move text in X axis
 textinsety | Move text in Y axis
 use_proportional_insets | Insets are proportional to screen size
-wrap | Should the text wrap when longer than panel bounds
+wrap | Should the text wrap when exceeding panel bounds
 centerwrap | Same as above but centered
 auto_wide_tocontents | The panel's wide value is automatically changed to fit the text
 auto_tall_tocontents | The panel's tall value is automatically changed to fit the text
