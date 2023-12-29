@@ -123,7 +123,7 @@ A Button that looks like an arrow. Derives from ToggleButton.
 
 
 ## RichText
-A panel with text that can scroll and can use a file for its contents. Derives from Panel.
+A panel with text that can scroll and can use a text file for its contents. Derives from Panel.
 Parameter | Info
 --------- | ----
 text | Text to display
