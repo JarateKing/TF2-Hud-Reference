@@ -54,15 +54,15 @@ navActivate
 navBack
 
 
-## EditablePanel - Derives from Panel
-A panel that can have other panels inside of it.
+## EditablePanel
+A panel that can have other panels inside of it. Derives from Panel.
 Parameter | Info
 --------- | ----
 skip_autoresize | 
 
 
-## Label - Derives from Panel
-A panel with text
+## Label
+A panel with text. Derives from Panel.
 Parameter | Info
 --------- | ----
 labelText | Text to display
@@ -82,8 +82,8 @@ brighttext | Should the text use bright colours
 associate
 
 
-## Button - Derives from Label
-A panel that can fire a command when activated
+## Button
+A panel that can fire a command when activated. Derives from Label.
 Parameter | Info
 --------- | ----
 command | Command of the button
@@ -107,23 +107,23 @@ blinkFgColor_override
 default
 
 
-## ToggleButton - Derives from Button
-A button that can be toggled on and off
+## ToggleButton
+A button that can be toggled on and off. Derives from Button.
 
 
-## CheckButton - Derives from ToggleButton
-A ToggleButton that looks like a checkbox
+## CheckButton.
+A button that looks like a checkbox. Derives from ToggleButton.
 Parameter | Info
 --------- | ----
 smallcheckimage | Use a smaller check image
 
 
-## ExpandButton - Derives from ToggleButton
-A ToggleButton that looks like an arrow
+## ExpandButton.
+A Button that looks like an arrow. Derives from ToggleButton.
 
 
-## RichText - Derives from Panel
-A panel with text that can scroll and can use a file for its contents
+## RichText
+A panel with text that can scroll and can use a file for its contents. Derives from Panel.
 Parameter | Info
 --------- | ----
 text | Text to display
@@ -132,8 +132,8 @@ scrollbar | Should the scrollbar be enabled
 maxchars
 
 
-## TextEntry - Derives from Panel
-A panel you can type text in
+## TextEntry
+A panel you can type text in. Derives from Panel.
 Parameter | Info
 --------- | ----
 font | What font to use
@@ -144,27 +144,27 @@ NumericInputOnly | Only allow numbers
 selectallonfirstfocus
 unicode
 
-## ComboBox - Derives from TextEntry
-A panel with a drop down list
+## ComboBox
+A panel with a drop down list. Derives from TextEntry.
 Parameter | Info
 --------- | ----
 border_override | Changes the border
 
 
-## ProgressBar - Derives from Panel
-A segmented progress bar
+## ProgressBar
+A segmented progress bar. Derives from Panel.
 Parameter | Info
 --------- | ----
 variable | What to measure
 progress
 
 
-## ContinuousProgressBar - Derives from ProgressBar
-An unsegmented progress bar
+## ContinuousProgressBar
+Derives from ProgressBar.
 
 
-## CircularProgressBar - Derives from ProgressBar
-A circular progress bar
+## CircularProgressBar
+Derives from ProgressBar
 Parameter | Info
 --------- | ----
 fg_image | Image to use as the progress bar
@@ -172,8 +172,8 @@ bg_image | Image to use as the background
 
 
 
-## RotatingProgressBar - Derives from ProgressBar
-A rotating progress bar
+## RotatingProgressBar
+Derives from ProgressBar
 Parameter | Info
 --------- | ----
 image | Image that rotates
@@ -187,8 +187,8 @@ rot_origin_x_percent | X position of what point the image rotates around, float 
 rot_origin_Y_percent | Y position of what point the image rotates around, float value 0.0 - 1.0
 approach_speed | The speed of rotation
 
-## CBitmapImagePanel - Derives from Panel
-An image that can maintain its aspect ratio when resized
+## CBitmapImagePanel
+An image that can maintain its aspect ratio when resized. Derives from Panel.
 Parameter | Info
 --------- | ----
 image | The image to display
