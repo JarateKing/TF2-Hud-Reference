@@ -185,6 +185,14 @@ Parameter | Info
 smallcheckimage | Use a smaller check image
 
 
+## CvarToggleCheckButton
+A checkbutton that displays the value of a cvar. Derives from CheckButton.
+Parameter | Info
+--------- | ----
+cvar_name |
+cvar_value |
+
+
 ## CExCheckButton 
 Derives from CheckButton.
 
@@ -226,6 +234,15 @@ image_down_arrow_mouseover | Image for the scrollbar's down arrow when hovered
 
 ## CRichTextWithScrollbarBorders
 Same as above but uses borders instead of images for image_line & image_box. "Line" & "Box" are Panels instead of ImagePanels. Derives from CExRichText.
+
+
+## CEconItemDetailsRichText
+"Rich text control that knows how to fill itself with information that describes a specific item definition."
+Parameter | Info
+--------- | ----
+highlight_color
+itemset_color
+link_color
 
 
 ## ScrollBar
@@ -318,6 +335,17 @@ rangeMin | What value the slider starts at
 rangeMax | What value the slider ends at
 
 
+## CCVarSlider
+A slider that can change a cvar. Derives from Slider
+Parameter | Info
+--------- | ----
+minvalue | Minimum value allowed
+maxvalue | Maximum value allowed
+cvar_name | Cvar to change
+use_convar_minmax | Use the minvalue & maxvalue of the cvar instead
+allowoutofrange
+
+
 ## ProgressBar
 A segmented progress bar. Derives from Panel.
 Parameter | Info
@@ -355,7 +383,22 @@ rot_origin_Y_percent | Y position of what point the image rotates around, float 
 approach_speed | The speed of rotation
 
 
-
+## CExplanationPopup
+A speech bubble panel. Accepts button commands "close", "nextexplanation" & "prevexplanation". Derives from EditablePanel.
+Parameter | Info
+--------- | ----
+next_explanation | Next speech bubble to draw
+force_close | Disable the rest of the screen until this popup is closed
+callout_inparents_x | X position of the speech bubble's tail
+callout_inparents_y | Y position of the speech bubble's tail
+start_x | X position before the expanding animation
+start_y | y position before the expanding animation
+start_wide | Wide before the expanding animation
+start_tall | Tall before the expanding animation
+end_x | X position after the expanding animation
+end_y | y position after the expanding animation
+end_wide | Wide after the expanding animation
+end_tall | Tall after the expanding animation
 
 
 
