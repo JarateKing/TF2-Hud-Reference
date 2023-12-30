@@ -62,7 +62,7 @@ skip_autoresize |
 
 
 ## CExScrollingEditablePanel
-A panel that can have other panels inside of it and can be scrolled. Has a child called "Scrollbar" (Type: CExScrollBar) Derives from EditablePanel.
+A panel that can have other panels inside of it and can be scrolled. Has a child called "Scrollbar" Type: CExScrollBar Derives from EditablePanel.
 Parameter | Info
 --------- | ----
 allow_mouse_wheel_to_scroll | Only allow scrolling by dragging the slider
@@ -150,7 +150,7 @@ border_selected | Border when selected == 0
 
 
 ## CExImageButton
-A button that displays an image. Has a child called "SubImage" (Type: ImagePanel). Derives from CExButton.
+A button that displays an image. Has a child called "SubImage" Type: ImagePanel. Derives from CExButton.
 Parameter | Info
 --------- | ----
 image_drawcolor | What colour to draw the image by default
@@ -209,7 +209,7 @@ URLText | URL to the web page
 
 
 ## RichText
-A panel with text that can scroll and can use a text file for its contents. Has a child called "ScrollBar" (Type: ScrollBar). Derives from Panel.
+A panel with text that can scroll and can use a text file for its contents. Has a child called "ScrollBar" Type: ScrollBar. Derives from Panel.
 Parameter | Info
 --------- | ----
 text | Text to display
@@ -219,7 +219,7 @@ maxchars
 
 
 ## CExRichText
-An expanded rich text. Has children "Line" (Type: ImagePanel), "Box" (Type: ImagePanel), "UpArrow" (Type: CExImageButton), "DownArrow" (Type: CExImageButton) & "ScrollBar" (Type: ScrollBar). Derives from RichText.
+An expanded rich text. Has children "Line" Type: ImagePanel, "Box" Type: ImagePanel, "UpArrow" Type: CExImageButton, "DownArrow" Type: CExImageButton & "ScrollBar" Type: ScrollBar. Derives from RichText.
 Parameter | Info
 --------- | ----
 font | What font to use
@@ -246,7 +246,7 @@ link_color
 
 
 ## ScrollBar
-A scrollbar. Has children called "Slider" (Type: ScrollBarSlider), "UpButton" (Type: Button) & "DownButton" (Type: Button). Derives from Panel.
+A scrollbar. Has children called "Slider" Type: ScrollBarSlider, "UpButton" Type: Button & "DownButton" Type: Button. Derives from Panel.
 Parameter | Info
 --------- | ----
 nobuttons | Removes up & down buttons
