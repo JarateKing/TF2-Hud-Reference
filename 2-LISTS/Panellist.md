@@ -84,41 +84,6 @@ collapsed_height | How tall when collapsed
 expanded_height | How tall when expanded
 
 
-## CRepeatingContainer
-A panel that automatically positions its contents. Derives from EditablePanel.
-Parameter | Info
---------- | ----
-spacing_method | How to space the panels. METHOD_STEP spaces them by a certain value, METHOD_EVEN spaces them evenly
-x_step | Value to space the panels when using METHOD_STEP
-
-```
-"Example"
-{
-  "ControlName"  "CRepeatingContainer"
-
-  "IndividualSettings" //Where you place the panels to be sorted
-  {
-    "Item1"
-    {
-      "ControlName"  "Label"
-    }
-    "Item2"
-    {
-      "ControlName"  "Label"
-    }
-    "Item3"
-    {
-      "ControlName"  "Label"
-    }
-  }
-
-  "CommonSettings" //What settings the panels should have by default
-  {
-    "fgcolor_override"  "69 69 69 255"
-    "font"              "Default"
-  }
-}
-```
 
 
 
@@ -240,6 +205,9 @@ A button that looks like an arrow. Derives from ToggleButton.
 
 ## CAutoFittingLabel
 A label that changes the font to fit in the boundaries of the panel. Derives from Label.
+Parameter | Info
+--------- | ----
+fonts{}
 ```
 "fonts"
 {
@@ -452,6 +420,88 @@ rot_origin_Y_percent | Y position of what point the image rotates around, float 
 approach_speed | The speed of rotation
 
 
+## CModelPanel
+A panel that shows a 3D model. Derives from EditablePanel.
+Parameter | Info
+--------- | ----
+fov | FOV of the model
+start_framed
+allow_offscreen
+model{}
+
+The following parameters need to be in model{}
+Parameter | Info
+--------- | ----
+modelname | What model to use
+modelname_hwm
+skin | Which skin to use
+angles_x | Rotation around X axis
+angles_y | Rotation around Y axis
+angles_z | Rotation around Z axis
+origin_x | Position in the X axis
+origin_y | Position in the Y axis
+origin_z | Position in the Z axis
+frame_origin_x
+frame_origin_y
+frame_origin_z
+vcd
+spotlight
+animation{} | Animations of the model
+attached_model{} | Attach another model eg. a gun
+
+The following parameters need to be in animation{}
+Parameter | Info
+--------- | ----
+name 
+sequence
+activity
+default
+pose_parameters{}
+
+The following parameters need to be in attached_model{}
+Parameter | Info
+--------- | ----
+modelname
+skin
+
+
+## CTFParticlePanel
+A panel that displays a particle effect. Derives from EditablePanel.
+Parameter | Info
+--------- | ----
+ParticleEffects{}
+
+The following parameters need to be in ParticleEffects{}
+Parameter | Info
+--------- | ----
+particle_xpos | X position of the particle
+particle_ypos | Y position of the particle
+particle_scale | Scale of the prticle
+loop | Loop the particle animation
+start_activated | Activate the particle animation immediately
+particleName | Name of the particle
+angles | Rotation of the particle, takes 3 values
+control_point* | Particle control point setting, takes 3 values. Replace * with the number of the control point
+
+```
+"ParticleEffects"
+{
+	"1"
+	{
+		"particle_xpos"	"0"
+		"particle_ypos"	"0"
+		"particle_scale"	"1.0"
+		"loop"			"1"
+		"start_activated"	"1"
+		"particleName"	""
+		"angles"		"0 0 0"
+		"control_point0"	"4 2 0"
+    "control_point1"	"6 9 6"
+	}
+}
+```
+
+
 ## CDrawingPanel
 A panel you can draw in. Derives from Panel.
 Parameter | Info
@@ -478,8 +528,50 @@ end_wide | Wide after the expanding animation
 end_tall | Tall after the expanding animation
 
 
+## CRepeatingContainer
+A panel that automatically positions its contents. Derives from EditablePanel.
+Parameter | Info
+--------- | ----
+spacing_method | How to space the panels. METHOD_STEP spaces them by a certain value, METHOD_EVEN spaces them evenly
+x_step | Value to space the panels when using METHOD_STEP
+IndividualSettings{} | Where you place the panels to be sorted
+CommonSettings{} | What settings the panels should have by default
+
+```
+"Example"
+{
+  "ControlName"  "CRepeatingContainer"
+
+  "IndividualSettings"
+  {
+    "Item1"
+    {
+      "ControlName"  "Label"
+    }
+    "Item2"
+    {
+      "ControlName"  "Label"
+    }
+    "Item3"
+    {
+      "ControlName"  "Label"
+    }
+  }
+
+  "CommonSettings"
+  {
+    "fgcolor_override"  "69 69 69 255"
+    "font"              "Default"
+  }
+}
+```
 
 
+## CTFItemCardPanel
+A leftover unused panel that uses Resource/UI/Econ/ItemCardPanel_Series1.res for its contents. Could be useful for a #base -esque reusable panel. Derives from EditablePanel
+Parameter | Info
+--------- | ----
+shadowoffset
 
 
 
