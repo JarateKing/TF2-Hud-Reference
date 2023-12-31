@@ -84,6 +84,43 @@ collapsed_height | How tall when collapsed
 expanded_height | How tall when expanded
 
 
+## CRepeatingContainer
+A panel that automatically positions its contents. Derives from EditablePanel.
+Parameter | Info
+--------- | ----
+spacing_method | How to space the panels. METHOD_STEP spaces them by a certain value, METHOD_EVEN spaces them evenly
+x_step | Value to space the panels when using METHOD_STEP
+
+```
+"Example"
+{
+  "ControlName"  "CRepeatingContainer"
+
+  "IndividualSettings" //Where you place the panels to be sorted
+  {
+    "Item1"
+    {
+      "ControlName"  "Label"
+    }
+    "Item2"
+    {
+      "ControlName"  "Label"
+    }
+    "Item3"
+    {
+      "ControlName"  "Label"
+    }
+  }
+
+  "CommonSettings" //What settings the panels should have by default
+  {
+    "fgcolor_override"  "69 69 69 255"
+    "font"              "Default"
+  }
+}
+```
+
+
 
 ## Label
 A panel with text. Derives from Panel.
@@ -201,6 +238,28 @@ Derives from CheckButton.
 A button that looks like an arrow. Derives from ToggleButton.
 
 
+## CAutoFittingLabel
+A label that changes the font to fit in the boundaries of the panel. Derives from Label.
+```
+"fonts"
+{
+  "1"
+  {
+    "font"  "large_font"
+  }
+  "2"
+  {
+    "font"  "medium_font"
+  }
+  "3"
+  {
+    "font"  "small_font"
+  }
+}
+```
+
+
+
 ## URLLabel
 A button that opens a web page. Derives from Label.
 Parameter | Info
@@ -292,6 +351,16 @@ draw_corner_width | How big to draw the corners in the X axis
 draw_corner_height | How big to draw the corners in the Y axis
 
 
+## CTFImagePanel
+An image panel that can be team coloured. Derives from ScalableImagePanel
+Parameter | Info
+--------- | ----
+teambg_0 | Image when unassigned
+teambg_1 | Image on spectate
+teambg_2 | Image on RED
+teambg_3 | Image on BLU
+
+
 ## CBitmapImagePanel
 An image that can maintain its aspect ratio when resized. Derives from Panel.
 Parameter | Info
@@ -381,6 +450,14 @@ end_degrees | Rotation of the image when variable == 100
 rot_origin_x_percent | X position of what point the image rotates around, float value 0.0 - 1.0
 rot_origin_Y_percent | Y position of what point the image rotates around, float value 0.0 - 1.0
 approach_speed | The speed of rotation
+
+
+## CDrawingPanel
+A panel you can draw in. Derives from Panel.
+Parameter | Info
+--------- | ----
+linecolor | What colour the line should be
+team_colors | Use team colours for the line
 
 
 ## CExplanationPopup
