@@ -496,7 +496,7 @@ control_point* | Particle control point setting, takes 3 values. Replace * with 
 		"particleName"	""
 		"angles"		"0 0 0"
 		"control_point0"	"4 2 0"
-    "control_point1"	"6 9 6"
+		"control_point1"	"6 9 6"
 	}
 }
 ```
