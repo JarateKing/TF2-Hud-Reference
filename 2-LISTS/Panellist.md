@@ -340,6 +340,15 @@ preserveAspectRatio | Should the aspect ratio be maintained
 filtered
 
 
+## CTFLogoPanel
+A rotating TF logo.
+Parameter | Info
+--------- | ----
+radius | Size of the logo
+velocity | Speed of the logo
+
+
+
 ## TextEntry
 A panel you can type text in. Derives from Panel.
 Parameter | Info
@@ -463,6 +472,152 @@ Parameter | Info
 --------- | ----
 modelname
 skin
+
+
+## CPotteryWheelPanel
+Derives from EditablePanel.
+Parameter | Info
+--------- | ----
+useparentbg
+lights{}
+
+The following parameters need to be in lights{}
+Parameter | Info
+--------- | ----
+name | Accepts "directional", "point" or "spot"
+color
+direction | directional & spot
+attenuation | point & spot
+origin | point & spot
+maxDistance | point & spot
+inner_cone_angle | spot
+outer_cone_angle | spot
+exponent | spot
+
+```
+"lights"
+{
+	"1"
+	{
+		"name"	"directional"
+		"color"	"10 10 10"
+		"direction" "0 0 0"
+	}
+}
+```
+
+
+## CMDLPanel
+Derives from CPotteryWheelPanel.
+
+
+## CBaseModelPanel
+Derives from CMDLPanel
+Parameter | Info
+--------- | ----
+render_texture
+use_particle
+fov
+allow_rot
+allow_pitch
+allow_manip
+model{}
+
+The following parameters need to be in model{}
+Parameter | Info
+--------- | ----
+force_pos
+modelname | What model to use
+modelname_hwm
+skin | Which skin to use
+angles_x | Rotation around X axis
+angles_y | Rotation around Y axis
+angles_z | Rotation around Z axis
+origin_x | Position in the X axis
+origin_y | Position in the Y axis
+origin_z | Position in the Z axis
+frame_origin_x
+frame_origin_y
+frame_origin_z
+vcd
+spotlight
+start_framed
+disable_manipulation
+use_particle
+max_pitch
+animation{} | Animations of the model
+attached_model{} | Attach another model eg. a gun
+
+The following parameters need to be in animation{}
+Parameter | Info
+--------- | ----
+name 
+sequence
+activity
+default
+pose_parameters{}
+
+The following parameters need to be in attached_model{}
+Parameter | Info
+--------- | ----
+modelname
+skin
+
+
+
+## CItemModelPanel
+A panel that show an item. Derives from EditablePanel.
+Parameter | Info
+--------- | ----
+special_attributes_only
+model_xpos | Position of the model in the X axis
+model_ypos | Position of the model in the Y axis
+model_wide | Wide of the model
+model_tall | Tall of the model
+model_center_x | Center the model in the X axis
+model_center_y | Center the model in the Y axis
+tf2_icon_offset_x
+tf2_icon_offset_y
+noitem_use_fullpanel
+text_center | Center the text in the Y axis
+text_center_x | Center the text in the X axis
+use_item_sounds
+name_only | Don't show the stats of the item
+attrib_only | Don't show the name of the item
+model_only | Don't show the name or the stats of the item
+model_hide | Don't show the model
+paint_icon_hide
+resize_to_text 
+name_label_alignment
+text_xpos | Position of the text in the X axis
+text_ypos | Position of the text in the Y axis
+text_wide | Wide of the text
+text_yoffset
+padding_height
+max_text_height
+text_forcesize
+inset_eq_x | Equipped label X position
+inset_eq_y | Equipped label Y position
+standard_text_color
+is_mouseover
+wide
+tall
+collection_list_xpos
+text_xpos_collection
+hide_collection_panel
+hide_modifier_icons
+
+
+## CEmbeddedItemModelPanel
+Model panel inside CItemModelPanel. Derives from CBaseModelPanel.
+Parameter | Info
+--------- | ----
+force_use_model
+use_item_rendertarget
+inventory_image_type
+force_square_image
+model_rotate_yaw_speed
+use_pedestal
 
 
 ## CTFParticlePanel
