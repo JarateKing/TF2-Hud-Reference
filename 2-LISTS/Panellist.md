@@ -84,9 +84,6 @@ collapsed_height | How tall when collapsed
 expanded_height | How tall when expanded
 
 
-
-
-
 ## Label
 A panel with text. Derives from Panel.
 Parameter | Info
@@ -327,6 +324,22 @@ teambg_0 | Image when unassigned
 teambg_1 | Image on spectate
 teambg_2 | Image on RED
 teambg_3 | Image on BLU
+
+
+## CIconPanel
+A panel that displays an icon from scripts/mod_textures.txt. Derives from Panel.
+Parameter | Info
+--------- | ----
+icon | What icon to use
+iconColor | What colour to draw the icon with
+scaleImage | Should the icon scale with the panel
+
+
+## CBitmapPanel
+Parameter | Info
+--------- | ----
+material | Looks in materials/ instead of materials/vgui/
+color
 
 
 ## CBitmapImagePanel
@@ -663,6 +676,21 @@ Parameter | Info
 --------- | ----
 linecolor | What colour the line should be
 team_colors | Use team colours for the line
+
+
+## CNavigationPanel
+A panel that has a list of buttons. The command for the buttons is select_0, select_1, select_2 etc. The commands can be aliased to something else. Derives from EditablePanel.
+Parameter | Info
+--------- | ----
+auto_layout
+auto_scale
+display_vertically
+auto_layout_horizontal_buffer
+auto_layout_vertical_buffer
+selected_button_default
+ButtonSettings{} | Settings for the buttons to use
+Buttons{} | List of buttons
+
 
 
 ## CExplanationPopup
