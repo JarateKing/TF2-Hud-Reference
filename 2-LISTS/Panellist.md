@@ -62,13 +62,14 @@ skip_autoresize |
 
 
 ## CExScrollingEditablePanel
-A panel that can have other panels inside of it and can be scrolled. Has a child called "Scrollbar" Type: CExScrollBar Derives from EditablePanel.
+A panel that can have other panels inside of it and can be scrolled. Derives from EditablePanel.
 Parameter | Info
 --------- | ----
 allow_mouse_wheel_to_scroll | Only allow scrolling by dragging the slider
 scroll_step | How much the scroll wheel scrolls
 bottom_buffer | How much space to leave at the bottom
 restrict_width | Make the contents fit inside the panel
+ScrollBar{} | ControlName: CExScrollBar
 
 
 ## CScrollableList
@@ -149,7 +150,7 @@ border_selected | Border when selected == 0
 
 
 ## CExImageButton
-A button that displays an image. Has a child called "SubImage" Type: ImagePanel. Derives from CExButton.
+A button that displays an image. Derives from CExButton.
 Parameter | Info
 --------- | ----
 image_drawcolor | What colour to draw the image by default
@@ -160,6 +161,7 @@ image_selectedcolor | What colour to draw the image when selected == 1
 image_default | What image to use by default
 image_armed | What image to use when hovered
 image_selected | What image to use when selected == 1
+SubImage{} | ControlName: ImagePanel
 
 
 ## CImageButton
@@ -233,17 +235,18 @@ URLText | URL to the web page
 
 
 ## RichText
-A panel with text that can scroll and can use a text file for its contents. Has a child called "ScrollBar" Type: ScrollBar. Derives from Panel.
+A panel with text that can scroll and can use a text file for its contents. Derives from Panel.
 Parameter | Info
 --------- | ----
 text | Text to display
 textfile | A text file to display eg. "resource/text.txt"
 scrollbar | Should the scrollbar be enabled
 maxchars
+ScrollBar{} | ControlName: ScrollBar
 
 
 ## CExRichText
-An expanded rich text. Has children "Line" Type: ImagePanel, "Box" Type: ImagePanel, "UpArrow" Type: CExImageButton, "DownArrow" Type: CExImageButton & "ScrollBar" Type: ScrollBar. Derives from RichText.
+An expanded rich text. Derives from RichText.
 Parameter | Info
 --------- | ----
 font | What font to use
@@ -254,7 +257,11 @@ image_line | Image for the scrollbar slider's background
 image_box | Image for the scrollbar slider
 image_up_arrow_mouseover | Image for the scrollbar's up arrow when hovered
 image_down_arrow_mouseover | Image for the scrollbar's down arrow when hovered
-
+Line{} | ControlName: ImagePanel
+Box{} | ControlName: ImagePanel
+UpArrow{} | ControlName: CExImageButton
+DownArrow{} | ControlName: CExImageButton
+ScrollBar{} | ControlName: ScrollBar
 
 ## CRichTextWithScrollbarBorders
 Same as above but uses borders instead of images for image_line & image_box. "Line" & "Box" are Panels instead of ImagePanels. Derives from CExRichText.
@@ -270,11 +277,14 @@ link_color
 
 
 ## ScrollBar
-A scrollbar. Has children called "Slider" Type: ScrollBarSlider, "UpButton" Type: Button & "DownButton" Type: Button. Derives from Panel.
+A scrollbar. Derives from Panel.
 Parameter | Info
 --------- | ----
 nobuttons | Removes up & down buttons
 autohide_buttons | Automatically removes up & down buttons when not needed
+Slider{} | ControlName: ScrollBarSlider
+UpButton{} | ControlName: Button
+DownButton{} | ControlName: Button
 
 
 ## ScrollBarSlider
@@ -748,6 +758,12 @@ CommonSettings{} | What settings the panels should have by default
   }
 }
 ```
+
+## CLoadoutPresetPanel
+Derives from EditablePanel
+Parameter | Info
+--------- | ----
+presetbutton_kv{}
 
 
 ## CTFItemCardPanel
