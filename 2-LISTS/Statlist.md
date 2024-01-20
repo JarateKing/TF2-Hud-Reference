@@ -18,14 +18,14 @@ Filename | <sub>linecount</sub> | <sub>minmode</sub> | <sub>#base</sub> | <sub>i
 <sub>hudanimations.txt</sub> | 850 | | | | |
 <sub>hudanimations_manifest.txt</sub> | 6 | | | | |
 <sub>hudanimations_tf.txt</sub> | 2322 | | | | |
-<sub>hudlayout.res</sub> | 1508 | 26 | | | |
+<sub>hudlayout.res</sub> | 1524 | 28 | | | |
 <sub>mod_textures.txt</sub> | 3497 | | | | |
 ## resource/
 Filename | <sub>linecount</sub> | <sub>minmode</sub> | <sub>#base</sub> | <sub>if_mvm</sub> | <sub>if_readymode</sub> | <sub>if_competitive</sub>
 -------- | --------- | ------- | ----- | ------ | ------------ | --------------
 <sub>chatscheme.res</sub> | 816 | | | | |
 <sub>chat_english.txt</sub> | 33 | | | | |
-<sub>clientscheme.res</sub> | 5831 | | | | |
+<sub>clientscheme.res</sub> | 5843 | | | | |
 <sub>closecaption_english.dat</sub> | | | | | |
 <sub>closecaption_english.txt</sub> | 122 | | | | |
 <sub>gamemenu.res</sub> | 45 | | | | |
@@ -121,7 +121,7 @@ Filename | <sub>linecount</sub> | <sub>minmode</sub> | <sub>#base</sub> | <sub>i
 <sub>huditemeffectmeter_spy.res</sub> | 102 | 6 | | | |
 <sub>huditemeffectmeter_spyknife.res</sub> | 88 | 11 | | | |
 <sub>hudkillstreaknotice.res</sub> | 34 | | | | |
-<sub>hudmannvsmachinestatus.res</sub> | 264 | 5 | | | |
+<sub>hudmannvsmachinestatus.res</sub> | 250 | 3 | | | |
 <sub>hudmatchstatus.res</sub> | 895 | 8 | | | 2 |
 <sub>hudmatchsummary.res</sub> | 999 | | | | |
 <sub>hudmediccharge.res</sub> | 203 | 18 | | | |
@@ -201,7 +201,7 @@ Filename | <sub>linecount</sub> | <sub>minmode</sub> | <sub>#base</sub> | <sub>i
 <sub>lobbypanel_comp.res</sub> | 606 | | 1 | | |
 <sub>lobbypanel_mvm.res</sub> | 37 | | 1 | | |
 <sub>mainmenueventplaylistentry.res</sub> | 161 | | 1 | | |
-<sub>mainmenuoverride.res</sub> | 2847 | | | | |
+<sub>mainmenuoverride.res</sub> | 2894 | | | | |
 <sub>mainmenuplaylistentry.res</sub> | 247 | | | | |
 <sub>mainmenu_saxxyawards.res</sub> | 335 | | | | |
 <sub>mapinfomenu.res</sub> | 272 | | | | |
@@ -283,7 +283,7 @@ Filename | <sub>linecount</sub> | <sub>minmode</sub> | <sub>#base</sub> | <sub>i
 <sub>statsummary.res</sub> | 2748 | | | | |
 <sub>statsummary_embedded.res</sub> | 2589 | | | | |
 <sub>steamfriendpanel.res</sub> | 77 | | | | |
-<sub>steamworkshopdialog.res</sub> | 632 | | | | |
+<sub>steamworkshopdialog.res</sub> | 728 | | | | |
 <sub>steamworkshopitem.res</sub> | 67 | | | | |
 <sub>streamlistpanel.res</sub> | 212 | | | | |
 <sub>streampanel.res</sub> | 166 | | | | |

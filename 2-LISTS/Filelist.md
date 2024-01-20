@@ -283,7 +283,7 @@ mvmvictorymannuptab.res | **MvM - MannUp victory player tab specifics**
 mvmvictorypanel.res | **MvM - map victory panel**
 mvmvictorysplash.res | **MvM - course victory message**
 mvmwavelosspanel.res | **MvM - wave lost panel**
-navigationpaneltest.res | *no longes in use*
+navigationpaneltest.res | *no longer in use*
 newrecipefounddialog.res |
 objectivestatusescort.res | **Payload cart progress bar**
 objectivestatusmultipleescort.res | **Payload race carts red and blue progress bars**
@@ -907,7 +907,7 @@ modeselection.res | **Training style selection**
 
 File | Description
 ---- | -----------
-mapselection.res | **ffline practice map selection**
+mapselection.res | **Offline practice map selection**
 practicemodeselection.res | **Offline practice gamemode selection**
 
 ## resource/ui/replaybrowser/

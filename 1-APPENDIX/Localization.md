@@ -17,7 +17,7 @@ Localization is loaded through various files. The load order of these files is:
 
 When entering a map, `mapname_english` will also get loaded.
 
-As well as loading `closecaption_english`, the game will also load whatever you have your `cc_lang` set to. For example, with `cc_lang test`, it will load both `closecaption_english` and `closecaption_test`. When you change `cc_lang`, it will also load that localization file mid-game. This can be used to, during gameplay, change any existing localization (or add new ones) by loading arbitrary localization files.
+As well as loading `closecaption_english`, the game will also load whatever you have your `cc_lang` set to. For example, with `cc_lang test`, it will load both `closecaption_english` and `closecaption_test`. When you change `cc_lang`, it will also load that localization file mid-game. This can be used to, during gameplay, change any existing localization (or add new ones) by loading arbitrary localization files. Keep in mind that this will also change the captions being used.
 
 ## Format
 

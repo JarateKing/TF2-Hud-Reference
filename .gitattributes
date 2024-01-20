@@ -1,4 +1,7 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-
 *.bat text eol=crlf
+
+# proper language detection
+*.res linguist-language=vdf
+**/*.res linguist-detectable=true
