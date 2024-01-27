@@ -587,6 +587,13 @@ modelname
 skin
 
 
+## CTFPlayerModelPanel
+Derives from CBaseModelPanel.
+Parameter | Info
+--------- | ----
+disable_speak_event |
+customclassdata{} | Allows you to set fov, origin and angles for each class individually
+
 
 ## CItemModelPanel
 A panel that show an item. Derives from EditablePanel.
