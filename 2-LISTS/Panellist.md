@@ -202,6 +202,15 @@ Derives from CheckButton.
 A button that looks like an arrow. Derives from ToggleButton.
 
 
+## CTFTeamButton
+A button that animates a model. Animation events are called idle_enabled, idle_disabled, enter_enabled, enter_disabled, exit_enabled, exit_disabled & hover_disabled. Only works in the team select menu. Derives from CExButton.
+Parameter | Info
+--------- | ----
+associated_model | What model to animate
+team
+hover | Delay before animation
+
+
 ## CAutoFittingLabel
 A label that changes the font to fit in the boundaries of the panel. Derives from Label.
 Parameter | Info
@@ -708,6 +717,13 @@ selected_button_default
 ButtonSettings{} | Settings for the buttons to use
 Buttons{} | List of buttons
 
+
+## CTFVideoPanel
+Parameter | Info
+--------- | ----
+command
+start_delay
+end_delay
 
 
 ## CExplanationPopup
