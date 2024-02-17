@@ -726,6 +726,13 @@ start_delay
 end_delay
 
 
+## CTFArrowPanel
+Derives from Panel.
+Parameter | Info
+--------- | ----
+
+
+
 ## CExplanationPopup
 A speech bubble panel. Accepts button commands "close", "nextexplanation" & "prevexplanation". Derives from EditablePanel.
 Parameter | Info
