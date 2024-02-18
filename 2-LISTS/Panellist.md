@@ -235,7 +235,6 @@ fonts{}
 ```
 
 
-
 ## URLLabel
 A button that opens a web page. Derives from Label.
 Parameter | Info
@@ -271,6 +270,7 @@ Box{} | ControlName: ImagePanel
 UpArrow{} | ControlName: CExImageButton
 DownArrow{} | ControlName: CExImageButton
 ScrollBar{} | ControlName: ScrollBar
+
 
 ## CRichTextWithScrollbarBorders
 Same as above but uses borders instead of images for image_line & image_box. "Line" & "Box" are Panels instead of ImagePanels. Derives from CExRichText.
@@ -731,6 +731,23 @@ Derives from Panel.
 Parameter | Info
 --------- | ----
 
+
+## CPvPRankPanel
+Derives from EditablePanel.
+Parameter | Info
+--------- | ----
+matchgroup | MatchGroup_Ladder_6v6 or MatchGroup_Casual_12v12
+show_type
+show_name
+show_model
+show_progress
+instantly_update
+show_sources_when_hidden
+xp_source_notification_center_x
+
+
+## CMiniPvPRankPanel
+Derives from CPvPRankPanel.
 
 
 ## CExplanationPopup
