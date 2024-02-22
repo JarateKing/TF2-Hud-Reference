@@ -732,6 +732,75 @@ Parameter | Info
 --------- | ----
 
 
+## CTFPlayerPanel 
+Derives from EditablePanel.
+Parameter | Info
+--------- | ----
+HealthIcon{} | ControlName: CTFPlayerPanelGUIHealth
+ReadyBG{} | ControlName: ScalableImagePanel
+ReadyImage{} | ControlName: ImagePanel
+
+
+
+## CTFTeamStatus
+Derives from EditablePanel.
+Parameter | Info
+--------- | ----
+team1_grow_dir
+team2_grow_dir
+max_size
+6v6_gap
+12v12_gap
+team1_base_x
+team1_max_expand
+team2_base_x
+team2_max_expand
+playerpanels_kv{}
+
+
+## CTFTeamStatusPlayerPanel
+Derives from CTFPlayerPanel.
+Parameter | Info
+--------- | ----
+color_portrait_bg_red_local_player
+color_portrait_bg_blue_local_player
+color_portrait_bg_red
+color_portrait_bg_blue
+color_portrait_bg_red_dead
+color_portrait_bg_blue_dead
+color_bar_health_high
+percentage_health_med
+color_bar_health_med
+percentage_health_low
+color_bar_health_low
+color_portrait_blend_dead_red
+color_portrait_blend_dead_blue
+healthbar{} | ControlName: ContinuousProgressBar
+overhealbar{} | ControlName: ContinuousProgressBar
+classimagebg{} | ControlName: Panel
+DeathPanel{} | ControlName: ImagePanel
+
+
+## CTFHudPlayerHealth
+Derives from EditablePanel.
+Parameter | Info
+--------- | ----
+HealthBonusPosAdj
+HealthDeathWarning
+HealthDeathWarningColor
+
+
+
+## CTFSpectatorGUIHealth
+Derives from CTFHudPlayerHealth.
+
+
+
+## CTFPlayerPanelGUIHealth
+Derives from CTFSpectatorGUIHealth.
+
+
+
 ## CPvPRankPanel
 Derives from EditablePanel.
 Parameter | Info
