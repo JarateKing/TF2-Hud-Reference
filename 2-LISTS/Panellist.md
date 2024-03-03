@@ -85,6 +85,16 @@ collapsed_height | How tall when collapsed
 expanded_height | How tall when expanded
 
 
+## SectionedListPanel
+Derives from Panel.
+Parameter | Info
+--------- | ----
+show_columns
+linespacing
+sectiongap
+linegap
+
+
 ## Label
 A panel with text. Derives from Panel.
 Parameter | Info
