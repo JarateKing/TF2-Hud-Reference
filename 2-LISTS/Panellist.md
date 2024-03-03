@@ -354,6 +354,14 @@ iconColor | What colour to draw the icon with
 scaleImage | Should the icon scale with the panel
 
 
+## CAvatarImagePanel
+Derives from Panel.
+Parameter | Info
+--------- | ----
+scaleImage
+color_outline
+
+
 ## CBitmapPanel
 Parameter | Info
 --------- | ----
