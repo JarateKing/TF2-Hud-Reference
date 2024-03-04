@@ -61,6 +61,13 @@ Parameter | Info
 skip_autoresize | 
 
 
+## ScrollableEditablePanel
+Derives from EditablePanel.
+Parameter | Info
+--------- | ----
+ScrollBar{} | ControlName: ScrollBar
+
+
 ## CExScrollingEditablePanel
 A panel that can have other panels inside of it and can be scrolled. Derives from EditablePanel.
 Parameter | Info
