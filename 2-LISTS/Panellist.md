@@ -163,7 +163,7 @@ fgcolor | Foreground colour
 border_default | Default border
 border_armed | Border when hovered
 border_disabled | Border when enabled == 0
-border_selected | Border when selected == 0
+border_selected | Border when selected == 1
 
 
 ## CExImageButton
