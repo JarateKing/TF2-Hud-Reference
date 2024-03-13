@@ -1,2 +1,4 @@
 ## statsummarry_embedded.res
-ClassCombo
+Panel | Font | Color | Border
+----- | ---- | ----- | ------
+ClassCombo | ScoreBoardSmall
