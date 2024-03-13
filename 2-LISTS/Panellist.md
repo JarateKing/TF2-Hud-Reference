@@ -574,10 +574,13 @@ Parameter | Info
 --------- | ----
 render_texture
 use_particle
+start_framed
+disable_manipulation
 fov
 allow_rot
 allow_pitch
 allow_manip
+max_pitch
 model{}
 
 The following parameters need to be in model{}
@@ -598,10 +601,6 @@ frame_origin_y
 frame_origin_z
 vcd
 spotlight
-start_framed
-disable_manipulation
-use_particle
-max_pitch
 animation{} | Animations of the model
 attached_model{} | Attach another model eg. a gun
 
