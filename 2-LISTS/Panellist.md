@@ -109,7 +109,16 @@ linegap
 Default scheme values
 Font | Color | Border
 ---- | ----  | ------
-DefaultVerySmall | SectionedListPanel.HeaderTextColor<br>SectionedListPanel.DividerColor<br>SectionedListPanelHeader.BgColor | 
+DefaultVerySmall | SectionedListPanel.HeaderTextColor
+SectionedListPanel.Font | SectionedListPanel.DividerColor
+   | SectionedListPanelHeader.BgColor
+   | SectionedListPanel.BrightTextColor
+   | SectionedListPanel.SelectedTextColor
+   | SectionedListPanel.OutOfFocusSelectedTextColor
+   | SectionedListPanel.SelectedBgColor
+   | SectionedListPanel.TextColor
+   | SectionedListPanel.BgColor
+   | SectionedListPanel.OutOfFocusSelectedBgColor
 
 
 ## Label
