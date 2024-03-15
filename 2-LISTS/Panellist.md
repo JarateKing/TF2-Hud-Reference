@@ -53,6 +53,11 @@ navToRelay
 navActivate
 navBack
 
+Default scheme values
+Font | Color | Border
+---- | ----  | ------
+ | Panel.FgColor<br>Panel.BgColor | 
+
 
 ## EditablePanel
 A panel that can have other panels inside of it. Derives from Panel.
@@ -100,6 +105,11 @@ show_columns
 linespacing
 sectiongap
 linegap
+
+Default scheme values
+Font | Color | Border
+---- | ----  | ------
+DefaultVerySmall | SectionedListPanel.HeaderTextColor<br>SectionedListPanel.DividerColor<br>SectionedListPanelHeader.BgColor | 
 
 
 ## Label
