@@ -56,7 +56,7 @@ navBack
 Default scheme values
 Font | Color | Border
 ---- | ----  | ------
- | Panel.FgColor<br>Panel.BgColor | 
+---- | Panel.FgColor<br>Panel.BgColor | 
 
 
 ## EditablePanel
