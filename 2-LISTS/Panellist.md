@@ -236,9 +236,21 @@ activeimage | Image to use when hovered
 inactivedrawcolor | What colour to draw the image by default
 activedrawcolor | What colour to draw the image when hovered
 
+Default scheme values
+Font | Color | Border
+---- | ----  | ------
+   | Button.TextColor | NoBorder
+   | Button.ArmedTextColor
+   | Button.DepressedTextColor
+
 
 ## ToggleButton
 A button that can be toggled on and off. Derives from Button.
+
+Default scheme values
+Font | Color | Border
+---- | ----  | ------
+   | ToggleButton.SelectedTextColor |
 
 
 ## CheckButton
@@ -246,6 +258,21 @@ A button that looks like a checkbox. Derives from ToggleButton.
 Parameter | Info
 --------- | ----
 smallcheckimage | Use a smaller check image
+
+Default scheme values
+Font | Color | Border
+---- | ----  | ------
+ MarlettSmall | CheckButton.TextColor | ButtonBorder
+ Marlett | CheckButton.BgColor | ButtonDepressedBorder
+   | CheckButton.Border1 | ButtonKeyFocusBorder
+   | CheckButton.Border2
+   | CheckButton.Check
+   | CheckButton.SelectedTextColor
+   | CheckButton.DisabledFgColor
+   | CheckButton.DisabledBgColor
+   | CheckButton.ArmedBgColor
+   | CheckButton.DepressedBgColor
+   | CheckButton.HighlightFgColor
 
 
 ## CvarToggleCheckButton
@@ -262,6 +289,11 @@ Derives from CheckButton.
 
 ## ExpandButton
 A button that looks like an arrow. Derives from ToggleButton.
+
+Default scheme values
+Font | Color | Border
+---- | ----  | ------
+ Marlett | ExpandButton.Color
 
 
 ## CTFTeamButton
@@ -303,6 +335,11 @@ Parameter | Info
 --------- | ----
 URLText | URL to the web page
 
+Default scheme values
+Font | Color | Border
+---- | ----  | ------
+ DefaultUnderline 
+
 
 ## RichText
 A panel with text that can scroll and can use a text file for its contents. Derives from Panel.
@@ -313,6 +350,14 @@ textfile | A text file to display eg. "resource/text.txt"
 scrollbar | Should the scrollbar be enabled
 maxchars
 ScrollBar{} | ControlName: ScrollBar
+
+Default scheme values
+Font | Color | Border | Other
+---- | ----  | ------ | -----
+ Default | RichText.TextColor |   | RichText.InsetX
+ DefaultUnderline | RichText.BgColor | 
+   | RichText.SelectedTextColor | 
+   | RichText.SelectedBgColor | 
 
 
 ## CExRichText
@@ -332,6 +377,11 @@ Box{} | ControlName: ImagePanel
 UpArrow{} | ControlName: CExImageButton
 DownArrow{} | ControlName: CExImageButton
 ScrollBar{} | ControlName: ScrollBar
+
+Default scheme values
+Font | Color | Border
+---- | ----  | ------
+   | Blank | NoBorder
 
 
 ## CRichTextWithScrollbarBorders
@@ -354,8 +404,13 @@ Parameter | Info
 nobuttons | Removes up & down buttons
 autohide_buttons | Automatically removes up & down buttons when not needed
 Slider{} | ControlName: ScrollBarSlider
-UpButton{} | ControlName: Button
-DownButton{} | ControlName: Button
+UpButton{} | ControlName: ScrollBarButton
+DownButton{} | ControlName: ScrollBarButton
+
+Default scheme values
+Font | Color | Border | Other
+---- | ----  | ------ | -----
+   |   |   | ScrollBar.Wide
 
 
 ## ScrollBarSlider
@@ -363,6 +418,26 @@ The slider of a scrollbar. Derives from Panel.
 Parameter | Info
 --------- | ----
 ButtonBorder | Border of the slider. Only works with IgnoreScheme 1
+
+Default scheme values
+Font | Color | Border
+---- | ----  | ------
+   | ScrollBarSlider.FgColor | ScrollBarSliderBorder
+   | ScrollBarSlider.BgColor | ButtonBorder
+
+
+## ScrollBarButton
+Derives from Button.
+
+Default scheme values
+Font | Color | Border
+---- | ----  | ------
+ Marlett | ScrollBarButton.FgColor | ScrollBarButtonBorder
+   | ScrollBarButton.BgColor | ScrollBarButtonDepressedBorder
+   | ScrollBarButton.ArmedFgColor | 
+   | ScrollBarButton.ArmedBgColor | 
+   | ScrollBarButton.DepressedFgColor | 
+   | ScrollBarButton.DepressedBgColor | 
 
 
 ## CExScrollBar
