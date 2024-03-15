@@ -56,7 +56,8 @@ navBack
 Default scheme values
 Font | Color | Border
 ---- | ----  | ------
-  | Panel.FgColor<br>Panel.BgColor | 
+  | Panel.FgColor
+  | Panel.BgColor 
 
 
 ## EditablePanel
@@ -109,7 +110,7 @@ linegap
 Default scheme values
 Font | Color | Border
 ---- | ----  | ------
-DefaultVerySmall | SectionedListPanel.HeaderTextColor
+DefaultVerySmall | SectionedListPanel.HeaderTextColor | ButtonDepressedBorder
 SectionedListPanel.Font | SectionedListPanel.DividerColor
    | SectionedListPanelHeader.BgColor
    | SectionedListPanel.BrightTextColor
@@ -140,6 +141,17 @@ disabledfgcolor2_override | Foreground colour when enabled == 0
 dulltext | Should the text use dull colours
 brighttext | Should the text use bright colours
 associate
+
+Default scheme values
+Font | Color | Border
+---- | ----  | ------
+Default | Label.DisabledFgColor1
+ | Label.DisabledFgColor2
+ | Label.BgColor
+ | Label.TextDullColor
+ | Label.TextBrightColor
+ | Label.TextColor
+ | Label.SelectedTextColor
 
 
 ## CExLabel
