@@ -146,12 +146,12 @@ Default scheme values
 Font | Color | Border
 ---- | ----  | ------
 Default | Label.DisabledFgColor1
- | Label.DisabledFgColor2
- | Label.BgColor
- | Label.TextDullColor
- | Label.TextBrightColor
- | Label.TextColor
- | Label.SelectedTextColor
+   | Label.DisabledFgColor2
+   | Label.BgColor
+   | Label.TextDullColor
+   | Label.TextBrightColor
+   | Label.TextColor
+   | Label.SelectedTextColor
 
 
 ## CExLabel
@@ -184,6 +184,20 @@ selectedBgColor_override | Background colour when selected
 keyboardFocusColor_override
 blinkFgColor_override
 default
+
+Default scheme values
+Font | Color | Border
+---- | ----  | ------
+   | Button.TextColor | ButtonBorder
+   | Button.BgColor | ButtonDepressedBorder
+   | Button.ArmedTextColor | ButtonKeyFocusBorder
+   | Button.ArmedBgColor
+   | Button.SelectedTextColor
+   | Button.SelectedBgColor
+   | Button.DepressedTextColor
+   | Button.DepressedBgColor
+   | Button.FocusBorderColor
+   | Button.BlinkColor
 
 
 ## CExButton
