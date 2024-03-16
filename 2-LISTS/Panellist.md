@@ -538,12 +538,46 @@ NumericInputOnly | Only allow numbers
 selectallonfirstfocus
 unicode
 
+Default scheme values
+Font | Color | Border
+---- | ----  | ------
+ Default | TextEntry.TextColor | ButtonDepressedBorder
+ DefaultVerySmall | TextEntry.BgColor | 
+   | TextEntry.CursorColor | 
+   | TextEntry.DisabledTextColor | 
+   | TextEntry.DisabledBgColor | 
+   | TextEntry.SelectedTextColor | 
+   | TextEntry.SelectedBgColor | 
+   | TextEntry.OutOfFocusSelectedBgColor | 
+   | TextEntry.FocusEdgeColor | 
+
 
 ## ComboBox
 A panel with a drop down list. Derives from TextEntry.
 Parameter | Info
 --------- | ----
 border_override | Changes the border
+Button{} | ControlName: ComboBoxButton
+
+Default scheme values
+Font | Color | Border
+---- | ----  | ------
+   |   | ComboBoxBorder
+
+## ComboBoxButton
+Derives from Button.
+
+Default scheme values
+Font | Color | Border
+---- | ----  | ------
+ Marlett | ComboBoxButton.ArrowColor | ScrollBarButtonBorder
+   | ComboBoxButton.BgColor | 
+   | ComboBoxButton.ArmedArrowColor | 
+   | ComboBoxButton.BgColor | 
+   | ComboBoxButton.ArmedArrowColor | 
+   | ComboBoxButton.BgColor | 
+   | ComboBoxButton.DisabledBgColor | 
+   
 
 
 ## Slider
