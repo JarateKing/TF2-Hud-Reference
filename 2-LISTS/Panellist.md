@@ -134,6 +134,26 @@ Font | Color | Border
 
 
 
+## Menu
+
+Default scheme values
+Font | Color | Border
+---- | ----  | ------
+  | Menu.TextColor | MenuBorder
+  | Menu.BgColor | 
+  | BorderDark | 
+
+
+## MenuSeperator
+
+Default scheme values
+Font | Color | Border
+---- | ----  | ------
+  | Menu.SeparatorColor | 
+  | Menu.BgColor | 
+
+
+
 
 ## Label
 A panel with text. Derives from Panel.
