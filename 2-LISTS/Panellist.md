@@ -1071,6 +1071,22 @@ Parameter | Info
 presetbutton_kv{}
 
 
+## CCyclingAdContainerPanel
+Derives from EditablePanel
+Parameter | Info
+--------- | ----
+items{}
+
+
+## CItemAdPanel
+Derives from EditablePanel
+Parameter | Info
+--------- | ----
+item
+show_market
+present_time
+
+
 ## CBuildingStatusAlertTray
 Derives from Panel.
 Parameter | Info
