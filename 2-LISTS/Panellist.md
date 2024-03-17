@@ -122,6 +122,19 @@ SectionedListPanel.Font | SectionedListPanel.DividerColor
    | SectionedListPanel.OutOfFocusSelectedBgColor
 
 
+## PanelListPanel
+Parameter | Info
+--------- | ----
+autohide_scrollbar
+
+Default scheme values
+Font | Color | Border
+---- | ----  | ------
+  | ListPanel.BgColor | ButtonDepressedBorder
+
+
+
+
 ## Label
 A panel with text. Derives from Panel.
 Parameter | Info
