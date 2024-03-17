@@ -1071,6 +1071,14 @@ Parameter | Info
 presetbutton_kv{}
 
 
+## CBuildingStatusAlertTray
+Derives from Panel.
+Parameter | Info
+--------- | ----
+icon
+deployed | Float 0.0 - 1.0
+
+
 ## CTFItemCardPanel
 A leftover unused panel that uses Resource/UI/Econ/ItemCardPanel_Series1.res for its contents. Could be useful for a #base -esque reusable panel. Derives from EditablePanel
 Parameter | Info
