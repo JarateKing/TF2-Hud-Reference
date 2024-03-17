@@ -615,6 +615,17 @@ progress
 Derives from ProgressBar.
 
 
+## CBuildingHealthBar
+A progress bar that changes colour when below 50%. Derives from ProgressBar.
+
+Default scheme values
+Font | Color | Border
+---- | ----  | ------
+   | BuildingHealthBar.BgColor | 
+   | BuildingHealthBar.Health | 
+   | BuildingHealthBar.LowHealth | 
+
+
 ## CircularProgressBar
 Derives from ProgressBar
 Parameter | Info
