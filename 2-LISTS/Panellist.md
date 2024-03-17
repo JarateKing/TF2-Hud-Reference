@@ -1008,6 +1008,13 @@ xp_source_notification_center_x
 Derives from CPvPRankPanel.
 
 
+## CDashboardPartyMember
+Parameter | Info
+--------- | ----
+party_slot
+
+
+
 ## CExplanationPopup
 A speech bubble panel. Accepts button commands "close", "nextexplanation" & "prevexplanation". Derives from EditablePanel.
 Parameter | Info
