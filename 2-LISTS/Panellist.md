@@ -123,6 +123,7 @@ SectionedListPanel.Font | SectionedListPanel.DividerColor
 
 
 ## PanelListPanel
+Derives from EditablePanel.
 Parameter | Info
 --------- | ----
 autohide_scrollbar
@@ -135,6 +136,7 @@ Font | Color | Border
 
 
 ## Menu
+Derives from Panel.
 
 Default scheme values
 Font | Color | Border
@@ -145,6 +147,7 @@ Font | Color | Border
 
 
 ## MenuSeperator
+Derives from Panel.
 
 Default scheme values
 Font | Color | Border
