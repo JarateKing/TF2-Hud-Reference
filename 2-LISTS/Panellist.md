@@ -134,7 +134,7 @@ Font | Color | Border | Other
    | FrameTitleButton.DisabledBgColor
 
 
-## TitleButtonDisabledBorder
+## FrameSystemButton
 Derives from MenuButton.
 
 Default scheme values
@@ -143,6 +143,41 @@ Font | Color | Border | Other
    | FrameSystemButton.FgColor |  | FrameSystemButton.Icon
    | FrameSystemButton.BgColor | | FrameSystemButton.DisabledIcon
 
+
+## PropertySheet
+Derives from EditablePanel.
+Parameter | Info
+--------- | ----
+tabxindent
+tabxdelta
+tabxfittotext
+tabheight
+tabheight_small
+tabwidth
+transition_time
+tabskv{} | Controlname: PageTab
+
+Default scheme values
+Font | Color | Border | Other
+---- | ----  | ------ | -----
+DefaultVerySmall |  | PropertySheetBorder | PropertySheet.TransitionEffectTime
+Default |
+
+
+## PageTab
+Derives from Button.
+Parameter | Info
+--------- | ----
+selectedcolor
+unselectedcolor
+activeborder_override
+normalborder_override
+
+Default scheme values
+Font | Color | Border | Other
+---- | ----  | ------ | -----
+DefaultVerySmall | PropertySheet.SelectedTextColor | TabActiveBorder | PropertySheet.TransitionEffectTime
+Default | PropertySheet.TextColor | TabBorder
 
 
 ## ScrollableEditablePanel
