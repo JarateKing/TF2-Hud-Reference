@@ -67,6 +67,84 @@ Parameter | Info
 skip_autoresize | 
 
 
+## Frame
+Derives from EditablePanel.
+Parameter | Info
+--------- | ----
+setclosebuttonvisible
+settitlebarvisible
+title
+title_font
+clientinsetx_override
+titletextinsetX
+titletextinsetY
+infocus_bgcolor_override
+outoffocus_bgcolor_override
+titlebarbgcolor_override
+titlebardisabledbgcolor_override
+titlebarfgcolor_override
+titlebardisabledfgcolor_override
+frame_topGrip{} | ControlName: GripPanel
+frame_bottomGrip{} | ControlName: GripPanel
+frame_leftGrip{} | ControlName: GripPanel
+frame_rightGrip{} | ControlName: GripPanel
+frame_tlGrip{} | ControlName: GripPanel
+frame_trGrip{} | ControlName: GripPanel
+frame_blGrip{} | ControlName: GripPanel
+frame_brGrip{} | ControlName: GripPanel
+frame_caption{} | ControlName: CaptionGripPanel
+frame_minimize{} | ControlName: FrameButton
+frame_maximize{} | ControlName: FrameButton
+frame_mintosystray{} | ControlName: FrameButton
+frame_close{} | ControlName: FrameButton
+frame_menu{} | ControlName: FrameSystemButton
+
+Default scheme values
+Font | Color | Border | Other
+---- | ----  | ------ | -----
+FrameTitleBar.SmallFont | FrameTitleBar.TextColor | FrameBorder | Frame.TransitionEffectTime
+FrameTitleBar.Font | FrameTitleBar.BgColor | | Frame.FocusTransitionEffectTime
+ MarlettSmall | FrameTitleBar.DisabledTextColor | | Frame.ClientInsetX
+ Marlett | FrameTitleBar.DisabledBgColor | | Frame.ClientInsetY
+   | Frame.BgColor | | Frame.TitleTextInsetX
+   | Frame.OutOfFocusBgColor
+
+
+## GripPanel
+Derives from Panel.
+
+Default scheme values
+Font | Color | Border | Other
+---- | ----  | ------ | -----
+MarlettSmall | FrameGrip.Color1 |   | Frame.AutoSnapRange
+Marlett | FrameGrip.Color2
+   | FrameTitleBar.DisabledTextColor
+   | FrameTitleBar.DisabledBgColor
+
+
+## FrameButton
+Derives from Button.
+
+Default scheme values
+Font | Color | Border | Other
+---- | ----  | ------ | -----
+   | FrameTitleButton.FgColor | TitleButtonBorder
+   | FrameTitleButton.BgColor | TitleButtonDepressedBorder
+   | FrameTitleButton.DisabledFgColor | TitleButtonDisabledBorder
+   | FrameTitleButton.DisabledBgColor
+
+
+## TitleButtonDisabledBorder
+Derives from MenuButton.
+
+Default scheme values
+Font | Color | Border | Other
+---- | ----  | ------ | -----
+   | FrameSystemButton.FgColor |  | FrameSystemButton.Icon
+   | FrameSystemButton.BgColor | | FrameSystemButton.DisabledIcon
+
+
+
 ## ScrollableEditablePanel
 Derives from EditablePanel.
 Parameter | Info
@@ -625,9 +703,6 @@ Font | Color | Border
  Marlett | ComboBoxButton.ArrowColor | ScrollBarButtonBorder
    | ComboBoxButton.BgColor | 
    | ComboBoxButton.ArmedArrowColor | 
-   | ComboBoxButton.BgColor | 
-   | ComboBoxButton.ArmedArrowColor | 
-   | ComboBoxButton.BgColor | 
    | ComboBoxButton.DisabledBgColor | 
    
 
