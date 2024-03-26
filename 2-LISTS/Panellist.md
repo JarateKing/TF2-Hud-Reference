@@ -65,6 +65,8 @@ A panel that can have other panels inside of it. Derives from Panel.
 Parameter | Info
 --------- | ----
 skip_autoresize | 
+eatmouseinput
+showtooltipswhenmousedisabled
 
 
 ## Frame
