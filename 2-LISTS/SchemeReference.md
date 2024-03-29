@@ -5,6 +5,10 @@ Panel | Font | Color | Border
 ----- | ---- | ----- | ------
 ClassCombo | ScoreBoardSmall
 
+## mvmcriteria.res
+Panel | Font | Color | Border
+----- | ---- | ----- | ------
+TourList | HudFontSmallest<br>HudFontSmall
 
 # SourceScheme
 
