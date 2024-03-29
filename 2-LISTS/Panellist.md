@@ -1178,6 +1178,24 @@ Parameter | Info
 party_slot
 
 
+## CMVMCriteriaPanel
+Parameter | Info
+--------- | ----
+challenge_spacer
+challenge_name_width
+challenge_skill_width
+challenge_completed_size
+challenge_map_width
+challenge_map_height
+has_ticket_width
+squad_surplus_width
+squad_surplus_width
+badge_level_width
+tour_name_width
+tour_skill_width
+tour_progress_width
+tour_number_width
+
 
 ## CExplanationPopup
 A speech bubble panel. Accepts button commands "close", "nextexplanation" & "prevexplanation". Derives from EditablePanel.
