@@ -755,6 +755,15 @@ numTicks | Number of lines along the slider
 rangeMin | What value the slider starts at
 rangeMax | What value the slider ends at
 
+Default scheme values
+Font | Color | Border
+---- | ----  | ------
+ DefaultVerySmall | Slider.NobColor | ButtonBorder
+   | Slider.TextColor | ButtonDepressedBorder
+   | Slider.TrackColor | 
+   | Slider.DisabledTextColor1 | 
+   | Slider.DisabledTextColor2 | 
+
 
 ## CCVarSlider
 A slider that can change a cvar. Derives from Slider
