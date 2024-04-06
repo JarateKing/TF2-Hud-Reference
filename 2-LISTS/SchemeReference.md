@@ -1,7 +1,21 @@
 # Borders
-Parameter | Info
---------- | ----
-bordertype | "image" or "scalable_image"<br>If missing, uses default line border.
+Parameter | Line Border | Image Border | Scalable Image Border | Info
+--------- |:-----------:|:------------:|:---------------------:| ----
+bordertype ||||"image" or "scalable_image"<br>If missing, uses the default line border.
+inset | X ||| Order: left, top, right, bottom
+backgroundtype | X | X | X
+Left{} | X | | | Accepts "color" & "offset"
+Top{} | X ||| -\|\|-
+Right{} | X ||| -\|\|-
+Bottom{} | X ||| -\|\|-
+image | | X | X
+paintfirst | | X | X | Whether or not to draw the border before the background & foreground or after.
+tiled | | X
+color ||| X
+src_corner_height ||| X
+src_corner_width ||| X
+draw_corner_height ||| X
+draw_corner_width ||| X
 
 
 # ClientScheme
