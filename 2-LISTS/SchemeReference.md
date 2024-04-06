@@ -1,3 +1,9 @@
+# Borders
+Parameter | Info
+--------- | ----
+bordertype | "image" or "scalable_image"<br>If missing, uses default line border.
+
+
 # ClientScheme
 
 ## statsummarry_embedded.res
