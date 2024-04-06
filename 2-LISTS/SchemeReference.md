@@ -1,3 +1,26 @@
+# Fonts
+Parameter | Info
+--------- | ----
+name
+weight
+tall
+scalex
+scaley
+yres | min & max Y resolution for this font
+italic
+underline
+strikeout
+symbol
+antialias
+dropshadow
+outline
+custom
+bitmap
+rotary
+additive
+blur
+scanlines
+
 # Borders
 Parameter | Line Border | Image Border | Scalable Image Border | Info
 --------- |:-----------:|:------------:|:---------------------:| ----
