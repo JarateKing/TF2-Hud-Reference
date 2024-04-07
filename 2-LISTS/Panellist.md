@@ -704,6 +704,11 @@ maxchars | Maximum amount of characters allowed
 NumericInputOnly | Only allow numbers
 selectallonfirstfocus
 unicode
+disabledFgColor_override
+disabledBgColor_override
+selectionColor_override
+selectionTextColor_override
+defaultSelectionBG2Color_override
 
 Default scheme values
 Font | Color | Border
