@@ -264,6 +264,29 @@ Font | Color | Border
 ---- | ----  | ------
   | ListPanel.BgColor | ButtonDepressedBorder
 
+## CBaseASyncPanel
+Derives from EditablePanel.
+Parameter | Info
+--------- | ----
+refresh_delay | Float
+asynchandling | "content" or "loading", not actually on the panel but rather on the panel's child
+
+
+## CTFLeaderboardPanel
+Derives from CBaseASyncPanel.
+Parameter | Info
+--------- | ----
+entry_step
+EvenTextColor
+OddTextColor
+LocalPlayerTextColor
+ScoresContainer{} | ControlName: EditablePanel
+
+
+## CLadderLobbyLeaderboard
+Derives from CTFLeaderboardPanel.
+Parameter | Info
+--------- | ----
 
 
 ## Menu
