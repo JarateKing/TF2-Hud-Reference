@@ -852,6 +852,30 @@ rot_origin_Y_percent | Y position of what point the image rotates around, float 
 approach_speed | The speed of rotation
 
 
+## CAccountPanel
+Derives from EditablePanel.
+Parameter | Info
+--------- | ----
+delta_item_start_y
+delta_item_end_y
+delta_item_x
+delta_item_end_x
+bg_texture
+bg_image_x
+bg_image_y
+bg_image_wide
+bg_image_tall
+PositiveColor
+NegativeColor
+EventColor
+RedRobotScoreColor
+BlueRobotScoreColor
+delta_lifetime
+delta_item_font
+delta_item_font_big
+negative_flip_dir
+
+
 ## CModelPanel
 A panel that shows a 3D model. Derives from EditablePanel.
 Parameter | Info
