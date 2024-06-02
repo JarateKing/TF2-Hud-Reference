@@ -251,7 +251,7 @@ SectionedListPanel.Font | SectionedListPanel.DividerColor
    | SectionedListPanel.TextColor
    | SectionedListPanel.BgColor
    | SectionedListPanel.OutOfFocusSelectedBgColor
-   | SectionedListPanel.Font
+   | SectionedListPanel.Font
 
 
 ## TFSectionedListPanel
