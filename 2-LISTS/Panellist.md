@@ -253,6 +253,20 @@ SectionedListPanel.Font | SectionedListPanel.DividerColor
    | SectionedListPanel.OutOfFocusSelectedBgColor
 
 
+## TFSectionedListPanel
+Derives from SectionedListPanel.
+Parameter | Data Type | Info
+--------- | --------- |----
+medal_width | proportional_width
+avatar_width | proportional_width
+spacer | proportional_width
+name_width | proportional_width
+class_width | proportional_width
+award_width | proportional_width
+stats_width | proportional_width
+horiz_inset | proportional_int
+
+
 ## PanelListPanel
 Derives from EditablePanel.
 Parameter | Info
