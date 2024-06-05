@@ -5,53 +5,53 @@ This is a list of panel types and their parameters.
 
 ## Panel
 The most basic panel, all other panels derive from this.
-Parameter | Info
---------- | ----
-fieldName | Renames the panel
-xpos | Position of the panel in the X axis
-ypos | Position of the panel in the Y axis
-zpos | Render priority of the panel
-wide | Size of the panel in the X axis
-tall | Size of the panel in the Y axis
-visible | Visibility of the panel
-enabled | Changes the colour of labels and disables interaction with buttons, sliders, text boxes etc.
-proportionalToParent | Position & size values relative to the parent size, instead of screen size
-fgcolor_override | Foreground colour
-bgcolor_override | Background colour
-alpha | Opacity of the panel 0-255
-paintbackground | Should the background be painted
-PaintBackgroundType | How the background should be painted. Textures can be changed with Texture*</br>0 = Square corners</br>1 = Textured (Uses Texture1)</br>2 = Rounded corners</br>3 = Rounded Corners with horizontal fade
-Texture1 | Top left
-Texture2 | Top Right
-Texture3 | Botttom Right
-Texture4 | Bottom Left
-RoundedCorners | Which corners are rounded
-paintborder | Should the panel have a border
-border | What border to use
-pin_to_sibling | Pin the panel's position to another panel on the same level in the hierarchy
-pin_corner_to_sibling | Which corner should be pinned to the sibling
-pin_to_sibling_corner | To which corner of the sibling should the panel be pinned
-mouseinputenabled | Should the panel listen for mouse inputs
-keyboardinputenabled | Should the panel listen for keyboard inputs
-tooltiptext | Text to display when hovering over the panel
-actionsignallevel | Allows nested child buttons to add their distant parents as action signal targets
-IgnoreScheme
-usetitlesafe
-ForceStereoRenderToFrameBuffer
-tabPosition
-autoResize
-PinCorner
-PinnedCornerOffSetX
-PinnedCornerOffSetY
-UnpinnedCornerOffSetX
-UnpinnedCornerOffSetY
-navUp
-navDown
-navLeft
-navRight
-navToRelay
-navActivate
-navBack
+Parameter | Data Type | Info
+--------- | --------- | --------- | ----
+fieldName | string | Renames the panel
+xpos | pos |Position of the panel in the X axis
+ypos | pos | Position of the panel in the Y axis
+zpos | int | Render priority of the panel
+wide | size | Size of the panel in the X axis
+tall | size | Size of the panel in the Y axis
+visible | bool | Visibility of the panel
+enabled | bool | Changes the colour of labels and disables interaction with buttons, sliders, text boxes etc.
+proportionalToParent | bool | Position & size values relative to the parent size, instead of screen size
+fgcolor_override | color | Foreground colour
+bgcolor_override | color | Background colour
+alpha | int | Opacity of the panel 0-255
+paintbackground | bool | Should the background be painted
+PaintBackgroundType | int | How the background should be painted. Textures can be changed with Texture*</br>0 = Square corners</br>1 = Textured (Uses Texture1)</br>2 = Rounded corners</br>3 = Rounded Corners with horizontal fade
+Texture1 | material | Top left
+Texture2 | material | Top Right
+Texture3 | material | Botttom Right
+Texture4 | material | Bottom Left
+RoundedCorners | int | Which corners are rounded
+paintborder | bool | Should the panel have a border
+border | border | What border to use
+pin_to_sibling | string | Pin the panel's position to another panel on the same level in the hierarchy
+pin_corner_to_sibling | int | Which corner should be pinned to the sibling
+pin_to_sibling_corner | int | To which corner of the sibling should the panel be pinned
+mouseinputenabled | bool | Should the panel listen for mouse inputs
+keyboardinputenabled | bool | Should the panel listen for keyboard inputs
+tooltiptext | string | Text to display when hovering over the panel
+actionsignallevel | int | Allows nested child buttons to add their distant parents as action signal targets
+IgnoreScheme | int
+usetitlesafe | int
+ForceStereoRenderToFrameBuffer | bool
+tabPosition | int
+autoResize | int
+PinCorner | int
+PinnedCornerOffSetX | int
+PinnedCornerOffSetY | int
+UnpinnedCornerOffSetX | int
+UnpinnedCornerOffSetY | int
+navUp | string
+navDown | string
+navLeft | string
+navRight | string
+navToRelay | string
+navActivate | string
+navBack | string
 
 Default scheme values
 Font | Color | Border
@@ -62,30 +62,30 @@ Font | Color | Border
 
 ## EditablePanel
 A panel that can have other panels inside of it. Derives from Panel.
-Parameter | Info
---------- | ----
-skip_autoresize | 
-eatmouseinput
-showtooltipswhenmousedisabled
+Parameter | Data Type
+--------- | --------- | ---------
+skip_autoresize | bool
+eatmouseinput | bool
+showtooltipswhenmousedisabled | bool
 
 
 ## Frame
 Derives from EditablePanel.
-Parameter | Info
---------- | ----
-setclosebuttonvisible
-settitlebarvisible
-title
-title_font
-clientinsetx_override
-titletextinsetX
-titletextinsetY
-infocus_bgcolor_override
-outoffocus_bgcolor_override
-titlebarbgcolor_override
-titlebardisabledbgcolor_override
-titlebarfgcolor_override
-titlebardisabledfgcolor_override
+Parameter | Data Type
+--------- | --------- | ---------
+setclosebuttonvisible | bool
+settitlebarvisible | bool
+title | string
+title_font | font
+clientinsetx_override | int
+titletextinsetX | int
+titletextinsetY | int
+infocus_bgcolor_override | color
+outoffocus_bgcolor_override | color
+titlebarbgcolor_override | color
+titlebardisabledbgcolor_override | color
+titlebarfgcolor_override | color
+titlebardisabledfgcolor_override | color
 frame_topGrip{} | ControlName: GripPanel
 frame_bottomGrip{} | ControlName: GripPanel
 frame_leftGrip{} | ControlName: GripPanel
@@ -148,15 +148,15 @@ Font | Color | Border | Other
 
 ## PropertySheet
 Derives from EditablePanel.
-Parameter | Info
---------- | ----
-tabxindent
-tabxdelta
-tabxfittotext
-tabheight
-tabheight_small
-tabwidth
-transition_time
+Parameter | Data Type
+--------- | --------- | ---------
+tabxindent | int
+tabxdelta | int
+tabxfittotext | bool
+tabheight | int
+tabheight_small | int
+tabwidth | int
+transition_time | float
 tabskv{} | Controlname: PageTab
 
 Default scheme values
@@ -168,12 +168,12 @@ Default |
 
 ## PageTab
 Derives from Button.
-Parameter | Info
---------- | ----
-selectedcolor
-unselectedcolor
-activeborder_override
-normalborder_override
+Parameter | Data Type
+--------- | --------- | ----
+selectedcolor | color
+unselectedcolor | color
+activeborder_override | border
+normalborder_override | border
 
 Default scheme values
 Font | Color | Border | Other
@@ -184,19 +184,19 @@ Default | PropertySheet.TextColor | TabBorder
 
 ## ScrollableEditablePanel
 Derives from EditablePanel.
-Parameter | Info
---------- | ----
+Parameter | Data Type
+--------- | --------- | ----
 ScrollBar{} | ControlName: ScrollBar
 
 
 ## CExScrollingEditablePanel
 A panel that can have other panels inside of it and can be scrolled. Derives from EditablePanel.
-Parameter | Info
---------- | ----
-allow_mouse_wheel_to_scroll | Only allow scrolling by dragging the slider
-scroll_step | How much the scroll wheel scrolls
-bottom_buffer | How much space to leave at the bottom
-restrict_width | Make the contents fit inside the panel
+Parameter | Data Type | Info
+--------- | --------- | --------- | ----
+allow_mouse_wheel_to_scroll | bool | Only allow scrolling by dragging the slider
+scroll_step | int | How much the scroll wheel scrolls
+bottom_buffer | int | How much space to leave at the bottom
+restrict_width | bool | Make the contents fit inside the panel
 ScrollBar{} | ControlName: CExScrollBar
 
 
@@ -206,17 +206,17 @@ Derives from CExScrollingEditablePanel
 
 ## CExpandablePanel
 Derives from EditablePanel.
-Parameter | Info
---------- | ----
-resize_time | How quickly to resize panel
-collapsed_height | How tall when collapsed
-expanded_height | How tall when expanded
+Parameter | Data Type | Info
+--------- | --------- | --------- | ----
+resize_time | float | How quickly to resize panel
+collapsed_height | int | How tall when collapsed
+expanded_height | int | How tall when expanded
 
 
 ## ListPanel
 Derives from Panel.
-Parameter | Info
---------- | ----
+Parameter | Data Type | Info
+--------- | --------- | ----
 
 Default scheme values
 Font | Color | Border
@@ -231,12 +231,12 @@ Default | ListPanel.BgColor | ButtonDepressedBorder
 
 ## SectionedListPanel
 Derives from Panel.
-Parameter | Info
---------- | ----
-show_columns
-linespacing
-sectiongap
-linegap
+Parameter | Data Type | Info
+--------- | --------- | ----
+show_columns | bool
+linespacing | int
+sectiongap | int
+linegap | int
 
 Default scheme values
 Font | Color | Border
@@ -257,22 +257,22 @@ SectionedListPanel.Font | SectionedListPanel.DividerColor
 ## TFSectionedListPanel
 Derives from SectionedListPanel.
 Parameter | Data Type | Info
---------- | --------- |----
-medal_width | proportional_width
-avatar_width | proportional_width
-spacer | proportional_width
-name_width | proportional_width
-class_width | proportional_width
-award_width | proportional_width
-stats_width | proportional_width
-horiz_inset | proportional_int
+--------- | --------- | --------- |----
+medal_width | size
+avatar_width | size
+spacer | size
+name_width | size
+class_width | size
+award_width | size
+stats_width | size
+horiz_inset | size
 
 
 ## PanelListPanel
 Derives from EditablePanel.
-Parameter | Info
---------- | ----
-autohide_scrollbar
+Parameter | Data Type
+--------- | --------- | ---------
+autohide_scrollbar | bool
 
 Default scheme values
 Font | Color | Border
@@ -281,27 +281,25 @@ Font | Color | Border
 
 ## CBaseASyncPanel
 Derives from EditablePanel.
-Parameter | Info
---------- | ----
-refresh_delay | Float
-asynchandling | "content" or "loading", not actually on the panel but rather on the panel's child
+Parameter | Data Type | Info
+--------- | --------- | --------- | ----
+refresh_delay | float
+asynchandling | string | "content" or "loading", not actually on the panel but rather on the panel's child
 
 
 ## CTFLeaderboardPanel
 Derives from CBaseASyncPanel.
-Parameter | Info
---------- | ----
-entry_step
-EvenTextColor
-OddTextColor
-LocalPlayerTextColor
+Parameter | Data Type
+--------- | --------- | ---------
+entry_step | int
+EvenTextColor | color
+OddTextColor | color
+LocalPlayerTextColor | color
 ScoresContainer{} | ControlName: EditablePanel
 
 
 ## CLadderLobbyLeaderboard
 Derives from CTFLeaderboardPanel.
-Parameter | Info
---------- | ----
 
 
 ## Menu
@@ -329,23 +327,23 @@ Font | Color | Border
 
 ## Label
 A panel with text. Derives from Panel.
-Parameter | Info
---------- | ----
-labelText | Text to display
-font | What font to use
-textAlignment | Where the text should align
-textinsetx | Move text in X axis
-textinsety | Move text in Y axis
-use_proportional_insets | Insets are proportional to screen size
-wrap | Should the text wrap when exceeding panel bounds
-centerwrap | Same as above but centered
-auto_wide_tocontents | The panel's wide value is automatically changed to fit the text
-auto_tall_tocontents | The panel's tall value is automatically changed to fit the text
-allcaps | Use only uppercase letters
-disabledfgcolor2_override | Foreground colour when enabled == 0
-dulltext | Should the text use dull colours
-brighttext | Should the text use bright colours
-associate
+Parameter | Data Type | Info
+--------- | --------- | --------- | ----
+labelText | string | Text to display
+font | font | What font to use
+textAlignment | string | Where the text should align
+textinsetx | int | Move text in X axis
+textinsety | int | Move text in Y axis
+use_proportional_insets | bool | Insets are proportional to screen size
+wrap | bool | Should the text wrap when exceeding panel bounds
+centerwrap | bool |Same as above but centered
+auto_wide_tocontents | bool | The panel's wide value is automatically changed to fit the text
+auto_tall_tocontents | bool | The panel's tall value is automatically changed to fit the text
+allcaps | bool | Use only uppercase letters
+disabledfgcolor2_override | color | Foreground colour when enabled == 0
+dulltext | bool | Should the text use dull colours
+brighttext | bool | Should the text use bright colours
+associate | string
 
 Default scheme values
 Font | Color | Border
@@ -361,34 +359,34 @@ Default | Label.DisabledFgColor1
 
 ## CExLabel
 An expanded label. Derives from Label.
-Parameter | Info
---------- | ----
-fgcolor | Foreground colour
+Parameter | Data Type | Info
+--------- | --------- | --------- | ----
+fgcolor | color | Foreground colour
 
 
 ## Button
 A panel that can fire a command when activated. Derives from Label.
-Parameter | Info
---------- | ----
-command | Command of the button
-selected | Draws selected by default
-stayselectedonclick | When clicked on, sets selected to 1
-stay_armed_on_click | Don't revert back to default state when clicked
-button_activation_type | How the button behaves</br>0 = When pressed sets depressed colours and activates command when released</br>1 = Activates command when pressed</br>2 = Activates command when released, doesn't set selected colours
-sound_armed | Sound when hovered over
-sound_depressed | Sound when pressing button
-sound_released | Sound when releasing button
-defaultFgColor_override | Foreground colour
-defaultBgColor_override | Background colour
-armedFgColor_override | Foreground colour when hovered
-armedBgColor_override | Background colour when hovered
-depressedFgColor_override | Foreground colour when clicked on
-depressedBgColor_override | Background colour when clicked on
-selectedFgColor_override | Foreground colour when selected
-selectedBgColor_override | Background colour when selected
-keyboardFocusColor_override
-blinkFgColor_override
-default
+Parameter | Data Type | Info
+--------- | --------- | --------- | ----
+command | string | Command of the button
+selected | bool | Draws selected by default
+stayselectedonclick | bool | When clicked on, sets selected to 1
+stay_armed_on_click | bool | Don't revert back to default state when clicked
+button_activation_type | int | How the button behaves</br>0 = When pressed sets depressed colours and activates command when released</br>1 = Activates command when pressed</br>2 = Activates command when released, doesn't set selected colours
+sound_armed | sound | Sound when hovered over
+sound_depressed | sound | Sound when pressing button
+sound_released | sound | Sound when releasing button
+defaultFgColor_override | color | Foreground colour
+defaultBgColor_override | color |Background colour
+armedFgColor_override | color | Foreground colour when hovered
+armedBgColor_override | color | Background colour when hovered
+depressedFgColor_override | color | Foreground colour when clicked on
+depressedBgColor_override | color | Background colour when clicked on
+selectedFgColor_override | color | Foreground colour when selected
+selectedBgColor_override | color | Background colour when selected
+keyboardFocusColor_override | color
+blinkFgColor_override | color
+default | bool
 
 Default scheme values
 Font | Color | Border
@@ -407,39 +405,39 @@ Font | Color | Border
 
 ## CExButton
 Expanded button. Derives from Button.
-Parameter | Info
---------- | ----
-fgcolor | Foreground colour
-border_default | Default border
-border_armed | Border when hovered
-border_disabled | Border when enabled == 0
-border_selected | Border when selected == 1
+Parameter | Data Type | Info
+--------- | --------- | --------- | ----
+fgcolor | color | Foreground colour
+border_default | border | Default border
+border_armed | border | Border when hovered
+border_disabled | border | Border when enabled == 0
+border_selected | border | Border when selected == 1
 
 
 ## CExImageButton
 A button that displays an image. Derives from CExButton.
-Parameter | Info
---------- | ----
-image_drawcolor | What colour to draw the image by default
-image_armedcolor | What colour to draw the image when hovered
-image_depressedcolor | What colour to draw the image when pressed
-image_disabledcolor | What colour to draw the image when enabled == 0
-image_selectedcolor | What colour to draw the image when selected == 1
-image_default | What image to use by default
-image_armed | What image to use when hovered
-image_selected | What image to use when selected == 1
+Parameter | Data Type | Info
+--------- | --------- | --------- | ----
+image_drawcolor | color | What colour to draw the image by default, can't use clientscheme entries
+image_armedcolor | color | What colour to draw the image when hovered, can't use clientscheme entries
+image_depressedcolor | color | What colour to draw the image when pressed, can't use clientscheme entries
+image_disabledcolor | color | What colour to draw the image when enabled == 0, can't use clientscheme entries
+image_selectedcolor | color | What colour to draw the image when selected == 1, can't use clientscheme entries
+image_default | material | What image to use by default
+image_armed | material | What image to use when hovered
+image_selected | material | What image to use when selected == 1
 SubImage{} | ControlName: ImagePanel
 
 
 ## CImageButton
 A button that displays an image. Derives from Button.
-Parameter | Info
---------- | ----
-scaleImage | Whether to scale the image
-inactiveimage | Image to use by default
-activeimage | Image to use when hovered
-inactivedrawcolor | What colour to draw the image by default
-activedrawcolor | What colour to draw the image when hovered
+Parameter | Data Type | Info
+--------- | --------- | --------- | ----
+scaleImage | bool | Whether to scale the image
+inactiveimage | material | Image to use by default
+activeimage | material | Image to use when hovered
+inactivedrawcolor | color | What colour to draw the image by default
+activedrawcolor | color | What colour to draw the image when hovered
 
 Default scheme values
 Font | Color | Border
@@ -454,15 +452,15 @@ A button that can be toggled on and off. Derives from Button.
 
 Default scheme values
 Font | Color | Border
----- | ----  | ------
+---- | ----- | ------
    | ToggleButton.SelectedTextColor |
 
 
 ## CheckButton
 A button that looks like a checkbox. Derives from ToggleButton.
-Parameter | Info
---------- | ----
-smallcheckimage | Use a smaller check image
+Parameter | Data Type | Info
+--------- | --------- | ----
+smallcheckimage | bool | Use a smaller check image
 
 Default scheme values
 Font | Color | Border
@@ -482,10 +480,10 @@ Font | Color | Border
 
 ## CvarToggleCheckButton
 A checkbutton that displays the value of a cvar. Derives from CheckButton.
-Parameter | Info
---------- | ----
-cvar_name |
-cvar_value |
+Parameter | Data Type | Info
+--------- | --------- | ----
+cvar_name | string
+cvar_value | bool
 
 
 ## CExCheckButton 
@@ -503,17 +501,17 @@ Font | Color | Border
 
 ## CTFTeamButton
 A button that animates a model. Animation events are called idle_enabled, idle_disabled, enter_enabled, enter_disabled, exit_enabled, exit_disabled & hover_disabled. Only works in the team select menu. Derives from CExButton.
-Parameter | Info
---------- | ----
-associated_model | What model to animate
-team
-hover | Delay before animation
+Parameter | Data Type | Info
+--------- | --------- | ----
+associated_model | string | What model to animate
+team | int
+hover | float | Delay before animation
 
 
 ## CAutoFittingLabel
 A label that changes the font to fit in the boundaries of the panel. Derives from Label.
-Parameter | Info
---------- | ----
+Parameter | Data Type | Info
+--------- | --------- | ----
 fonts{}
 ```
 "fonts"
@@ -536,9 +534,9 @@ fonts{}
 
 ## URLLabel
 A button that opens a web page. Derives from Label.
-Parameter | Info
---------- | ----
-URLText | URL to the web page
+Parameter | Data Type | Info
+--------- | --------- | ----
+URLText | string | URL to the web page
 
 Default scheme values
 Font | Color | Border
@@ -548,12 +546,12 @@ Font | Color | Border
 
 ## RichText
 A panel with text that can scroll and can use a text file for its contents. Derives from Panel.
-Parameter | Info
---------- | ----
-text | Text to display
-textfile | A text file to display eg. "resource/text.txt"
-scrollbar | Should the scrollbar be enabled
-maxchars
+Parameter | Data Type | Info
+--------- | --------- | ----
+text | string | Text to display
+textfile | path | A text file to display eg. "resource/text.txt"
+scrollbar | bool | Should the scrollbar be enabled
+maxchars | int
 ScrollBar{} | ControlName: ScrollBar
 
 Default scheme values
@@ -567,16 +565,16 @@ Font | Color | Border | Other
 
 ## CExRichText
 An expanded rich text. Derives from RichText.
-Parameter | Info
---------- | ----
-font | What font to use
-fgcolor | Foreground colour
-image_up_arrow | Image for the scrollbar's up arrow
-image_down_arrow | Image for the scrollbar's down arrow
-image_line | Image for the scrollbar slider's background 
-image_box | Image for the scrollbar slider
-image_up_arrow_mouseover | Image for the scrollbar's up arrow when hovered
-image_down_arrow_mouseover | Image for the scrollbar's down arrow when hovered
+Parameter | Data Type | Info
+--------- | --------- | ----
+font | font | What font to use
+fgcolor | color | Foreground colour
+image_up_arrow | color | Image for the scrollbar's up arrow
+image_down_arrow | color | Image for the scrollbar's down arrow
+image_line | color | Image for the scrollbar slider's background 
+image_box | color | Image for the scrollbar slider
+image_up_arrow_mouseover | color | Image for the scrollbar's up arrow when hovered
+image_down_arrow_mouseover | color | Image for the scrollbar's down arrow when hovered
 Line{} | ControlName: ImagePanel
 Box{} | ControlName: ImagePanel
 UpArrow{} | ControlName: CExImageButton
@@ -595,19 +593,19 @@ Same as above but uses borders instead of images for image_line & image_box. "Li
 
 ## CEconItemDetailsRichText
 "Rich text control that knows how to fill itself with information that describes a specific item definition."
-Parameter | Info
---------- | ----
-highlight_color
-itemset_color
-link_color
+Parameter | Data Type | Info
+--------- | --------- | ----
+highlight_color | color
+itemset_color | color
+link_color | color
 
 
 ## ScrollBar
 A scrollbar. Derives from Panel.
-Parameter | Info
---------- | ----
-nobuttons | Removes up & down buttons
-autohide_buttons | Automatically removes up & down buttons when not needed
+Parameter | Data Type | Info
+--------- | --------- | ----
+nobuttons | bool | Removes up & down buttons
+autohide_buttons | bool | Automatically removes up & down buttons when not needed
 Slider{} | ControlName: ScrollBarSlider
 UpButton{} | ControlName: ScrollBarButton
 DownButton{} | ControlName: ScrollBarButton
@@ -620,9 +618,9 @@ Font | Color | Border | Other
 
 ## ScrollBarSlider
 The slider of a scrollbar. Derives from Panel.
-Parameter | Info
---------- | ----
-ButtonBorder | Border of the slider. Only works with IgnoreScheme 1
+Parameter | Data Type | Info
+--------- | --------- | ----
+ButtonBorder | border | Border of the slider. Only works with IgnoreScheme 1
 
 Default scheme values
 Font | Color | Border
@@ -651,102 +649,102 @@ Font | Color | Border
 
 ## ImagePanel
 A panel that displays an image. Derives from Panel.
-Parameter | Info
---------- | ----
-image | The image to display
-fillcolor | Background colour
-drawcolor | What colour to draw the image with
-scaleImage | Whether to scale the image
-scaleAmount | How much to scale the image, set to 0 for full size
-tileImage | Repeat the image endlessly
-tileHorizontally | Repeat the image endlessly in the X axis
-tileVertically | Repeat the image endlessly in the Y axis
-rotation | Rotate image in 90 degree increments
-positionImage
+Parameter | Data Type | Info
+--------- | --------- | ----
+image | material | The image to display
+fillcolor | color | Background colour
+drawcolor | color | What colour to draw the image with
+scaleImage | bool | Whether to scale the image
+scaleAmount | float | How much to scale the image, set to 0 for full size
+tileImage | bool | Repeat the image endlessly
+tileHorizontally | bool | Repeat the image endlessly in the X axis
+tileVertically | bool | Repeat the image endlessly in the Y axis
+rotation | int | Rotate image in 90 degree increments
+positionImage | bool
 
 
 ## ScalableImagePanel
 A panel that displays an image. Can have scalable corners & sides. Derives from Panel.
-Parameter | Info
---------- | ----
-image | The image to display
-drawcolor | What colour to draw the image with
-src_corner_width | How big the texture's corners are in the X axis
-src_corner_height | How big the texture's corners are in the Y axis
-draw_corner_width | How big to draw the corners in the X axis
-draw_corner_height | How big to draw the corners in the Y axis
+Parameter | Data Type | Info
+--------- | --------- | ----
+image | material | The image to display
+drawcolor | color | What colour to draw the image with
+src_corner_width | int | How big the texture's corners are in the X axis
+src_corner_height | int | How big the texture's corners are in the Y axis
+draw_corner_width | int | How big to draw the corners in the X axis
+draw_corner_height | int | How big to draw the corners in the Y axis
 
 
 ## CTFImagePanel
 An image panel that can be team coloured. Derives from ScalableImagePanel
-Parameter | Info
---------- | ----
-teambg_0 | Image when unassigned
-teambg_1 | Image on spectate
-teambg_2 | Image on RED
-teambg_3 | Image on BLU
+Parameter | Data Type | Info
+--------- | --------- | ----
+teambg_0 | material | Image when unassigned
+teambg_1 | material | Image on spectate
+teambg_2 | material | Image on RED
+teambg_3 | material | Image on BLU
 
 
 ## CIconPanel
 A panel that displays an icon from scripts/mod_textures.txt. Derives from Panel.
-Parameter | Info
---------- | ----
-icon | What icon to use
-iconColor | What colour to draw the icon with
-scaleImage | Should the icon scale with the panel
+Parameter | Data Type | Info
+--------- | --------- | ----
+icon | icon | What icon to use
+iconColor | color | What colour to draw the icon with
+scaleImage | bool | Should the icon scale with the panel
 
 
 ## CAvatarImagePanel
 Derives from Panel.
-Parameter | Info
---------- | ----
-scaleImage
-color_outline
+Parameter | Data Type | Info
+--------- | --------- | ----
+scaleImage | bool
+color_outline | color
 
 
 ## CBitmapPanel
-Parameter | Info
---------- | ----
-material | Looks in materials/ instead of materials/vgui/
-color
+Parameter | Data Type | Info
+--------- | --------- | ----
+material | material | Looks in materials/ instead of materials/vgui/
+color | color
 
 
 ## CBitmapImagePanel
 An image that can maintain its aspect ratio when resized. Derives from Panel.
-Parameter | Info
---------- | ----
-image | The image to display
-imagecolor | What colour to draw the image with
-imageAlignment | Where the image should align
-preserveAspectRatio | Should the aspect ratio be maintained
-filtered
+Parameter | Data Type | Info
+--------- | --------- | ----
+image | material | The image to display
+imagecolor | color | What colour to draw the image with
+imageAlignment | string | Where the image should align, uses same values as textAlignment
+preserveAspectRatio | bool | Should the aspect ratio be maintained
+filtered | bool
 
 
 ## CTFLogoPanel
 A rotating TF logo.
-Parameter | Info
---------- | ----
-radius | Size of the logo
-velocity | Speed of the logo
+Parameter | Data Type | Info
+--------- | --------- | ----
+radius | bool | Size of the logo
+velocity | float | Speed of the logo
 
 
 
 ## TextEntry
 A panel you can type text in. Derives from Panel.
-Parameter | Info
---------- | ----
-font | What font to use
-textHidden | Censor the text
-editable | Allow the user to change the text
-maxchars | Maximum amount of characters allowed
-NumericInputOnly | Only allow numbers
-selectallonfirstfocus
-unicode
-disabledFgColor_override
-disabledBgColor_override
-selectionColor_override
-selectionTextColor_override
-defaultSelectionBG2Color_override
+Parameter | Data Type | Info
+--------- | --------- | ----
+font | font | What font to use
+textHidden | bool | Censor the text
+editable | bool | Allow the user to change the text
+maxchars | int | Maximum amount of characters allowed
+NumericInputOnly | bool | Only allow numbers
+selectallonfirstfocus | bool
+unicode | bool
+disabledFgColor_override | color
+disabledBgColor_override | color
+selectionColor_override | color
+selectionTextColor_override | color
+defaultSelectionBG2Color_override | color
 
 Default scheme values
 Font | Color | Border
@@ -764,9 +762,9 @@ Font | Color | Border
 
 ## ComboBox
 A panel with a drop down list. Derives from TextEntry.
-Parameter | Info
---------- | ----
-border_override | Changes the border
+Parameter | Data Type | Info
+--------- | --------- | ----
+border_override | border | Changes the border
 Button{} | ControlName: ComboBoxButton
 
 Default scheme values
@@ -789,14 +787,14 @@ Font | Color | Border
 
 ## Slider
 A panel with a movable slider. Derives from Panel.
-Parameter | Info
---------- | ----
-leftText | Text on the left
-rightText | Text on the right
-thumbwidth | Width of the slider
-numTicks | Number of lines along the slider
-rangeMin | What value the slider starts at
-rangeMax | What value the slider ends at
+Parameter | Data Type | Info
+--------- | --------- | ----
+leftText | string | Text on the left
+rightText | string | Text on the right
+thumbwidth | int | Width of the slider
+numTicks | int | Number of lines along the slider
+rangeMin | int | What value the slider starts at
+rangeMax | int | What value the slider ends at
 
 Default scheme values
 Font | Color | Border
@@ -810,21 +808,21 @@ Font | Color | Border
 
 ## CCVarSlider
 A slider that can change a cvar. Derives from Slider
-Parameter | Info
---------- | ----
-minvalue | Minimum value allowed
-maxvalue | Maximum value allowed
-cvar_name | Cvar to change
-use_convar_minmax | Use the minvalue & maxvalue of the cvar instead
+Parameter | Data Type | Info
+--------- | --------- | ----
+minvalue | float | Minimum value allowed
+maxvalue | float | Maximum value allowed
+cvar_name | string | Cvar to change
+use_convar_minmax | bool | Use the minvalue & maxvalue of the cvar instead
 allowoutofrange
 
 
 ## ProgressBar
 A segmented progress bar. Derives from Panel.
-Parameter | Info
---------- | ----
-variable | What to measure
-progress
+Parameter | Data Type | Info
+--------- | --------- | ----
+variable | string | What to measure
+progress | float
 
 
 ## ContinuousProgressBar
@@ -844,33 +842,33 @@ Font | Color | Border
 
 ## CircularProgressBar
 Derives from ProgressBar
-Parameter | Info
---------- | ----
-fg_image | Image to use as the progress bar
-bg_image | Image to use as the background
+Parameter | Data Type | Info
+--------- | --------- | ----
+fg_image | material | Image to use as the progress bar
+bg_image | material | Image to use as the background
 
 
 
 ## RotatingProgressBar
 Derives from ProgressBar
-Parameter | Info
---------- | ----
-image | Image that rotates
-rotating_x | X position of the image
-rotating_y | Y position of the image
-rotating_wide | Wide of the image
-rotating_tall | Tall of the image
-start_degrees | Rotation of the image when variable == 0
-end_degrees | Rotation of the image when variable == 100
-rot_origin_x_percent | X position of what point the image rotates around, float value 0.0 - 1.0
-rot_origin_Y_percent | Y position of what point the image rotates around, float value 0.0 - 1.0
-approach_speed | The speed of rotation
+Parameter | Data Type | Info
+--------- | --------- | ----
+image | material | Image that rotates
+rotating_x | float | X position of the image
+rotating_y | float | Y position of the image
+rotating_wide | float | Wide of the image
+rotating_tall | float | Tall of the image
+start_degrees | float | Rotation of the image when variable == 0
+end_degrees | float | Rotation of the image when variable == 100
+rot_origin_x_percent | float | X position of what point the image rotates around, float value 0.0 - 1.0
+rot_origin_Y_percent | float | Y position of what point the image rotates around, float value 0.0 - 1.0
+approach_speed | float | The speed of rotation
 
 
 ## CAccountPanel
 Derives from EditablePanel.
-Parameter | Info
---------- | ----
+Parameter | Data Type | Info
+--------- | --------- | ----
 delta_item_start_y
 delta_item_end_y
 delta_item_x
@@ -893,16 +891,16 @@ negative_flip_dir
 
 ## CModelPanel
 A panel that shows a 3D model. Derives from EditablePanel.
-Parameter | Info
---------- | ----
+Parameter | Data Type | Info
+--------- | --------- | ----
 fov | FOV of the model
 start_framed
 allow_offscreen
 model{}
 
 The following parameters need to be in model{}
-Parameter | Info
---------- | ----
+Parameter | Data Type | Info
+--------- | --------- | ----
 modelname | What model to use
 modelname_hwm
 skin | Which skin to use
@@ -921,8 +919,8 @@ animation{} | Animations of the model
 attached_model{} | Attach another model eg. a gun
 
 The following parameters need to be in animation{}
-Parameter | Info
---------- | ----
+Parameter | Data Type | Info
+--------- | --------- | ----
 name 
 sequence
 activity
@@ -930,22 +928,22 @@ default
 pose_parameters{}
 
 The following parameters need to be in attached_model{}
-Parameter | Info
---------- | ----
+Parameter | Data Type | Info
+--------- | --------- | ----
 modelname
 skin
 
 
 ## CPotteryWheelPanel
 Derives from EditablePanel.
-Parameter | Info
---------- | ----
+Parameter | Data Type | Info
+--------- | --------- | ----
 useparentbg
 lights{}
 
 The following parameters need to be in lights{}
-Parameter | Info
---------- | ----
+Parameter | Data Type | Info
+--------- | --------- | ----
 name | Accepts "directional", "point" or "spot"
 color
 direction | directional & spot
@@ -975,8 +973,8 @@ Derives from CPotteryWheelPanel.
 
 ## CBaseModelPanel
 Derives from CMDLPanel
-Parameter | Info
---------- | ----
+Parameter | Data Type | Info
+--------- | --------- | ----
 render_texture
 use_particle
 start_framed
@@ -989,8 +987,8 @@ max_pitch
 model{}
 
 The following parameters need to be in model{}
-Parameter | Info
---------- | ----
+Parameter | Data Type | Info
+--------- | --------- | ----
 force_pos
 modelname | What model to use
 modelname_hwm
@@ -1010,8 +1008,8 @@ animation{} | Animations of the model
 attached_model{} | Attach another model eg. a gun
 
 The following parameters need to be in animation{}
-Parameter | Info
---------- | ----
+Parameter | Data Type | Info
+--------- | --------- | ----
 name 
 sequence
 activity
@@ -1019,24 +1017,24 @@ default
 pose_parameters{}
 
 The following parameters need to be in attached_model{}
-Parameter | Info
---------- | ----
+Parameter | Data Type | Info
+--------- | --------- | ----
 modelname
 skin
 
 
 ## CTFPlayerModelPanel
 Derives from CBaseModelPanel.
-Parameter | Info
---------- | ----
+Parameter | Data Type | Info
+--------- | --------- | ----
 disable_speak_event |
 customclassdata{} | Allows you to set fov, origin and angles for each class individually
 
 
 ## CItemModelPanel
 A panel that show an item. Derives from EditablePanel.
-Parameter | Info
---------- | ----
+Parameter | Data Type | Info
+--------- | --------- | ----
 special_attributes_only
 model_xpos | Position of the model in the X axis
 model_ypos | Position of the model in the Y axis
@@ -1078,8 +1076,8 @@ hide_modifier_icons
 
 ## CEmbeddedItemModelPanel
 Model panel inside CItemModelPanel. Derives from CBaseModelPanel.
-Parameter | Info
---------- | ----
+Parameter | Data Type | Info
+--------- | --------- | ----
 force_use_model
 use_item_rendertarget
 inventory_image_type
@@ -1090,13 +1088,13 @@ use_pedestal
 
 ## CTFParticlePanel
 A panel that displays a particle effect. Derives from EditablePanel.
-Parameter | Info
---------- | ----
+Parameter | Data Type | Info
+--------- | --------- | ----
 ParticleEffects{}
 
 The following parameters need to be in ParticleEffects{}
-Parameter | Info
---------- | ----
+Parameter | Data Type | Info
+--------- | --------- | ----
 particle_xpos | X position of the particle
 particle_ypos | Y position of the particle
 particle_scale | Scale of the prticle
@@ -1127,16 +1125,16 @@ control_point* | Particle control point setting, takes 3 values. Replace * with 
 
 ## CDrawingPanel
 A panel you can draw in. Derives from Panel.
-Parameter | Info
---------- | ----
+Parameter | Data Type | Info
+--------- | --------- | ----
 linecolor | What colour the line should be
 team_colors | Use team colours for the line
 
 
 ## CNavigationPanel
 A panel that has a list of buttons. The command for the buttons is select_0, select_1, select_2 etc. The commands can be aliased to something else. Derives from EditablePanel.
-Parameter | Info
---------- | ----
+Parameter | Data Type | Info
+--------- | --------- | ----
 auto_layout
 auto_scale
 display_vertically
@@ -1148,8 +1146,8 @@ Buttons{} | List of buttons
 
 
 ## CTFVideoPanel
-Parameter | Info
---------- | ----
+Parameter | Data Type | Info
+--------- | --------- | ----
 command
 start_delay
 end_delay
@@ -1157,14 +1155,14 @@ end_delay
 
 ## CTFArrowPanel
 Derives from Panel.
-Parameter | Info
---------- | ----
+Parameter | Data Type | Info
+--------- | --------- | ----
 
 
 ## CTFPlayerPanel 
 Derives from EditablePanel.
-Parameter | Info
---------- | ----
+Parameter | Data Type | Info
+--------- | --------- | ----
 HealthIcon{} | ControlName: CTFPlayerPanelGUIHealth
 ReadyBG{} | ControlName: ScalableImagePanel
 ReadyImage{} | ControlName: ImagePanel
@@ -1173,8 +1171,8 @@ ReadyImage{} | ControlName: ImagePanel
 
 ## CTFTeamStatus
 Derives from EditablePanel.
-Parameter | Info
---------- | ----
+Parameter | Data Type | Info
+--------- | --------- | ----
 team1_grow_dir
 team2_grow_dir
 max_size
@@ -1189,8 +1187,8 @@ playerpanels_kv{}
 
 ## CTFTeamStatusPlayerPanel
 Derives from CTFPlayerPanel.
-Parameter | Info
---------- | ----
+Parameter | Data Type | Info
+--------- | --------- | ----
 color_portrait_bg_red_local_player
 color_portrait_bg_blue_local_player
 color_portrait_bg_red
@@ -1212,8 +1210,8 @@ DeathPanel{} | ControlName: ImagePanel
 
 ## CTFHudPlayerHealth
 Derives from EditablePanel.
-Parameter | Info
---------- | ----
+Parameter | Data Type | Info
+--------- | --------- | ----
 HealthBonusPosAdj
 HealthDeathWarning
 HealthDeathWarningColor
@@ -1232,8 +1230,8 @@ Derives from CTFSpectatorGUIHealth.
 
 ## CPvPRankPanel
 Derives from EditablePanel.
-Parameter | Info
---------- | ----
+Parameter | Data Type | Info
+--------- | --------- | ----
 matchgroup | MatchGroup_Ladder_6v6 or MatchGroup_Casual_12v12
 show_type
 show_name
@@ -1249,14 +1247,14 @@ Derives from CPvPRankPanel.
 
 
 ## CDashboardPartyMember
-Parameter | Info
---------- | ----
+Parameter | Data Type | Info
+--------- | --------- | ----
 party_slot
 
 
 ## CMVMCriteriaPanel
-Parameter | Info
---------- | ----
+Parameter | Data Type | Info
+--------- | --------- | ----
 challenge_spacer
 challenge_name_width
 challenge_skill_width
@@ -1275,8 +1273,8 @@ tour_number_width
 
 ## CExplanationPopup
 A speech bubble panel. Accepts button commands "close", "nextexplanation" & "prevexplanation". Derives from EditablePanel.
-Parameter | Info
---------- | ----
+Parameter | Data Type | Info
+--------- | --------- | ----
 next_explanation | Next speech bubble to draw
 force_close | Disable the rest of the screen until this popup is closed
 callout_inparents_x | X position of the speech bubble's tail
@@ -1293,8 +1291,8 @@ end_tall | Tall after the expanding animation
 
 ## CRepeatingContainer
 A panel that automatically positions its contents. Derives from EditablePanel.
-Parameter | Info
---------- | ----
+Parameter | Data Type | Info
+--------- | --------- | ----
 spacing_method | How to space the panels. METHOD_STEP spaces them by a certain value, METHOD_EVEN spaces them evenly
 x_step | Value to space the panels when using METHOD_STEP
 IndividualSettings{} | Where you place the panels to be sorted
@@ -1331,22 +1329,22 @@ CommonSettings{} | What settings the panels should have by default
 
 ## CLoadoutPresetPanel
 Derives from EditablePanel
-Parameter | Info
---------- | ----
+Parameter | Data Type | Info
+--------- | --------- | ----
 presetbutton_kv{}
 
 
 ## CCyclingAdContainerPanel
 Derives from EditablePanel
-Parameter | Info
---------- | ----
+Parameter | Data Type | Info
+--------- | --------- | ----
 items{}
 
 
 ## CItemAdPanel
 Derives from EditablePanel
-Parameter | Info
---------- | ----
+Parameter | Data Type | Info
+--------- | --------- | ----
 item
 show_market
 present_time
@@ -1354,16 +1352,16 @@ present_time
 
 ## CBuildingStatusAlertTray
 Derives from Panel.
-Parameter | Info
---------- | ----
+Parameter | Data Type | Info
+--------- | --------- | ----
 icon
 deployed | Float 0.0 - 1.0
 
 
 ## CTFItemCardPanel
 A leftover unused panel that uses Resource/UI/Econ/ItemCardPanel_Series1.res for its contents. Could be useful for a #base -esque reusable panel. Derives from EditablePanel
-Parameter | Info
---------- | ----
+Parameter | Data Type | Info
+--------- | --------- | ----
 shadowoffset
 
 
