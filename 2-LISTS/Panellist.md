@@ -6,7 +6,7 @@ This is a list of panel types and their parameters.
 ## Panel
 The most basic panel, all other panels derive from this.
 Parameter | Data Type | Info
---------- | --------- | --------- | ----
+--------- | --------- | ----
 fieldName | string | Renames the panel
 xpos | pos |Position of the panel in the X axis
 ypos | pos | Position of the panel in the Y axis
@@ -63,7 +63,7 @@ Font | Color | Border
 ## EditablePanel
 A panel that can have other panels inside of it. Derives from Panel.
 Parameter | Data Type
---------- | --------- | ---------
+--------- | ---------
 skip_autoresize | bool
 eatmouseinput | bool
 showtooltipswhenmousedisabled | bool
@@ -72,7 +72,7 @@ showtooltipswhenmousedisabled | bool
 ## Frame
 Derives from EditablePanel.
 Parameter | Data Type
---------- | --------- | ---------
+--------- | ---------
 setclosebuttonvisible | bool
 settitlebarvisible | bool
 title | string
@@ -149,7 +149,7 @@ Font | Color | Border | Other
 ## PropertySheet
 Derives from EditablePanel.
 Parameter | Data Type
---------- | --------- | ---------
+--------- | ---------
 tabxindent | int
 tabxdelta | int
 tabxfittotext | bool
@@ -169,7 +169,7 @@ Default |
 ## PageTab
 Derives from Button.
 Parameter | Data Type
---------- | --------- | ----
+--------- | ---------
 selectedcolor | color
 unselectedcolor | color
 activeborder_override | border
@@ -185,14 +185,14 @@ Default | PropertySheet.TextColor | TabBorder
 ## ScrollableEditablePanel
 Derives from EditablePanel.
 Parameter | Data Type
---------- | --------- | ----
+--------- | ---------
 ScrollBar{} | ControlName: ScrollBar
 
 
 ## CExScrollingEditablePanel
 A panel that can have other panels inside of it and can be scrolled. Derives from EditablePanel.
 Parameter | Data Type | Info
---------- | --------- | --------- | ----
+--------- | --------- | ----
 allow_mouse_wheel_to_scroll | bool | Only allow scrolling by dragging the slider
 scroll_step | int | How much the scroll wheel scrolls
 bottom_buffer | int | How much space to leave at the bottom
@@ -207,7 +207,7 @@ Derives from CExScrollingEditablePanel
 ## CExpandablePanel
 Derives from EditablePanel.
 Parameter | Data Type | Info
---------- | --------- | --------- | ----
+--------- | --------- | ----
 resize_time | float | How quickly to resize panel
 collapsed_height | int | How tall when collapsed
 expanded_height | int | How tall when expanded
