@@ -901,58 +901,58 @@ model{}
 The following parameters need to be in model{}
 Parameter | Data Type | Info
 --------- | --------- | ----
-modelname | What model to use
-modelname_hwm
-skin | Which skin to use
-angles_x | Rotation around X axis
-angles_y | Rotation around Y axis
-angles_z | Rotation around Z axis
-origin_x | Position in the X axis
-origin_y | Position in the Y axis
-origin_z | Position in the Z axis
-frame_origin_x
-frame_origin_y
-frame_origin_z
-vcd
-spotlight
-animation{} | Animations of the model
-attached_model{} | Attach another model eg. a gun
+modelname | string | What model to use
+modelname_hwm | string
+skin | int | Which skin to use
+angles_x | float | Rotation around X axis
+angles_y | float | Rotation around Y axis
+angles_z | float | Rotation around Z axis
+origin_x | float | Position in the X axis
+origin_y | float | Position in the Y axis
+origin_z | float | Position in the Z axis
+frame_origin_x | float
+frame_origin_y | float
+frame_origin_z | float
+vcd | string
+spotlight | bool
+animation{} | | Animations of the model
+attached_model{} | | Attach another model eg. a gun
 
 The following parameters need to be in animation{}
 Parameter | Data Type | Info
 --------- | --------- | ----
-name 
-sequence
-activity
-default
+name | string
+sequence | string
+activity | string
+default | bool
 pose_parameters{}
 
 The following parameters need to be in attached_model{}
 Parameter | Data Type | Info
 --------- | --------- | ----
-modelname
-skin
+modelname | string
+skin | int
 
 
 ## CPotteryWheelPanel
 Derives from EditablePanel.
 Parameter | Data Type | Info
 --------- | --------- | ----
-useparentbg
+useparentbg | bool
 lights{}
 
 The following parameters need to be in lights{}
 Parameter | Data Type | Info
 --------- | --------- | ----
-name | Accepts "directional", "point" or "spot"
-color
-direction | directional & spot
-attenuation | point & spot
-origin | point & spot
-maxDistance | point & spot
-inner_cone_angle | spot
-outer_cone_angle | spot
-exponent | spot
+name | string | Accepts "directional", "point" or "spot"
+color | color
+direction | vector | directional & spot
+attenuation | vector | point & spot
+origin | vector | point & spot
+maxDistance | float | point & spot
+inner_cone_angle | float | spot
+outer_cone_angle | float | spot
+exponent | float | spot
 
 ```
 "lights"
