@@ -869,33 +869,33 @@ approach_speed | float | The speed of rotation
 Derives from EditablePanel.
 Parameter | Data Type | Info
 --------- | --------- | ----
-delta_item_start_y
-delta_item_end_y
-delta_item_x
-delta_item_end_x
-bg_texture
-bg_image_x
-bg_image_y
-bg_image_wide
-bg_image_tall
-PositiveColor
-NegativeColor
-EventColor
-RedRobotScoreColor
-BlueRobotScoreColor
-delta_lifetime
-delta_item_font
-delta_item_font_big
-negative_flip_dir
+delta_item_start_y | int
+delta_item_end_y | int
+delta_item_x | int
+delta_item_end_x | int
+bg_texture | material
+bg_image_x | int
+bg_image_y | int
+bg_image_wide | int
+bg_image_tall | int
+PositiveColor | color
+NegativeColor | color
+EventColor | color
+RedRobotScoreColor | color
+BlueRobotScoreColor | color
+delta_lifetime | float
+delta_item_font | font
+delta_item_font_big | font
+negative_flip_dir | bool
 
 
 ## CModelPanel
 A panel that shows a 3D model. Derives from EditablePanel.
 Parameter | Data Type | Info
 --------- | --------- | ----
-fov | FOV of the model
-start_framed
-allow_offscreen
+fov | int | FOV of the model
+start_framed | bool
+allow_offscreen | bool
 model{}
 
 The following parameters need to be in model{}
