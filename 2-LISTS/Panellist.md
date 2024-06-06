@@ -257,7 +257,7 @@ SectionedListPanel.Font | SectionedListPanel.DividerColor
 ## TFSectionedListPanel
 Derives from SectionedListPanel.
 Parameter | Data Type | Info
---------- | --------- | --------- |----
+--------- | --------- | ----
 medal_width | size
 avatar_width | size
 spacer | size
@@ -271,7 +271,7 @@ horiz_inset | size
 ## PanelListPanel
 Derives from EditablePanel.
 Parameter | Data Type
---------- | --------- | ---------
+--------- | ---------
 autohide_scrollbar | bool
 
 Default scheme values
@@ -282,7 +282,7 @@ Font | Color | Border
 ## CBaseASyncPanel
 Derives from EditablePanel.
 Parameter | Data Type | Info
---------- | --------- | --------- | ----
+--------- | --------- | ----
 refresh_delay | float
 asynchandling | string | "content" or "loading", not actually on the panel but rather on the panel's child
 
@@ -290,7 +290,7 @@ asynchandling | string | "content" or "loading", not actually on the panel but r
 ## CTFLeaderboardPanel
 Derives from CBaseASyncPanel.
 Parameter | Data Type
---------- | --------- | ---------
+--------- | ---------
 entry_step | int
 EvenTextColor | color
 OddTextColor | color
@@ -328,7 +328,7 @@ Font | Color | Border
 ## Label
 A panel with text. Derives from Panel.
 Parameter | Data Type | Info
---------- | --------- | --------- | ----
+--------- | --------- | ----
 labelText | string | Text to display
 font | font | What font to use
 textAlignment | string | Where the text should align
@@ -360,14 +360,14 @@ Default | Label.DisabledFgColor1
 ## CExLabel
 An expanded label. Derives from Label.
 Parameter | Data Type | Info
---------- | --------- | --------- | ----
+--------- | --------- | ----
 fgcolor | color | Foreground colour
 
 
 ## Button
 A panel that can fire a command when activated. Derives from Label.
 Parameter | Data Type | Info
---------- | --------- | --------- | ----
+--------- | --------- | ----
 command | string | Command of the button
 selected | bool | Draws selected by default
 stayselectedonclick | bool | When clicked on, sets selected to 1
@@ -406,7 +406,7 @@ Font | Color | Border
 ## CExButton
 Expanded button. Derives from Button.
 Parameter | Data Type | Info
---------- | --------- | --------- | ----
+--------- | --------- | ----
 fgcolor | color | Foreground colour
 border_default | border | Default border
 border_armed | border | Border when hovered
@@ -417,7 +417,7 @@ border_selected | border | Border when selected == 1
 ## CExImageButton
 A button that displays an image. Derives from CExButton.
 Parameter | Data Type | Info
---------- | --------- | --------- | ----
+--------- | --------- | ----
 image_drawcolor | color | What colour to draw the image by default, can't use clientscheme entries
 image_armedcolor | color | What colour to draw the image when hovered, can't use clientscheme entries
 image_depressedcolor | color | What colour to draw the image when pressed, can't use clientscheme entries
@@ -432,7 +432,7 @@ SubImage{} | ControlName: ImagePanel
 ## CImageButton
 A button that displays an image. Derives from Button.
 Parameter | Data Type | Info
---------- | --------- | --------- | ----
+--------- | --------- | ----
 scaleImage | bool | Whether to scale the image
 inactiveimage | material | Image to use by default
 activeimage | material | Image to use when hovered
