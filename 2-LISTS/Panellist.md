@@ -592,7 +592,7 @@ Same as above but uses borders instead of images for image_line & image_box. "Li
 
 
 ## CEconItemDetailsRichText
-"Rich text control that knows how to fill itself with information that describes a specific item definition."
+"Rich text control that knows how to fill itself with information that describes a specific item definition." Derives from CRichTextWithScrollbarBorders.
 Parameter | Data Type | Info
 --------- | --------- | ----
 highlight_color | color
