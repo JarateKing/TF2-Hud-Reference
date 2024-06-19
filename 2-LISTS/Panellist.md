@@ -313,7 +313,7 @@ Font | Color | Border
   | BorderDark | 
 
 
-### MenuSeperator
+### MenuSeparator
 Derives from Panel.
 
 Default scheme values
