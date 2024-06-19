@@ -112,7 +112,7 @@ FrameTitleBar.Font | FrameTitleBar.BgColor | | Frame.FocusTransitionEffectTime
    | Frame.OutOfFocusBgColor
 
 
-## GripPanel
+### GripPanel
 Derives from Panel.
 
 Default scheme values
@@ -124,7 +124,7 @@ Marlett | FrameGrip.Color2
    | FrameTitleBar.DisabledBgColor
 
 
-## FrameButton
+### FrameButton
 Derives from Button.
 
 Default scheme values
@@ -136,7 +136,7 @@ Font | Color | Border | Other
    | FrameTitleButton.DisabledBgColor
 
 
-## FrameSystemButton
+### FrameSystemButton
 Derives from MenuButton.
 
 Default scheme values
@@ -166,7 +166,7 @@ DefaultVerySmall |  | PropertySheetBorder | PropertySheet.TransitionEffectTime
 Default |
 
 
-## PageTab
+### PageTab
 Derives from Button.
 Parameter | Data Type
 --------- | ---------
@@ -313,7 +313,7 @@ Font | Color | Border
   | BorderDark | 
 
 
-## MenuSeperator
+### MenuSeperator
 Derives from Panel.
 
 Default scheme values
@@ -616,7 +616,7 @@ Font | Color | Border | Other
    |   |   | ScrollBar.Wide
 
 
-## ScrollBarSlider
+### ScrollBarSlider
 The slider of a scrollbar. Derives from Panel.
 Parameter | Data Type | Info
 --------- | --------- | ----
@@ -629,7 +629,7 @@ Font | Color | Border
    | ScrollBarSlider.BgColor | ButtonBorder
 
 
-## ScrollBarButton
+### ScrollBarButton
 Derives from Button.
 
 Default scheme values
@@ -772,7 +772,7 @@ Font | Color | Border
 ---- | ----  | ------
    |   | ComboBoxBorder
 
-## ComboBoxButton
+### ComboBoxButton
 Derives from Button.
 
 Default scheme values
@@ -1074,7 +1074,7 @@ hide_collection_panel
 hide_modifier_icons
 
 
-## CEmbeddedItemModelPanel
+### CEmbeddedItemModelPanel
 Model panel inside CItemModelPanel. Derives from CBaseModelPanel.
 Parameter | Data Type | Info
 --------- | --------- | ----
