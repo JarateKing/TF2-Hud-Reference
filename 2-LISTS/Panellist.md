@@ -1228,6 +1228,33 @@ Derives from CTFSpectatorGUIHealth.
 
 
 
+## CHudBaseDeathNotice
+Derives from Panel.
+Parameter | Data Type | Info
+--------- | --------- | ----
+LineHeight | float
+LineSpacing | float
+CornerRadius | float
+MaxDeathNotices | float
+RightJustify | bool
+TextFont | font
+IconColor | color
+BaseBackgroundColor | color
+LocalBackgroundColor | color
+KillStreakBackgroundColor | color
+
+
+## CTFHudDeathNotice
+Derives from CHudBaseDeathNotice.
+Parameter | Data Type | Info
+--------- | --------- | ----
+TeamBlue | color
+TeamRed | color
+PurpleText | color
+GreenText | color
+LocalPlayerColor | color
+
+
 ## CPvPRankPanel
 Derives from EditablePanel.
 Parameter | Data Type | Info
