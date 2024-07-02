@@ -47,6 +47,7 @@ draw_corner_width ||| X
 Panel | Font | Color | Border
 ----- | ---- | ----- | ------
 ClassCombo | ScoreBoardSmall
+BarChartComboA<br>BarChartComboB | ScoreboardVerySmall
 
 ## mvmcriteria.res
 Panel | Font | Color | Border
