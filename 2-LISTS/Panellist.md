@@ -558,7 +558,7 @@ Default scheme values
 Font | Color | Border | Other
 ---- | ----  | ------ | -----
  Default | RichText.TextColor |   | RichText.InsetX
- DefaultUnderline | RichText.BgColor | 
+ DefaultUnderline | RichText.BgColor |   | RichText.InsetY
    | RichText.SelectedTextColor | 
    | RichText.SelectedBgColor | 
 
