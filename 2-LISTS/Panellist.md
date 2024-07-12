@@ -456,6 +456,25 @@ Font | Color | Border
    | ToggleButton.SelectedTextColor |
 
 
+## RadioButton
+Derives from ToggleButton.
+Parameter | Data Type | Info
+--------- | --------- | ----
+SubTabPosition | int
+
+Default scheme values
+Font | Color | Border
+---- | ----  | ------
+MarlettSmall | CheckButton.BgColor
+ | CheckButton.Border1
+ | CheckButton.Border2
+ | CheckButton.Check
+ | RadioButton.TextColor
+ | RadioButton.SelectedTextColor
+ | RadioButton.ArmedTextColor
+ | CheckButton.BgColor
+
+
 ## CheckButton
 A button that looks like a checkbox. Derives from ToggleButton.
 Parameter | Data Type | Info
