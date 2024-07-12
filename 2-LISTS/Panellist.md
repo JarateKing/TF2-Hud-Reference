@@ -472,7 +472,6 @@ MarlettSmall | CheckButton.BgColor
  | RadioButton.TextColor
  | RadioButton.SelectedTextColor
  | RadioButton.ArmedTextColor
- | CheckButton.BgColor
 
 
 ## CheckButton
