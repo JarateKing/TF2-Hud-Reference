@@ -216,10 +216,14 @@
 		{
 			"image"		"../console/title_fullmoon_widescreen"
 		}
-		if_christmas
+		if_christmas_0
 		{
 			"image"		"../console/background_xmas2020_widescreen"
-		}		
+		}
+		if_christmas_1
+		{
+			"image"		"../console/background_xmas2023_widescreen"
+		}
 	}
 					
 	"TFLogoImage"
@@ -1707,192 +1711,132 @@
 				{
 					"0"
 					{
-						"item"		"Summer 2023 Cosmetic Key"
+						"item"		"Summer 2024 Cosmetic Key"
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Summer 2023 Cosmetic Case"
+						"item"		"Summer 2024 Cosmetic Case"
 						"show_market"	"1"
 					}
 					"2"
 					{
-						"item"		"Summer 2023 War Paint Key"
+						"item"		"Taunt: Can It!"
 						"show_market"	"0"
 					}
 					"3"
 					{
-						"item"		"Summer 2023 War Paint Case"
-						"show_market"	"1"
+						"item"		"Taunt: Cremator's Condolences"
+						"show_market"	"0"
 					}
 					"4"
 					{
-						"item"		"Taunt: Star-Spangled Strategy"
+						"item"		"Taunt: Straight Shooter Tutor"
 						"show_market"	"0"
 					}
 					"5"
 					{
-						"item"		"Taunt: Killer Joke"
+						"item"		"Taunt: Unleashed Rage"
 						"show_market"	"0"
 					}
 					"6"
 					{
-						"item"		"Taunt: The Head Doctor"
+						"item"		"Map Token Embargo"
 						"show_market"	"0"
 					}
 					"7"
 					{
-						"item"		"Taunt: Tuefort Tango"
+						"item"		"Map Token Odyssey"	
 						"show_market"	"0"
 					}
 					"8"
 					{
-						"item"		"Taunt: The Road Rager"
+						"item"		"Map Token Megaton"
 						"show_market"	"0"
 					}
 					"9"
 					{
-						"item"		"Taunt: The Killer Signature"
+						"item"		"Map Token Cachoeira"
 						"show_market"	"0"
 					}
 					"10"
 					{
-						"item"		"Map Token Sharkbay"
+						"item"		"Map Token Overgrown"
 						"show_market"	"0"
 					}
 					"11"
 					{
-						"item"		"Map Token Rotunda"
+						"item"		"Map Token Hadal"
 						"show_market"	"0"
 					}
 					"12"
 					{
-						"item"		"Map Token Phoenix"
+						"item"		"Map Token Applejack"
 						"show_market"	"0"
 					}
 					"13"
 					{
-						"item"		"Map Token Cashworks"
+						"item"		"Map Token Atom Smash"
 						"show_market"	"0"
 					}
 					"14"
 					{
-						"item"		"Map Token Venice"
+						"item"		"Map Token Canaveral"
 						"show_market"	"0"
 					}
 					"15"
 					{
-						"item"		"Map Token Reckoner"
+						"item"		"Map Token Burghausen"
 						"show_market"	"0"
 					}
 					"16"
 					{
-						"item"		"Map Token Sulfur"
+						"item"		"Strange Filter: Embargo (Community)"
 						"show_market"	"0"
 					}
 					"17"
 					{
-						"item"		"Map Token Hardwood"
+						"item"		"Strange Filter: Odyssey (Community)"
 						"show_market"	"0"
 					}
 					"18"
 					{
-						"item"		"Map Token Pelican Peak"
+						"item"		"Strange Filter: Megaton (Community)"
 						"show_market"	"0"
 					}
 					"19"
 					{
-						"item"		"Map Token Selbyen"
+						"item"		"Strange Filter: Cachoeira (Community)"
 						"show_market"	"0"
 					}
 					"20"
 					{
-						"item"		"Map Token VSH Tiny Rock"
+						"item"		"Strange Filter: Overgrown (Community)"
 						"show_market"	"0"
 					}
 					"21"
 					{
-						"item"		"Map Token VSH Distillery"
+						"item"		"Strange Filter: Hadal (Community)"
 						"show_market"	"0"
 					}
 					"22"
 					{
-						"item"		"Map Token VSH Skirmish"
+						"item"		"Strange Filter: Applejack (Community)"
 						"show_market"	"0"
 					}
 					"23"
 					{
-						"item"		"Map Token VSH Nucleus"
+						"item"		"Strange Filter: Atom Smash (Community)"
 						"show_market"	"0"
 					}
 					"24"
 					{
-						"item"		"Strange Filter: Sharkbay (Community)"
+						"item"		"Strange Filter: Canaveral (Community)"
 						"show_market"	"0"
 					}
 					"25"
 					{
-						"item"		"Strange Filter: Rotunda (Community)"
-						"show_market"	"0"
-					}
-					"26"
-					{
-						"item"		"Strange Filter: Phoenix (Community)"
-						"show_market"	"0"
-					}
-					"27"
-					{
-						"item"		"Strange Filter: Cashworks (Community)"
-						"show_market"	"0"
-					}
-					"28"
-					{
-						"item"		"Strange Filter: Venice (Community)"
-						"show_market"	"0"
-					}
-					"29"
-					{
-						"item"		"Strange Filter: Reckoner (Community)"
-						"show_market"	"0"
-					}
-					"30"
-					{
-						"item"		"Strange Filter: Sulfur (Community)"
-						"show_market"	"0"
-					}
-					"31"
-					{
-						"item"		"Strange Filter: Hardwood (Community)"
-						"show_market"	"0"
-					}
-					"32"
-					{
-						"item"		"Strange Filter: Pelican Peak (Community)"
-						"show_market"	"0"
-					}
-					"33"
-					{
-						"item"		"Strange Filter: Selbyen (Community)"
-						"show_market"	"0"
-					}
-					"34"
-					{
-						"item"		"Strange Filter: VSH Tiny Rock (Community)"
-						"show_market"	"0"
-					}
-					"35"
-					{
-						"item"		"Strange Filter: VSH Distillery (Community)"
-						"show_market"	"0"
-					}
-					"36"
-					{
-						"item"		"Strange Filter: VSH Skirmish (Community)"
-						"show_market"	"0"
-					}
-					"37"
-					{
-						"item"		"Strange Filter: VSH Nucleus (Community)"
+						"item"		"Strange Filter: Burghausen (Community)"
 						"show_market"	"0"
 					}
 				}
@@ -2506,6 +2450,103 @@
 		}		
 	}
 
+	"SettingsButtonSDK"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"SettingsButtonSDK"
+		"xpos"			"c-34+273"
+		"ypos"			"437"
+		"zpos"			"4"
+		"wide"			"25"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		""
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"west"
+		"textinsetx"	"25"
+		"use_proportional_insets" "1"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"Command"		"OpenOptionsDialog"
+
+		"navUp"			"TF2SettingsButtonSDK"
+		"navLeft"		"TF2SettingsButtonSDK"
+		"navRight"		"TF2SettingsButtonSDK"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"image_drawcolor"	"235 226 202 255"
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"6"
+			"ypos"			"6"
+			"zpos"			"1"
+			"wide"			"14"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"glyph_options"
+		}			
+	}
+
+	"TF2SettingsButtonSDK"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"TF2SettingsButtonSDK"
+		"xpos"			"c-0+273"
+		"ypos"			"437"
+		"zpos"			"5"
+		"wide"			"25"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		""
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"east"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"Command"		"opentf2options"
+		"use_proportional_insets"	"1"
+		"textinsetx"	"25"
+
+		"navUp"			"SettingsButtonSDK"
+		"navLeft"		"SettingsButtonSDK"
+		"navRight"		"SettingsButtonSDK"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"image_drawcolor"	"235 226 202 255"
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"6"
+			"ypos"			"6"
+			"zpos"			"1"
+			"wide"			"14"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"glyph_options"
+			"scaleImage"	"1"
+		}				
+	}
+	
 	"SettingsButton"
 	{
 		"ControlName"	"CExImageButton"
