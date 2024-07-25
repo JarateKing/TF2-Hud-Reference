@@ -993,59 +993,59 @@ Derives from CPotteryWheelPanel.
 Derives from CMDLPanel
 Parameter | Data Type | Info
 --------- | --------- | ----
-render_texture
-use_particle
-start_framed
-disable_manipulation
-fov
-allow_rot
-allow_pitch
-allow_manip
-max_pitch
+render_texture | bool
+use_particle | bool
+start_framed | bool
+disable_manipulation | bool
+fov | int
+allow_rot | bool
+allow_pitch | bool
+allow_manip | bool
+max_pitch | float
 model{}
 
 The following parameters need to be in model{}
 Parameter | Data Type | Info
 --------- | --------- | ----
-force_pos
-modelname | What model to use
-modelname_hwm
-skin | Which skin to use
-angles_x | Rotation around X axis
-angles_y | Rotation around Y axis
-angles_z | Rotation around Z axis
-origin_x | Position in the X axis
-origin_y | Position in the Y axis
-origin_z | Position in the Z axis
-frame_origin_x
-frame_origin_y
-frame_origin_z
-vcd
-spotlight
+force_pos | bool
+modelname | string | What model to use
+modelname_hwm | string
+skin | int | Which skin to use
+angles_x | float | Rotation around X axis
+angles_y | float | Rotation around Y axis
+angles_z | float | Rotation around Z axis
+origin_x | float | Position in the X axis
+origin_y | float | Position in the Y axis
+origin_z | float | Position in the Z axis
+frame_origin_x | float
+frame_origin_y | float
+frame_origin_z | float
+vcd | string
+spotlight | bool
 animation{} | Animations of the model
 attached_model{} | Attach another model eg. a gun
 
 The following parameters need to be in animation{}
 Parameter | Data Type | Info
 --------- | --------- | ----
-name 
-sequence
-activity
-default
+name | string
+sequence | string
+activity | string
+default | bool
 pose_parameters{}
 
 The following parameters need to be in attached_model{}
 Parameter | Data Type | Info
 --------- | --------- | ----
-modelname
-skin
+modelname | string
+skin | int
 
 
 ## CTFPlayerModelPanel
 Derives from CBaseModelPanel.
 Parameter | Data Type | Info
 --------- | --------- | ----
-disable_speak_event |
+disable_speak_event | | bool
 customclassdata{} | Allows you to set fov, origin and angles for each class individually
 
 
@@ -1053,55 +1053,56 @@ customclassdata{} | Allows you to set fov, origin and angles for each class indi
 A panel that show an item. Derives from EditablePanel.
 Parameter | Data Type | Info
 --------- | --------- | ----
-special_attributes_only
-model_xpos | Position of the model in the X axis
-model_ypos | Position of the model in the Y axis
-model_wide | Wide of the model
-model_tall | Tall of the model
-model_center_x | Center the model in the X axis
-model_center_y | Center the model in the Y axis
-tf2_icon_offset_x
-tf2_icon_offset_y
-noitem_use_fullpanel
-text_center | Center the text in the Y axis
-text_center_x | Center the text in the X axis
-use_item_sounds
-name_only | Don't show the stats of the item
-attrib_only | Don't show the name of the item
-model_only | Don't show the name or the stats of the item
-model_hide | Don't show the model
-paint_icon_hide
-resize_to_text 
-name_label_alignment
-text_xpos | Position of the text in the X axis
-text_ypos | Position of the text in the Y axis
-text_wide | Wide of the text
-text_yoffset
-padding_height
-max_text_height
-text_forcesize
-inset_eq_x | Equipped label X position
-inset_eq_y | Equipped label Y position
-standard_text_color
-is_mouseover
-wide
-tall
-collection_list_xpos
-text_xpos_collection
-hide_collection_panel
-hide_modifier_icons
+special_attributes_only | bool
+model_xpos | int | Position of the model in the X axis
+model_ypos | int |  Position of the model in the Y axis
+model_wide | int |  Wide of the model
+model_tall | int |  Tall of the model
+model_center_x | bool | Center the model in the X axis
+model_center_y | bool | Center the model in the Y axis
+tf2_icon_offset_x | int
+tf2_icon_offset_y | int
+noitem_use_fullpanel | bool
+text_center | bool | Center the text in the Y axis
+text_center_x | bool | Center the text in the X axis
+use_item_sounds | bool
+name_only | bool | Don't show the stats of the item
+attrib_only | bool | Don't show the name of the item
+model_only | bool | Don't show the name or the stats of the item
+model_hide | bool | Don't show the model
+paint_icon_hide | bool
+resize_to_text  | bool
+name_label_alignment | int
+text_xpos | int | Position of the text in the X axis
+text_ypos | int | Position of the text in the Y axis
+text_wide | int | Wide of the text
+text_yoffset | int
+padding_height | int
+max_text_height | int
+text_forcesize | int
+inset_eq_x | int| Equipped label X position
+inset_eq_y | int | Equipped label Y position
+standard_text_color | bool
+is_mouseover | bool
+wide | int
+tall | int
+collection_list_xpos | int
+text_xpos_collection | int
+hide_collection_panel | bool
+hide_modifier_icons | bool
+itemmodelpanel{}
 
 
 ### CEmbeddedItemModelPanel
 Model panel inside CItemModelPanel. Derives from CBaseModelPanel.
 Parameter | Data Type | Info
 --------- | --------- | ----
-force_use_model
-use_item_rendertarget
-inventory_image_type
-force_square_image
-model_rotate_yaw_speed
-use_pedestal
+force_use_model | bool
+use_item_rendertarget | bool
+inventory_image_type | int
+force_square_image | bool
+model_rotate_yaw_speed | int
+use_pedestal | bool
 
 
 ## CTFParticlePanel
@@ -1113,22 +1114,22 @@ ParticleEffects{}
 The following parameters need to be in ParticleEffects{}
 Parameter | Data Type | Info
 --------- | --------- | ----
-particle_xpos | X position of the particle
-particle_ypos | Y position of the particle
-particle_scale | Scale of the prticle
-loop | Loop the particle animation
-start_activated | Activate the particle animation immediately
-particleName | Name of the particle
-angles | Rotation of the particle, takes 3 values
-control_point* | Particle control point setting, takes 3 values. Replace * with the number of the control point
+particle_xpos | string | X position of the particle
+particle_ypos | string | Y position of the particle
+particle_scale | float | Scale of the prticle
+loop | bool | Loop the particle animation
+start_activated | bool | Activate the particle animation immediately
+particleName | string | Name of the particle
+angles | vector | Rotation of the particle, takes 3 values
+control_point* | vector | Particle control point setting, takes 3 values. Replace * with the number of the control point
 
 ```
 "ParticleEffects"
 {
 	"1"
 	{
-		"particle_xpos"	"0"
-		"particle_ypos"	"0"
+		"particle_xpos"	"r20"
+		"particle_ypos"	"c0"
 		"particle_scale"	"1.0"
 		"loop"			"1"
 		"start_activated"	"1"
@@ -1145,20 +1146,20 @@ control_point* | Particle control point setting, takes 3 values. Replace * with 
 A panel you can draw in. Derives from Panel.
 Parameter | Data Type | Info
 --------- | --------- | ----
-linecolor | What colour the line should be
-team_colors | Use team colours for the line
+linecolor | color |  What colour the line should be
+team_colors | bool | Use team colours for the line
 
 
 ## CNavigationPanel
 A panel that has a list of buttons. The command for the buttons is select_0, select_1, select_2 etc. The commands can be aliased to something else. Derives from EditablePanel.
 Parameter | Data Type | Info
 --------- | --------- | ----
-auto_layout
-auto_scale
-display_vertically
-auto_layout_horizontal_buffer
-auto_layout_vertical_buffer
-selected_button_default
+auto_layout | bool
+auto_scale | bool
+display_vertically | bool
+auto_layout_horizontal_buffer | int
+auto_layout_vertical_buffer | int
+selected_button_default | int
 ButtonSettings{} | Settings for the buttons to use
 Buttons{} | List of buttons
 
@@ -1166,9 +1167,9 @@ Buttons{} | List of buttons
 ## CTFVideoPanel
 Parameter | Data Type | Info
 --------- | --------- | ----
-command
-start_delay
-end_delay
+command | string
+start_delay | float
+end_delay | float
 
 
 ## CTFArrowPanel
@@ -1191,15 +1192,15 @@ ReadyImage{} | ControlName: ImagePanel
 Derives from EditablePanel.
 Parameter | Data Type | Info
 --------- | --------- | ----
-team1_grow_dir
-team2_grow_dir
-max_size
-6v6_gap
-12v12_gap
-team1_base_x
-team1_max_expand
-team2_base_x
-team2_max_expand
+team1_grow_dir | string | "west" or "east"
+team2_grow_dir | string
+max_size | int
+6v6_gap | int
+12v12_gap | int
+team1_base_x | int
+team1_max_expand | int
+team2_base_x | int
+team2_max_expand | int
 playerpanels_kv{}
 
 
@@ -1207,19 +1208,19 @@ playerpanels_kv{}
 Derives from CTFPlayerPanel.
 Parameter | Data Type | Info
 --------- | --------- | ----
-color_portrait_bg_red_local_player
-color_portrait_bg_blue_local_player
-color_portrait_bg_red
-color_portrait_bg_blue
-color_portrait_bg_red_dead
-color_portrait_bg_blue_dead
-color_bar_health_high
-percentage_health_med
-color_bar_health_med
-percentage_health_low
-color_bar_health_low
-color_portrait_blend_dead_red
-color_portrait_blend_dead_blue
+color_portrait_bg_red_local_player | color
+color_portrait_bg_blue_local_player | color
+color_portrait_bg_red | color
+color_portrait_bg_blue | color
+color_portrait_bg_red_dead | color
+color_portrait_bg_blue_dead | color
+color_bar_health_high | color
+percentage_health_med | float
+color_bar_health_med | color
+percentage_health_low | float
+color_bar_health_low | color
+color_portrait_blend_dead_red | color
+color_portrait_blend_dead_blue | color
 healthbar{} | ControlName: ContinuousProgressBar
 overhealbar{} | ControlName: ContinuousProgressBar
 classimagebg{} | ControlName: Panel
@@ -1230,9 +1231,9 @@ DeathPanel{} | ControlName: ImagePanel
 Derives from EditablePanel.
 Parameter | Data Type | Info
 --------- | --------- | ----
-HealthBonusPosAdj
-HealthDeathWarning
-HealthDeathWarningColor
+HealthBonusPosAdj | int
+HealthDeathWarning | float
+HealthDeathWarningColor | color
 
 
 
@@ -1277,14 +1278,14 @@ LocalPlayerColor | color
 Derives from EditablePanel.
 Parameter | Data Type | Info
 --------- | --------- | ----
-matchgroup | MatchGroup_Ladder_6v6 or MatchGroup_Casual_12v12
-show_type
-show_name
-show_model
-show_progress
-instantly_update
-show_sources_when_hidden
-xp_source_notification_center_x
+matchgroup | string | MatchGroup_Ladder_6v6 or MatchGroup_Casual_12v12
+show_type | bool
+show_name | bool
+show_model | bool
+show_progress | bool
+instantly_update | bool
+show_sources_when_hidden | bool
+xp_source_notification_center_x | int
 
 
 ## CMiniPvPRankPanel
@@ -1294,52 +1295,52 @@ Derives from CPvPRankPanel.
 ## CDashboardPartyMember
 Parameter | Data Type | Info
 --------- | --------- | ----
-party_slot
+party_slot | int
 
 
 ## CMVMCriteriaPanel
 Parameter | Data Type | Info
 --------- | --------- | ----
-challenge_spacer
-challenge_name_width
-challenge_skill_width
-challenge_completed_size
-challenge_map_width
-challenge_map_height
-has_ticket_width
-squad_surplus_width
-squad_surplus_width
-badge_level_width
-tour_name_width
-tour_skill_width
-tour_progress_width
-tour_number_width
+challenge_spacer | int
+challenge_name_width | int
+challenge_skill_width | int
+challenge_completed_size | int
+challenge_map_width | int
+challenge_map_height | int
+has_ticket_width | int
+squad_surplus_width | int
+squad_surplus_width | int
+badge_level_width | int
+tour_name_width | int
+tour_skill_width | int
+tour_progress_width | int
+tour_number_width | int
 
 
 ## CExplanationPopup
 A speech bubble panel. Accepts button commands "close", "nextexplanation" & "prevexplanation". Derives from EditablePanel.
 Parameter | Data Type | Info
 --------- | --------- | ----
-next_explanation | Next speech bubble to draw
-force_close | Disable the rest of the screen until this popup is closed
-callout_inparents_x | X position of the speech bubble's tail
-callout_inparents_y | Y position of the speech bubble's tail
-start_x | X position before the expanding animation
-start_y | y position before the expanding animation
-start_wide | Wide before the expanding animation
-start_tall | Tall before the expanding animation
-end_x | X position after the expanding animation
-end_y | y position after the expanding animation
-end_wide | Wide after the expanding animation
-end_tall | Tall after the expanding animation
+next_explanation | string | Next speech bubble to draw
+force_close | bool | Disable the rest of the screen until this popup is closed
+callout_inparents_x | int | X position of the speech bubble's tail
+callout_inparents_y | int | Y position of the speech bubble's tail
+start_x | int | X position before the expanding animation
+start_y | int | y position before the expanding animation
+start_wide | int | Wide before the expanding animation
+start_tall | int | Tall before the expanding animation
+end_x | int | X position after the expanding animation
+end_y | int | y position after the expanding animation
+end_wide | int | Wide after the expanding animation
+end_tall | int | Tall after the expanding animation
 
 
 ## CRepeatingContainer
 A panel that automatically positions its contents. Derives from EditablePanel.
 Parameter | Data Type | Info
 --------- | --------- | ----
-spacing_method | How to space the panels. METHOD_STEP spaces them by a certain value, METHOD_EVEN spaces them evenly
-x_step | Value to space the panels when using METHOD_STEP
+spacing_method | string | How to space the panels. METHOD_STEP spaces them by a certain value, METHOD_EVEN spaces them evenly
+x_step | int | Value to space the panels when using METHOD_STEP
 IndividualSettings{} | Where you place the panels to be sorted
 CommonSettings{} | What settings the panels should have by default
 
@@ -1386,28 +1387,34 @@ Parameter | Data Type | Info
 items{}
 
 
-## CItemAdPanel
+## CBaseAdPanel
 Derives from EditablePanel
 Parameter | Data Type | Info
 --------- | --------- | ----
-item
-show_market
-present_time
+present_time | float
+
+
+## CItemAdPanel
+Derives from CBaseAdPanel
+Parameter | Data Type | Info
+--------- | --------- | ----
+item | string
+show_market | bool
 
 
 ## CBuildingStatusAlertTray
 Derives from Panel.
 Parameter | Data Type | Info
 --------- | --------- | ----
-icon
-deployed | Float 0.0 - 1.0
+icon | string
+deployed | float
 
 
 ## CTFItemCardPanel
 A leftover unused panel that uses Resource/UI/Econ/ItemCardPanel_Series1.res for its contents. Could be useful for a #base -esque reusable panel. Derives from EditablePanel
 Parameter | Data Type | Info
 --------- | --------- | ----
-shadowoffset
+shadowoffset | int
 
 
 
