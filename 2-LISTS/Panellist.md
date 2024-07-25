@@ -310,7 +310,7 @@ Font | Color | Border
 ---- | ----  | ------
   | Menu.TextColor | MenuBorder
   | Menu.BgColor | 
-  | BorderDark | 
+  | BorderDark
 
 
 ### MenuSeparator
@@ -322,6 +322,30 @@ Font | Color | Border
   | Menu.SeparatorColor | 
   | Menu.BgColor | 
 
+
+## MenuItem
+Derives from Button.
+
+Default scheme values
+Font | Color | Border | Other
+---- | ----  | ------ | -----
+Marlett | Menu.TextColor |   | Menu.TextInset
+Default | Menu.BgColor | 
+  | Menu.ArmedTextColor | 
+  | Menu.ArmedBgColor | 
+
+
+## MenuButton
+Derives from Button.
+
+
+## MenuBar
+Derives from Panel.
+
+Default scheme values
+Font | Color | Border
+---- | ----  | ------
+  | MenuBar.BgColor | ButtonBorder
 
 
 
