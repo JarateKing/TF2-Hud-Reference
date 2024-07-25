@@ -1400,6 +1400,9 @@ Parameter | Data Type | Info
 --------- | --------- | ----
 item | string
 show_market | bool
+show_name | bool
+show_ad_text | bool
+show_background | bool
 
 
 ## CBuildingStatusAlertTray
