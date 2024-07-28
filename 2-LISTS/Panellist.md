@@ -5,53 +5,53 @@ This is a list of panel types and their parameters.
 
 ## Panel
 The most basic panel, all other panels derive from this.
-Parameter | Data Type | Info
---------- | --------- | ----
-fieldName | string | Renames the panel
-xpos | pos |Position of the panel in the X axis
-ypos | pos | Position of the panel in the Y axis
-zpos | int | Render priority of the panel
-wide | size | Size of the panel in the X axis
-tall | size | Size of the panel in the Y axis
-visible | bool | Visibility of the panel
-enabled | bool | Changes the colour of labels and disables interaction with buttons, sliders, text boxes etc.
-proportionalToParent | bool | Position & size values relative to the parent size, instead of screen size
+Parameter | Default Value | Data Type | Info
+--------- | ------------- | --------- | ----
+fieldName | NULL | string | Renames the panel
+xpos | "0" | pos |Position of the panel in the X axis
+ypos | "0" | pos | Position of the panel in the Y axis
+zpos | "0" | int | Render priority of the panel
+wide | "28" | size | Size of the panel in the X axis
+tall | "10" | size | Size of the panel in the Y axis
+visible | "1" | bool | Visibility of the panel
+enabled | "1" | bool | Changes the colour of labels and disables interaction with buttons, sliders, text boxes etc.
+proportionalToParent | "0" | bool | Position & size values relative to the parent size, instead of screen size
 fgcolor_override | color | Foreground colour
 bgcolor_override | color | Background colour
-alpha | int | Opacity of the panel 0-255
-paintbackground | bool | Should the background be painted
-PaintBackgroundType | int | How the background should be painted. Textures can be changed with Texture*</br>0 = Square corners</br>1 = Textured (Uses Texture1)</br>2 = Rounded corners</br>3 = Rounded Corners with horizontal fade
-Texture1 | material | Top left
-Texture2 | material | Top Right
-Texture3 | material | Botttom Right
-Texture4 | material | Bottom Left
-RoundedCorners | int | Which corners are rounded
-paintborder | bool | Should the panel have a border
-border | border | What border to use
-pin_to_sibling | string | Pin the panel's position to another panel on the same level in the hierarchy
-pin_corner_to_sibling | int | Which corner should be pinned to the sibling
-pin_to_sibling_corner | int | To which corner of the sibling should the panel be pinned
-mouseinputenabled | bool | Should the panel listen for mouse inputs
-keyboardinputenabled | bool | Should the panel listen for keyboard inputs
-tooltiptext | string | Text to display when hovering over the panel
-actionsignallevel | int | Allows nested child buttons to add their distant parents as action signal targets
-IgnoreScheme | int
-usetitlesafe | int
-ForceStereoRenderToFrameBuffer | bool
-tabPosition | int
-autoResize | int
-PinCorner | int
-PinnedCornerOffSetX | int
-PinnedCornerOffSetY | int
-UnpinnedCornerOffSetX | int
-UnpinnedCornerOffSetY | int
-navUp | string
-navDown | string
-navLeft | string
-navRight | string
-navToRelay | string
-navActivate | string
-navBack | string
+alpha | "255" | int | Opacity of the panel 0-255
+paintbackground | "-1" | bool | Should the background be painted
+PaintBackgroundType | "0" | int | How the background should be painted. Textures can be changed with Texture*</br>0 = Square corners</br>1 = Textured (Uses Texture1)</br>2 = Rounded corners</br>3 = Rounded Corners with horizontal fade
+Texture1 | "vgui/hud/800corner1" | material | Image in the top left of PaintBackgroundType 2 & image of PaintBackgroundType 1, path starts in root/materials/
+Texture2 | "vgui/hud/800corner2" | Top Right
+Texture3 | "vgui/hud/800corner3" | Botttom Right
+Texture4 | "vgui/hud/800corner4" | Bottom Left
+RoundedCorners | "-1" | int | Which corners are rounded
+paintborder | "-1" | bool | Should the panel have a border
+border | "" | border | What border to use
+pin_to_sibling | NULL | string | Pin the panel's position to another panel on the same level in the hierarchy
+pin_corner_to_sibling | "0" | int | Which corner should be pinned to the sibling
+pin_to_sibling_corner | "0" | int | To which corner of the sibling should the panel be pinned
+mouseinputenabled | "1" | bool | Should the panel listen for mouse inputs
+keyboardinputenabled | NULL | bool | Should the panel listen for keyboard inputs
+tooltiptext | NULL | string | Text to display when hovering over the panel
+actionsignallevel | "-1" |  int | Allows nested child buttons to add their distant parents as action signal targets
+IgnoreScheme | "0" | int
+usetitlesafe | "0" | int
+ForceStereoRenderToFrameBuffer | "0" | bool
+tabPosition | "0" | int
+autoResize | "0" | int
+PinCorner | "0" | int
+PinnedCornerOffSetX | NULL | int
+PinnedCornerOffSetY | NULL | int
+UnpinnedCornerOffSetX | NULL | int
+UnpinnedCornerOffSetY | NULL | int
+navUp | NULL | string
+navDown | NULL | string
+navLeft | NULL | string
+navRight | NULL | string
+navToRelay | NULL | string
+navActivate | NULL | string
+navBack | NULL | string
 
 Default scheme values
 Font | Color | Border
@@ -59,6 +59,10 @@ Font | Color | Border
   | Panel.FgColor
   | Panel.BgColor 
 
+Commands |
+-------- |
+performlayout |
+reloadscheme |
 
 ## EditablePanel
 A panel that can have other panels inside of it. Derives from Panel.
