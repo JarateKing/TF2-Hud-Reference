@@ -16,8 +16,8 @@ tall | "10" | size | Size of the panel in the Y axis
 visible | "1" | bool | Visibility of the panel
 enabled | "1" | bool | Changes the colour of labels and disables interaction with buttons, sliders, text boxes etc.
 proportionalToParent | "0" | bool | Position & size values relative to the parent size, instead of screen size
-fgcolor_override | color | Foreground colour
-bgcolor_override | color | Background colour
+fgcolor_override | "Panel.FgColor" | color | Foreground colour
+bgcolor_override | "Panel.BgColor" | color | Background colour
 alpha | "255" | int | Opacity of the panel 0-255
 paintbackground | "-1" | bool | Should the background be painted
 PaintBackgroundType | "0" | int | How the background should be painted. Textures can be changed with Texture*</br>0 = Square corners</br>1 = Textured (Uses Texture1)</br>2 = Rounded corners</br>3 = Rounded Corners with horizontal fade
@@ -59,8 +59,8 @@ Font | Color | Border
   | Panel.FgColor
   | Panel.BgColor 
 
-Commands |
--------- |
+Commands | Info
+-------- | ----
 performlayout |
 reloadscheme |
 
