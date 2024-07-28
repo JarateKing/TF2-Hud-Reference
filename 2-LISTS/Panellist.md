@@ -4,7 +4,7 @@ This is a list of panel types and their parameters.
 
 
 ## Panel
-The most basic panel, all other panels derive from this.
+The most basic panel, all other panels derive from this. This panel can be created freely.
 Parameter | Default Value | Data Type | Info
 --------- | ------------- | --------- | ----
 fieldName | NULL | string | Renames the panel
