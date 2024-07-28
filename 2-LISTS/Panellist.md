@@ -65,45 +65,45 @@ performlayout |
 reloadscheme |
 
 ## EditablePanel
-A panel that can have other panels inside of it. Derives from Panel.
-Parameter | Data Type
---------- | ---------
-skip_autoresize | bool
-eatmouseinput | bool
-showtooltipswhenmousedisabled | bool
+A panel that can have other panels inside of it. Derives from Panel. This panel can be created freely.
+Parameter | Default Value | Data Type
+--------- | ------------- | ---------
+skip_autoresize | "0" | bool
+eatmouseinput | ? | bool
+showtooltipswhenmousedisabled | ? | bool
 
 
 ## Frame
-Derives from EditablePanel.
-Parameter | Data Type
---------- | ---------
-setclosebuttonvisible | bool
-settitlebarvisible | bool
-title | string
-title_font | font
-clientinsetx_override | int
-titletextinsetX | int
-titletextinsetY | int
-infocus_bgcolor_override | color
-outoffocus_bgcolor_override | color
-titlebarbgcolor_override | color
-titlebardisabledbgcolor_override | color
-titlebarfgcolor_override | color
-titlebardisabledfgcolor_override | color
-frame_topGrip{} | ControlName: GripPanel
-frame_bottomGrip{} | ControlName: GripPanel
-frame_leftGrip{} | ControlName: GripPanel
-frame_rightGrip{} | ControlName: GripPanel
-frame_tlGrip{} | ControlName: GripPanel
-frame_trGrip{} | ControlName: GripPanel
-frame_blGrip{} | ControlName: GripPanel
-frame_brGrip{} | ControlName: GripPanel
-frame_caption{} | ControlName: CaptionGripPanel
-frame_minimize{} | ControlName: FrameButton
-frame_maximize{} | ControlName: FrameButton
-frame_mintosystray{} | ControlName: FrameButton
-frame_close{} | ControlName: FrameButton
-frame_menu{} | ControlName: FrameSystemButton
+Derives from EditablePanel. This panel can not be created freely.
+Parameter | Default Value | Data Type
+--------- | ------------- | ---------
+setclosebuttonvisible | "1" | bool
+settitlebarvisible | "1" | bool
+title | "" | string
+title_font | "FrameTitleBar.Font" | font
+clientinsetx_override | Frame.ClientInsetX | int
+titletextinsetX | "0" | int
+titletextinsetY | "0" | int
+infocus_bgcolor_override | "Frame.BGColor" | color
+outoffocus_bgcolor_override | "Frame.OutOfFocusBgColor" | color
+titlebarbgcolor_override | "FrameTitleBar.BgColor" | color
+titlebardisabledbgcolor_override | "FrameTitleBar.DisabledBgColor" | color
+titlebarfgcolor_override | "FrameTitleBar.TextColor" | color
+titlebardisabledfgcolor_override | "FrameTitleBar.DisabledTextColor" | color
+frame_topGrip{} | | ControlName: GripPanel
+frame_bottomGrip{} | | ControlName: GripPanel
+frame_leftGrip{} | | ControlName: GripPanel
+frame_rightGrip{} | | ControlName: GripPanel
+frame_tlGrip{} | | ControlName: GripPanel
+frame_trGrip{} | | ControlName: GripPanel
+frame_blGrip{} | | ControlName: GripPanel
+frame_brGrip{} | | ControlName: GripPanel
+frame_caption{} | | ControlName: CaptionGripPanel
+frame_minimize{} | | ControlName: FrameButton
+frame_maximize{} | | ControlName: FrameButton
+frame_mintosystray{} | | ControlName: FrameButton
+frame_close{} | | ControlName: FrameButton
+frame_menu{} | | ControlName: FrameSystemButton
 
 Default scheme values
 Font | Color | Border | Other
