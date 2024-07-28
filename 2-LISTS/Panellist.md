@@ -39,7 +39,7 @@ IgnoreScheme | "0" | int
 usetitlesafe | "0" | int
 ForceStereoRenderToFrameBuffer | "0" | bool
 tabPosition | "0" | int
-autoResize | "0" | int
+autoResize | "0" | int | Should the panel resize when the parent resizes, 0 = Off, 1 = Horizontal, 2 = Vertical, 3 = 
 PinCorner | "0" | int
 PinnedCornerOffSetX | NULL | int
 PinnedCornerOffSetY | NULL | int
