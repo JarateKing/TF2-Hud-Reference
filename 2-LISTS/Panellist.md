@@ -226,8 +226,6 @@ expanded_height | int | How tall when expanded
 
 ## ListPanel
 Derives from Panel.
-Parameter | Data Type | Info
---------- | --------- | ----
 
 Default scheme values
 Font | Color | Border
