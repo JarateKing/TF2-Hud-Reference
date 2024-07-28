@@ -115,6 +115,13 @@ FrameTitleBar.Font | FrameTitleBar.BgColor | | Frame.FocusTransitionEffectTime
    | Frame.BgColor | | Frame.TitleTextInsetX
    | Frame.OutOfFocusBgColor
 
+Commands | Info
+-------- | ----
+Close |
+CloseModal |
+Minimize |
+MinimizeToSysTray |
+
 
 ### GripPanel
 Derives from Panel.
