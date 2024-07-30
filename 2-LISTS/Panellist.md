@@ -69,7 +69,9 @@ reloadscheme |
 
 ## EditablePanel
 A panel that can have other panels inside of it
+
 Derives from Panel
+
 This panel can be created
 
 Parameter | Default Value | Data Type
