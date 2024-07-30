@@ -385,11 +385,27 @@ ScoresContainer{} | | ControlName: EditablePanel
 
 
 ## CLadderLobbyLeaderboard
-Derives from CTFLeaderboardPanel.
+Derives from CTFLeaderboardPanel
+
+This panel can be created
+
+Res files:
+
+"Resource/UI/econ/LobbyLeaderboard.res"
+
+"Resource/UI/LeaderboardEntryRank.res"
+
+Commands | Info
+-------- | ----
+stream |
+global |
+local |
 
 
 ## Menu
-Derives from Panel.
+Derives from Panel
+
+This panel can be created
 
 Default scheme values
 Font | Color | Border
@@ -400,7 +416,9 @@ Font | Color | Border
 
 
 ### MenuSeparator
-Derives from Panel.
+Derives from Panel
+
+This panel can not be created
 
 Default scheme values
 Font | Color | Border
@@ -410,7 +428,9 @@ Font | Color | Border
 
 
 ## MenuItem
-Derives from Button.
+Derives from Button
+
+This panel can be created
 
 Default scheme values
 Font | Color | Border | Other
@@ -422,11 +442,15 @@ Default | Menu.BgColor |
 
 
 ## MenuButton
-Derives from Button.
+Derives from Button
+
+This panel can be created
 
 
 ## MenuBar
-Derives from Panel.
+Derives from Panel
+
+This panel can be created
 
 Default scheme values
 Font | Color | Border
@@ -436,24 +460,29 @@ Font | Color | Border
 
 
 ## Label
-A panel with text. Derives from Panel.
-Parameter | Data Type | Info
---------- | --------- | ----
-labelText | string | Text to display
-font | font | What font to use
-textAlignment | string | Where the text should align
-textinsetx | int | Move text in X axis
-textinsety | int | Move text in Y axis
-use_proportional_insets | bool | Insets are proportional to screen size
-wrap | bool | Should the text wrap when exceeding panel bounds
-centerwrap | bool |Same as above but centered
-auto_wide_tocontents | bool | The panel's wide value is automatically changed to fit the text
-auto_tall_tocontents | bool | The panel's tall value is automatically changed to fit the text
-allcaps | bool | Use only uppercase letters
-disabledfgcolor2_override | color | Foreground colour when enabled == 0
-dulltext | bool | Should the text use dull colours
-brighttext | bool | Should the text use bright colours
-associate | string
+A panel with text
+
+Derives from Panel
+
+This panel can be created
+
+Parameter | Default Value | Data Type | Info
+--------- | ------------- | --------- | ----
+labelText | "Label" | string | Text to display
+font | "Default" | font | What font to use
+textAlignment | "west" | string | Where the text should align
+textinsetx | "0" | int | Move text in X axis
+textinsety | "0" | int | Move text in Y axis
+use_proportional_insets | "0" | bool | Insets are proportional to screen size
+wrap | "0" | bool | Should the text wrap when exceeding panel bounds
+centerwrap | "0" | bool |Same as above but centered
+auto_wide_tocontents | "0" | bool | The panel's wide value is automatically changed to fit the text
+auto_tall_tocontents | "0" | bool | The panel's tall value is automatically changed to fit the text
+allcaps | "0" | bool | Use only uppercase letters
+disabledfgcolor2_override | "Label.DisabledFgColor2" | color | Foreground colour when enabled == 0
+dulltext | "0" | bool | Should the text use dull colours
+brighttext | "0" | bool | Should the text use bright colours
+associate | "" | string
 
 Default scheme values
 Font | Color | Border
@@ -468,35 +497,45 @@ Default | Label.DisabledFgColor1
 
 
 ## CExLabel
-An expanded label. Derives from Label.
-Parameter | Data Type | Info
---------- | --------- | ----
-fgcolor | color | Foreground colour
+An expanded label
+
+Derives from Label
+
+This panel can be created
+
+Parameter | Default Value | Data Type | Info
+--------- | ------------- | --------- | ----
+fgcolor | "Label.TextColor" | color | Foreground colour
 
 
 ## Button
-A panel that can fire a command when activated. Derives from Label.
-Parameter | Data Type | Info
---------- | --------- | ----
-command | string | Command of the button
-selected | bool | Draws selected by default
-stayselectedonclick | bool | When clicked on, sets selected to 1
-stay_armed_on_click | bool | Don't revert back to default state when clicked
-button_activation_type | int | How the button behaves</br>0 = When pressed sets depressed colours and activates command when released</br>1 = Activates command when pressed</br>2 = Activates command when released, doesn't set selected colours
-sound_armed | sound | Sound when hovered over
-sound_depressed | sound | Sound when pressing button
-sound_released | sound | Sound when releasing button
-defaultFgColor_override | color | Foreground colour
-defaultBgColor_override | color |Background colour
-armedFgColor_override | color | Foreground colour when hovered
-armedBgColor_override | color | Background colour when hovered
-depressedFgColor_override | color | Foreground colour when clicked on
-depressedBgColor_override | color | Background colour when clicked on
-selectedFgColor_override | color | Foreground colour when selected
-selectedBgColor_override | color | Background colour when selected
-keyboardFocusColor_override | color
-blinkFgColor_override | color
-default | bool
+A panel that can fire a command when activated
+
+Derives from Label
+
+This panel can be created
+
+Parameter | Default Value | Data Type | Info
+--------- | ------------- | --------- | ----
+command | "" | string | Command of the button
+selected | "-1" | int | Draw selected by default
+stayselectedonclick | "0" | bool | When clicked on, sets selected to 1
+stay_armed_on_click | "0" | bool | Don't revert back to default state when clicked
+button_activation_type | "2" | int | How the button behaves</br>0 = When pressed sets depressed colours and activates command when released</br>1 = Activates command when pressed</br>2 = Activates command when released, doesn't set selected colours
+sound_armed | "" | sound | Sound when hovered over
+sound_depressed | "" | sound | Sound when pressing button
+sound_released | "" | sound | Sound when releasing button
+defaultFgColor_override | "Button.TextColor" | color | Foreground colour
+defaultBgColor_override | "Button.BgColor" | color |Background colour
+armedFgColor_override | "Button.ArmedTextColor" | color | Foreground colour when hovered
+armedBgColor_override | "Button.ArmedBgColor" | color | Background colour when hovered
+depressedFgColor_override | "Button.DepressedTextColor" | color | Foreground colour when clicked on
+depressedBgColor_override | "Button.DepressedBgColor" | color | Background colour when clicked on
+selectedFgColor_override | "Button.SelectedTextColor" | color | Foreground colour when selected
+selectedBgColor_override | "Button.SelectedBgColor" | color | Background colour when selected
+keyboardFocusColor_override | "Button.FocusBorderColor" | color
+blinkFgColor_override | "Button.BlinkColor" | color
+default | "0" | bool
 
 Default scheme values
 Font | Color | Border
@@ -514,40 +553,55 @@ Font | Color | Border
 
 
 ## CExButton
-Expanded button. Derives from Button.
-Parameter | Data Type | Info
---------- | --------- | ----
-fgcolor | color | Foreground colour
-border_default | border | Default border
-border_armed | border | Border when hovered
-border_disabled | border | Border when enabled == 0
-border_selected | border | Border when selected == 1
+Expanded button
+
+Derives from Button
+
+This panel can be created
+
+Parameter | Default Value | Data Type | Info
+--------- | ------------- | --------- | ----
+fgcolor | "Button.TextColor" | color | Foreground colour
+border_default | "" | border | Default border
+border_armed | "" | border | Border when hovered
+border_disabled | "" | border | Border when enabled == 0
+border_selected | "" | border | Border when selected == 1
 
 
 ## CExImageButton
-A button that displays an image. Derives from CExButton.
-Parameter | Data Type | Info
---------- | --------- | ----
-image_drawcolor | color | What colour to draw the image by default, can't use clientscheme entries
-image_armedcolor | color | What colour to draw the image when hovered, can't use clientscheme entries
-image_depressedcolor | color | What colour to draw the image when pressed, can't use clientscheme entries
-image_disabledcolor | color | What colour to draw the image when enabled == 0, can't use clientscheme entries
-image_selectedcolor | color | What colour to draw the image when selected == 1, can't use clientscheme entries
-image_default | material | What image to use by default
-image_armed | material | What image to use when hovered
-image_selected | material | What image to use when selected == 1
-SubImage{} | ControlName: ImagePanel
+A button that displays an image
+
+Derives from CExButton
+
+This panel can be created
+
+Parameter | Default Value | Data Type | Info
+--------- | ------------- | --------- | ----
+image_drawcolor | "255 255 255 255" | color | What colour to draw the image by default, can't use clientscheme entries
+image_armedcolor | "255 255 255 255" | color | What colour to draw the image when hovered, can't use clientscheme entries
+image_depressedcolor | "255 255 255 255" | color | What colour to draw the image when pressed, can't use clientscheme entries
+image_disabledcolor | "255 255 255 255" | color | What colour to draw the image when enabled == 0, can't use clientscheme entries
+image_selectedcolor | "255 255 255 255" | color | What colour to draw the image when selected == 1, can't use clientscheme entries
+image_default | NULL | material | What image to use by default
+image_armed | NULL | material | What image to use when hovered
+image_selected | NULL | material | What image to use when selected == 1
+SubImage{} | | ControlName: ImagePanel
 
 
 ## CImageButton
-A button that displays an image. Derives from Button.
-Parameter | Data Type | Info
---------- | --------- | ----
-scaleImage | bool | Whether to scale the image
-inactiveimage | material | Image to use by default
-activeimage | material | Image to use when hovered
-inactivedrawcolor | color | What colour to draw the image by default
-activedrawcolor | color | What colour to draw the image when hovered
+A button that displays an image
+
+Derives from Button
+
+This panel can be created
+
+Parameter | Default Value | Data Type | Info
+--------- | ------------- | --------- | ----
+scaleImage | "0" | bool | Whether to scale the image
+inactiveimage | NULL | material | Image to use by default
+activeimage | NULL | material | Image to use when hovered
+inactivedrawcolor | "255 255 255 255" | color | What colour to draw the image by default
+activedrawcolor | "255 255 255 255" | color | What colour to draw the image when hovered
 
 Default scheme values
 Font | Color | Border
@@ -558,7 +612,11 @@ Font | Color | Border
 
 
 ## ToggleButton
-A button that can be toggled on and off. Derives from Button.
+A button that can be toggled on and off
+
+Derives from Button
+
+This panel can be created
 
 Default scheme values
 Font | Color | Border
@@ -567,10 +625,13 @@ Font | Color | Border
 
 
 ## RadioButton
-Derives from ToggleButton.
-Parameter | Data Type | Info
---------- | --------- | ----
-SubTabPosition | int
+Derives from ToggleButton
+
+This panel can be created
+
+Parameter | Default Value | Data Type | Info
+--------- | ------------- | --------- | ----
+SubTabPosition | "0" | int | Which radio buttons are linked
 
 Default scheme values
 Font | Color | Border
@@ -585,10 +646,15 @@ MarlettSmall | CheckButton.BgColor
 
 
 ## CheckButton
-A button that looks like a checkbox. Derives from ToggleButton.
-Parameter | Data Type | Info
---------- | --------- | ----
-smallcheckimage | bool | Use a smaller check image
+A button that looks like a checkbox
+
+Derives from ToggleButton
+
+This panel can be created
+
+Parameter | Default Value | Data Type | Info
+--------- | ------------- | --------- | ----
+smallcheckimage | "0" | bool | Use a smaller check image
 
 Default scheme values
 Font | Color | Border
@@ -607,19 +673,30 @@ Font | Color | Border
 
 
 ## CvarToggleCheckButton
-A checkbutton that displays the value of a cvar. Derives from CheckButton.
-Parameter | Data Type | Info
---------- | --------- | ----
-cvar_name | string
-cvar_value | bool
+A checkbutton that displays the value of a cvar
+
+Derives from CheckButton
+
+This panel can be created
+
+Parameter | Default Value | Data Type | Info
+--------- | ------------- | --------- | ----
+cvar_name | "" | string
+cvar_value | "1" | bool
 
 
 ## CExCheckButton 
-Derives from CheckButton.
+Derives from CheckButton
+
+This panel can be created
 
 
 ## ExpandButton
-A button that looks like an arrow. Derives from ToggleButton.
+A button that looks like an arrow
+
+Derives from ToggleButton
+
+This panel can be created
 
 Default scheme values
 Font | Color | Border
@@ -628,33 +705,59 @@ Font | Color | Border
 
 
 ## CTFTeamButton
-A button that animates a model. Animation events are called idle_enabled, idle_disabled, enter_enabled, enter_disabled, exit_enabled, exit_disabled & hover_disabled. Only works in the team select menu. Derives from CExButton.
-Parameter | Data Type | Info
---------- | --------- | ----
-associated_model | string | What model to animate
-team | int
-hover | float | Delay before animation
+A button that animates a model
+
+Animation events: idle_enabled, idle_disabled, enter_enabled, enter_disabled, exit_enabled, exit_disabled, hover_disabled
+
+Derives from CExButton
+
+This panel can not be created
+
+Parameter | Default Value | Data Type | Info
+--------- | ------------- | --------- | ----
+associated_model | "" | string | What model to animate
+team | "0" | int
+hover | "-1" | float | Delay before animation
 
 
 ## CAutoFittingLabel
-A label that changes the font to fit in the boundaries of the panel. Derives from Label.
+A label that changes the font to fit in the boundaries of the panel and can change color in the middle of a string
+
+Derives from Label
+
+
+This panel can be created
+
 Parameter | Data Type | Info
 --------- | --------- | ----
 fonts{}
+colors{}
 ```
-"fonts"
+"Example"
 {
-  "1"
+  "ControlName" "CAutoFittingLabel"
+  "labelText" "[0x1]This uses color 1  and this uses color 2"
+  "fonts"
   {
-    "font"  "large_font"
+    "1"
+    {
+      "font"  "large_font"
+    }
+    "2"
+    {
+      "font"  "medium_font"
+    }
+    "3"
+    {
+      "font"  "small_font"
+    }
   }
-  "2"
+
+  "colors"
   {
-    "font"  "medium_font"
-  }
-  "3"
-  {
-    "font"  "small_font"
+    "1"  "255 0 0 255"
+    "2"  "0 255 0 255"
+    "3"  "0 0 255 255"
   }
 }
 ```
