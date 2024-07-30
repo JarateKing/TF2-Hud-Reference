@@ -28,7 +28,7 @@ Texture1 | "vgui/hud/800corner1" | material | Image in the top left of PaintBack
 Texture2 | "vgui/hud/800corner2" | Top Right
 Texture3 | "vgui/hud/800corner3" | Botttom Right
 Texture4 | "vgui/hud/800corner4" | Bottom Left
-RoundedCorners | "-1" | int | Which corners are rounded
+RoundedCorners | "-1" | int | Which corners are rounded, values 0-15
 paintborder | "-1" | bool | Should the panel have a border
 border | "" | border | What border to use
 pin_to_sibling | NULL | string | Pin the panel's position to another panel on the same level in the hierarchy
