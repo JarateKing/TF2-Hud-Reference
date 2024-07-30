@@ -81,6 +81,7 @@ showtooltipswhenmousedisabled | ? | bool
 
 ## Frame
 Derives from EditablePanel
+
 This panel can not be created
 
 Parameter | Default Value | Data Type
@@ -133,6 +134,7 @@ MinimizeToSysTray |
 
 ### GripPanel
 Derives from Panel
+
 This panel can not be created
 
 Default scheme values
@@ -146,6 +148,7 @@ Marlett | FrameGrip.Color2
 
 ### FrameButton
 Derives from Button
+
 This panel can not be created
 
 
@@ -159,7 +162,9 @@ Font | Color | Border | Other
 
 
 ### FrameSystemButton
-Derives from MenuButton. This panel can not be created freely.
+Derives from MenuButton
+
+This panel can not be created freely
 
 Default scheme values
 Font | Color | Border | Other
@@ -170,6 +175,7 @@ Font | Color | Border | Other
 
 ## PropertySheet
 Derives from EditablePanel
+
 This panel can not be created
 
 Parameter | Default Value | Data Type
@@ -192,6 +198,7 @@ Default |
 
 ### PageTab
 Derives from Button
+
 This panel can not be created
 
 Parameter | Default Value | Data Type
@@ -214,6 +221,7 @@ ShowContextMenu |
 
 ## ScrollableEditablePanel
 Derives from EditablePanel
+
 This panel can not be created
 
 Parameter | Data Type
@@ -223,7 +231,9 @@ ScrollBar{} | ControlName: ScrollBar
 
 ## CExScrollingEditablePanel
 A panel that can have other panels inside of it and can be scrolled
+
 Derives from EditablePanel
+
 This panel can be created
 
 Parameter | Default Value | Data Type | Info
@@ -237,11 +247,13 @@ ScrollBar{} | | ControlName: CExScrollBar
 
 ## CScrollableList
 Derives from CExScrollingEditablePanel
+
 This panel can be created
 
 
 ## CExpandablePanel
 Derives from EditablePanel
+
 This panel can not be created
 
 Parameter | Data Type | Info
@@ -257,12 +269,15 @@ toggle_collapse |
 
 ## CMatchHistoryEntryPanel
 Derives from CExpandablePanel
+
 This panel can be created
+
 Res file: "resource/ui/MatchHistoryEntryPanel.res"
 
 
 ## ListPanel
 Derives from Panel
+
 This panel can be created
 
 Default scheme values
@@ -278,6 +293,7 @@ Default | ListPanel.BgColor | ButtonDepressedBorder
 
 ## SectionedListPanel
 Derives from Panel
+
 This panel can be created
 
 Parameter | Data Type | Info
@@ -305,6 +321,7 @@ SectionedListPanel.Font | SectionedListPanel.DividerColor
 
 ## TFSectionedListPanel
 Derives from SectionedListPanel
+
 This panel can be created
 
 Parameter | Default Value | Data Type | Info
@@ -321,6 +338,7 @@ horiz_inset | "5" | int
 
 ## PanelListPanel
 Derives from EditablePanel
+
 This panel can be created
 
 Parameter | Default Value | Data Type
@@ -335,6 +353,7 @@ Font | Color | Border
 
 ## CBaseASyncPanel
 Derives from EditablePanel
+
 This panel can not be created
 
 Parameter | Default Value | Data Type | Info
@@ -345,9 +364,13 @@ asynchandling | NULL | string | "content" or "loading", doesn't look on the pane
 
 ## CTFLeaderboardPanel
 Derives from CBaseASyncPanel
+
 This panel can not be created
+
 Res files:
+
 "Resource/UI/econ/LeaderboardPanel.res"
+
 "Resource/UI/LeaderboardSpreadEntry.res"
 
 Parameter | Default Value | Data Type
