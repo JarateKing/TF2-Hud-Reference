@@ -5,6 +5,7 @@ This is a list of panel types and their parameters.
 
 ## Panel
 The most basic panel, all other panels derive from this
+
 This panel can be created
 
 Parameter | Default Value | Data Type | Info
