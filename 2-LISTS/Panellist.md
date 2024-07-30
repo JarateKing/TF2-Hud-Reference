@@ -721,10 +721,9 @@ hover | "-1" | float | Delay before animation
 
 
 ## CAutoFittingLabel
-A label that changes the font to fit in the boundaries of the panel and can change color in the middle of a string
+A label that changes the font to fit in the boundaries of the panel and can change color in the middle of a string using unicode symbols
 
 Derives from Label
-
 
 This panel can be created
 
@@ -736,7 +735,7 @@ colors{}
 "Example"
 {
   "ControlName" "CAutoFittingLabel"
-  "labelText" "[0x1]This uses color 1  and this uses color 2"
+  "labelText" "[0x1] This uses color 1 [0x2] and this uses color 2"
   "fonts"
   {
     "1"
