@@ -4,7 +4,9 @@ This is a list of panel types and their parameters.
 
 
 ## Panel
-The most basic panel, all other panels derive from this. This panel can be created freely.
+The most basic panel, all other panels derive from this
+This panel can be created
+
 Parameter | Default Value | Data Type | Info
 --------- | ------------- | --------- | ----
 fieldName | NULL | string | Renames the panel
@@ -65,7 +67,10 @@ performlayout |
 reloadscheme |
 
 ## EditablePanel
-A panel that can have other panels inside of it. Derives from Panel. This panel can be created freely.
+A panel that can have other panels inside of it
+Derives from Panel
+This panel can be created
+
 Parameter | Default Value | Data Type
 --------- | ------------- | ---------
 skip_autoresize | "0" | bool
@@ -74,7 +79,9 @@ showtooltipswhenmousedisabled | ? | bool
 
 
 ## Frame
-Derives from EditablePanel. This panel can not be created freely.
+Derives from EditablePanel
+This panel can not be created
+
 Parameter | Default Value | Data Type
 --------- | ------------- | ---------
 setclosebuttonvisible | "1" | bool
@@ -124,7 +131,8 @@ MinimizeToSysTray |
 
 
 ### GripPanel
-Derives from Panel.
+Derives from Panel
+This panel can not be created
 
 Default scheme values
 Font | Color | Border | Other
@@ -136,7 +144,9 @@ Marlett | FrameGrip.Color2
 
 
 ### FrameButton
-Derives from Button.
+Derives from Button
+This panel can not be created
+
 
 Default scheme values
 Font | Color | Border | Other
@@ -148,7 +158,7 @@ Font | Color | Border | Other
 
 
 ### FrameSystemButton
-Derives from MenuButton.
+Derives from MenuButton. This panel can not be created freely.
 
 Default scheme values
 Font | Color | Border | Other
@@ -158,17 +168,19 @@ Font | Color | Border | Other
 
 
 ## PropertySheet
-Derives from EditablePanel.
-Parameter | Data Type
---------- | ---------
-tabxindent | int
-tabxdelta | int
-tabxfittotext | bool
-tabheight | int
-tabheight_small | int
-tabwidth | int
-transition_time | float
-tabskv{} | Controlname: PageTab
+Derives from EditablePanel
+This panel can not be created
+
+Parameter | Default Value | Data Type
+--------- | ------------- | ---------
+tabxindent | "0" | int
+tabxdelta | "0" | int
+tabxfittotext | "1" | bool
+tabheight | "28" | int
+tabheight_small | "14" | int
+tabwidth | "64" | int
+transition_time | "0.0" | float
+tabskv{} | | Controlname: PageTab
 
 Default scheme values
 Font | Color | Border | Other
@@ -178,13 +190,15 @@ Default |
 
 
 ### PageTab
-Derives from Button.
-Parameter | Data Type
---------- | ---------
-selectedcolor | color
-unselectedcolor | color
-activeborder_override | border
-normalborder_override | border
+Derives from Button
+This panel can not be created
+
+Parameter | Default Value | Data Type
+--------- | ------------- | ---------
+selectedcolor | "PropertySheet.SelectedTextColor" | color
+unselectedcolor | "PropertySheet.TextColor" | color
+activeborder_override | "TabActiveBorder" | border
+normalborder_override | "TabBorder" | border
 
 Default scheme values
 Font | Color | Border | Other
@@ -192,40 +206,63 @@ Font | Color | Border | Other
 DefaultVerySmall | PropertySheet.SelectedTextColor | TabActiveBorder | PropertySheet.TransitionEffectTime
 Default | PropertySheet.TextColor | TabBorder
 
+Commands | Info
+-------- | ----
+ShowContextMenu |
+
 
 ## ScrollableEditablePanel
-Derives from EditablePanel.
+Derives from EditablePanel
+This panel can not be created
+
 Parameter | Data Type
 --------- | ---------
 ScrollBar{} | ControlName: ScrollBar
 
 
 ## CExScrollingEditablePanel
-A panel that can have other panels inside of it and can be scrolled. Derives from EditablePanel.
-Parameter | Data Type | Info
---------- | --------- | ----
-allow_mouse_wheel_to_scroll | bool | Only allow scrolling by dragging the slider
-scroll_step | int | How much the scroll wheel scrolls
-bottom_buffer | int | How much space to leave at the bottom
-restrict_width | bool | Make the contents fit inside the panel
-ScrollBar{} | ControlName: CExScrollBar
+A panel that can have other panels inside of it and can be scrolled
+Derives from EditablePanel
+This panel can be created
+
+Parameter | Default Value | Data Type | Info
+--------- | ------------- | --------- | ----
+allow_mouse_wheel_to_scroll | "1" | bool | Only allow scrolling by dragging the slider
+scroll_step | "10" | int | How much the scroll wheel scrolls
+bottom_buffer | "0" | int | How much space to leave at the bottom
+restrict_width | "1" | bool | Make the contents fit inside the panel
+ScrollBar{} | | ControlName: CExScrollBar
 
 
 ## CScrollableList
 Derives from CExScrollingEditablePanel
+This panel can be created
 
 
 ## CExpandablePanel
-Derives from EditablePanel.
+Derives from EditablePanel
+This panel can not be created
+
 Parameter | Data Type | Info
 --------- | --------- | ----
-resize_time | float | How quickly to resize panel
-collapsed_height | int | How tall when collapsed
-expanded_height | int | How tall when expanded
+resize_time | "0.4" | float | How quickly to resize panel
+collapsed_height | "17" | int | How tall when collapsed
+expanded_height | "50" | int | How tall when expanded
+
+Commands | Info
+-------- | ----
+toggle_collapse |
+
+
+## CMatchHistoryEntryPanel
+Derives from CExpandablePanel
+This panel can be created
+Res file: "resource/ui/MatchHistoryEntryPanel.res"
 
 
 ## ListPanel
-Derives from Panel.
+Derives from Panel
+This panel can be created
 
 Default scheme values
 Font | Color | Border
@@ -239,7 +276,9 @@ Default | ListPanel.BgColor | ButtonDepressedBorder
 
 
 ## SectionedListPanel
-Derives from Panel.
+Derives from Panel
+This panel can be created
+
 Parameter | Data Type | Info
 --------- | --------- | ----
 show_columns | bool
@@ -264,47 +303,59 @@ SectionedListPanel.Font | SectionedListPanel.DividerColor
 
 
 ## TFSectionedListPanel
-Derives from SectionedListPanel.
-Parameter | Data Type | Info
---------- | --------- | ----
-medal_width | size
-avatar_width | size
-spacer | size
-name_width | size
-class_width | size
-award_width | size
-stats_width | size
-horiz_inset | size
+Derives from SectionedListPanel
+This panel can be created
+
+Parameter | Default Value | Data Type | Info
+--------- | ------------- | --------- | ----
+medal_width | "s.05" | size
+avatar_width | "s.1" | size
+spacer | "s.1" | size
+name_width | "s.1" | size
+class_width | "s.1" | size
+award_width | "s.1" | size
+stats_width | "s.1" | size
+horiz_inset | "5" | int
 
 
 ## PanelListPanel
-Derives from EditablePanel.
-Parameter | Data Type
---------- | ---------
-autohide_scrollbar | bool
+Derives from EditablePanel
+This panel can be created
+
+Parameter | Default Value | Data Type
+--------- | ------------- | ---------
+autohide_scrollbar | "0" | bool
 
 Default scheme values
 Font | Color | Border
 ---- | ----  | ------
   | ListPanel.BgColor | ButtonDepressedBorder
 
+
 ## CBaseASyncPanel
-Derives from EditablePanel.
-Parameter | Data Type | Info
---------- | --------- | ----
-refresh_delay | float
-asynchandling | string | "content" or "loading", not actually on the panel but rather on the panel's child
+Derives from EditablePanel
+This panel can not be created
+
+Parameter | Default Value | Data Type | Info
+--------- | ------------- | --------- | ----
+refresh_delay | "-1.0" | float
+asynchandling | NULL | string | "content" or "loading", doesn't look on the panel but rather on the panel's child
 
 
 ## CTFLeaderboardPanel
-Derives from CBaseASyncPanel.
-Parameter | Data Type
---------- | ---------
-entry_step | int
-EvenTextColor | color
-OddTextColor | color
-LocalPlayerTextColor | color
-ScoresContainer{} | ControlName: EditablePanel
+Derives from CBaseASyncPanel
+This panel can not be created
+Res files:
+"Resource/UI/econ/LeaderboardPanel.res"
+"Resource/UI/LeaderboardSpreadEntry.res"
+
+Parameter | Default Value | Data Type
+--------- | ------------- | ---------
+entry_step | "5" | int
+EvenTextColor | NULL | color
+OddTextColor | NULL | color
+LocalPlayerTextColor | NULL | color
+ScoresContainer{} | | ControlName: EditablePanel
 
 
 ## CLadderLobbyLeaderboard
