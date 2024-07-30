@@ -350,7 +350,7 @@ trainingcomplete.res | **You have completed the training dialog**
 trainingdialog.res | *No longer in use*
 trainingdialog_old.res | *No longer in use*
 trainingitempanel.res | *No longer in use*
-upgradeboxdialog.res | **Free to Play / litimed account needs upgrade message**
+upgradeboxdialog.res | **Free to Play / limited account needs upgrade message**
 upgradebuypanel.res | **MvM - upgrade icon and buy/sell buttons** *[part of hudupgradepanel.res]*
 videopanel.res | **Video frame settings for the video panel**
 viewrecipespanel.res |
