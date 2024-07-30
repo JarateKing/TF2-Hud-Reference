@@ -735,7 +735,7 @@ colors{}
 "Example"
 {
   "ControlName" "CAutoFittingLabel"
-  "labelText" "[0x1] This uses color 1 [0x2] and this uses color 2"
+  "labelText" "[0x1] This uses color 1 [0x2] and this uses color 2" //Make sure to replace the [0x1] with the actual unicode symbol for it to work
   "fonts"
   {
     "1"
