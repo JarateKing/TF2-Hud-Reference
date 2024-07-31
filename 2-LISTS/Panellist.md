@@ -25,9 +25,9 @@ alpha | "255" | int | Opacity of the panel 0-255
 paintbackground | "-1" | bool | Should the background be painted
 PaintBackgroundType | "0" | int | How the background should be painted. Textures can be changed with Texture*</br>0 = Square corners</br>1 = Textured (Uses Texture1)</br>2 = Rounded corners</br>3 = Rounded Corners with horizontal fade
 Texture1 | "vgui/hud/800corner1" | material | Image in the top left of PaintBackgroundType 2 & image of PaintBackgroundType 1, path starts in root/materials/
-Texture2 | "vgui/hud/800corner2" | Top Right
-Texture3 | "vgui/hud/800corner3" | Botttom Right
-Texture4 | "vgui/hud/800corner4" | Bottom Left
+Texture2 | "vgui/hud/800corner2" | material | Top Right
+Texture3 | "vgui/hud/800corner3" | material | Botttom Right
+Texture4 | "vgui/hud/800corner4" | material | Bottom Left
 RoundedCorners | "-1" | int | Which corners are rounded, values 0-15
 paintborder | "-1" | bool | Should the panel have a border
 border | "" | border | What border to use
