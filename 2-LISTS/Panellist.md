@@ -763,10 +763,15 @@ colors{}
 
 
 ## URLLabel
-A button that opens a web page. Derives from Label.
-Parameter | Data Type | Info
---------- | --------- | ----
-URLText | string | URL to the web page
+A button that opens a web page
+
+Derives from Label
+
+This panel can be created
+
+Parameter | Default Value | Data Type | Info
+--------- | ------------- | --------- | ----
+URLText | NULL | string | URL to the web page
 
 Default scheme values
 Font | Color | Border
@@ -775,14 +780,19 @@ Font | Color | Border
 
 
 ## RichText
-A panel with text that can scroll and can use a text file for its contents. Derives from Panel.
-Parameter | Data Type | Info
---------- | --------- | ----
-text | string | Text to display
-textfile | path | A text file to display eg. "resource/text.txt"
-scrollbar | bool | Should the scrollbar be enabled
-maxchars | int
-ScrollBar{} | ControlName: ScrollBar
+A panel with text that can scroll and can use a text file for its contents
+
+Derives from Panel
+
+This panel can be created
+
+Parameter | Default Value | Data Type | Info
+--------- | ------------- | --------- | ----
+text | "" | string | Text to display
+textfile | NULL | path | A text file to display eg. "resource/text.txt"
+scrollbar | "1" | bool | Should the scrollbar be enabled
+maxchars | "-1" | int
+ScrollBar{} | | ControlName: ScrollBar
 
 Default scheme values
 Font | Color | Border | Other
@@ -794,22 +804,27 @@ Font | Color | Border | Other
 
 
 ## CExRichText
-An expanded rich text. Derives from RichText.
-Parameter | Data Type | Info
---------- | --------- | ----
-font | font | What font to use
-fgcolor | color | Foreground colour
-image_up_arrow | color | Image for the scrollbar's up arrow
-image_down_arrow | color | Image for the scrollbar's down arrow
-image_line | color | Image for the scrollbar slider's background 
-image_box | color | Image for the scrollbar slider
-image_up_arrow_mouseover | color | Image for the scrollbar's up arrow when hovered
-image_down_arrow_mouseover | color | Image for the scrollbar's down arrow when hovered
-Line{} | ControlName: ImagePanel
-Box{} | ControlName: ImagePanel
-UpArrow{} | ControlName: CExImageButton
-DownArrow{} | ControlName: CExImageButton
-ScrollBar{} | ControlName: ScrollBar
+An expanded rich text
+
+Derives from RichText
+
+This panel can be created
+
+Parameter | Default Value | Data Type | Info
+--------- | ------------- | --------- | ----
+font | "Default" | font | What font to use
+fgcolor | "RichText.FgColor" | color | Foreground colour
+image_up_arrow | "chalkboard_scroll_up" | material | Image for the scrollbar's up arrow
+image_down_arrow | "chalkboard_scroll_down" | material | Image for the scrollbar's down arrow
+image_line | "chalkboard_scroll_line" | material | Image for the scrollbar slider's background 
+image_box | "chalkboard_scroll_box" | material | Image for the scrollbar slider
+image_up_arrow_mouseover | NULL | material | Image for the scrollbar's up arrow when hovered
+image_down_arrow_mouseover | NULL | material | Image for the scrollbar's down arrow when hovered
+Line{} | | ControlName: ImagePanel
+Box{} | | ControlName: ImagePanel
+UpArrow{} | | ControlName: CExImageButton
+DownArrow{} | | ControlName: CExImageButton
+ScrollBar{} | | ControlName: ScrollBar
 
 Default scheme values
 Font | Color | Border
@@ -818,27 +833,46 @@ Font | Color | Border
 
 
 ## CRichTextWithScrollbarBorders
-Same as above but uses borders instead of images for image_line & image_box. "Line" & "Box" are Panels instead of ImagePanels. Derives from CExRichText.
+Same as above but uses borders instead of images for image_line & image_box. "Line" & "Box" are Panels instead of ImagePanels
+
+Derives from CExRichText
+
+This panel can be created
 
 
 ## CEconItemDetailsRichText
-"Rich text control that knows how to fill itself with information that describes a specific item definition." Derives from CRichTextWithScrollbarBorders.
-Parameter | Data Type | Info
---------- | --------- | ----
-highlight_color | color
-itemset_color | color
-link_color | color
+Rich text control that knows how to fill itself with information that describes a specific item definition
+
+Derives from CRichTextWithScrollbarBorders
+
+This panel can be created
+
+Parameter | Default Value | Data Type | Info
+--------- | ------------- | --------- | ----
+highlight_color | "Orange" | color
+itemset_color | "Blue" | color
+link_color | "LightOrange" | color
+
+Default scheme values
+Font | Color | Border
+---- | ----  | ------
+ Link | |
 
 
 ## ScrollBar
-A scrollbar. Derives from Panel.
-Parameter | Data Type | Info
---------- | --------- | ----
-nobuttons | bool | Removes up & down buttons
-autohide_buttons | bool | Automatically removes up & down buttons when not needed
-Slider{} | ControlName: ScrollBarSlider
-UpButton{} | ControlName: ScrollBarButton
-DownButton{} | ControlName: ScrollBarButton
+A scrollbar
+
+Derives from Panel
+
+This panel can be created
+
+Parameter | Default Value | Data Type | Info
+--------- | ------------- | --------- | ----
+nobuttons | "0" | bool | Removes up & down buttons
+autohide_buttons | "0" | bool | Automatically removes up & down buttons when not needed
+Slider{} | | ControlName: ScrollBarSlider
+UpButton{} | | ControlName: ScrollBarButton
+DownButton{} | | ControlName: ScrollBarButton
 
 Default scheme values
 Font | Color | Border | Other
@@ -846,11 +880,32 @@ Font | Color | Border | Other
    |   |   | ScrollBar.Wide
 
 
+## Scrollbar_Horizontal
+A horizontal scrollbar
+
+Derives from ScrollBar
+
+This panel can be created
+
+
+## Scrollbar_Vertical
+A vertical scrollbar
+
+Derives from ScrollBar
+
+This panel can be created
+
+
 ### ScrollBarSlider
-The slider of a scrollbar. Derives from Panel.
-Parameter | Data Type | Info
---------- | --------- | ----
-ButtonBorder | border | Border of the slider. Only works with IgnoreScheme 1
+The slider of a scrollbar
+
+Derives from Panel
+
+This panel can not be created
+
+Parameter | Default Value | Data Type | Info
+--------- | ------------- | --------- | ----
+ButtonBorder | NULL | border | Border of the slider. Only works with IgnoreScheme 1
 
 Default scheme values
 Font | Color | Border
@@ -860,7 +915,9 @@ Font | Color | Border
 
 
 ### ScrollBarButton
-Derives from Button.
+Derives from Button
+
+This panel can not be created
 
 Default scheme values
 Font | Color | Border
@@ -876,86 +933,129 @@ Font | Color | Border
 ## CExScrollBar
 "A scroll bar that can have specified width" (?)
 
+Derives from ScrollBar
+
+This panel can not be created
+
 
 ## ImagePanel
-A panel that displays an image. Derives from Panel.
-Parameter | Data Type | Info
---------- | --------- | ----
-image | material | The image to display
-fillcolor | color | Background colour
-drawcolor | color | What colour to draw the image with
-scaleImage | bool | Whether to scale the image
-scaleAmount | float | How much to scale the image, set to 0 for full size
-tileImage | bool | Repeat the image endlessly
-tileHorizontally | bool | Repeat the image endlessly in the X axis
-tileVertically | bool | Repeat the image endlessly in the Y axis
-rotation | int | Rotate image in 90 degree increments
-positionImage | bool
+A panel that displays an image
+
+Derives from Panel
+
+This panel can be created
+
+Parameter | Default Value | Data Type | Info
+--------- | ------------- | --------- | ----
+image | "" | material | The image to display
+fillcolor | "0 0 0 0" | color | Background colour
+fillcolor_override | "0 0 0 0" | color | Background colour
+drawcolor | "255 255 255 255" | color | What colour to draw the image with
+drawcolor_override | "255 255 255 255" | color | Override
+scaleImage | "0" | bool | Whether to scale the image
+scaleAmount | "0.0" | float | How much to scale the image, set to 0 for full size
+tileImage | "0" | bool | Repeat the image endlessly
+tileHorizontally | "0" | bool | Repeat the image endlessly in the X axis
+tileVertically | "0" | bool | Repeat the image endlessly in the Y axis
+rotation | "0" | int | Rotate image in 90 degree increments
+positionImage | "1" | bool
 
 
 ## ScalableImagePanel
-A panel that displays an image. Can have scalable corners & sides. Derives from Panel.
-Parameter | Data Type | Info
---------- | --------- | ----
-image | material | The image to display
-drawcolor | color | What colour to draw the image with
-src_corner_width | int | How big the texture's corners are in the X axis
-src_corner_height | int | How big the texture's corners are in the Y axis
-draw_corner_width | int | How big to draw the corners in the X axis
-draw_corner_height | int | How big to draw the corners in the Y axis
+A panel that displays an image. Can have scalable corners & sides
+
+Derives from Panel
+
+This panel can be created
+
+Parameter | Default Value | Data Type | Info
+--------- | ------------- | --------- | ----
+image | "" | material | The image to display
+drawcolor | "255 255 255 255" | color | What colour to draw the image with
+src_corner_width | "0" | int | How big the texture's corners are in the X axis
+src_corner_height | "0" | int | How big the texture's corners are in the Y axis
+draw_corner_width | "0" | int | How big to draw the corners in the X axis
+draw_corner_height | "0" | int | How big to draw the corners in the Y axis
 
 
 ## CTFImagePanel
-An image panel that can be team coloured. Derives from ScalableImagePanel
-Parameter | Data Type | Info
---------- | --------- | ----
-teambg_0 | material | Image when unassigned
-teambg_1 | material | Image on spectate
-teambg_2 | material | Image on RED
-teambg_3 | material | Image on BLU
+An image panel that can be team coloured
+
+Derives from ScalableImagePanel
+
+This panel can be created
+
+Parameter | Default Value | Data Type | Info
+--------- | ------------- | --------- | ----
+teambg_0 | "" | material | Image when unassigned
+teambg_1 | "" | material | Image on spectate
+teambg_2 | "" | material | Image on RED
+teambg_3 | "" | material | Image on BLU
 
 
 ## CIconPanel
-A panel that displays an icon from scripts/mod_textures.txt. Derives from Panel.
-Parameter | Data Type | Info
---------- | --------- | ----
-icon | icon | What icon to use
-iconColor | color | What colour to draw the icon with
-scaleImage | bool | Should the icon scale with the panel
+A panel that displays an icon from scripts/mod_textures.txt
+
+Derives from Panel
+
+This panel can be created
+
+Parameter | Default Value | Data Type | Info
+--------- | ------------- | --------- | ----
+icon | "" | icon | What icon to use
+iconColor | "255 255 255 255" | color | What colour to draw the icon with
+scaleImage | "0" | bool | Should the icon scale with the panel
 
 
 ## CAvatarImagePanel
-Derives from Panel.
-Parameter | Data Type | Info
---------- | --------- | ----
-scaleImage | bool
-color_outline | color
+Derives from Panel
+
+This panel can be created
+
+Parameter | Default Value | Data Type | Info
+--------- | ------------- | --------- | ----
+scaleImage | "0" | bool
+color_outline | "Black" | color
 
 
 ## CBitmapPanel
-Parameter | Data Type | Info
---------- | --------- | ----
-material | material | Looks in materials/ instead of materials/vgui/
-color | color
+Derives from Panel
+
+This panel can be created
+
+Parameter | Default Value | Data Type | Info
+--------- | ------------- | --------- | ----
+material | "" | material | Looks in materials/ instead of materials/vgui/
+color | "255 255 255 255" | color
 
 
 ## CBitmapImagePanel
-An image that can maintain its aspect ratio when resized. Derives from Panel.
-Parameter | Data Type | Info
---------- | --------- | ----
-image | material | The image to display
-imagecolor | color | What colour to draw the image with
-imageAlignment | string | Where the image should align, uses same values as textAlignment
-preserveAspectRatio | bool | Should the aspect ratio be maintained
-filtered | bool
+An image that can maintain its aspect ratio when resized
+
+Derives from Panel
+
+This panel can be created
+
+Parameter | Default Value | Data Type | Info
+--------- | ------------- | --------- | ----
+image | "BitmapImagePanel" | material | The image to display
+imagecolor | "255 255 255 255" | color | What colour to draw the image with
+imageAlignment | "center" | string | Where the image should align, uses same values as textAlignment
+preserveAspectRatio | "0" | bool | Should the aspect ratio be maintained
+filtered | "0" | bool
 
 
 ## CTFLogoPanel
-A rotating TF logo.
-Parameter | Data Type | Info
---------- | --------- | ----
-radius | bool | Size of the logo
-velocity | float | Speed of the logo
+A rotating TF logo
+
+Derives from ?
+
+This panel can be created
+
+Parameter | Default Value | Data Type | Info
+--------- | ------------- | --------- | ----
+radius | "5" | int | Size of the logo
+velocity | "0.0" | float | Speed of the logo
 
 
 
