@@ -211,7 +211,7 @@ ingamequeuestatus.res | **Currently queued for Casual/Competitive/MvM ingame ico
 intromenu.res | **Gamemode explanation video displayed after joining a server**
 intromenu_sc.res | **Gamemode explanation video displayed after joining a server** *[for steam controller]*
 invitenotification.res | **Invite to party received message**
-itemoptionspanel.res | **Item style selection menu**
+itemoptionspanel.res | **Item style selection menu ("Set Style" popup)**
 itemquickswitch.res | **Ingame loadout and weapons quickswitch menu** *[also in HudLayout.res > ItemQuickSwitchPanel]*
 itemrenameconfirmationdialog.res | **Name Tag - Description Tag confirmation menu**
 itemrenamedialog.res | **Name Tag - Description Tag appliaction menus**
@@ -626,20 +626,20 @@ confirmapplystrangerestrictionapplicationdialog.res | **Strange restriction appl
 confirmapplystrangifierdialog.res | **Strangifier application menu**
 confirmapplyteamcolorpaintcandialog.res | **Team colored paint application menu**
 confirmcustomizetexturedialog.res | **Texture application menu, used for The Conscientious Objector**
-confirmdialog.res | **Quit game confirmation message**
-confirmdialogabandonnopenalty.res | **Disconnect confirmation with no penalty**
-confirmdialogabandonpenalty.res | **Disconnect confirmation with penalty**
-confirmdialogabandonsafe.res | **Disconnect confirmation**
-confirmdialogoptout.res |
+confirmdialog.res | **Confirmation message for: quit game, coach player, Mann Co. Store Package "use item" dialog**
+confirmdialogabandonnopenalty.res | **Disconnect confirmation with no penalty (casual)**
+confirmdialogabandonpenalty.res | **Disconnect confirmation with penalty (competitive)**
+confirmdialogabandonsafe.res | **Disconnect confirmation (local/community server)**
+confirmdialogoptout.res | **Used for Romevision and "Favorite Last Server?" dialogs**
 confirmitempreviewdialog.res | **Item rent confirmation menu, used when you test an item from the mann.co store for a week**
 confirmspellbookpageapplicationdialog.res | **Spell Book Page application menu**
 confirmtransmogrifyapplicationdialog.res | **Costume Transmogrifier application menu**
 cyclingadcontainer.res | **Advertisement box**
 ducksleaderboardpanel.res | **Duck collection leaderboard**
 ducksleaderboards.res | **Duck collection leaderboard**
-genericnotificationtoast.res | **Ingame notification for trade, duel challenge, ringe received, new game found, you should equip the spellbook or powerupbottle message and more...**
+genericnotificationtoast.res | **Ingame notification for trade, duel challenge, ring received, new game found, you should equip the spellbook or powerupbottle message and more...**
 genericnotificationtoastmainmenu.res | **Main Menu generic notification message** *[example: You have a new item! label or when someone gets a ring etc...]*
-genericwaitingdialog.res | **Waiting for player to respond message**
+genericwaitingdialog.res | **Waiting for player to respond message, also "Sorting Items" dialog**
 halloweenofferingdialog.res | **Contains some collectioncraftingdialog_base.res overrides for Gargoyle Halloween Transmuting trade up contract**
 inputstringforitembackpackoverlaydialog.res | **Taunt selection entry for Mann Co. Director's Cut Reel**
 inspectionpanel.res | **Inspect menu for weapons contains the war paints menu and war paints consume menus as well**
@@ -653,11 +653,11 @@ itempickuppanel.res | **New item found/received panel**
 leaderboardpanel.res |
 lobbyleaderboard.res |
 manncotrade_commonstatclock.res | **Contains some collectioncraftingdialog_base.res overrides for the Civilian Stat Clock trade up contract**
-messageboxdialog | **Generic confirm action message**
+messageboxdialog | **Generic confirm action message: "No eligible items" UI (using a key in a backpack with no crates) & using gift wrap or dueling minigame while outside of a server**
 notificationqueuepanel.res | **Controls the buffer time between present ingame notifications**
 notificationspresentpanel.res | **Shows up when you are in the loadout menus such as backpack and there is a new notification unchecked**
 notificationtoastcontainer.res | **Ingame popup notification, contains the background and parent element of genericnotificationtoast.res**
-notificationtoastcontrol.res | **Main menu notification accept/decline buttons** 
+notificationtoastcontrol.res | **Main menu notification accept/decline buttons**
 paintkitconsumedialog.res | **PaintKit redeem menu**
 questdefinitionviewpanel.res |
 questdetailspanel.res |
