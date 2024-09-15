@@ -55,6 +55,7 @@ navRight | NULL | string
 navToRelay | NULL | string
 navActivate | NULL | string
 navBack | NULL | string
+eatmouseinput | ? | bool
 
 Default scheme values
 Font | Color | Border
@@ -77,7 +78,6 @@ This panel can be created
 Parameter | Default Value | Data Type
 --------- | ------------- | ---------
 skip_autoresize | "0" | bool
-eatmouseinput | ? | bool
 showtooltipswhenmousedisabled | ? | bool
 
 
