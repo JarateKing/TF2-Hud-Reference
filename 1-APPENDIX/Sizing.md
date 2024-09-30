@@ -28,9 +28,9 @@ Using the "p" prefix makes it use a percentage wide/tall of the screen. For exam
 
 ## Other Percent Sizing
 
-Using the "o" prefix is similar to the "p" prefix, except it uses the other direction. The primary use is to pair with a "p" value on the other axis, to avoid aspect ratio and keep things uniform. For example, this will be a perfect square:
+Using the "o" prefix makes it use a percentage wide/tall of the other axis. For example, this will be a perfect square:
 ```
-	"wide" "o0.5"
+	"wide" "o1.0"
 	"tall" "p0.5"
 ```
 
