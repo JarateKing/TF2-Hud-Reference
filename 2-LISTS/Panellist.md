@@ -220,6 +220,20 @@ Commands | Info
 -------- | ----
 ShowContextMenu |
 
+### PropertyDialog
+Derives from Frame
+
+This panel can not be created 
+
+Parameter | Default Value | Data Type
+--------- | ------------- | ---------
+sheetinset_bottom | "32" | int
+
+Commands | Info
+-------- | ----
+OK |
+Cancel |
+Apply
 
 ## ScrollableEditablePanel
 Derives from EditablePanel
