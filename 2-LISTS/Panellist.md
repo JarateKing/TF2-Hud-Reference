@@ -175,7 +175,22 @@ Font | Color | Border | Other
    | FrameSystemButton.BgColor | | FrameSystemButton.DisabledIcon
 
 
-## PropertySheet
+### PropertyDialog
+Derives from Frame
+
+This panel can not be created 
+
+Parameter | Default Value | Data Type
+--------- | ------------- | ---------
+sheetinset_bottom | "32" | int
+
+Commands | Info
+-------- | ----
+OK |
+Cancel |
+Apply
+
+### PropertySheet
 Derives from EditablePanel
 
 This panel can not be created
@@ -198,7 +213,7 @@ DefaultVerySmall |  | PropertySheetBorder | PropertySheet.TransitionEffectTime
 Default |
 
 
-### PageTab
+#### PageTab
 Derives from Button
 
 This panel can not be created
@@ -219,21 +234,6 @@ Default | PropertySheet.TextColor | TabBorder
 Commands | Info
 -------- | ----
 ShowContextMenu |
-
-### PropertyDialog
-Derives from Frame
-
-This panel can not be created 
-
-Parameter | Default Value | Data Type
---------- | ------------- | ---------
-sheetinset_bottom | "32" | int
-
-Commands | Info
--------- | ----
-OK |
-Cancel |
-Apply
 
 ## ScrollableEditablePanel
 Derives from EditablePanel
