@@ -175,7 +175,7 @@ Font | Color | Border | Other
    | FrameSystemButton.BgColor | | FrameSystemButton.DisabledIcon
 
 
-### PropertyDialog
+## PropertyDialog
 Derives from Frame
 
 This panel can not be created 
