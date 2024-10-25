@@ -21,4 +21,6 @@ Tag | Function
 
 It's important to note that `[$WIN32]` is not opposite of `[$OSX]` or `[$LINUX]`, which is a common misconception. A linux machine will attempt to use any attribute with the tags `[$LINUX]`, `[$POSIX]`, or `[$WIN32]`.
 
+The inverse of a tag can also be used by prefixing a `!`, as in `[!$WIN32]`, `[!$X360]`, etc. These will apply on any operating system that *isn't* the tag.
+
 These can be useful because not every operating system renders things the same. Refer to the [linux support appendix](./LinuxSupport.md) for an example.
