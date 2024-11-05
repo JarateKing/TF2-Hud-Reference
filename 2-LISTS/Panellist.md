@@ -1007,6 +1007,32 @@ teambg_2 | "" | material | Image on RED
 teambg_3 | "" | material | Image on BLU
 
 
+## CSlideshowPanel
+A panel that cycles image every 3 seconds
+
+Derives from EditablePanel
+
+This panel can be created
+
+Parameter | Default Value | Data Type | Info
+--------- | ------------- | --------- | ----
+default_index | "0" | int
+scaleimage | "0" | bool
+scaleamount | "1.0" | float
+image_* | NULL | material | replace * with number starting from 0
+
+```
+"SlideShow"
+{
+	"ControlName"			"CSlideshowPanel"
+
+	"scaleimage"			"1"
+	"image_0"				"replay/thumbnails/an_image"
+	"image_1"				"replay/thumbnails/another_image"
+	"image_2"				"replay/thumbnails/yet_another_image"
+}
+```
+
 ## CIconPanel
 A panel that displays an icon from scripts/mod_textures.txt
 
@@ -1738,6 +1764,9 @@ Parameter | Data Type | Info
 icon | string
 deployed | float
 
+
+## CDraggableScrollingPanel
+A panel that changes size when you mouse wheel over it. (wtf)
 
 ## CTFItemCardPanel
 A leftover unused panel that uses Resource/UI/Econ/ItemCardPanel_Series1.res for its contents. Could be useful for a #base -esque reusable panel. Derives from EditablePanel
