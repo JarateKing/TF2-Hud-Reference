@@ -1088,7 +1088,7 @@ filtered | "0" | bool
 ## CTFLogoPanel
 A rotating TF logo
 
-Derives from ?
+Derives from Panel
 
 This panel can be created
 
