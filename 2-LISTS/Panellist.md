@@ -1765,15 +1765,22 @@ icon | string
 deployed | float
 
 
+## CDimmerButton
+Derives from ?
+
+This panel can not be created.
+
+
 ## CDraggableScrollingPanel
 A panel that changes size when you mouse wheel over it. (wtf)
+
+Derives from EditablePanel
+
+This panel can be created.
+
 
 ## CTFItemCardPanel
 A leftover unused panel that uses Resource/UI/Econ/ItemCardPanel_Series1.res for its contents. Could be useful for a #base -esque reusable panel. Derives from EditablePanel
 Parameter | Data Type | Info
 --------- | --------- | ----
 shadowoffset | int
-
-
-
-
