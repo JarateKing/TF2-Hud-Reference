@@ -1643,11 +1643,36 @@ xp_source_notification_center_x | int
 ## CMiniPvPRankPanel
 Derives from CPvPRankPanel.
 
+This panel can be created.
 
 ## CDashboardPartyMember
 Parameter | Data Type | Info
 --------- | --------- | ----
 party_slot | int
+
+
+## CSteamFriendsListPanel
+Derives from CExScrollingEditablePanel.
+
+Parameter | Data Type | Info
+--------- | --------- | ----
+columns_count | int
+inset_x | int
+inset_y | int
+row_gap | int
+column_gap | int
+
+
+# CSteamFriendPanel
+Derives from EditablePanel.
+
+Commands | Info
+-------- | ----
+open_menu
+Context_InviteParty
+Context_JoinParty
+Context_JoinServer
+Context_SendMessage
 
 
 ## CMVMCriteriaPanel
