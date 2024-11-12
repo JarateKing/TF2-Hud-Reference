@@ -1628,6 +1628,9 @@ LocalPlayerColor | color
 
 ## CPvPRankPanel
 Derives from EditablePanel.
+
+This panel can be created.
+
 Parameter | Data Type | Info
 --------- | --------- | ----
 matchgroup | string | MatchGroup_Ladder_6v6 or MatchGroup_Casual_12v12
@@ -1644,6 +1647,33 @@ xp_source_notification_center_x | int
 Derives from CPvPRankPanel.
 
 This panel can be created.
+
+
+## CTFMatchmakingDashboard
+Derives from ExpandablePanel.
+
+This panel can not be created.
+
+Commands | Info
+-------- | ----
+PlayCompetitive
+PlayCasual
+PlayMvM
+PlayMvM_MannUp
+PlayMvM_BootCamp
+PlayTraining
+PlayCommunity
+CreateServer
+PlayEvent
+ShowCompAccess
+ViewMatchSettings
+CloseSideStack
+NavigateSideStack
+Context_LeaveParty
+Context_OpenSettings
+NotificationCreated
+NotificationCleared
+
 
 ## CDashboardPartyMember
 Parameter | Data Type | Info
@@ -1663,7 +1693,7 @@ row_gap | int
 column_gap | int
 
 
-# CSteamFriendPanel
+### CSteamFriendPanel
 Derives from EditablePanel.
 
 Commands | Info
