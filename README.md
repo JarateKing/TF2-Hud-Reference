@@ -30,7 +30,7 @@ This contains lots of in-depth descriptions or useful tidbits and techniques, th
 * Sizing: [here](/1-APPENDIX/Sizing.md)
 * Colors: [here](/1-APPENDIX/Colors.md)
 * Cfg files: [here](/1-APPENDIX/Cfg.md)
-* #base files: [here](/1-APPENDIX/#Base.md)
+* #base files: [here](/1-APPENDIX/%23Base.md)
 * Localization files: [here](/1-APPENDIX/Localization.md)
 * Refract materials: [here](/1-APPENDIX/Refracts.md)
 * Useful commands: [here](/1-APPENDIX/UsefulCommands.md)
