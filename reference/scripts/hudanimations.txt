@@ -120,37 +120,37 @@ event SuitAuxPowerIncreasedAbove25
 event SuitAuxPowerNoItemsActive
 {
 	// resize the aux power to be the smallest size
-	Animate HudSuitPower Size			"102 26"			Linear 0.0 0.4	[$WIN32]
-	Animate HudSuitPower Position		"16 400"			Linear 0.0 0.4	[$WIN32]
-	Animate HudSuitPower Size			"102 32"			Linear 0.0 0.4	[$X360]
-	Animate HudSuitPower Position		"48 378"			Linear 0.0 0.4	[$X360]
+	Animate HudSuitPower Size			"102 26"			Linear 0.0 0.4	[!$DECK]
+	Animate HudSuitPower Position		"16 400"			Linear 0.0 0.4	[!$DECK]
+	Animate HudSuitPower Size			"112 30"			Linear 0.0 0.4	[$DECK]
+	Animate HudSuitPower Position		"16 390"			Linear 0.0 0.4	[$DECK]
 }
 
 event SuitAuxPowerOneItemActive
 {
 	// resize the aux power to fit one item
-	Animate HudSuitPower Size			"102 36"			Linear 0.0 0.4	[$WIN32]
-	Animate HudSuitPower Position		"16 390"			Linear 0.0 0.4	[$WIN32]
-	Animate HudSuitPower Size			"102 42"			Linear 0.0 0.4	[$X360]
-	Animate HudSuitPower Position		"48 368"			Linear 0.0 0.4	[$X360]
+	Animate HudSuitPower Size			"102 36"			Linear 0.0 0.4	[!$DECK]
+	Animate HudSuitPower Position		"16 390"			Linear 0.0 0.4	[!$DECK]
+	Animate HudSuitPower Size			"112 44"			Linear 0.0 0.4	[$DECK]
+	Animate HudSuitPower Position		"16 372"			Linear 0.0 0.4	[$DECK]
 }
 
 event SuitAuxPowerTwoItemsActive
 {
 	// resize the aux power to fit two items
-	Animate HudSuitPower Size			"102 46"			Linear 0.0 0.4	[$WIN32]
-	Animate HudSuitPower Position		"16 380"			Linear 0.0 0.4	[$WIN32]
-	Animate HudSuitPower Size			"102 52"			Linear 0.0 0.4	[$X360]
-	Animate HudSuitPower Position		"48 358"			Linear 0.0 0.4	[$X360]
+	Animate HudSuitPower Size			"102 46"			Linear 0.0 0.4	[!$DECK]
+	Animate HudSuitPower Position		"16 380"			Linear 0.0 0.4	[!$DECK]
+	Animate HudSuitPower Size			"112 56"			Linear 0.0 0.4	[$DECK]
+	Animate HudSuitPower Position		"16 364"			Linear 0.0 0.4	[$DECK]
 }
 
 event SuitAuxPowerThreeItemsActive
 {
 	// resize the aux power to fit three items
-	Animate HudSuitPower Size			"102 56"			Linear 0.0 0.4	[$WIN32]
-	Animate HudSuitPower Position		"16 370"			Linear 0.0 0.4	[$WIN32]
-	Animate HudSuitPower Size			"102 62"			Linear 0.0 0.4	[$X360]
-	Animate HudSuitPower Position		"48 348"			Linear 0.0 0.4	[$X360]
+	Animate HudSuitPower Size			"102 56"			Linear 0.0 0.4	[!$DECK]
+	Animate HudSuitPower Position		"16 370"			Linear 0.0 0.4	[!$DECK]
+	Animate HudSuitPower Size			"112 70"			Linear 0.0 0.4	[$DECK]
+	Animate HudSuitPower Position		"16 350"			Linear 0.0 0.4	[$DECK]
 }
 
 event SuitFlashlightOn
@@ -511,27 +511,27 @@ event WeaponChanged
 }
 
 // ran if we just changed to a weapon that needs clip ammo
-event WeaponUsesClips	[$WIN32]
+event WeaponUsesClips	[!$DECK]
 {
 	Animate HudAmmo		Position	"r150 432"	Deaccel	0.0		0.4
 	Animate HudAmmo		Size		"132 36"	Deaccel	0.0		0.4
 }
-event WeaponUsesClips	[$X360]
+event WeaponUsesClips	[$DECK]
 {
-	Animate HudAmmo		Position	"r208 416"	Deaccel	0.001	0.4
-	Animate HudAmmo		Size		"160 36"	Deaccel	0.0		0.4
+	Animate HudAmmo		Position	"r162 426"	Deaccel	0.0		0.4
+	Animate HudAmmo		Size		"144 42"	Deaccel	0.0		0.4
 }
 
 // ran if we just changed to a weapon that does not use clip ammo
-event WeaponDoesNotUseClips	[$WIN32]
+event WeaponDoesNotUseClips	[!$DECK]
 {
 	Animate HudAmmo		Position	"r118 432"	Deaccel	0.0		0.4
 	Animate HudAmmo		Size		"100 36"	Deaccel	0.0		0.4
 }
-event WeaponDoesNotUseClips	[$X360]
+event WeaponDoesNotUseClips	[$DECK]
 {
-	Animate HudAmmo		Position	"r175 416"	Deaccel	0.0		0.4
-	Animate HudAmmo		Size		"125 36"	Deaccel	0.0		0.4
+	Animate HudAmmo		Position	"r130 426"	Deaccel	0.0		0.4
+	Animate HudAmmo		Size		"120 42"	Deaccel	0.0		0.4
 }
 
 event WeaponUsesSecondaryAmmo
@@ -547,10 +547,10 @@ event WeaponUsesSecondaryAmmo
 	Animate HudAmmoSecondary	FgColor		"FgColor"		Linear	0.2		1.5
 	Animate HudAmmoSecondary	Alpha		255		Linear	0.0		0.1
 
-	Animate HudAmmo		Position	"r222 432"	Deaccel	0.0		0.5	[$WIN32]
-	Animate HudAmmo		Size		"132 36"	Deaccel	0.0		0.4	[$WIN32]
-	Animate HudAmmo		Position	"r279 416"	Deaccel	0.0		0.5	[$X360]
-	Animate HudAmmo		Size		"155 36"	Deaccel	0.0		0.4	[$X360]
+	Animate HudAmmo		Position	"r222 432"	Deaccel	0.0		0.5	[!$DECK]
+	Animate HudAmmo		Size		"132 36"	Deaccel	0.0		0.4	[!$DECK]
+	Animate HudAmmo		Position	"r234 426"	Deaccel	0.0		0.5	[$DECK]
+	Animate HudAmmo		Size		"144 42"	Deaccel	0.0		0.4	[$DECK]
 }
 
 event WeaponDoesNotUseSecondaryAmmo
